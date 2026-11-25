@@ -61,6 +61,22 @@ investigators is protocol vs investigator judgment, which exists even with perfe
 Reproduce: `scripts/train_seg.py`, `scripts/train_oct.py --task biomarkers|cst`,
 `scripts/train_layers.py`, `scripts/eval_cst_sources.py`, `scripts/eval_engine.py [--inputs model --cst-file ... --tag ...]`.
 
+## Demo UI
+```bash
+.venv/bin/streamlit run app/streamlit_app.py      # http://localhost:8501
+# optional: live Claude drafting (otherwise grounded templates, zero network)
+echo 'ANTHROPIC_API_KEY=sk-ant-...' > .env
+```
+- **Visit review**: replay a real TREX-DME eye visit by visit — metrics vs reference, the copilot
+  proposal (or ⚑ physician review) next to the investigator's actual decision, the B-scan with
+  retina boundaries + fluid segmentation, the rule trace, drafts (note, patient message, schedule,
+  FHIR, grounding report) and physician approve/override (logged to `feedback.jsonl`).
+- **Eye timeline**: device vs copilot CST with the protocol reference and +10%/+20% lines, and
+  copilot vs investigator decisions over time.
+- **Validation**: the out-of-fold metrics above and the abstention trade-off.
+Switch the CST source (geometric / CNN / device) and the uncertainty band in the sidebar to see
+how measurement quality changes the proposals.
+
 ## Layout
 ```
 visentia_te/data/     olives.py (trial tables, splits), olives_images.py (B-scan datasets), duke.py

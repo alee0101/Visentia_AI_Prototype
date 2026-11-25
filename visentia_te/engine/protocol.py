@@ -83,13 +83,13 @@ class EyeState:
         change = ratio - 1
         if change <= r["extend_if_within"]:
             action = EXTEND
-            trace.append(f"CST {obs.cst:.0f} vs ref {self.ref_cst:.0f} ({change:+.0%}) <= +{r['extend_if_within']:.0%} -> extend")
+            trace.append(f"CST {obs.cst:.0f} vs ref {self.ref_cst:.0f} ({change:+.1%}) <= +{r["extend_if_within"]:.0%} -> extend")
         elif change <= r["maintain_if_within"]:
             action = MAINTAIN
-            trace.append(f"CST {change:+.0%} vs ref within +{r['maintain_if_within']:.0%} -> maintain")
+            trace.append(f"CST {change:+.1%} vs ref within +{r['maintain_if_within']:.0%} -> maintain")
         else:
             action = SHORTEN
-            trace.append(f"CST {change:+.0%} vs ref > +{r['shorten_if_above']:.0%} -> shorten")
+            trace.append(f"CST {change:+.1%} vs ref > +{r['shorten_if_above']:.0%} -> shorten")
 
         # 3. copilot safety overrides (not in trial protocol) --------------------------------
         flagged = False
