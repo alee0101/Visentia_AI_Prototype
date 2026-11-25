@@ -2,44 +2,44 @@ study_id,visit,arm,trial,engine,shown,flagged,cst_input,cst_true,imaged,interval
 0201GOD,1,GILA,,LOADING,LOADING,False,563.7807,575.0,True,4,loading dose 1/4 -> q4w
 0201GOD,2,GILA,,LOADING,LOADING,False,343.7216,367.0,True,6,loading dose 2/4 -> q4w
 0201GOD,3,GILA,,LOADING,LOADING,False,291.61316,294.0,True,4,loading dose 3/4 -> q4w
-0201GOD,4,GILA,EXTEND,EXTEND,EXTEND,False,292.9582,313.0,True,6,T&E start: reference CST = 293 µm | CST 293 vs ref 293 (+0%) <= +10% -> extend
-0201GOD,5,GILA,SHORTEN,SHORTEN,FLAG,True,354.83322,420.0,True,4,"CST +21% vs ref > +20% -> shorten | uncertain: CST ±1.5sd spans +17%..+25%, crosses a rule boundary"
-0201GOD,6,GILA,MAINTAIN,EXTEND,EXTEND,False,293.9501,331.0,True,6,CST 294 vs ref 293 (+0%) <= +10% -> extend
-0201GOD,7,GILA,EXTEND,EXTEND,EXTEND,False,268.11105,283.0,True,6,CST 268 vs ref 293 (-8%) <= +10% -> extend
-0201GOD,8,GILA,EXTEND,EXTEND,EXTEND,False,287.6909,278.0,True,8,CST 288 vs ref 293 (-2%) <= +10% -> extend
-0201GOD,9,GILA,EXTEND,EXTEND,EXTEND,False,277.9738,284.0,True,10,CST 278 vs ref 293 (-5%) <= +10% -> extend
-0201GOD,10,GILA,SHORTEN,SHORTEN,SHORTEN,False,450.36942,464.0,True,8,CST +54% vs ref > +20% -> shorten
-0201GOD,11,GILA,MAINTAIN,EXTEND,EXTEND,False,233.59836,244.0,True,6,CST 234 vs ref 293 (-20%) <= +10% -> extend
-0201GOD,12,GILA,MAINTAIN,EXTEND,EXTEND,False,244.58325,248.0,True,6,CST 245 vs ref 293 (-17%) <= +10% -> extend
-0201GOD,13,GILA,MAINTAIN,EXTEND,EXTEND,False,236.58147,237.0,True,6,CST 237 vs ref 293 (-19%) <= +10% -> extend | re-baseline: reference 293 -> 238 µm (3 stable visits)
-0201GOD,14,GILA,MAINTAIN,EXTEND,EXTEND,False,235.61253,240.0,True,6,CST 236 vs ref 238 (-1%) <= +10% -> extend
-0201GOD,15,GILA,MAINTAIN,EXTEND,EXTEND,False,245.42262,243.0,True,6,CST 245 vs ref 238 (+3%) <= +10% -> extend
-0201GOD,16,GILA,MAINTAIN,EXTEND,EXTEND,False,232.78572,235.0,True,6,CST 233 vs ref 238 (-2%) <= +10% -> extend
-0201GOD,17,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,229.8671,228.0,True,4,CST 230 vs ref 238 (-4%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
-0201GOD,18,GILA,MAINTAIN,EXTEND,EXTEND,False,238.53963,236.0,True,6,CST 239 vs ref 238 (+0%) <= +10% -> extend
-0201GOD,19,GILA,MAINTAIN,MAINTAIN,FLAG,True,269.5595,271.0,True,4,"CST +13% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +8%..+18%, crosses a rule boundary"
-0201GOD,20,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,241.45488,238.0,True,4,CST 241 vs ref 238 (+1%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
-0201GOD,21,GILA,,MAINTAIN,MAINTAIN,False,244.4603,249.0,True,4,CST 244 vs ref 238 (+3%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
-0201GOD,22,GILA,,MAINTAIN,MAINTAIN,False,247.1942,241.0,True,4,CST 247 vs ref 238 (+4%) <= +10% -> extend | safety: BCVA 11 letters below best -> do not extend
+0201GOD,4,GILA,EXTEND,EXTEND,EXTEND,False,292.9582,313.0,True,6,T&E start: reference CST = 293 µm | CST 293 vs ref 293 (+0.0%) <= +10% -> extend
+0201GOD,5,GILA,SHORTEN,SHORTEN,FLAG,True,354.83322,420.0,True,4,"CST +21.1% vs ref > +20% -> shorten | uncertain: CST ±1.5sd spans +17%..+25%, crosses a rule boundary"
+0201GOD,6,GILA,MAINTAIN,EXTEND,EXTEND,False,293.9501,331.0,True,6,CST 294 vs ref 293 (+0.3%) <= +10% -> extend
+0201GOD,7,GILA,EXTEND,EXTEND,EXTEND,False,268.11105,283.0,True,6,CST 268 vs ref 293 (-8.5%) <= +10% -> extend
+0201GOD,8,GILA,EXTEND,EXTEND,EXTEND,False,287.6909,278.0,True,8,CST 288 vs ref 293 (-1.8%) <= +10% -> extend
+0201GOD,9,GILA,EXTEND,EXTEND,EXTEND,False,277.9738,284.0,True,10,CST 278 vs ref 293 (-5.1%) <= +10% -> extend
+0201GOD,10,GILA,SHORTEN,SHORTEN,SHORTEN,False,450.36942,464.0,True,8,CST +53.7% vs ref > +20% -> shorten
+0201GOD,11,GILA,MAINTAIN,EXTEND,EXTEND,False,233.59836,244.0,True,6,CST 234 vs ref 293 (-20.3%) <= +10% -> extend
+0201GOD,12,GILA,MAINTAIN,EXTEND,EXTEND,False,244.58325,248.0,True,6,CST 245 vs ref 293 (-16.5%) <= +10% -> extend
+0201GOD,13,GILA,MAINTAIN,EXTEND,EXTEND,False,236.58147,237.0,True,6,CST 237 vs ref 293 (-19.2%) <= +10% -> extend | re-baseline: reference 293 -> 238 µm (3 stable visits)
+0201GOD,14,GILA,MAINTAIN,EXTEND,EXTEND,False,235.61253,240.0,True,6,CST 236 vs ref 238 (-1.1%) <= +10% -> extend
+0201GOD,15,GILA,MAINTAIN,EXTEND,EXTEND,False,245.42262,243.0,True,6,CST 245 vs ref 238 (+3.0%) <= +10% -> extend
+0201GOD,16,GILA,MAINTAIN,EXTEND,EXTEND,False,232.78572,235.0,True,6,CST 233 vs ref 238 (-2.3%) <= +10% -> extend
+0201GOD,17,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,229.8671,228.0,True,4,CST 230 vs ref 238 (-3.5%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0201GOD,18,GILA,MAINTAIN,EXTEND,EXTEND,False,238.53963,236.0,True,6,CST 239 vs ref 238 (+0.1%) <= +10% -> extend
+0201GOD,19,GILA,MAINTAIN,MAINTAIN,FLAG,True,269.5595,271.0,True,4,"CST +13.1% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +8%..+18%, crosses a rule boundary"
+0201GOD,20,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,241.45488,238.0,True,4,CST 241 vs ref 238 (+1.3%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0201GOD,21,GILA,,MAINTAIN,MAINTAIN,False,244.4603,249.0,True,4,CST 244 vs ref 238 (+2.6%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0201GOD,22,GILA,,MAINTAIN,MAINTAIN,False,247.1942,241.0,True,4,CST 247 vs ref 238 (+3.8%) <= +10% -> extend | safety: BCVA 11 letters below best -> do not extend
 0201TOS,1,TREX,,LOADING,LOADING,False,467.69165,476.0,True,4,loading dose 1/4 -> q4w
 0201TOS,2,TREX,,LOADING,LOADING,False,380.3315,432.0,True,6,loading dose 2/4 -> q4w
 0201TOS,3,TREX,,LOADING,LOADING,False,346.51865,376.0,True,4,loading dose 3/4 -> q4w
 0201TOS,4,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,337.5279,359.0,True,4,CST 338 µm > 325 gate -> continue q4w
 0201TOS,5,TREX,MAINTAIN,MAINTAIN,MAINTAIN,True,329.21564,351.0,True,4,CST 329 µm > 325 gate -> continue q4w | uncertain: CST estimate near the 325 µm gate
 0201TOS,6,TREX,MAINTAIN,MAINTAIN,MAINTAIN,True,328.05023,355.0,True,4,CST 328 µm > 325 gate -> continue q4w | uncertain: CST estimate near the 325 µm gate
-0201TOS,7,TREX,MAINTAIN,EXTEND,EXTEND,False,311.15414,334.0,True,6,T&E start: reference CST = 311 µm | CST 311 vs ref 311 (+0%) <= +10% -> extend
-0201TOS,8,TREX,MAINTAIN,EXTEND,EXTEND,False,311.19345,331.0,True,6,CST 311 vs ref 311 (+0%) <= +10% -> extend
-0201TOS,9,TREX,MAINTAIN,EXTEND,EXTEND,False,323.80936,349.0,True,6,CST 324 vs ref 311 (+4%) <= +10% -> extend
-0201TOS,10,TREX,MAINTAIN,EXTEND,EXTEND,False,310.08957,335.0,True,6,CST 310 vs ref 311 (-0%) <= +10% -> extend
-0201TOS,11,TREX,MAINTAIN,EXTEND,EXTEND,False,316.1218,336.0,True,6,CST 316 vs ref 311 (+2%) <= +10% -> extend
-0201TOS,12,TREX,EXTEND,EXTEND,EXTEND,False,306.4476,325.0,True,6,CST 306 vs ref 311 (-2%) <= +10% -> extend
-0201TOS,13,TREX,EXTEND,EXTEND,EXTEND,False,308.51666,303.0,True,8,CST 309 vs ref 311 (-1%) <= +10% -> extend
-0201TOS,14,TREX,EXTEND,MAINTAIN,MAINTAIN,False,311.87857,326.0,True,8,CST 312 vs ref 311 (+0%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
-0201TOS,15,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,319.567,324.0,True,10,CST 320 vs ref 311 (+3%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
-0201TOS,16,TREX,SHORTEN,SHORTEN,FLAG,True,378.23828,417.0,True,8,"CST +22% vs ref > +20% -> shorten | uncertain: CST ±1.5sd spans +18%..+25%, crosses a rule boundary"
-0201TOS,17,TREX,MAINTAIN,SHORTEN,SHORTEN,False,453.14633,543.0,True,6,CST +46% vs ref > +20% -> shorten
-0201TOS,18,TREX,,MAINTAIN,FLAG,True,372.95972,427.0,True,8,"CST +20% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +16%..+24%, crosses a rule boundary"
-0201TOS,19,TREX,,SHORTEN,SHORTEN,False,455.86594,520.0,True,6,CST +47% vs ref > +20% -> shorten
+0201TOS,7,TREX,MAINTAIN,EXTEND,EXTEND,False,311.15414,334.0,True,6,T&E start: reference CST = 311 µm | CST 311 vs ref 311 (+0.0%) <= +10% -> extend
+0201TOS,8,TREX,MAINTAIN,EXTEND,EXTEND,False,311.19345,331.0,True,6,CST 311 vs ref 311 (+0.0%) <= +10% -> extend
+0201TOS,9,TREX,MAINTAIN,EXTEND,EXTEND,False,323.80936,349.0,True,6,CST 324 vs ref 311 (+4.1%) <= +10% -> extend
+0201TOS,10,TREX,MAINTAIN,EXTEND,EXTEND,False,310.08957,335.0,True,6,CST 310 vs ref 311 (-0.3%) <= +10% -> extend
+0201TOS,11,TREX,MAINTAIN,EXTEND,EXTEND,False,316.1218,336.0,True,6,CST 316 vs ref 311 (+1.6%) <= +10% -> extend
+0201TOS,12,TREX,EXTEND,EXTEND,EXTEND,False,306.4476,325.0,True,6,CST 306 vs ref 311 (-1.5%) <= +10% -> extend
+0201TOS,13,TREX,EXTEND,EXTEND,EXTEND,False,308.51666,303.0,True,8,CST 309 vs ref 311 (-0.8%) <= +10% -> extend
+0201TOS,14,TREX,EXTEND,MAINTAIN,MAINTAIN,False,311.87857,326.0,True,8,CST 312 vs ref 311 (+0.2%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0201TOS,15,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,319.567,324.0,True,10,CST 320 vs ref 311 (+2.7%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
+0201TOS,16,TREX,SHORTEN,SHORTEN,FLAG,True,378.23828,417.0,True,8,"CST +21.6% vs ref > +20% -> shorten | uncertain: CST ±1.5sd spans +18%..+25%, crosses a rule boundary"
+0201TOS,17,TREX,MAINTAIN,SHORTEN,SHORTEN,False,453.14633,543.0,True,6,CST +45.6% vs ref > +20% -> shorten
+0201TOS,18,TREX,,MAINTAIN,FLAG,True,372.95972,427.0,True,8,"CST +19.9% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +16%..+24%, crosses a rule boundary"
+0201TOS,19,TREX,,SHORTEN,SHORTEN,False,455.86594,520.0,True,6,CST +46.5% vs ref > +20% -> shorten
 0203GOS,1,GILA,,LOADING,LOADING,False,415.7332,392.0,True,4,loading dose 1/4 -> q4w
 0203GOS,2,GILA,,LOADING,LOADING,False,379.17905,363.0,True,4,loading dose 2/4 -> q4w
 0203GOS,3,GILA,,LOADING,LOADING,False,329.42578,340.0,True,4,loading dose 3/4 -> q4w
@@ -47,14 +47,14 @@ study_id,visit,arm,trial,engine,shown,flagged,cst_input,cst_true,imaged,interval
 0203GOS,5,GILA,EXTEND,MAINTAIN,MAINTAIN,True,336.9637,298.0,True,6,CST 337 µm > 325 gate -> continue q4w | uncertain: CST estimate near the 325 µm gate
 0203GOS,6,GILA,MAINTAIN,MAINTAIN,MAINTAIN,True,327.1021,269.0,True,8,CST 327 µm > 325 gate -> continue q4w | uncertain: CST estimate near the 325 µm gate
 0203GOS,7,GILA,EXTEND,MAINTAIN,MAINTAIN,True,328.1224,265.0,True,8,CST 328 µm > 325 gate -> continue q4w | uncertain: CST estimate near the 325 µm gate
-0203GOS,8,GILA,MAINTAIN,EXTEND,EXTEND,False,316.9509,265.0,True,12,T&E start: reference CST = 317 µm | CST 317 vs ref 317 (+0%) <= +10% -> extend
-0203GOS,9,GILA,MAINTAIN,EXTEND,EXTEND,False,334.9855,259.0,True,10,CST 335 vs ref 317 (+6%) <= +10% -> extend
-0203GOS,10,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,313.8171,260.0,True,8,CST 314 vs ref 317 (-1%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
-0203GOS,11,GILA,MAINTAIN,EXTEND,EXTEND,False,298.3422,261.0,True,10,CST 298 vs ref 317 (-6%) <= +10% -> extend
-0203GOS,12,GILA,MAINTAIN,EXTEND,EXTEND,False,298.3422,263.0,True,10,CST 298 vs ref 317 (-6%) <= +10% -> extend
-0203GOS,13,GILA,MAINTAIN,EXTEND,EXTEND,False,289.76675,269.0,True,10,CST 290 vs ref 317 (-9%) <= +10% -> extend
-0203GOS,14,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,300.57,259.0,True,8,CST 301 vs ref 317 (-5%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
-0203GOS,15,GILA,,MAINTAIN,MAINTAIN,False,306.3069,270.0,True,8,CST 306 vs ref 317 (-3%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0203GOS,8,GILA,MAINTAIN,EXTEND,EXTEND,False,316.9509,265.0,True,12,T&E start: reference CST = 317 µm | CST 317 vs ref 317 (+0.0%) <= +10% -> extend
+0203GOS,9,GILA,MAINTAIN,EXTEND,EXTEND,False,334.9855,259.0,True,10,CST 335 vs ref 317 (+5.7%) <= +10% -> extend
+0203GOS,10,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,313.8171,260.0,True,8,CST 314 vs ref 317 (-1.0%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
+0203GOS,11,GILA,MAINTAIN,EXTEND,EXTEND,False,298.3422,261.0,True,10,CST 298 vs ref 317 (-5.9%) <= +10% -> extend
+0203GOS,12,GILA,MAINTAIN,EXTEND,EXTEND,False,298.3422,263.0,True,10,CST 298 vs ref 317 (-5.9%) <= +10% -> extend
+0203GOS,13,GILA,MAINTAIN,EXTEND,EXTEND,False,289.76675,269.0,True,10,CST 290 vs ref 317 (-8.6%) <= +10% -> extend
+0203GOS,14,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,300.57,259.0,True,8,CST 301 vs ref 317 (-5.2%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
+0203GOS,15,GILA,,MAINTAIN,MAINTAIN,False,306.3069,270.0,True,8,CST 306 vs ref 317 (-3.4%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
 0204GOS,1,GILA,,LOADING,LOADING,False,503.61362,539.0,True,4,loading dose 1/4 -> q4w
 0204GOS,2,GILA,,LOADING,LOADING,False,452.2361,498.0,True,4,loading dose 2/4 -> q4w
 0204GOS,3,GILA,,LOADING,LOADING,False,456.88632,503.0,True,4,loading dose 3/4 -> q4w
@@ -63,52 +63,52 @@ study_id,visit,arm,trial,engine,shown,flagged,cst_input,cst_true,imaged,interval
 0204GOS,6,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,345.5987,400.0,True,4,CST 346 µm > 325 gate -> continue q4w
 0204GOS,7,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,471.877,509.0,True,4,CST 472 µm > 325 gate -> continue q4w
 0204GOS,8,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,394.3703,438.0,True,4,CST 394 µm > 325 gate -> continue q4w
-0204GOS,9,GILA,MAINTAIN,EXTEND,EXTEND,False,316.8168,365.0,True,6,T&E start: reference CST = 317 µm | CST 317 vs ref 317 (+0%) <= +10% -> extend
-0204GOS,10,GILA,MAINTAIN,EXTEND,EXTEND,False,328.9207,365.0,True,6,CST 329 vs ref 317 (+4%) <= +10% -> extend
-0204GOS,11,GILA,MAINTAIN,MAINTAIN,FLAG,True,341.07333,380.0,True,4,"CST 341 vs ref 317 (+8%) <= +10% -> extend | uncertain: CST ±1.5sd spans +4%..+11%, crosses a rule boundary | flagged -> proposal capped at MAINTAIN pending physician review"
-0204GOS,12,GILA,MAINTAIN,MAINTAIN,FLAG,True,379.99026,410.0,True,4,"CST +20% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +16%..+24%, crosses a rule boundary"
-0204GOS,13,GILA,MAINTAIN,EXTEND,EXTEND,False,323.8781,351.0,True,6,CST 324 vs ref 317 (+2%) <= +10% -> extend
-0204GOS,14,GILA,MAINTAIN,EXTEND,EXTEND,False,300.90778,311.0,True,6,CST 301 vs ref 317 (-5%) <= +10% -> extend
-0204GOS,15,GILA,SHORTEN,EXTEND,EXTEND,False,297.9546,324.0,True,6,CST 298 vs ref 317 (-6%) <= +10% -> extend
-0204GOS,16,GILA,MAINTAIN,EXTEND,EXTEND,False,277.7417,298.0,True,6,CST 278 vs ref 317 (-12%) <= +10% -> extend
-0204GOS,17,GILA,EXTEND,EXTEND,EXTEND,False,283.6054,302.0,True,6,CST 284 vs ref 317 (-10%) <= +10% -> extend
-0204GOS,18,GILA,EXTEND,EXTEND,EXTEND,False,297.14404,288.0,True,8,CST 297 vs ref 317 (-6%) <= +10% -> extend
-0204GOS,19,GILA,MAINTAIN,EXTEND,EXTEND,False,277.23477,295.0,True,10,CST 277 vs ref 317 (-12%) <= +10% -> extend
-0204GOS,20,GILA,EXTEND,EXTEND,EXTEND,False,292.7874,282.0,True,10,CST 293 vs ref 317 (-8%) <= +10% -> extend
-0204GOS,21,GILA,,EXTEND,EXTEND,False,322.32004,309.0,True,12,CST 322 vs ref 317 (+2%) <= +10% -> extend
+0204GOS,9,GILA,MAINTAIN,EXTEND,EXTEND,False,316.8168,365.0,True,6,T&E start: reference CST = 317 µm | CST 317 vs ref 317 (+0.0%) <= +10% -> extend
+0204GOS,10,GILA,MAINTAIN,EXTEND,EXTEND,False,328.9207,365.0,True,6,CST 329 vs ref 317 (+3.8%) <= +10% -> extend
+0204GOS,11,GILA,MAINTAIN,MAINTAIN,FLAG,True,341.07333,380.0,True,4,"CST 341 vs ref 317 (+7.7%) <= +10% -> extend | uncertain: CST ±1.5sd spans +4%..+11%, crosses a rule boundary | flagged -> proposal capped at MAINTAIN pending physician review"
+0204GOS,12,GILA,MAINTAIN,MAINTAIN,FLAG,True,379.99026,410.0,True,4,"CST +19.9% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +16%..+24%, crosses a rule boundary"
+0204GOS,13,GILA,MAINTAIN,EXTEND,EXTEND,False,323.8781,351.0,True,6,CST 324 vs ref 317 (+2.2%) <= +10% -> extend
+0204GOS,14,GILA,MAINTAIN,EXTEND,EXTEND,False,300.90778,311.0,True,6,CST 301 vs ref 317 (-5.0%) <= +10% -> extend
+0204GOS,15,GILA,SHORTEN,EXTEND,EXTEND,False,297.9546,324.0,True,6,CST 298 vs ref 317 (-6.0%) <= +10% -> extend
+0204GOS,16,GILA,MAINTAIN,EXTEND,EXTEND,False,277.7417,298.0,True,6,CST 278 vs ref 317 (-12.3%) <= +10% -> extend
+0204GOS,17,GILA,EXTEND,EXTEND,EXTEND,False,283.6054,302.0,True,6,CST 284 vs ref 317 (-10.5%) <= +10% -> extend
+0204GOS,18,GILA,EXTEND,EXTEND,EXTEND,False,297.14404,288.0,True,8,CST 297 vs ref 317 (-6.2%) <= +10% -> extend
+0204GOS,19,GILA,MAINTAIN,EXTEND,EXTEND,False,277.23477,295.0,True,10,CST 277 vs ref 317 (-12.5%) <= +10% -> extend
+0204GOS,20,GILA,EXTEND,EXTEND,EXTEND,False,292.7874,282.0,True,10,CST 293 vs ref 317 (-7.6%) <= +10% -> extend
+0204GOS,21,GILA,,EXTEND,EXTEND,False,322.32004,309.0,True,12,CST 322 vs ref 317 (+1.7%) <= +10% -> extend
 0207TOS,1,TREX,,LOADING,LOADING,False,424.13065,463.0,True,4,loading dose 1/4 -> q4w
 0207TOS,2,TREX,,LOADING,LOADING,False,372.82748,384.0,True,4,loading dose 2/4 -> q4w
 0207TOS,3,TREX,,LOADING,LOADING,False,339.71323,343.0,True,4,loading dose 3/4 -> q4w
 0207TOS,4,TREX,MAINTAIN,MAINTAIN,MAINTAIN,True,332.5843,334.0,True,4,CST 333 µm > 325 gate -> continue q4w | uncertain: CST estimate near the 325 µm gate
 0207TOS,5,TREX,MAINTAIN,MAINTAIN,MAINTAIN,True,329.60867,336.0,True,4,CST 330 µm > 325 gate -> continue q4w | uncertain: CST estimate near the 325 µm gate
 0207TOS,6,TREX,EXTEND,MAINTAIN,MAINTAIN,False,357.98013,324.0,True,4,CST 358 µm > 325 gate -> continue q4w
-0207TOS,7,TREX,EXTEND,EXTEND,EXTEND,False,317.61935,317.0,True,8,T&E start: reference CST = 318 µm | CST 318 vs ref 318 (+0%) <= +10% -> extend
-0207TOS,8,TREX,MAINTAIN,EXTEND,EXTEND,False,337.14038,317.0,True,10,CST 337 vs ref 318 (+6%) <= +10% -> extend
-0207TOS,9,TREX,EXTEND,EXTEND,EXTEND,False,326.3151,314.0,True,10,CST 326 vs ref 318 (+3%) <= +10% -> extend
-0207TOS,10,TREX,MAINTAIN,EXTEND,EXTEND,False,332.95404,299.0,True,14,CST 333 vs ref 318 (+5%) <= +10% -> extend
-0207TOS,11,TREX,EXTEND,EXTEND,EXTEND,False,296.39917,300.0,True,14,CST 296 vs ref 318 (-7%) <= +10% -> extend
-0207TOS,12,TREX,MAINTAIN,EXTEND,EXTEND,False,318.3607,294.0,True,16,CST 318 vs ref 318 (+0%) <= +10% -> extend | interval at max (16 wk) -> held
-0207TOS,14,TREX,,EXTEND,EXTEND,False,313.54718,303.0,True,16,CST 314 vs ref 318 (-1%) <= +10% -> extend | interval at max (16 wk) -> held
+0207TOS,7,TREX,EXTEND,EXTEND,EXTEND,False,317.61935,317.0,True,8,T&E start: reference CST = 318 µm | CST 318 vs ref 318 (+0.0%) <= +10% -> extend
+0207TOS,8,TREX,MAINTAIN,EXTEND,EXTEND,False,337.14038,317.0,True,10,CST 337 vs ref 318 (+6.1%) <= +10% -> extend
+0207TOS,9,TREX,EXTEND,EXTEND,EXTEND,False,326.3151,314.0,True,10,CST 326 vs ref 318 (+2.7%) <= +10% -> extend
+0207TOS,10,TREX,MAINTAIN,EXTEND,EXTEND,False,332.95404,299.0,True,14,CST 333 vs ref 318 (+4.8%) <= +10% -> extend
+0207TOS,11,TREX,EXTEND,EXTEND,EXTEND,False,296.39917,300.0,True,14,CST 296 vs ref 318 (-6.7%) <= +10% -> extend
+0207TOS,12,TREX,MAINTAIN,EXTEND,EXTEND,False,318.3607,294.0,True,16,CST 318 vs ref 318 (+0.2%) <= +10% -> extend | interval at max (16 wk) -> held
+0207TOS,14,TREX,,EXTEND,EXTEND,False,313.54718,303.0,True,16,CST 314 vs ref 318 (-1.3%) <= +10% -> extend | interval at max (16 wk) -> held
 0208TOD,1,TREX,,LOADING,LOADING,False,621.17285,650.0,True,4,loading dose 1/4 -> q4w
 0208TOD,2,TREX,,LOADING,LOADING,False,314.2287,253.0,True,4,loading dose 2/4 -> q4w
 0208TOD,3,TREX,,LOADING,LOADING,False,308.1473,251.0,True,4,loading dose 3/4 -> q4w
-0208TOD,4,TREX,EXTEND,MAINTAIN,FLAG,True,300.27682,235.0,True,4,"T&E start: reference CST = 300 µm | CST 300 vs ref 300 (+0%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.46 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
-0208TOD,5,TREX,EXTEND,EXTEND,EXTEND,False,305.02438,235.0,True,8,CST 305 vs ref 300 (+2%) <= +10% -> extend
-0208TOD,6,TREX,SHORTEN,MAINTAIN,FLAG,True,333.548,314.0,True,10,"CST +11% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +7%..+15%, crosses a rule boundary"
-0208TOD,7,TREX,EXTEND,MAINTAIN,FLAG,True,328.47662,238.0,True,6,"CST 328 vs ref 300 (+9%) <= +10% -> extend | uncertain: CST ±1.5sd spans +5%..+13%, crosses a rule boundary | flagged -> proposal capped at MAINTAIN pending physician review"
-0208TOD,8,TREX,EXTEND,EXTEND,EXTEND,False,316.9126,256.0,True,10,CST 317 vs ref 300 (+6%) <= +10% -> extend
-0208TOD,9,TREX,,EXTEND,EXTEND,False,305.96988,275.0,True,16,CST 306 vs ref 300 (+2%) <= +10% -> extend | interval at max (16 wk) -> held
-0208TOD,10,TREX,,MAINTAIN,FLAG,True,325.6206,277.0,True,16,"CST 326 vs ref 300 (+8%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend | uncertain: CST ±1.5sd spans +4%..+12%, crosses a rule boundary"
+0208TOD,4,TREX,EXTEND,MAINTAIN,FLAG,True,300.27682,235.0,True,4,"T&E start: reference CST = 300 µm | CST 300 vs ref 300 (+0.0%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.46 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
+0208TOD,5,TREX,EXTEND,EXTEND,EXTEND,False,305.02438,235.0,True,8,CST 305 vs ref 300 (+1.6%) <= +10% -> extend
+0208TOD,6,TREX,SHORTEN,MAINTAIN,FLAG,True,333.548,314.0,True,10,"CST +11.1% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +7%..+15%, crosses a rule boundary"
+0208TOD,7,TREX,EXTEND,MAINTAIN,FLAG,True,328.47662,238.0,True,6,"CST 328 vs ref 300 (+9.4%) <= +10% -> extend | uncertain: CST ±1.5sd spans +5%..+13%, crosses a rule boundary | flagged -> proposal capped at MAINTAIN pending physician review"
+0208TOD,8,TREX,EXTEND,EXTEND,EXTEND,False,316.9126,256.0,True,10,CST 317 vs ref 300 (+5.5%) <= +10% -> extend
+0208TOD,9,TREX,,EXTEND,EXTEND,False,305.96988,275.0,True,16,CST 306 vs ref 300 (+1.9%) <= +10% -> extend | interval at max (16 wk) -> held
+0208TOD,10,TREX,,MAINTAIN,FLAG,True,325.6206,277.0,True,16,"CST 326 vs ref 300 (+8.4%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend | uncertain: CST ±1.5sd spans +4%..+12%, crosses a rule boundary"
 0209TOD,1,TREX,,LOADING,LOADING,False,444.10757,518.0,True,4,loading dose 1/4 -> q4w
 0209TOD,2,TREX,,LOADING,LOADING,False,283.13596,256.0,True,4,loading dose 2/4 -> q4w
 0209TOD,3,TREX,,LOADING,LOADING,False,297.18692,272.0,True,4,loading dose 3/4 -> q4w
-0209TOD,4,TREX,MAINTAIN,EXTEND,EXTEND,False,324.88925,290.0,True,6,T&E start: reference CST = 325 µm | CST 325 vs ref 325 (+0%) <= +10% -> extend
-0209TOD,5,TREX,SHORTEN,MAINTAIN,FLAG,True,359.29123,354.0,True,6,"CST +11% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +7%..+14%, crosses a rule boundary"
-0209TOD,6,TREX,MAINTAIN,MAINTAIN,FLAG,True,349.51797,292.0,True,4,"CST 350 vs ref 325 (+8%) <= +10% -> extend | uncertain: CST ±1.5sd spans +4%..+11%, crosses a rule boundary | flagged -> proposal capped at MAINTAIN pending physician review"
-0209TOD,7,TREX,MAINTAIN,MAINTAIN,FLAG,True,379.7723,356.0,True,4,"CST +17% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +13%..+21%, crosses a rule boundary"
-0209TOD,8,TREX,MAINTAIN,MAINTAIN,FLAG,True,352.20844,320.0,True,4,"CST 352 vs ref 325 (+8%) <= +10% -> extend | uncertain: CST ±1.5sd spans +5%..+12%, crosses a rule boundary | flagged -> proposal capped at MAINTAIN pending physician review"
-0209TOD,9,TREX,EXTEND,MAINTAIN,FLAG,True,354.67618,319.0,True,4,"CST 355 vs ref 325 (+9%) <= +10% -> extend | uncertain: CST ±1.5sd spans +5%..+13%, crosses a rule boundary | flagged -> proposal capped at MAINTAIN pending physician review"
-0209TOD,10,TREX,,SHORTEN,SHORTEN,False,466.6612,562.0,True,4,CST +44% vs ref > +20% -> shorten
+0209TOD,4,TREX,MAINTAIN,EXTEND,EXTEND,False,324.88925,290.0,True,6,T&E start: reference CST = 325 µm | CST 325 vs ref 325 (+0.0%) <= +10% -> extend
+0209TOD,5,TREX,SHORTEN,MAINTAIN,FLAG,True,359.29123,354.0,True,6,"CST +10.6% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +7%..+14%, crosses a rule boundary"
+0209TOD,6,TREX,MAINTAIN,MAINTAIN,FLAG,True,349.51797,292.0,True,4,"CST 350 vs ref 325 (+7.6%) <= +10% -> extend | uncertain: CST ±1.5sd spans +4%..+11%, crosses a rule boundary | flagged -> proposal capped at MAINTAIN pending physician review"
+0209TOD,7,TREX,MAINTAIN,MAINTAIN,FLAG,True,379.7723,356.0,True,4,"CST +16.9% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +13%..+21%, crosses a rule boundary"
+0209TOD,8,TREX,MAINTAIN,MAINTAIN,FLAG,True,352.20844,320.0,True,4,"CST 352 vs ref 325 (+8.4%) <= +10% -> extend | uncertain: CST ±1.5sd spans +5%..+12%, crosses a rule boundary | flagged -> proposal capped at MAINTAIN pending physician review"
+0209TOD,9,TREX,EXTEND,MAINTAIN,FLAG,True,354.67618,319.0,True,4,"CST 355 vs ref 325 (+9.2%) <= +10% -> extend | uncertain: CST ±1.5sd spans +5%..+13%, crosses a rule boundary | flagged -> proposal capped at MAINTAIN pending physician review"
+0209TOD,10,TREX,,SHORTEN,SHORTEN,False,466.6612,562.0,True,4,CST +43.6% vs ref > +20% -> shorten
 0211TOD,1,TREX,,LOADING,LOADING,False,522.7179,612.0,True,4,loading dose 1/4 -> q4w
 0211TOD,2,TREX,,LOADING,LOADING,False,464.32123,549.0,True,4,loading dose 2/4 -> q4w
 0211TOD,3,TREX,,LOADING,LOADING,False,380.67593,443.0,True,4,loading dose 3/4 -> q4w
@@ -123,19 +123,19 @@ study_id,visit,arm,trial,engine,shown,flagged,cst_input,cst_true,imaged,interval
 0211TOD,12,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,384.0034,411.0,True,4,CST 384 µm > 325 gate -> continue q4w
 0211TOD,13,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,348.79364,344.0,True,4,CST 349 µm > 325 gate -> continue q4w
 0211TOD,14,TREX,MAINTAIN,MAINTAIN,MAINTAIN,True,328.352,352.0,True,4,CST 328 µm > 325 gate -> continue q4w | uncertain: CST estimate near the 325 µm gate
-0211TOD,15,TREX,EXTEND,EXTEND,EXTEND,False,313.38443,322.0,True,6,T&E start: reference CST = 313 µm | CST 313 vs ref 313 (+0%) <= +10% -> extend
-0211TOD,16,TREX,EXTEND,EXTEND,EXTEND,False,322.08005,329.0,True,8,CST 322 vs ref 313 (+3%) <= +10% -> extend
-0211TOD,17,TREX,,SHORTEN,SHORTEN,False,448.82388,521.0,True,6,CST +43% vs ref > +20% -> shorten
+0211TOD,15,TREX,EXTEND,EXTEND,EXTEND,False,313.38443,322.0,True,6,T&E start: reference CST = 313 µm | CST 313 vs ref 313 (+0.0%) <= +10% -> extend
+0211TOD,16,TREX,EXTEND,EXTEND,EXTEND,False,322.08005,329.0,True,8,CST 322 vs ref 313 (+2.8%) <= +10% -> extend
+0211TOD,17,TREX,,SHORTEN,SHORTEN,False,448.82388,521.0,True,6,CST +43.2% vs ref > +20% -> shorten
 0213GOD,1,GILA,,LOADING,LOADING,False,465.7775,516.0,True,4,loading dose 1/4 -> q4w
 0213GOD,2,GILA,,LOADING,LOADING,False,417.7683,411.0,True,4,loading dose 2/4 -> q4w
 0213GOD,3,GILA,,LOADING,LOADING,False,349.64932,327.0,True,4,loading dose 3/4 -> q4w
 0213GOD,4,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,340.56485,392.0,True,4,CST 341 µm > 325 gate -> continue q4w
-0213GOD,5,GILA,EXTEND,EXTEND,EXTEND,False,293.39142,257.0,True,6,T&E start: reference CST = 293 µm | CST 293 vs ref 293 (+0%) <= +10% -> extend
-0213GOD,6,GILA,EXTEND,EXTEND,EXTEND,False,266.87463,245.0,True,8,CST 267 vs ref 293 (-9%) <= +10% -> extend
-0213GOD,7,GILA,EXTEND,EXTEND,EXTEND,False,281.0856,238.0,True,10,CST 281 vs ref 293 (-4%) <= +10% -> extend
-0213GOD,8,GILA,EXTEND,EXTEND,EXTEND,False,237.0335,244.0,True,12,CST 237 vs ref 293 (-19%) <= +10% -> extend
-0213GOD,9,GILA,MAINTAIN,EXTEND,EXTEND,False,238.19722,241.0,True,14,CST 238 vs ref 293 (-19%) <= +10% -> extend
-0213GOD,10,GILA,,EXTEND,EXTEND,False,261.74954,234.0,True,14,CST 262 vs ref 293 (-11%) <= +10% -> extend | re-baseline: reference 293 -> 246 µm (3 stable visits)
+0213GOD,5,GILA,EXTEND,EXTEND,EXTEND,False,293.39142,257.0,True,6,T&E start: reference CST = 293 µm | CST 293 vs ref 293 (+0.0%) <= +10% -> extend
+0213GOD,6,GILA,EXTEND,EXTEND,EXTEND,False,266.87463,245.0,True,8,CST 267 vs ref 293 (-9.0%) <= +10% -> extend
+0213GOD,7,GILA,EXTEND,EXTEND,EXTEND,False,281.0856,238.0,True,10,CST 281 vs ref 293 (-4.2%) <= +10% -> extend
+0213GOD,8,GILA,EXTEND,EXTEND,EXTEND,False,237.0335,244.0,True,12,CST 237 vs ref 293 (-19.2%) <= +10% -> extend
+0213GOD,9,GILA,MAINTAIN,EXTEND,EXTEND,False,238.19722,241.0,True,14,CST 238 vs ref 293 (-18.8%) <= +10% -> extend
+0213GOD,10,GILA,,EXTEND,EXTEND,False,261.74954,234.0,True,14,CST 262 vs ref 293 (-10.8%) <= +10% -> extend | re-baseline: reference 293 -> 246 µm (3 stable visits)
 0213TOS,1,TREX,,LOADING,LOADING,False,499.0948,516.0,True,4,loading dose 1/4 -> q4w
 0213TOS,2,TREX,,LOADING,LOADING,False,434.9274,459.0,True,4,loading dose 2/4 -> q4w
 0213TOS,3,TREX,,LOADING,LOADING,False,399.4681,406.0,True,4,loading dose 3/4 -> q4w
@@ -158,48 +158,48 @@ study_id,visit,arm,trial,engine,shown,flagged,cst_input,cst_true,imaged,interval
 0215GOS,1,GILA,,LOADING,LOADING,False,325.6536,335.0,True,4,loading dose 1/4 -> q4w
 0215GOS,2,GILA,,LOADING,LOADING,False,323.00552,347.0,True,4,loading dose 2/4 -> q4w
 0215GOS,3,GILA,,LOADING,LOADING,False,320.8171,336.0,True,4,loading dose 3/4 -> q4w
-0215GOS,4,GILA,EXTEND,EXTEND,EXTEND,False,308.73184,302.0,True,6,T&E start: reference CST = 309 µm | CST 309 vs ref 309 (+0%) <= +10% -> extend
-0215GOS,5,GILA,EXTEND,EXTEND,EXTEND,False,287.43863,279.0,True,8,CST 287 vs ref 309 (-7%) <= +10% -> extend
-0215GOS,6,GILA,EXTEND,EXTEND,EXTEND,False,281.25058,263.0,True,10,CST 281 vs ref 309 (-9%) <= +10% -> extend
-0215GOS,7,GILA,EXTEND,EXTEND,EXTEND,False,273.95056,262.0,True,12,CST 274 vs ref 309 (-11%) <= +10% -> extend
-0215GOS,8,GILA,SHORTEN,EXTEND,EXTEND,False,279.09918,265.0,True,14,CST 279 vs ref 309 (-10%) <= +10% -> extend
-0215GOS,9,GILA,MAINTAIN,EXTEND,EXTEND,False,270.4805,248.0,True,14,CST 270 vs ref 309 (-12%) <= +10% -> extend
-0215GOS,10,GILA,EXTEND,EXTEND,EXTEND,False,270.62582,247.0,True,14,CST 271 vs ref 309 (-12%) <= +10% -> extend
-0215GOS,11,GILA,SHORTEN,EXTEND,EXTEND,False,270.77505,254.0,True,16,CST 271 vs ref 309 (-12%) <= +10% -> extend | re-baseline: reference 309 -> 271 µm (3 stable visits)
-0215GOS,12,GILA,,EXTEND,EXTEND,False,270.5251,249.0,True,14,CST 271 vs ref 271 (-0%) <= +10% -> extend
+0215GOS,4,GILA,EXTEND,EXTEND,EXTEND,False,308.73184,302.0,True,6,T&E start: reference CST = 309 µm | CST 309 vs ref 309 (+0.0%) <= +10% -> extend
+0215GOS,5,GILA,EXTEND,EXTEND,EXTEND,False,287.43863,279.0,True,8,CST 287 vs ref 309 (-6.9%) <= +10% -> extend
+0215GOS,6,GILA,EXTEND,EXTEND,EXTEND,False,281.25058,263.0,True,10,CST 281 vs ref 309 (-8.9%) <= +10% -> extend
+0215GOS,7,GILA,EXTEND,EXTEND,EXTEND,False,273.95056,262.0,True,12,CST 274 vs ref 309 (-11.3%) <= +10% -> extend
+0215GOS,8,GILA,SHORTEN,EXTEND,EXTEND,False,279.09918,265.0,True,14,CST 279 vs ref 309 (-9.6%) <= +10% -> extend
+0215GOS,9,GILA,MAINTAIN,EXTEND,EXTEND,False,270.4805,248.0,True,14,CST 270 vs ref 309 (-12.4%) <= +10% -> extend
+0215GOS,10,GILA,EXTEND,EXTEND,EXTEND,False,270.62582,247.0,True,14,CST 271 vs ref 309 (-12.3%) <= +10% -> extend
+0215GOS,11,GILA,SHORTEN,EXTEND,EXTEND,False,270.77505,254.0,True,16,CST 271 vs ref 309 (-12.3%) <= +10% -> extend | re-baseline: reference 309 -> 271 µm (3 stable visits)
+0215GOS,12,GILA,,EXTEND,EXTEND,False,270.5251,249.0,True,14,CST 271 vs ref 271 (-0.0%) <= +10% -> extend
 0217GOS,1,GILA,,LOADING,LOADING,False,374.0969,315.0,True,4,loading dose 1/4 -> q4w
 0217GOS,2,GILA,,LOADING,LOADING,False,340.27902,314.0,True,4,loading dose 2/4 -> q4w
 0217GOS,3,GILA,,LOADING,LOADING,False,342.72226,298.0,True,4,loading dose 3/4 -> q4w
 0217GOS,4,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,342.85843,297.0,True,4,CST 343 µm > 325 gate -> continue q4w
-0217GOS,5,GILA,EXTEND,EXTEND,EXTEND,False,303.28693,289.0,True,6,T&E start: reference CST = 303 µm | CST 303 vs ref 303 (+0%) <= +10% -> extend
-0217GOS,6,GILA,EXTEND,SHORTEN,FLAG,True,366.49008,301.0,True,4,"CST +21% vs ref > +20% -> shorten | uncertain: CST ±1.5sd spans +17%..+25%, crosses a rule boundary"
-0217GOS,7,GILA,MAINTAIN,MAINTAIN,FLAG,True,342.62363,299.0,True,10,"CST +13% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +9%..+17%, crosses a rule boundary"
-0217GOS,8,GILA,EXTEND,MAINTAIN,MAINTAIN,False,314.30865,301.0,True,10,CST 314 vs ref 303 (+4%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
-0217GOS,9,GILA,MAINTAIN,MAINTAIN,FLAG,True,343.53607,334.0,True,12,"CST +13% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +9%..+17%, crosses a rule boundary"
-0217GOS,10,GILA,EXTEND,MAINTAIN,MAINTAIN,False,316.43588,300.0,True,12,CST 316 vs ref 303 (+4%) <= +10% -> extend | safety: BCVA 10 letters below best -> do not extend
-0217GOS,11,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,284.73633,294.0,True,14,CST 285 vs ref 303 (-6%) <= +10% -> extend | safety: BCVA 22 letters below best -> do not extend
-0217GOS,12,GILA,EXTEND,MAINTAIN,MAINTAIN,False,301.92944,282.0,True,4,CST 302 vs ref 303 (-0%) <= +10% -> extend | safety: BCVA 15 letters below best -> do not extend
-0217GOS,13,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,283.0602,273.0,True,6,CST 283 vs ref 303 (-7%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
-0217GOS,14,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,279.55933,268.0,True,6,CST 280 vs ref 303 (-8%) <= +10% -> extend | safety: BCVA 18 letters below best -> do not extend
-0217GOS,15,GILA,,MAINTAIN,MAINTAIN,False,285.2452,268.0,True,4,CST 285 vs ref 303 (-6%) <= +10% -> extend | safety: BCVA 14 letters below best -> do not extend
+0217GOS,5,GILA,EXTEND,EXTEND,EXTEND,False,303.28693,289.0,True,6,T&E start: reference CST = 303 µm | CST 303 vs ref 303 (+0.0%) <= +10% -> extend
+0217GOS,6,GILA,EXTEND,SHORTEN,FLAG,True,366.49008,301.0,True,4,"CST +20.8% vs ref > +20% -> shorten | uncertain: CST ±1.5sd spans +17%..+25%, crosses a rule boundary"
+0217GOS,7,GILA,MAINTAIN,MAINTAIN,FLAG,True,342.62363,299.0,True,10,"CST +13.0% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +9%..+17%, crosses a rule boundary"
+0217GOS,8,GILA,EXTEND,MAINTAIN,MAINTAIN,False,314.30865,301.0,True,10,CST 314 vs ref 303 (+3.6%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
+0217GOS,9,GILA,MAINTAIN,MAINTAIN,FLAG,True,343.53607,334.0,True,12,"CST +13.3% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +9%..+17%, crosses a rule boundary"
+0217GOS,10,GILA,EXTEND,MAINTAIN,MAINTAIN,False,316.43588,300.0,True,12,CST 316 vs ref 303 (+4.3%) <= +10% -> extend | safety: BCVA 10 letters below best -> do not extend
+0217GOS,11,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,284.73633,294.0,True,14,CST 285 vs ref 303 (-6.1%) <= +10% -> extend | safety: BCVA 22 letters below best -> do not extend
+0217GOS,12,GILA,EXTEND,MAINTAIN,MAINTAIN,False,301.92944,282.0,True,4,CST 302 vs ref 303 (-0.4%) <= +10% -> extend | safety: BCVA 15 letters below best -> do not extend
+0217GOS,13,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,283.0602,273.0,True,6,CST 283 vs ref 303 (-6.7%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
+0217GOS,14,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,279.55933,268.0,True,6,CST 280 vs ref 303 (-7.8%) <= +10% -> extend | safety: BCVA 18 letters below best -> do not extend
+0217GOS,15,GILA,,MAINTAIN,MAINTAIN,False,285.2452,268.0,True,4,CST 285 vs ref 303 (-5.9%) <= +10% -> extend | safety: BCVA 14 letters below best -> do not extend
 0220TOD,1,TREX,,LOADING,LOADING,False,524.4218,581.0,True,4,loading dose 1/4 -> q4w
 0220TOD,2,TREX,,LOADING,LOADING,False,376.54883,389.0,True,4,loading dose 2/4 -> q4w
 0220TOD,3,TREX,,LOADING,LOADING,False,337.67502,326.0,True,4,loading dose 3/4 -> q4w
-0220TOD,4,TREX,EXTEND,EXTEND,EXTEND,False,315.87408,311.0,True,6,T&E start: reference CST = 316 µm | CST 316 vs ref 316 (+0%) <= +10% -> extend
-0220TOD,5,TREX,MAINTAIN,EXTEND,EXTEND,False,283.6734,271.0,True,8,CST 284 vs ref 316 (-10%) <= +10% -> extend
-0220TOD,6,TREX,MAINTAIN,EXTEND,EXTEND,False,293.53122,268.0,True,8,CST 294 vs ref 316 (-7%) <= +10% -> extend
-0220TOD,7,TREX,MAINTAIN,EXTEND,EXTEND,False,281.89227,268.0,True,8,CST 282 vs ref 316 (-11%) <= +10% -> extend
-0220TOD,8,TREX,EXTEND,EXTEND,EXTEND,False,272.25674,249.0,True,6,CST 272 vs ref 316 (-14%) <= +10% -> extend
-0220TOD,9,TREX,SHORTEN,SHORTEN,SHORTEN,False,501.2951,544.0,True,12,CST +59% vs ref > +20% -> shorten
-0220TOD,10,TREX,EXTEND,SHORTEN,SHORTEN,False,417.12888,457.0,True,4,CST +32% vs ref > +20% -> shorten | interval at min (4 wk) -> held
-0220TOD,11,TREX,MAINTAIN,SHORTEN,FLAG,True,389.41742,387.0,True,4,"CST +23% vs ref > +20% -> shorten | uncertain: CST ±1.5sd spans +19%..+27%, crosses a rule boundary | interval at min (4 wk) -> held"
-0220TOD,12,TREX,EXTEND,MAINTAIN,FLAG,True,354.17822,341.0,True,4,"CST +12% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +8%..+16%, crosses a rule boundary"
-0220TOD,13,TREX,EXTEND,MAINTAIN,FLAG,True,338.49124,334.0,True,6,"CST 338 vs ref 316 (+7%) <= +10% -> extend | uncertain: CST ±1.5sd spans +3%..+11%, crosses a rule boundary | flagged -> proposal capped at MAINTAIN pending physician review"
-0220TOD,14,TREX,SHORTEN,SHORTEN,SHORTEN,False,426.3074,492.0,True,6,CST +35% vs ref > +20% -> shorten
-0220TOD,15,TREX,EXTEND,MAINTAIN,FLAG,True,345.2636,324.0,True,4,"CST 345 vs ref 316 (+9%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend | uncertain: CST ±1.5sd spans +5%..+13%, crosses a rule boundary"
-0220TOD,16,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,363.12384,352.0,True,6,CST +15% vs ref within +20% -> maintain
-0220TOD,17,TREX,EXTEND,EXTEND,EXTEND,False,333.94882,314.0,True,6,CST 334 vs ref 316 (+6%) <= +10% -> extend
-0220TOD,18,TREX,,MAINTAIN,MAINTAIN,False,319.36484,289.0,True,6,CST 319 vs ref 316 (+1%) <= +10% -> extend | safety: BCVA 10 letters below best -> do not extend
+0220TOD,4,TREX,EXTEND,EXTEND,EXTEND,False,315.87408,311.0,True,6,T&E start: reference CST = 316 µm | CST 316 vs ref 316 (+0.0%) <= +10% -> extend
+0220TOD,5,TREX,MAINTAIN,EXTEND,EXTEND,False,283.6734,271.0,True,8,CST 284 vs ref 316 (-10.2%) <= +10% -> extend
+0220TOD,6,TREX,MAINTAIN,EXTEND,EXTEND,False,293.53122,268.0,True,8,CST 294 vs ref 316 (-7.1%) <= +10% -> extend
+0220TOD,7,TREX,MAINTAIN,EXTEND,EXTEND,False,281.89227,268.0,True,8,CST 282 vs ref 316 (-10.8%) <= +10% -> extend
+0220TOD,8,TREX,EXTEND,EXTEND,EXTEND,False,272.25674,249.0,True,6,CST 272 vs ref 316 (-13.8%) <= +10% -> extend
+0220TOD,9,TREX,SHORTEN,SHORTEN,SHORTEN,False,501.2951,544.0,True,12,CST +58.7% vs ref > +20% -> shorten
+0220TOD,10,TREX,EXTEND,SHORTEN,SHORTEN,False,417.12888,457.0,True,4,CST +32.1% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0220TOD,11,TREX,MAINTAIN,SHORTEN,FLAG,True,389.41742,387.0,True,4,"CST +23.3% vs ref > +20% -> shorten | uncertain: CST ±1.5sd spans +19%..+27%, crosses a rule boundary | interval at min (4 wk) -> held"
+0220TOD,12,TREX,EXTEND,MAINTAIN,FLAG,True,354.17822,341.0,True,4,"CST +12.1% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +8%..+16%, crosses a rule boundary"
+0220TOD,13,TREX,EXTEND,MAINTAIN,FLAG,True,338.49124,334.0,True,6,"CST 338 vs ref 316 (+7.2%) <= +10% -> extend | uncertain: CST ±1.5sd spans +3%..+11%, crosses a rule boundary | flagged -> proposal capped at MAINTAIN pending physician review"
+0220TOD,14,TREX,SHORTEN,SHORTEN,SHORTEN,False,426.3074,492.0,True,6,CST +35.0% vs ref > +20% -> shorten
+0220TOD,15,TREX,EXTEND,MAINTAIN,FLAG,True,345.2636,324.0,True,4,"CST 345 vs ref 316 (+9.3%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend | uncertain: CST ±1.5sd spans +5%..+13%, crosses a rule boundary"
+0220TOD,16,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,363.12384,352.0,True,6,CST +15.0% vs ref within +20% -> maintain
+0220TOD,17,TREX,EXTEND,EXTEND,EXTEND,False,333.94882,314.0,True,6,CST 334 vs ref 316 (+5.7%) <= +10% -> extend
+0220TOD,18,TREX,,MAINTAIN,MAINTAIN,False,319.36484,289.0,True,6,CST 319 vs ref 316 (+1.1%) <= +10% -> extend | safety: BCVA 10 letters below best -> do not extend
 0221GOD,1,GILA,,LOADING,LOADING,False,366.76382,371.0,True,4,loading dose 1/4 -> q4w
 0221GOD,2,GILA,,LOADING,LOADING,False,363.16278,343.0,True,4,loading dose 2/4 -> q4w
 0221GOD,3,GILA,,LOADING,LOADING,False,366.57382,350.0,True,4,loading dose 3/4 -> q4w
@@ -210,32 +210,32 @@ study_id,visit,arm,trial,engine,shown,flagged,cst_input,cst_true,imaged,interval
 0221GOD,8,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,374.53204,353.0,True,4,CST 375 µm > 325 gate -> continue q4w
 0221GOD,9,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,362.39944,374.0,True,4,CST 362 µm > 325 gate -> continue q4w
 0221GOD,10,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,354.9999,356.0,True,4,CST 355 µm > 325 gate -> continue q4w
-0221GOD,11,GILA,EXTEND,EXTEND,EXTEND,False,322.02606,310.0,True,6,T&E start: reference CST = 322 µm | CST 322 vs ref 322 (+0%) <= +10% -> extend
-0221GOD,12,GILA,EXTEND,EXTEND,EXTEND,False,320.86102,303.0,True,8,CST 321 vs ref 322 (-0%) <= +10% -> extend
-0221GOD,13,GILA,EXTEND,MAINTAIN,MAINTAIN,False,310.5228,294.0,True,8,CST 311 vs ref 322 (-4%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
-0221GOD,14,GILA,EXTEND,EXTEND,EXTEND,False,331.11035,304.0,True,12,CST 331 vs ref 322 (+3%) <= +10% -> extend
-0221GOD,15,GILA,MAINTAIN,MAINTAIN,FLAG,True,289.71445,274.0,True,12,"CST 290 vs ref 322 (-10%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.68 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
-0221GOD,16,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,280.14307,263.0,True,12,CST 280 vs ref 322 (-13%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
-0221GOD,17,GILA,,MAINTAIN,MAINTAIN,False,287.5357,261.0,True,12,CST 288 vs ref 322 (-11%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend | re-baseline: reference 322 -> 286 µm (3 stable visits)
+0221GOD,11,GILA,EXTEND,EXTEND,EXTEND,False,322.02606,310.0,True,6,T&E start: reference CST = 322 µm | CST 322 vs ref 322 (+0.0%) <= +10% -> extend
+0221GOD,12,GILA,EXTEND,EXTEND,EXTEND,False,320.86102,303.0,True,8,CST 321 vs ref 322 (-0.4%) <= +10% -> extend
+0221GOD,13,GILA,EXTEND,MAINTAIN,MAINTAIN,False,310.5228,294.0,True,8,CST 311 vs ref 322 (-3.6%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0221GOD,14,GILA,EXTEND,EXTEND,EXTEND,False,331.11035,304.0,True,12,CST 331 vs ref 322 (+2.8%) <= +10% -> extend
+0221GOD,15,GILA,MAINTAIN,MAINTAIN,FLAG,True,289.71445,274.0,True,12,"CST 290 vs ref 322 (-10.0%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.68 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
+0221GOD,16,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,280.14307,263.0,True,12,CST 280 vs ref 322 (-13.0%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0221GOD,17,GILA,,MAINTAIN,MAINTAIN,False,287.5357,261.0,True,12,CST 288 vs ref 322 (-10.7%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend | re-baseline: reference 322 -> 286 µm (3 stable visits)
 0222TOD,1,TREX,,LOADING,LOADING,False,322.51776,364.0,True,4,loading dose 1/4 -> q4w
 0222TOD,2,TREX,,LOADING,LOADING,False,306.87552,327.0,True,4,loading dose 2/4 -> q4w
 0222TOD,3,TREX,,LOADING,LOADING,False,330.5562,313.0,True,4,loading dose 3/4 -> q4w
-0222TOD,4,TREX,EXTEND,EXTEND,EXTEND,False,290.43842,291.0,True,6,T&E start: reference CST = 290 µm | CST 290 vs ref 290 (+0%) <= +10% -> extend
-0222TOD,5,TREX,MAINTAIN,EXTEND,EXTEND,False,271.64154,249.0,True,8,CST 272 vs ref 290 (-6%) <= +10% -> extend
-0222TOD,6,TREX,MAINTAIN,MAINTAIN,FLAG,True,247.72018,227.0,True,6,"CST 248 vs ref 290 (-15%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.68 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
-0222TOD,7,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,252.64989,222.0,True,6,CST 253 vs ref 290 (-13%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
-0222TOD,8,TREX,EXTEND,EXTEND,EXTEND,False,258.1995,223.0,True,8,CST 258 vs ref 290 (-11%) <= +10% -> extend | re-baseline: reference 290 -> 253 µm (3 stable visits)
-0222TOD,9,TREX,EXTEND,MAINTAIN,MAINTAIN,False,254.4044,223.0,True,8,CST 254 vs ref 253 (+1%) <= +10% -> extend | safety: BCVA 11 letters below best -> do not extend
-0222TOD,10,TREX,EXTEND,MAINTAIN,FLAG,True,274.26218,228.0,True,10,"CST 274 vs ref 253 (+8%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend | uncertain: CST ±1.5sd spans +4%..+13%, crosses a rule boundary"
-0222TOD,11,TREX,MAINTAIN,MAINTAIN,FLAG,True,276.14627,249.0,True,12,"CST 276 vs ref 253 (+9%) <= +10% -> extend | uncertain: CST ±1.5sd spans +4%..+14%, crosses a rule boundary | flagged -> proposal capped at MAINTAIN pending physician review"
-0222TOD,12,TREX,EXTEND,EXTEND,EXTEND,False,253.30273,236.0,True,14,CST 253 vs ref 253 (+0%) <= +10% -> extend
-0222TOD,13,TREX,,SHORTEN,FLAG,True,311.1638,291.0,True,12,"CST +23% vs ref > +20% -> shorten | uncertain: CST ±1.5sd spans +18%..+28%, crosses a rule boundary"
+0222TOD,4,TREX,EXTEND,EXTEND,EXTEND,False,290.43842,291.0,True,6,T&E start: reference CST = 290 µm | CST 290 vs ref 290 (+0.0%) <= +10% -> extend
+0222TOD,5,TREX,MAINTAIN,EXTEND,EXTEND,False,271.64154,249.0,True,8,CST 272 vs ref 290 (-6.5%) <= +10% -> extend
+0222TOD,6,TREX,MAINTAIN,MAINTAIN,FLAG,True,247.72018,227.0,True,6,"CST 248 vs ref 290 (-14.7%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.68 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
+0222TOD,7,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,252.64989,222.0,True,6,CST 253 vs ref 290 (-13.0%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
+0222TOD,8,TREX,EXTEND,EXTEND,EXTEND,False,258.1995,223.0,True,8,CST 258 vs ref 290 (-11.1%) <= +10% -> extend | re-baseline: reference 290 -> 253 µm (3 stable visits)
+0222TOD,9,TREX,EXTEND,MAINTAIN,MAINTAIN,False,254.4044,223.0,True,8,CST 254 vs ref 253 (+0.6%) <= +10% -> extend | safety: BCVA 11 letters below best -> do not extend
+0222TOD,10,TREX,EXTEND,MAINTAIN,FLAG,True,274.26218,228.0,True,10,"CST 274 vs ref 253 (+8.5%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend | uncertain: CST ±1.5sd spans +4%..+13%, crosses a rule boundary"
+0222TOD,11,TREX,MAINTAIN,MAINTAIN,FLAG,True,276.14627,249.0,True,12,"CST 276 vs ref 253 (+9.2%) <= +10% -> extend | uncertain: CST ±1.5sd spans +4%..+14%, crosses a rule boundary | flagged -> proposal capped at MAINTAIN pending physician review"
+0222TOD,12,TREX,EXTEND,EXTEND,EXTEND,False,253.30273,236.0,True,14,CST 253 vs ref 253 (+0.2%) <= +10% -> extend
+0222TOD,13,TREX,,SHORTEN,FLAG,True,311.1638,291.0,True,12,"CST +23.1% vs ref > +20% -> shorten | uncertain: CST ±1.5sd spans +18%..+28%, crosses a rule boundary"
 0224TOD,1,TREX,,LOADING,LOADING,False,342.38492,344.0,True,4,loading dose 1/4 -> q4w
 0224TOD,2,TREX,,LOADING,LOADING,False,266.9029,258.0,True,4,loading dose 2/4 -> q4w
 0224TOD,3,TREX,,LOADING,LOADING,False,252.07375,225.0,True,4,loading dose 3/4 -> q4w
-0224TOD,4,TREX,EXTEND,EXTEND,EXTEND,False,243.13876,206.0,True,6,T&E start: reference CST = 243 µm | CST 243 vs ref 243 (+0%) <= +10% -> extend
-0224TOD,5,TREX,EXTEND,MAINTAIN,FLAG,True,267.6537,203.0,True,6,"CST +10% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +5%..+15%, crosses a rule boundary"
-0224TOD,6,TREX,,MAINTAIN,MAINTAIN,False,250.2362,199.0,True,10,CST 250 vs ref 243 (+3%) <= +10% -> extend | safety: BCVA 12 letters below best -> do not extend
+0224TOD,4,TREX,EXTEND,EXTEND,EXTEND,False,243.13876,206.0,True,6,T&E start: reference CST = 243 µm | CST 243 vs ref 243 (+0.0%) <= +10% -> extend
+0224TOD,5,TREX,EXTEND,MAINTAIN,FLAG,True,267.6537,203.0,True,6,"CST +10.1% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +5%..+15%, crosses a rule boundary"
+0224TOD,6,TREX,,MAINTAIN,MAINTAIN,False,250.2362,199.0,True,10,CST 250 vs ref 243 (+2.9%) <= +10% -> extend | safety: BCVA 12 letters below best -> do not extend
 0225GOS,1,GILA,,LOADING,LOADING,False,352.95166,323.0,True,4,loading dose 1/4 -> q4w
 0225GOS,2,GILA,,LOADING,LOADING,False,380.0,380.0,False,4,loading dose 2/4 -> q4w
 0225GOS,3,GILA,,LOADING,LOADING,False,373.69907,320.0,True,4,loading dose 3/4 -> q4w
@@ -245,8 +245,8 @@ study_id,visit,arm,trial,engine,shown,flagged,cst_input,cst_true,imaged,interval
 0225GOS,7,GILA,EXTEND,MAINTAIN,MAINTAIN,False,348.6152,323.0,True,10,CST 349 µm > 325 gate -> continue q4w
 0225GOS,8,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,342.00348,316.0,True,12,CST 342 µm > 325 gate -> continue q4w
 0225GOS,9,GILA,EXTEND,MAINTAIN,MAINTAIN,True,330.71463,310.0,True,12,CST 331 µm > 325 gate -> continue q4w | uncertain: CST estimate near the 325 µm gate
-0225GOS,10,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,322.76715,311.0,True,14,T&E start: reference CST = 323 µm | CST 323 vs ref 323 (+0%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
-0225GOS,11,GILA,,MAINTAIN,FLAG,True,335.73993,305.0,True,14,"CST 336 vs ref 323 (+4%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.45 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
+0225GOS,10,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,322.76715,311.0,True,14,T&E start: reference CST = 323 µm | CST 323 vs ref 323 (+0.0%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0225GOS,11,GILA,,MAINTAIN,FLAG,True,335.73993,305.0,True,14,"CST 336 vs ref 323 (+4.0%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.45 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
 0226GOD,1,GILA,,LOADING,LOADING,False,524.31964,602.0,True,4,loading dose 1/4 -> q4w
 0226GOD,2,GILA,,LOADING,LOADING,False,369.23502,358.0,True,4,loading dose 2/4 -> q4w
 0226GOD,3,GILA,,LOADING,LOADING,False,372.99213,335.0,True,4,loading dose 3/4 -> q4w
@@ -257,12 +257,12 @@ study_id,visit,arm,trial,engine,shown,flagged,cst_input,cst_true,imaged,interval
 0226GOD,8,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,413.35117,421.0,True,8,CST 413 µm > 325 gate -> continue q4w
 0226GOD,9,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,341.98096,311.0,True,6,CST 342 µm > 325 gate -> continue q4w
 0226GOD,10,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,501.607,535.0,True,6,CST 502 µm > 325 gate -> continue q4w
-0226GOD,11,GILA,MAINTAIN,EXTEND,EXTEND,False,313.25763,274.0,True,8,T&E start: reference CST = 313 µm | CST 313 vs ref 313 (+0%) <= +10% -> extend
-0226GOD,12,GILA,MAINTAIN,EXTEND,EXTEND,False,285.74908,238.0,True,8,CST 286 vs ref 313 (-9%) <= +10% -> extend
-0226GOD,13,GILA,MAINTAIN,EXTEND,EXTEND,False,303.57925,257.0,True,8,CST 304 vs ref 313 (-3%) <= +10% -> extend
-0226GOD,14,GILA,MAINTAIN,MAINTAIN,FLAG,True,369.4732,378.0,True,6,"CST +18% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +14%..+22%, crosses a rule boundary"
-0226GOD,15,GILA,MAINTAIN,MAINTAIN,FLAG,True,354.8287,366.0,True,6,"CST +13% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +9%..+17%, crosses a rule boundary"
-0226GOD,16,GILA,,MAINTAIN,MAINTAIN,False,357.6674,346.0,True,6,CST +14% vs ref within +20% -> maintain
+0226GOD,11,GILA,MAINTAIN,EXTEND,EXTEND,False,313.25763,274.0,True,8,T&E start: reference CST = 313 µm | CST 313 vs ref 313 (+0.0%) <= +10% -> extend
+0226GOD,12,GILA,MAINTAIN,EXTEND,EXTEND,False,285.74908,238.0,True,8,CST 286 vs ref 313 (-8.8%) <= +10% -> extend
+0226GOD,13,GILA,MAINTAIN,EXTEND,EXTEND,False,303.57925,257.0,True,8,CST 304 vs ref 313 (-3.1%) <= +10% -> extend
+0226GOD,14,GILA,MAINTAIN,MAINTAIN,FLAG,True,369.4732,378.0,True,6,"CST +17.9% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +14%..+22%, crosses a rule boundary"
+0226GOD,15,GILA,MAINTAIN,MAINTAIN,FLAG,True,354.8287,366.0,True,6,"CST +13.3% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +9%..+17%, crosses a rule boundary"
+0226GOD,16,GILA,,MAINTAIN,MAINTAIN,False,357.6674,346.0,True,6,CST +14.2% vs ref within +20% -> maintain
 0226TOS,1,TREX,,LOADING,LOADING,False,481.3974,536.0,True,4,loading dose 1/4 -> q4w
 0226TOS,2,TREX,,LOADING,LOADING,False,370.40094,370.0,True,4,loading dose 2/4 -> q4w
 0226TOS,3,TREX,,LOADING,LOADING,False,356.43442,341.0,True,4,loading dose 3/4 -> q4w
@@ -282,32 +282,32 @@ study_id,visit,arm,trial,engine,shown,flagged,cst_input,cst_true,imaged,interval
 0228TOS,1,TREX,,LOADING,LOADING,False,337.01093,338.0,True,4,loading dose 1/4 -> q4w
 0228TOS,2,TREX,,LOADING,LOADING,False,283.2447,248.0,True,4,loading dose 2/4 -> q4w
 0228TOS,3,TREX,,LOADING,LOADING,False,285.7682,243.0,True,4,loading dose 3/4 -> q4w
-0228TOS,4,TREX,EXTEND,EXTEND,EXTEND,False,289.50555,252.0,True,6,T&E start: reference CST = 290 µm | CST 290 vs ref 290 (+0%) <= +10% -> extend
-0228TOS,5,TREX,SHORTEN,SHORTEN,FLAG,True,356.83673,435.0,True,4,"CST +23% vs ref > +20% -> shorten | uncertain: CST ±1.5sd spans +19%..+27%, crosses a rule boundary"
-0228TOS,6,TREX,EXTEND,MAINTAIN,MAINTAIN,False,281.14157,253.0,True,4,CST 281 vs ref 290 (-3%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
-0228TOS,7,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,299.25656,312.0,True,6,CST 299 vs ref 290 (+3%) <= +10% -> extend | safety: BCVA 11 letters below best -> do not extend
-0228TOS,8,TREX,EXTEND,MAINTAIN,MAINTAIN,False,271.49368,254.0,True,4,CST 271 vs ref 290 (-6%) <= +10% -> extend | safety: BCVA 10 letters below best -> do not extend
-0228TOS,9,TREX,EXTEND,MAINTAIN,MAINTAIN,False,263.6203,243.0,True,6,CST 264 vs ref 290 (-9%) <= +10% -> extend | safety: BCVA 10 letters below best -> do not extend
-0228TOS,10,TREX,SHORTEN,MAINTAIN,FLAG,True,314.25952,330.0,True,8,"CST 314 vs ref 290 (+9%) <= +10% -> extend | safety: BCVA 16 letters below best -> do not extend | uncertain: CST ±1.5sd spans +4%..+13%, crosses a rule boundary"
-0228TOS,11,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,273.2254,251.0,True,6,CST 273 vs ref 290 (-6%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
-0228TOS,12,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,277.9819,243.0,True,6,CST 278 vs ref 290 (-4%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
-0228TOS,13,TREX,EXTEND,MAINTAIN,MAINTAIN,False,267.54318,243.0,True,8,CST 268 vs ref 290 (-8%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
-0228TOS,14,TREX,EXTEND,MAINTAIN,MAINTAIN,False,274.80313,250.0,True,10,CST 275 vs ref 290 (-5%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
-0228TOS,15,TREX,,MAINTAIN,MAINTAIN,False,265.6463,239.0,True,12,CST 266 vs ref 290 (-8%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
-0228TOS,16,TREX,,MAINTAIN,MAINTAIN,False,279.75388,241.0,True,12,CST 280 vs ref 290 (-3%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
+0228TOS,4,TREX,EXTEND,EXTEND,EXTEND,False,289.50555,252.0,True,6,T&E start: reference CST = 290 µm | CST 290 vs ref 290 (+0.0%) <= +10% -> extend
+0228TOS,5,TREX,SHORTEN,SHORTEN,FLAG,True,356.83673,435.0,True,4,"CST +23.3% vs ref > +20% -> shorten | uncertain: CST ±1.5sd spans +19%..+27%, crosses a rule boundary"
+0228TOS,6,TREX,EXTEND,MAINTAIN,MAINTAIN,False,281.14157,253.0,True,4,CST 281 vs ref 290 (-2.9%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
+0228TOS,7,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,299.25656,312.0,True,6,CST 299 vs ref 290 (+3.4%) <= +10% -> extend | safety: BCVA 11 letters below best -> do not extend
+0228TOS,8,TREX,EXTEND,MAINTAIN,MAINTAIN,False,271.49368,254.0,True,4,CST 271 vs ref 290 (-6.2%) <= +10% -> extend | safety: BCVA 10 letters below best -> do not extend
+0228TOS,9,TREX,EXTEND,MAINTAIN,MAINTAIN,False,263.6203,243.0,True,6,CST 264 vs ref 290 (-8.9%) <= +10% -> extend | safety: BCVA 10 letters below best -> do not extend
+0228TOS,10,TREX,SHORTEN,MAINTAIN,FLAG,True,314.25952,330.0,True,8,"CST 314 vs ref 290 (+8.6%) <= +10% -> extend | safety: BCVA 16 letters below best -> do not extend | uncertain: CST ±1.5sd spans +4%..+13%, crosses a rule boundary"
+0228TOS,11,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,273.2254,251.0,True,6,CST 273 vs ref 290 (-5.6%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0228TOS,12,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,277.9819,243.0,True,6,CST 278 vs ref 290 (-4.0%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0228TOS,13,TREX,EXTEND,MAINTAIN,MAINTAIN,False,267.54318,243.0,True,8,CST 268 vs ref 290 (-7.6%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
+0228TOS,14,TREX,EXTEND,MAINTAIN,MAINTAIN,False,274.80313,250.0,True,10,CST 275 vs ref 290 (-5.1%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
+0228TOS,15,TREX,,MAINTAIN,MAINTAIN,False,265.6463,239.0,True,12,CST 266 vs ref 290 (-8.2%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
+0228TOS,16,TREX,,MAINTAIN,MAINTAIN,False,279.75388,241.0,True,12,CST 280 vs ref 290 (-3.4%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
 0229GOD,1,GILA,,LOADING,LOADING,False,414.54932,428.0,True,4,loading dose 1/4 -> q4w
 0229GOD,2,GILA,,LOADING,LOADING,False,377.08032,376.0,True,4,loading dose 2/4 -> q4w
 0229GOD,3,GILA,,LOADING,LOADING,False,364.7434,353.0,True,4,loading dose 3/4 -> q4w
 0229GOD,4,GILA,EXTEND,MAINTAIN,MAINTAIN,False,351.9057,321.0,True,4,CST 352 µm > 325 gate -> continue q4w
-0229GOD,5,GILA,EXTEND,EXTEND,EXTEND,False,317.5812,305.0,True,8,T&E start: reference CST = 318 µm | CST 318 vs ref 318 (+0%) <= +10% -> extend
-0229GOD,6,GILA,EXTEND,EXTEND,EXTEND,False,328.75073,292.0,True,10,CST 329 vs ref 318 (+4%) <= +10% -> extend
-0229GOD,7,GILA,MAINTAIN,EXTEND,EXTEND,False,321.2835,277.0,True,12,CST 321 vs ref 318 (+1%) <= +10% -> extend
-0229GOD,8,GILA,MAINTAIN,EXTEND,EXTEND,False,308.69824,263.0,True,12,CST 309 vs ref 318 (-3%) <= +10% -> extend
-0229GOD,9,GILA,MAINTAIN,EXTEND,EXTEND,False,300.66605,260.0,True,12,CST 301 vs ref 318 (-5%) <= +10% -> extend
-0229GOD,10,GILA,MAINTAIN,EXTEND,EXTEND,False,305.59918,261.0,True,12,CST 306 vs ref 318 (-4%) <= +10% -> extend
-0229GOD,11,GILA,MAINTAIN,EXTEND,EXTEND,False,314.81686,253.0,True,12,CST 315 vs ref 318 (-1%) <= +10% -> extend
-0229GOD,12,GILA,SHORTEN,EXTEND,EXTEND,False,316.8155,259.0,True,14,CST 317 vs ref 318 (-0%) <= +10% -> extend
-0229GOD,13,GILA,,EXTEND,EXTEND,False,317.76007,280.0,True,12,CST 318 vs ref 318 (+0%) <= +10% -> extend
+0229GOD,5,GILA,EXTEND,EXTEND,EXTEND,False,317.5812,305.0,True,8,T&E start: reference CST = 318 µm | CST 318 vs ref 318 (+0.0%) <= +10% -> extend
+0229GOD,6,GILA,EXTEND,EXTEND,EXTEND,False,328.75073,292.0,True,10,CST 329 vs ref 318 (+3.5%) <= +10% -> extend
+0229GOD,7,GILA,MAINTAIN,EXTEND,EXTEND,False,321.2835,277.0,True,12,CST 321 vs ref 318 (+1.2%) <= +10% -> extend
+0229GOD,8,GILA,MAINTAIN,EXTEND,EXTEND,False,308.69824,263.0,True,12,CST 309 vs ref 318 (-2.8%) <= +10% -> extend
+0229GOD,9,GILA,MAINTAIN,EXTEND,EXTEND,False,300.66605,260.0,True,12,CST 301 vs ref 318 (-5.3%) <= +10% -> extend
+0229GOD,10,GILA,MAINTAIN,EXTEND,EXTEND,False,305.59918,261.0,True,12,CST 306 vs ref 318 (-3.8%) <= +10% -> extend
+0229GOD,11,GILA,MAINTAIN,EXTEND,EXTEND,False,314.81686,253.0,True,12,CST 315 vs ref 318 (-0.9%) <= +10% -> extend
+0229GOD,12,GILA,SHORTEN,EXTEND,EXTEND,False,316.8155,259.0,True,14,CST 317 vs ref 318 (-0.2%) <= +10% -> extend
+0229GOD,13,GILA,,EXTEND,EXTEND,False,317.76007,280.0,True,12,CST 318 vs ref 318 (+0.1%) <= +10% -> extend
 0230TOS,1,TREX,,LOADING,LOADING,False,396.40427,392.0,True,4,loading dose 1/4 -> q4w
 0230TOS,2,TREX,,LOADING,LOADING,False,358.42804,356.0,True,4,loading dose 2/4 -> q4w
 0230TOS,3,TREX,,LOADING,LOADING,False,362.9484,350.0,True,4,loading dose 3/4 -> q4w
@@ -330,8 +330,8 @@ study_id,visit,arm,trial,engine,shown,flagged,cst_input,cst_true,imaged,interval
 0231TOD,16,TREX,EXTEND,MAINTAIN,MAINTAIN,False,343.3056,364.0,True,6,CST 343 µm > 325 gate -> continue q4w
 0231TOD,17,TREX,SHORTEN,MAINTAIN,MAINTAIN,True,325.1919,307.0,True,8,CST 325 µm > 325 gate -> continue q4w | uncertain: CST estimate near the 325 µm gate
 0231TOD,18,TREX,EXTEND,MAINTAIN,MAINTAIN,False,342.68915,329.0,True,6,CST 343 µm > 325 gate -> continue q4w
-0231TOD,19,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,315.22165,296.0,True,8,T&E start: reference CST = 315 µm | CST 315 vs ref 315 (+0%) <= +10% -> extend | safety: BCVA 12 letters below best -> do not extend
-0231TOD,20,TREX,,MAINTAIN,MAINTAIN,False,294.5669,274.0,True,10,CST 295 vs ref 315 (-7%) <= +10% -> extend | safety: BCVA 13 letters below best -> do not extend
+0231TOD,19,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,315.22165,296.0,True,8,T&E start: reference CST = 315 µm | CST 315 vs ref 315 (+0.0%) <= +10% -> extend | safety: BCVA 12 letters below best -> do not extend
+0231TOD,20,TREX,,MAINTAIN,MAINTAIN,False,294.5669,274.0,True,10,CST 295 vs ref 315 (-6.6%) <= +10% -> extend | safety: BCVA 13 letters below best -> do not extend
 0232GOD,1,GILA,,LOADING,LOADING,False,564.6996,607.0,True,4,loading dose 1/4 -> q4w
 0232GOD,2,GILA,,LOADING,LOADING,False,368.11426,412.0,True,4,loading dose 2/4 -> q4w
 0232GOD,3,GILA,,LOADING,LOADING,False,519.2765,503.0,True,4,loading dose 3/4 -> q4w
@@ -349,46 +349,46 @@ study_id,visit,arm,trial,engine,shown,flagged,cst_input,cst_true,imaged,interval
 0232GOD,15,GILA,MAINTAIN,MAINTAIN,MAINTAIN,True,326.90405,338.0,True,4,CST 327 µm > 325 gate -> continue q4w | uncertain: CST estimate near the 325 µm gate
 0232GOD,16,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,388.19678,432.0,True,4,CST 388 µm > 325 gate -> continue q4w
 0232GOD,17,GILA,MAINTAIN,MAINTAIN,MAINTAIN,True,329.0671,355.0,True,4,CST 329 µm > 325 gate -> continue q4w | uncertain: CST estimate near the 325 µm gate
-0232GOD,18,GILA,EXTEND,EXTEND,EXTEND,False,283.48367,295.0,True,6,T&E start: reference CST = 283 µm | CST 283 vs ref 283 (+0%) <= +10% -> extend
-0232GOD,19,GILA,SHORTEN,SHORTEN,SHORTEN,False,507.11453,627.0,True,4,CST +79% vs ref > +20% -> shorten
-0232GOD,20,GILA,MAINTAIN,MAINTAIN,FLAG,True,314.13477,342.0,True,4,"CST +11% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +7%..+15%, crosses a rule boundary"
-0232GOD,21,GILA,MAINTAIN,MAINTAIN,FLAG,True,315.43045,348.0,True,4,"CST +11% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +7%..+16%, crosses a rule boundary"
-0232GOD,22,GILA,EXTEND,MAINTAIN,FLAG,True,314.8519,334.0,True,4,"CST +11% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +7%..+15%, crosses a rule boundary"
-0232GOD,23,GILA,SHORTEN,SHORTEN,SHORTEN,False,450.87256,334.0,True,4,CST +59% vs ref > +20% -> shorten
-0232GOD,24,GILA,,MAINTAIN,MAINTAIN,False,278.64658,292.0,True,4,CST 279 vs ref 283 (-2%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
-0232GOD,25,GILA,,SHORTEN,SHORTEN,False,363.26703,413.0,True,4,CST +28% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0232GOD,18,GILA,EXTEND,EXTEND,EXTEND,False,283.48367,295.0,True,6,T&E start: reference CST = 283 µm | CST 283 vs ref 283 (+0.0%) <= +10% -> extend
+0232GOD,19,GILA,SHORTEN,SHORTEN,SHORTEN,False,507.11453,627.0,True,4,CST +78.9% vs ref > +20% -> shorten
+0232GOD,20,GILA,MAINTAIN,MAINTAIN,FLAG,True,314.13477,342.0,True,4,"CST +10.8% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +7%..+15%, crosses a rule boundary"
+0232GOD,21,GILA,MAINTAIN,MAINTAIN,FLAG,True,315.43045,348.0,True,4,"CST +11.3% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +7%..+16%, crosses a rule boundary"
+0232GOD,22,GILA,EXTEND,MAINTAIN,FLAG,True,314.8519,334.0,True,4,"CST +11.1% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +7%..+15%, crosses a rule boundary"
+0232GOD,23,GILA,SHORTEN,SHORTEN,SHORTEN,False,450.87256,334.0,True,4,CST +59.0% vs ref > +20% -> shorten
+0232GOD,24,GILA,,MAINTAIN,MAINTAIN,False,278.64658,292.0,True,4,CST 279 vs ref 283 (-1.7%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
+0232GOD,25,GILA,,SHORTEN,SHORTEN,False,363.26703,413.0,True,4,CST +28.1% vs ref > +20% -> shorten | interval at min (4 wk) -> held
 0232TOS,1,TREX,,LOADING,LOADING,False,417.4786,443.0,True,4,loading dose 1/4 -> q4w
 0232TOS,2,TREX,,LOADING,LOADING,False,310.10623,328.0,True,4,loading dose 2/4 -> q4w
 0232TOS,3,TREX,,LOADING,LOADING,False,327.41873,292.0,True,4,loading dose 3/4 -> q4w
-0232TOS,4,TREX,EXTEND,EXTEND,EXTEND,False,313.55786,310.0,True,6,T&E start: reference CST = 314 µm | CST 314 vs ref 314 (+0%) <= +10% -> extend
-0232TOS,5,TREX,SHORTEN,SHORTEN,SHORTEN,False,421.13528,420.0,True,4,CST +34% vs ref > +20% -> shorten
-0232TOS,6,TREX,EXTEND,EXTEND,EXTEND,False,303.2989,295.0,True,6,CST 303 vs ref 314 (-3%) <= +10% -> extend
-0232TOS,7,TREX,SHORTEN,SHORTEN,SHORTEN,False,408.17105,413.0,True,4,CST +30% vs ref > +20% -> shorten
-0232TOS,8,TREX,MAINTAIN,MAINTAIN,FLAG,True,374.29446,382.0,True,4,"CST +19% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +15%..+23%, crosses a rule boundary"
-0232TOS,9,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,361.7291,396.0,True,4,CST +15% vs ref within +20% -> maintain
-0232TOS,10,TREX,EXTEND,EXTEND,EXTEND,False,328.61417,328.0,True,6,CST 329 vs ref 314 (+5%) <= +10% -> extend
-0232TOS,11,TREX,EXTEND,EXTEND,EXTEND,False,330.05713,311.0,True,6,CST 330 vs ref 314 (+5%) <= +10% -> extend
-0232TOS,12,TREX,SHORTEN,MAINTAIN,FLAG,True,367.03793,398.0,True,8,"CST +17% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +13%..+21%, crosses a rule boundary"
-0232TOS,13,TREX,MAINTAIN,EXTEND,EXTEND,False,314.7172,303.0,True,6,CST 315 vs ref 314 (+0%) <= +10% -> extend
-0232TOS,14,TREX,MAINTAIN,EXTEND,EXTEND,False,322.9188,305.0,True,6,CST 323 vs ref 314 (+3%) <= +10% -> extend
-0232TOS,15,TREX,MAINTAIN,EXTEND,EXTEND,False,290.67178,281.0,True,6,CST 291 vs ref 314 (-7%) <= +10% -> extend
-0232TOS,16,TREX,EXTEND,EXTEND,EXTEND,False,277.25992,281.0,True,6,CST 277 vs ref 314 (-12%) <= +10% -> extend
-0232TOS,17,TREX,SHORTEN,MAINTAIN,FLAG,True,354.29175,372.0,True,6,"CST +13% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +9%..+17%, crosses a rule boundary"
-0232TOS,18,TREX,EXTEND,EXTEND,EXTEND,False,286.11057,278.0,True,6,CST 286 vs ref 314 (-9%) <= +10% -> extend
-0232TOS,19,TREX,MAINTAIN,MAINTAIN,FLAG,True,352.6565,368.0,True,8,"CST +12% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +9%..+16%, crosses a rule boundary"
-0232TOS,20,TREX,MAINTAIN,EXTEND,EXTEND,False,278.31375,280.0,True,8,CST 278 vs ref 314 (-11%) <= +10% -> extend
-0232TOS,21,TREX,,EXTEND,EXTEND,False,282.35025,256.0,True,8,CST 282 vs ref 314 (-10%) <= +10% -> extend
+0232TOS,4,TREX,EXTEND,EXTEND,EXTEND,False,313.55786,310.0,True,6,T&E start: reference CST = 314 µm | CST 314 vs ref 314 (+0.0%) <= +10% -> extend
+0232TOS,5,TREX,SHORTEN,SHORTEN,SHORTEN,False,421.13528,420.0,True,4,CST +34.3% vs ref > +20% -> shorten
+0232TOS,6,TREX,EXTEND,EXTEND,EXTEND,False,303.2989,295.0,True,6,CST 303 vs ref 314 (-3.3%) <= +10% -> extend
+0232TOS,7,TREX,SHORTEN,SHORTEN,SHORTEN,False,408.17105,413.0,True,4,CST +30.2% vs ref > +20% -> shorten
+0232TOS,8,TREX,MAINTAIN,MAINTAIN,FLAG,True,374.29446,382.0,True,4,"CST +19.4% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +15%..+23%, crosses a rule boundary"
+0232TOS,9,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,361.7291,396.0,True,4,CST +15.4% vs ref within +20% -> maintain
+0232TOS,10,TREX,EXTEND,EXTEND,EXTEND,False,328.61417,328.0,True,6,CST 329 vs ref 314 (+4.8%) <= +10% -> extend
+0232TOS,11,TREX,EXTEND,EXTEND,EXTEND,False,330.05713,311.0,True,6,CST 330 vs ref 314 (+5.3%) <= +10% -> extend
+0232TOS,12,TREX,SHORTEN,MAINTAIN,FLAG,True,367.03793,398.0,True,8,"CST +17.1% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +13%..+21%, crosses a rule boundary"
+0232TOS,13,TREX,MAINTAIN,EXTEND,EXTEND,False,314.7172,303.0,True,6,CST 315 vs ref 314 (+0.4%) <= +10% -> extend
+0232TOS,14,TREX,MAINTAIN,EXTEND,EXTEND,False,322.9188,305.0,True,6,CST 323 vs ref 314 (+3.0%) <= +10% -> extend
+0232TOS,15,TREX,MAINTAIN,EXTEND,EXTEND,False,290.67178,281.0,True,6,CST 291 vs ref 314 (-7.3%) <= +10% -> extend
+0232TOS,16,TREX,EXTEND,EXTEND,EXTEND,False,277.25992,281.0,True,6,CST 277 vs ref 314 (-11.6%) <= +10% -> extend
+0232TOS,17,TREX,SHORTEN,MAINTAIN,FLAG,True,354.29175,372.0,True,6,"CST +13.0% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +9%..+17%, crosses a rule boundary"
+0232TOS,18,TREX,EXTEND,EXTEND,EXTEND,False,286.11057,278.0,True,6,CST 286 vs ref 314 (-8.8%) <= +10% -> extend
+0232TOS,19,TREX,MAINTAIN,MAINTAIN,FLAG,True,352.6565,368.0,True,8,"CST +12.5% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +9%..+16%, crosses a rule boundary"
+0232TOS,20,TREX,MAINTAIN,EXTEND,EXTEND,False,278.31375,280.0,True,8,CST 278 vs ref 314 (-11.2%) <= +10% -> extend
+0232TOS,21,TREX,,EXTEND,EXTEND,False,282.35025,256.0,True,8,CST 282 vs ref 314 (-10.0%) <= +10% -> extend
 0234GOD,1,GILA,,LOADING,LOADING,False,448.2066,517.0,True,4,loading dose 1/4 -> q4w
 0234GOD,2,GILA,,LOADING,LOADING,False,323.01266,320.0,True,4,loading dose 2/4 -> q4w
 0234GOD,3,GILA,,LOADING,LOADING,False,297.27597,267.0,True,6,loading dose 3/4 -> q4w
-0234GOD,4,GILA,EXTEND,EXTEND,EXTEND,False,295.4874,267.0,True,6,T&E start: reference CST = 295 µm | CST 295 vs ref 295 (+0%) <= +10% -> extend
-0234GOD,5,GILA,EXTEND,MAINTAIN,FLAG,True,314.11813,267.0,True,6,"CST 314 vs ref 295 (+6%) <= +10% -> extend | uncertain: CST ±1.5sd spans +2%..+10%, crosses a rule boundary | uncertain: P(foveal fluid) = 0.58 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
-0234GOD,6,GILA,MAINTAIN,MAINTAIN,FLAG,True,320.13916,271.0,True,8,"CST 320 vs ref 295 (+8%) <= +10% -> extend | uncertain: CST ±1.5sd spans +4%..+12%, crosses a rule boundary | uncertain: P(foveal fluid) = 0.60 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
-0234GOD,7,GILA,EXTEND,MAINTAIN,FLAG,True,315.74863,274.0,True,8,"CST 316 vs ref 295 (+7%) <= +10% -> extend | uncertain: CST ±1.5sd spans +3%..+11%, crosses a rule boundary | flagged -> proposal capped at MAINTAIN pending physician review"
-0234GOD,8,GILA,EXTEND,MAINTAIN,FLAG,True,325.06137,269.0,True,12,"CST +10% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +6%..+14%, crosses a rule boundary"
-0234GOD,9,GILA,MAINTAIN,MAINTAIN,FLAG,True,320.0927,278.0,True,12,"CST 320 vs ref 295 (+8%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend | uncertain: CST ±1.5sd spans +4%..+12%, crosses a rule boundary"
-0234GOD,10,GILA,EXTEND,MAINTAIN,FLAG,True,327.2515,268.0,True,14,"CST +11% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +7%..+15%, crosses a rule boundary"
-0234GOD,11,GILA,,MAINTAIN,MAINTAIN,False,311.7709,263.0,True,16,CST 312 vs ref 295 (+6%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0234GOD,4,GILA,EXTEND,EXTEND,EXTEND,False,295.4874,267.0,True,6,T&E start: reference CST = 295 µm | CST 295 vs ref 295 (+0.0%) <= +10% -> extend
+0234GOD,5,GILA,EXTEND,MAINTAIN,FLAG,True,314.11813,267.0,True,6,"CST 314 vs ref 295 (+6.3%) <= +10% -> extend | uncertain: CST ±1.5sd spans +2%..+10%, crosses a rule boundary | uncertain: P(foveal fluid) = 0.58 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
+0234GOD,6,GILA,MAINTAIN,MAINTAIN,FLAG,True,320.13916,271.0,True,8,"CST 320 vs ref 295 (+8.3%) <= +10% -> extend | uncertain: CST ±1.5sd spans +4%..+12%, crosses a rule boundary | uncertain: P(foveal fluid) = 0.60 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
+0234GOD,7,GILA,EXTEND,MAINTAIN,FLAG,True,315.74863,274.0,True,8,"CST 316 vs ref 295 (+6.9%) <= +10% -> extend | uncertain: CST ±1.5sd spans +3%..+11%, crosses a rule boundary | flagged -> proposal capped at MAINTAIN pending physician review"
+0234GOD,8,GILA,EXTEND,MAINTAIN,FLAG,True,325.06137,269.0,True,12,"CST +10.0% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +6%..+14%, crosses a rule boundary"
+0234GOD,9,GILA,MAINTAIN,MAINTAIN,FLAG,True,320.0927,278.0,True,12,"CST 320 vs ref 295 (+8.3%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend | uncertain: CST ±1.5sd spans +4%..+12%, crosses a rule boundary"
+0234GOD,10,GILA,EXTEND,MAINTAIN,FLAG,True,327.2515,268.0,True,14,"CST +10.7% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +7%..+15%, crosses a rule boundary"
+0234GOD,11,GILA,,MAINTAIN,MAINTAIN,False,311.7709,263.0,True,16,CST 312 vs ref 295 (+5.5%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
 0234TOS,1,TREX,,LOADING,LOADING,False,392.47592,415.0,True,4,loading dose 1/4 -> q4w
 0234TOS,2,TREX,,LOADING,LOADING,False,339.4282,326.0,True,4,loading dose 2/4 -> q4w
 0234TOS,3,TREX,,LOADING,LOADING,False,332.7593,296.0,True,4,loading dose 3/4 -> q4w
@@ -422,42 +422,42 @@ study_id,visit,arm,trial,engine,shown,flagged,cst_input,cst_true,imaged,interval
 0236GOS,1,GILA,,LOADING,LOADING,False,315.5873,300.0,True,4,loading dose 1/4 -> q4w
 0236GOS,2,GILA,,LOADING,LOADING,False,303.59714,280.0,True,4,loading dose 2/4 -> q4w
 0236GOS,3,GILA,,LOADING,LOADING,False,300.1142,268.0,True,4,loading dose 3/4 -> q4w
-0236GOS,4,GILA,EXTEND,EXTEND,EXTEND,False,300.65765,261.0,True,6,T&E start: reference CST = 301 µm | CST 301 vs ref 301 (+0%) <= +10% -> extend
-0236GOS,5,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,296.50046,263.0,True,6,CST 297 vs ref 301 (-1%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
-0236GOS,6,GILA,EXTEND,MAINTAIN,MAINTAIN,False,291.16733,268.0,True,6,CST 291 vs ref 301 (-3%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
-0236GOS,7,GILA,EXTEND,MAINTAIN,MAINTAIN,False,299.6801,263.0,True,10,CST 300 vs ref 301 (-0%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
-0236GOS,8,GILA,MAINTAIN,MAINTAIN,FLAG,True,274.6436,260.0,True,12,"CST 275 vs ref 301 (-9%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.34 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
-0236GOS,9,GILA,MAINTAIN,EXTEND,EXTEND,False,295.0335,258.0,True,16,CST 295 vs ref 301 (-2%) <= +10% -> extend
-0236GOS,10,GILA,EXTEND,MAINTAIN,FLAG,True,294.84207,258.0,True,14,"CST 295 vs ref 301 (-2%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.47 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
-0236GOS,11,GILA,,EXTEND,EXTEND,False,301.66754,269.0,True,16,CST 302 vs ref 301 (+0%) <= +10% -> extend | interval at max (16 wk) -> held
+0236GOS,4,GILA,EXTEND,EXTEND,EXTEND,False,300.65765,261.0,True,6,T&E start: reference CST = 301 µm | CST 301 vs ref 301 (+0.0%) <= +10% -> extend
+0236GOS,5,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,296.50046,263.0,True,6,CST 297 vs ref 301 (-1.4%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0236GOS,6,GILA,EXTEND,MAINTAIN,MAINTAIN,False,291.16733,268.0,True,6,CST 291 vs ref 301 (-3.2%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0236GOS,7,GILA,EXTEND,MAINTAIN,MAINTAIN,False,299.6801,263.0,True,10,CST 300 vs ref 301 (-0.3%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
+0236GOS,8,GILA,MAINTAIN,MAINTAIN,FLAG,True,274.6436,260.0,True,12,"CST 275 vs ref 301 (-8.7%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.34 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
+0236GOS,9,GILA,MAINTAIN,EXTEND,EXTEND,False,295.0335,258.0,True,16,CST 295 vs ref 301 (-1.9%) <= +10% -> extend
+0236GOS,10,GILA,EXTEND,MAINTAIN,FLAG,True,294.84207,258.0,True,14,"CST 295 vs ref 301 (-1.9%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.47 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
+0236GOS,11,GILA,,EXTEND,EXTEND,False,301.66754,269.0,True,16,CST 302 vs ref 301 (+0.3%) <= +10% -> extend | interval at max (16 wk) -> held
 0237TOS,1,TREX,,LOADING,LOADING,False,591.1371,630.0,True,4,loading dose 1/4 -> q4w
 0237TOS,2,TREX,,LOADING,LOADING,False,329.3365,306.0,True,4,loading dose 2/4 -> q4w
 0237TOS,3,TREX,,LOADING,LOADING,False,327.39594,297.0,True,4,loading dose 3/4 -> q4w
-0237TOS,4,TREX,EXTEND,EXTEND,EXTEND,False,324.8418,296.0,True,6,T&E start: reference CST = 325 µm | CST 325 vs ref 325 (+0%) <= +10% -> extend
-0237TOS,5,TREX,EXTEND,EXTEND,EXTEND,False,321.0192,298.0,True,8,CST 321 vs ref 325 (-1%) <= +10% -> extend
-0237TOS,6,TREX,EXTEND,EXTEND,EXTEND,False,309.25244,299.0,True,10,CST 309 vs ref 325 (-5%) <= +10% -> extend
-0237TOS,7,TREX,MAINTAIN,EXTEND,EXTEND,False,332.1435,303.0,True,14,CST 332 vs ref 325 (+2%) <= +10% -> extend
-0237TOS,8,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,370.3733,352.0,True,12,CST +14% vs ref within +20% -> maintain
-0237TOS,9,TREX,EXTEND,EXTEND,EXTEND,False,312.0361,312.0,True,12,CST 312 vs ref 325 (-4%) <= +10% -> extend
-0237TOS,10,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,326.46826,328.0,True,14,CST 326 vs ref 325 (+1%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
-0237TOS,11,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,343.18512,332.0,True,12,CST 343 vs ref 325 (+6%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
-0237TOS,12,TREX,,MAINTAIN,MAINTAIN,False,334.88312,334.0,True,14,CST 335 vs ref 325 (+3%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0237TOS,4,TREX,EXTEND,EXTEND,EXTEND,False,324.8418,296.0,True,6,T&E start: reference CST = 325 µm | CST 325 vs ref 325 (+0.0%) <= +10% -> extend
+0237TOS,5,TREX,EXTEND,EXTEND,EXTEND,False,321.0192,298.0,True,8,CST 321 vs ref 325 (-1.2%) <= +10% -> extend
+0237TOS,6,TREX,EXTEND,EXTEND,EXTEND,False,309.25244,299.0,True,10,CST 309 vs ref 325 (-4.8%) <= +10% -> extend
+0237TOS,7,TREX,MAINTAIN,EXTEND,EXTEND,False,332.1435,303.0,True,14,CST 332 vs ref 325 (+2.2%) <= +10% -> extend
+0237TOS,8,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,370.3733,352.0,True,12,CST +14.0% vs ref within +20% -> maintain
+0237TOS,9,TREX,EXTEND,EXTEND,EXTEND,False,312.0361,312.0,True,12,CST 312 vs ref 325 (-3.9%) <= +10% -> extend
+0237TOS,10,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,326.46826,328.0,True,14,CST 326 vs ref 325 (+0.5%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
+0237TOS,11,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,343.18512,332.0,True,12,CST 343 vs ref 325 (+5.6%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0237TOS,12,TREX,,MAINTAIN,MAINTAIN,False,334.88312,334.0,True,14,CST 335 vs ref 325 (+3.1%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
 0238GOD,1,GILA,,LOADING,LOADING,False,328.51,349.0,True,4,loading dose 1/4 -> q4w
 0238GOD,2,GILA,,LOADING,LOADING,False,352.84152,393.0,True,4,loading dose 2/4 -> q4w
 0238GOD,3,GILA,,LOADING,LOADING,False,332.8596,362.0,True,4,loading dose 3/4 -> q4w
-0238GOD,4,GILA,MAINTAIN,EXTEND,EXTEND,False,313.9937,328.0,True,6,T&E start: reference CST = 314 µm | CST 314 vs ref 314 (+0%) <= +10% -> extend
-0238GOD,5,GILA,SHORTEN,EXTEND,EXTEND,False,322.10397,334.0,True,6,CST 322 vs ref 314 (+3%) <= +10% -> extend
-0238GOD,6,GILA,EXTEND,EXTEND,EXTEND,False,306.26517,318.0,True,6,CST 306 vs ref 314 (-2%) <= +10% -> extend
-0238GOD,7,GILA,EXTEND,EXTEND,EXTEND,False,315.85742,340.0,True,8,CST 316 vs ref 314 (+1%) <= +10% -> extend
-0238GOD,8,GILA,SHORTEN,MAINTAIN,FLAG,True,350.97684,391.0,True,8,"CST +12% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +8%..+16%, crosses a rule boundary"
-0238GOD,9,GILA,EXTEND,EXTEND,EXTEND,False,318.0703,341.0,True,8,CST 318 vs ref 314 (+1%) <= +10% -> extend
-0238GOD,10,GILA,MAINTAIN,MAINTAIN,FLAG,True,339.04376,370.0,True,8,"CST 339 vs ref 314 (+8%) <= +10% -> extend | uncertain: CST ±1.5sd spans +4%..+12%, crosses a rule boundary | flagged -> proposal capped at MAINTAIN pending physician review"
-0238GOD,11,GILA,EXTEND,EXTEND,EXTEND,False,318.61026,329.0,True,10,CST 319 vs ref 314 (+1%) <= +10% -> extend
-0238GOD,12,GILA,SHORTEN,EXTEND,EXTEND,False,325.07236,359.0,True,12,CST 325 vs ref 314 (+4%) <= +10% -> extend
-0238GOD,13,GILA,EXTEND,MAINTAIN,MAINTAIN,False,298.5261,317.0,True,8,CST 299 vs ref 314 (-5%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
-0238GOD,14,GILA,SHORTEN,MAINTAIN,FLAG,True,351.48618,383.0,True,10,"CST +12% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +8%..+16%, crosses a rule boundary"
-0238GOD,15,GILA,MAINTAIN,EXTEND,EXTEND,False,310.82593,320.0,True,10,CST 311 vs ref 314 (-1%) <= +10% -> extend
-0238GOD,16,GILA,,EXTEND,EXTEND,False,322.99118,333.0,True,10,CST 323 vs ref 314 (+3%) <= +10% -> extend
+0238GOD,4,GILA,MAINTAIN,EXTEND,EXTEND,False,313.9937,328.0,True,6,T&E start: reference CST = 314 µm | CST 314 vs ref 314 (+0.0%) <= +10% -> extend
+0238GOD,5,GILA,SHORTEN,EXTEND,EXTEND,False,322.10397,334.0,True,6,CST 322 vs ref 314 (+2.6%) <= +10% -> extend
+0238GOD,6,GILA,EXTEND,EXTEND,EXTEND,False,306.26517,318.0,True,6,CST 306 vs ref 314 (-2.5%) <= +10% -> extend
+0238GOD,7,GILA,EXTEND,EXTEND,EXTEND,False,315.85742,340.0,True,8,CST 316 vs ref 314 (+0.6%) <= +10% -> extend
+0238GOD,8,GILA,SHORTEN,MAINTAIN,FLAG,True,350.97684,391.0,True,8,"CST +11.8% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +8%..+16%, crosses a rule boundary"
+0238GOD,9,GILA,EXTEND,EXTEND,EXTEND,False,318.0703,341.0,True,8,CST 318 vs ref 314 (+1.3%) <= +10% -> extend
+0238GOD,10,GILA,MAINTAIN,MAINTAIN,FLAG,True,339.04376,370.0,True,8,"CST 339 vs ref 314 (+8.0%) <= +10% -> extend | uncertain: CST ±1.5sd spans +4%..+12%, crosses a rule boundary | flagged -> proposal capped at MAINTAIN pending physician review"
+0238GOD,11,GILA,EXTEND,EXTEND,EXTEND,False,318.61026,329.0,True,10,CST 319 vs ref 314 (+1.5%) <= +10% -> extend
+0238GOD,12,GILA,SHORTEN,EXTEND,EXTEND,False,325.07236,359.0,True,12,CST 325 vs ref 314 (+3.5%) <= +10% -> extend
+0238GOD,13,GILA,EXTEND,MAINTAIN,MAINTAIN,False,298.5261,317.0,True,8,CST 299 vs ref 314 (-4.9%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0238GOD,14,GILA,SHORTEN,MAINTAIN,FLAG,True,351.48618,383.0,True,10,"CST +11.9% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +8%..+16%, crosses a rule boundary"
+0238GOD,15,GILA,MAINTAIN,EXTEND,EXTEND,False,310.82593,320.0,True,10,CST 311 vs ref 314 (-1.0%) <= +10% -> extend
+0238GOD,16,GILA,,EXTEND,EXTEND,False,322.99118,333.0,True,10,CST 323 vs ref 314 (+2.9%) <= +10% -> extend
 0239GOD,1,GILA,,LOADING,LOADING,False,378.5593,387.0,True,4,loading dose 1/4 -> q4w
 0239GOD,2,GILA,,LOADING,LOADING,False,338.91403,335.0,True,4,loading dose 2/4 -> q4w
 0239GOD,3,GILA,,LOADING,LOADING,False,342.14154,327.0,True,4,loading dose 3/4 -> q4w
@@ -465,37 +465,37 @@ study_id,visit,arm,trial,engine,shown,flagged,cst_input,cst_true,imaged,interval
 0239GOD,5,GILA,EXTEND,MAINTAIN,MAINTAIN,True,329.19614,318.0,True,6,CST 329 µm > 325 gate -> continue q4w | uncertain: CST estimate near the 325 µm gate
 0239GOD,6,GILA,EXTEND,MAINTAIN,MAINTAIN,True,325.41104,307.0,True,8,CST 325 µm > 325 gate -> continue q4w | uncertain: CST estimate near the 325 µm gate
 0239GOD,7,GILA,EXTEND,MAINTAIN,MAINTAIN,True,331.1653,301.0,True,10,CST 331 µm > 325 gate -> continue q4w | uncertain: CST estimate near the 325 µm gate
-0239GOD,8,GILA,MAINTAIN,MAINTAIN,FLAG,True,319.22687,291.0,True,12,"T&E start: reference CST = 319 µm | CST 319 vs ref 319 (+0%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.43 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
-0239GOD,9,GILA,MAINTAIN,MAINTAIN,FLAG,True,301.49188,285.0,True,12,"CST 301 vs ref 319 (-6%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.65 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
-0239GOD,10,GILA,MAINTAIN,EXTEND,EXTEND,False,310.4559,291.0,True,14,CST 310 vs ref 319 (-3%) <= +10% -> extend
-0239GOD,11,GILA,EXTEND,MAINTAIN,FLAG,True,302.19656,307.0,True,12,"CST 302 vs ref 319 (-5%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.49 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
-0239GOD,12,GILA,,EXTEND,EXTEND,False,296.43115,360.0,True,16,CST 296 vs ref 319 (-7%) <= +10% -> extend | interval at max (16 wk) -> held
+0239GOD,8,GILA,MAINTAIN,MAINTAIN,FLAG,True,319.22687,291.0,True,12,"T&E start: reference CST = 319 µm | CST 319 vs ref 319 (+0.0%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.43 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
+0239GOD,9,GILA,MAINTAIN,MAINTAIN,FLAG,True,301.49188,285.0,True,12,"CST 301 vs ref 319 (-5.6%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.65 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
+0239GOD,10,GILA,MAINTAIN,EXTEND,EXTEND,False,310.4559,291.0,True,14,CST 310 vs ref 319 (-2.7%) <= +10% -> extend
+0239GOD,11,GILA,EXTEND,MAINTAIN,FLAG,True,302.19656,307.0,True,12,"CST 302 vs ref 319 (-5.3%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.49 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
+0239GOD,12,GILA,,EXTEND,EXTEND,False,296.43115,360.0,True,16,CST 296 vs ref 319 (-7.1%) <= +10% -> extend | interval at max (16 wk) -> held
 0240TOS,1,TREX,,LOADING,LOADING,False,539.3022,611.0,True,4,loading dose 1/4 -> q4w
 0240TOS,2,TREX,,LOADING,LOADING,False,359.7606,342.0,True,4,loading dose 2/4 -> q4w
 0240TOS,3,TREX,,LOADING,LOADING,False,407.91275,338.0,True,4,loading dose 3/4 -> q4w
 0241GOD,1,GILA,,LOADING,LOADING,False,431.20355,549.0,True,4,loading dose 1/4 -> q4w
 0241GOD,2,GILA,,LOADING,LOADING,False,384.78067,444.0,True,4,loading dose 2/4 -> q4w
 0241GOD,3,GILA,,LOADING,LOADING,False,325.99307,350.0,True,4,loading dose 3/4 -> q4w
-0241GOD,4,GILA,EXTEND,EXTEND,EXTEND,False,307.76633,302.0,True,6,T&E start: reference CST = 308 µm | CST 308 vs ref 308 (+0%) <= +10% -> extend
-0241GOD,5,GILA,EXTEND,EXTEND,EXTEND,False,304.51508,299.0,True,8,CST 305 vs ref 308 (-1%) <= +10% -> extend
-0241GOD,6,GILA,EXTEND,EXTEND,EXTEND,False,304.0104,296.0,True,10,CST 304 vs ref 308 (-1%) <= +10% -> extend
-0241GOD,7,GILA,EXTEND,EXTEND,EXTEND,False,297.1003,299.0,True,12,CST 297 vs ref 308 (-3%) <= +10% -> extend
-0241GOD,8,GILA,MAINTAIN,EXTEND,EXTEND,False,301.12778,307.0,True,14,CST 301 vs ref 308 (-2%) <= +10% -> extend
-0241GOD,9,GILA,EXTEND,EXTEND,EXTEND,False,302.18262,297.0,True,14,CST 302 vs ref 308 (-2%) <= +10% -> extend
-0241GOD,10,GILA,EXTEND,EXTEND,EXTEND,False,319.02505,317.0,True,16,CST 319 vs ref 308 (+4%) <= +10% -> extend
-0241GOD,11,GILA,,EXTEND,EXTEND,False,309.0589,289.0,True,16,CST 309 vs ref 308 (+0%) <= +10% -> extend | interval at max (16 wk) -> held
+0241GOD,4,GILA,EXTEND,EXTEND,EXTEND,False,307.76633,302.0,True,6,T&E start: reference CST = 308 µm | CST 308 vs ref 308 (+0.0%) <= +10% -> extend
+0241GOD,5,GILA,EXTEND,EXTEND,EXTEND,False,304.51508,299.0,True,8,CST 305 vs ref 308 (-1.1%) <= +10% -> extend
+0241GOD,6,GILA,EXTEND,EXTEND,EXTEND,False,304.0104,296.0,True,10,CST 304 vs ref 308 (-1.2%) <= +10% -> extend
+0241GOD,7,GILA,EXTEND,EXTEND,EXTEND,False,297.1003,299.0,True,12,CST 297 vs ref 308 (-3.5%) <= +10% -> extend
+0241GOD,8,GILA,MAINTAIN,EXTEND,EXTEND,False,301.12778,307.0,True,14,CST 301 vs ref 308 (-2.2%) <= +10% -> extend
+0241GOD,9,GILA,EXTEND,EXTEND,EXTEND,False,302.18262,297.0,True,14,CST 302 vs ref 308 (-1.8%) <= +10% -> extend
+0241GOD,10,GILA,EXTEND,EXTEND,EXTEND,False,319.02505,317.0,True,16,CST 319 vs ref 308 (+3.7%) <= +10% -> extend
+0241GOD,11,GILA,,EXTEND,EXTEND,False,309.0589,289.0,True,16,CST 309 vs ref 308 (+0.4%) <= +10% -> extend | interval at max (16 wk) -> held
 0242TOS,1,TREX,,LOADING,LOADING,False,345.07526,392.0,True,4,loading dose 1/4 -> q4w
 0242TOS,2,TREX,,LOADING,LOADING,False,354.0786,397.0,True,4,loading dose 2/4 -> q4w
 0242TOS,3,TREX,,LOADING,LOADING,False,347.4634,279.0,True,4,loading dose 3/4 -> q4w
 0242TOS,4,TREX,EXTEND,MAINTAIN,MAINTAIN,True,335.0547,301.0,True,4,CST 335 µm > 325 gate -> continue q4w | uncertain: CST estimate near the 325 µm gate
 0242TOS,5,TREX,EXTEND,MAINTAIN,MAINTAIN,True,327.86102,298.0,True,6,CST 328 µm > 325 gate -> continue q4w | uncertain: CST estimate near the 325 µm gate
-0242TOS,6,TREX,EXTEND,EXTEND,EXTEND,False,319.53827,284.0,True,10,T&E start: reference CST = 320 µm | CST 320 vs ref 320 (+0%) <= +10% -> extend
-0242TOS,7,TREX,MAINTAIN,EXTEND,EXTEND,False,305.58383,271.0,True,12,CST 306 vs ref 320 (-4%) <= +10% -> extend
-0242TOS,8,TREX,MAINTAIN,EXTEND,EXTEND,False,309.8654,259.0,True,12,CST 310 vs ref 320 (-3%) <= +10% -> extend
-0242TOS,9,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,291.64896,251.0,True,12,CST 292 vs ref 320 (-9%) <= +10% -> extend | safety: BCVA 21 letters below best -> do not extend
-0242TOS,10,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,280.08725,246.0,True,12,CST 280 vs ref 320 (-12%) <= +10% -> extend | safety: BCVA 17 letters below best -> do not extend
-0242TOS,11,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,284.57684,236.0,True,12,CST 285 vs ref 320 (-11%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
-0242TOS,12,TREX,,EXTEND,EXTEND,False,274.47174,234.0,True,14,CST 274 vs ref 320 (-14%) <= +10% -> extend | re-baseline: reference 320 -> 280 µm (3 stable visits)
+0242TOS,6,TREX,EXTEND,EXTEND,EXTEND,False,319.53827,284.0,True,10,T&E start: reference CST = 320 µm | CST 320 vs ref 320 (+0.0%) <= +10% -> extend
+0242TOS,7,TREX,MAINTAIN,EXTEND,EXTEND,False,305.58383,271.0,True,12,CST 306 vs ref 320 (-4.4%) <= +10% -> extend
+0242TOS,8,TREX,MAINTAIN,EXTEND,EXTEND,False,309.8654,259.0,True,12,CST 310 vs ref 320 (-3.0%) <= +10% -> extend
+0242TOS,9,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,291.64896,251.0,True,12,CST 292 vs ref 320 (-8.7%) <= +10% -> extend | safety: BCVA 21 letters below best -> do not extend
+0242TOS,10,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,280.08725,246.0,True,12,CST 280 vs ref 320 (-12.3%) <= +10% -> extend | safety: BCVA 17 letters below best -> do not extend
+0242TOS,11,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,284.57684,236.0,True,12,CST 285 vs ref 320 (-10.9%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
+0242TOS,12,TREX,,EXTEND,EXTEND,False,274.47174,234.0,True,14,CST 274 vs ref 320 (-14.1%) <= +10% -> extend | re-baseline: reference 320 -> 280 µm (3 stable visits)
 0243GOD,1,GILA,,LOADING,LOADING,False,580.92865,667.0,True,4,loading dose 1/4 -> q4w
 0243GOD,2,GILA,,LOADING,LOADING,False,474.24594,544.0,True,4,loading dose 2/4 -> q4w
 0243GOD,3,GILA,,LOADING,LOADING,False,517.88055,600.0,True,4,loading dose 3/4 -> q4w
@@ -507,16 +507,16 @@ study_id,visit,arm,trial,engine,shown,flagged,cst_input,cst_true,imaged,interval
 0243GOD,9,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,388.9982,410.0,True,4,CST 389 µm > 325 gate -> continue q4w
 0243GOD,10,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,341.7061,351.0,True,4,CST 342 µm > 325 gate -> continue q4w
 0243GOD,11,GILA,MAINTAIN,MAINTAIN,MAINTAIN,True,334.58487,338.0,True,4,CST 335 µm > 325 gate -> continue q4w | uncertain: CST estimate near the 325 µm gate
-0243GOD,12,GILA,MAINTAIN,EXTEND,EXTEND,False,323.48883,338.0,True,6,T&E start: reference CST = 323 µm | CST 323 vs ref 323 (+0%) <= +10% -> extend
-0243GOD,13,GILA,MAINTAIN,EXTEND,EXTEND,False,340.90762,388.0,True,6,CST 341 vs ref 323 (+5%) <= +10% -> extend
-0243GOD,14,GILA,EXTEND,EXTEND,EXTEND,False,318.7956,339.0,True,6,CST 319 vs ref 323 (-1%) <= +10% -> extend
-0243GOD,15,GILA,SHORTEN,MAINTAIN,FLAG,True,359.06735,371.0,True,6,"CST +11% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +7%..+15%, crosses a rule boundary"
-0243GOD,16,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,371.6897,402.0,True,4,CST +15% vs ref within +20% -> maintain
-0243GOD,17,GILA,MAINTAIN,MAINTAIN,FLAG,True,347.07425,350.0,True,4,"CST 347 vs ref 323 (+7%) <= +10% -> extend | uncertain: CST ±1.5sd spans +4%..+11%, crosses a rule boundary | flagged -> proposal capped at MAINTAIN pending physician review"
-0243GOD,18,GILA,EXTEND,EXTEND,EXTEND,False,304.4418,316.0,True,6,CST 304 vs ref 323 (-6%) <= +10% -> extend
-0243GOD,19,GILA,EXTEND,EXTEND,EXTEND,False,308.69876,313.0,True,8,CST 309 vs ref 323 (-5%) <= +10% -> extend
-0243GOD,20,GILA,EXTEND,EXTEND,EXTEND,False,289.8844,283.0,True,10,CST 290 vs ref 323 (-10%) <= +10% -> extend
-0243GOD,21,GILA,,EXTEND,EXTEND,False,281.72394,275.0,True,12,CST 282 vs ref 323 (-13%) <= +10% -> extend
+0243GOD,12,GILA,MAINTAIN,EXTEND,EXTEND,False,323.48883,338.0,True,6,T&E start: reference CST = 323 µm | CST 323 vs ref 323 (+0.0%) <= +10% -> extend
+0243GOD,13,GILA,MAINTAIN,EXTEND,EXTEND,False,340.90762,388.0,True,6,CST 341 vs ref 323 (+5.4%) <= +10% -> extend
+0243GOD,14,GILA,EXTEND,EXTEND,EXTEND,False,318.7956,339.0,True,6,CST 319 vs ref 323 (-1.5%) <= +10% -> extend
+0243GOD,15,GILA,SHORTEN,MAINTAIN,FLAG,True,359.06735,371.0,True,6,"CST +11.0% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +7%..+15%, crosses a rule boundary"
+0243GOD,16,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,371.6897,402.0,True,4,CST +14.9% vs ref within +20% -> maintain
+0243GOD,17,GILA,MAINTAIN,MAINTAIN,FLAG,True,347.07425,350.0,True,4,"CST 347 vs ref 323 (+7.3%) <= +10% -> extend | uncertain: CST ±1.5sd spans +4%..+11%, crosses a rule boundary | flagged -> proposal capped at MAINTAIN pending physician review"
+0243GOD,18,GILA,EXTEND,EXTEND,EXTEND,False,304.4418,316.0,True,6,CST 304 vs ref 323 (-5.9%) <= +10% -> extend
+0243GOD,19,GILA,EXTEND,EXTEND,EXTEND,False,308.69876,313.0,True,8,CST 309 vs ref 323 (-4.6%) <= +10% -> extend
+0243GOD,20,GILA,EXTEND,EXTEND,EXTEND,False,289.8844,283.0,True,10,CST 290 vs ref 323 (-10.4%) <= +10% -> extend
+0243GOD,21,GILA,,EXTEND,EXTEND,False,281.72394,275.0,True,12,CST 282 vs ref 323 (-12.9%) <= +10% -> extend
 0243TOS,1,TREX,,LOADING,LOADING,False,421.237,441.0,True,4,loading dose 1/4 -> q4w
 0243TOS,2,TREX,,LOADING,LOADING,False,435.85306,473.0,True,4,loading dose 2/4 -> q4w
 0243TOS,3,TREX,,LOADING,LOADING,False,438.27475,448.0,True,4,loading dose 3/4 -> q4w
@@ -534,13 +534,13 @@ study_id,visit,arm,trial,engine,shown,flagged,cst_input,cst_true,imaged,interval
 0243TOS,15,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,347.42316,359.0,True,6,CST 347 µm > 325 gate -> continue q4w
 0243TOS,16,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,394.79587,412.0,True,4,CST 395 µm > 325 gate -> continue q4w
 0243TOS,17,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,360.48087,386.0,True,4,CST 360 µm > 325 gate -> continue q4w
-0243TOS,18,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,322.13556,339.0,True,4,T&E start: reference CST = 322 µm | CST 322 vs ref 322 (+0%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
-0243TOS,19,TREX,EXTEND,MAINTAIN,FLAG,True,347.96793,362.0,True,4,"CST 348 vs ref 322 (+8%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend | uncertain: CST ±1.5sd spans +4%..+12%, crosses a rule boundary"
-0243TOS,20,TREX,SHORTEN,MAINTAIN,FLAG,True,365.60962,396.0,True,6,"CST +13% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +10%..+17%, crosses a rule boundary"
-0243TOS,21,TREX,EXTEND,MAINTAIN,FLAG,True,375.9458,422.0,True,4,"CST +17% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +13%..+20%, crosses a rule boundary"
-0243TOS,22,TREX,SHORTEN,MAINTAIN,FLAG,True,359.33545,384.0,True,6,"CST +12% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +8%..+15%, crosses a rule boundary"
-0243TOS,23,TREX,,MAINTAIN,MAINTAIN,False,341.69925,352.0,True,4,CST 342 vs ref 322 (+6%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
-0243TOS,24,TREX,,MAINTAIN,FLAG,True,351.43704,374.0,True,4,"CST 351 vs ref 322 (+9%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend | uncertain: CST ±1.5sd spans +5%..+13%, crosses a rule boundary"
+0243TOS,18,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,322.13556,339.0,True,4,T&E start: reference CST = 322 µm | CST 322 vs ref 322 (+0.0%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
+0243TOS,19,TREX,EXTEND,MAINTAIN,FLAG,True,347.96793,362.0,True,4,"CST 348 vs ref 322 (+8.0%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend | uncertain: CST ±1.5sd spans +4%..+12%, crosses a rule boundary"
+0243TOS,20,TREX,SHORTEN,MAINTAIN,FLAG,True,365.60962,396.0,True,6,"CST +13.5% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +10%..+17%, crosses a rule boundary"
+0243TOS,21,TREX,EXTEND,MAINTAIN,FLAG,True,375.9458,422.0,True,4,"CST +16.7% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +13%..+20%, crosses a rule boundary"
+0243TOS,22,TREX,SHORTEN,MAINTAIN,FLAG,True,359.33545,384.0,True,6,"CST +11.5% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +8%..+15%, crosses a rule boundary"
+0243TOS,23,TREX,,MAINTAIN,MAINTAIN,False,341.69925,352.0,True,4,CST 342 vs ref 322 (+6.1%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
+0243TOS,24,TREX,,MAINTAIN,FLAG,True,351.43704,374.0,True,4,"CST 351 vs ref 322 (+9.1%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend | uncertain: CST ±1.5sd spans +5%..+13%, crosses a rule boundary"
 0247GOD,1,GILA,,LOADING,LOADING,False,459.76968,533.0,True,4,loading dose 1/4 -> q4w
 0247GOD,2,GILA,,LOADING,LOADING,False,362.5576,382.0,True,4,loading dose 2/4 -> q4w
 0247GOD,4,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,346.9765,363.0,True,8,CST 347 µm > 325 gate -> continue q4w
@@ -551,25 +551,25 @@ study_id,visit,arm,trial,engine,shown,flagged,cst_input,cst_true,imaged,interval
 0247GOD,9,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,339.86075,328.0,True,4,CST 340 µm > 325 gate -> continue q4w
 0247GOD,10,GILA,EXTEND,MAINTAIN,MAINTAIN,True,333.6499,318.0,True,4,CST 334 µm > 325 gate -> continue q4w | uncertain: CST estimate near the 325 µm gate
 0247GOD,11,GILA,SHORTEN,MAINTAIN,MAINTAIN,True,331.6749,310.0,True,6,CST 332 µm > 325 gate -> continue q4w | uncertain: CST estimate near the 325 µm gate
-0247GOD,12,GILA,MAINTAIN,EXTEND,EXTEND,False,320.48676,309.0,True,6,T&E start: reference CST = 320 µm | CST 320 vs ref 320 (+0%) <= +10% -> extend
-0247GOD,13,GILA,MAINTAIN,EXTEND,EXTEND,False,331.3282,313.0,True,6,CST 331 vs ref 320 (+3%) <= +10% -> extend
-0247GOD,14,GILA,EXTEND,MAINTAIN,FLAG,True,327.40604,310.0,True,4,"CST 327 vs ref 320 (+2%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.53 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
-0247GOD,15,GILA,EXTEND,EXTEND,EXTEND,False,339.5073,319.0,True,8,CST 340 vs ref 320 (+6%) <= +10% -> extend
-0247GOD,16,GILA,EXTEND,MAINTAIN,MAINTAIN,False,329.14035,326.0,True,8,CST 329 vs ref 320 (+3%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
-0247GOD,17,GILA,MAINTAIN,MAINTAIN,FLAG,True,356.99152,367.0,True,10,"CST +11% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +8%..+15%, crosses a rule boundary"
-0247GOD,18,GILA,,MAINTAIN,FLAG,True,382.26056,385.0,True,10,"CST +19% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +15%..+23%, crosses a rule boundary"
+0247GOD,12,GILA,MAINTAIN,EXTEND,EXTEND,False,320.48676,309.0,True,6,T&E start: reference CST = 320 µm | CST 320 vs ref 320 (+0.0%) <= +10% -> extend
+0247GOD,13,GILA,MAINTAIN,EXTEND,EXTEND,False,331.3282,313.0,True,6,CST 331 vs ref 320 (+3.4%) <= +10% -> extend
+0247GOD,14,GILA,EXTEND,MAINTAIN,FLAG,True,327.40604,310.0,True,4,"CST 327 vs ref 320 (+2.2%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.53 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
+0247GOD,15,GILA,EXTEND,EXTEND,EXTEND,False,339.5073,319.0,True,8,CST 340 vs ref 320 (+5.9%) <= +10% -> extend
+0247GOD,16,GILA,EXTEND,MAINTAIN,MAINTAIN,False,329.14035,326.0,True,8,CST 329 vs ref 320 (+2.7%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0247GOD,17,GILA,MAINTAIN,MAINTAIN,FLAG,True,356.99152,367.0,True,10,"CST +11.4% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +8%..+15%, crosses a rule boundary"
+0247GOD,18,GILA,,MAINTAIN,FLAG,True,382.26056,385.0,True,10,"CST +19.3% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +15%..+23%, crosses a rule boundary"
 0249GOS,1,GILA,,LOADING,LOADING,False,338.04755,281.0,True,4,loading dose 1/4 -> q4w
 0249GOS,2,GILA,,LOADING,LOADING,False,323.2646,267.0,True,4,loading dose 2/4 -> q4w
 0249GOS,3,GILA,,LOADING,LOADING,False,315.51816,260.0,True,4,loading dose 3/4 -> q4w
-0249GOS,4,GILA,EXTEND,EXTEND,EXTEND,False,313.7111,258.0,True,6,T&E start: reference CST = 314 µm | CST 314 vs ref 314 (+0%) <= +10% -> extend
-0249GOS,5,GILA,MAINTAIN,EXTEND,EXTEND,False,311.4957,255.0,True,8,CST 311 vs ref 314 (-1%) <= +10% -> extend
-0249GOS,6,GILA,EXTEND,MAINTAIN,MAINTAIN,False,303.4706,248.0,True,6,CST 303 vs ref 314 (-3%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
-0249GOS,7,GILA,EXTEND,EXTEND,EXTEND,False,298.75412,248.0,True,12,CST 299 vs ref 314 (-5%) <= +10% -> extend
-0249GOS,8,GILA,SHORTEN,EXTEND,EXTEND,False,303.42557,252.0,True,14,CST 303 vs ref 314 (-3%) <= +10% -> extend
-0249GOS,9,GILA,EXTEND,MAINTAIN,MAINTAIN,False,307.22095,252.0,True,4,CST 307 vs ref 314 (-2%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
-0249GOS,10,GILA,EXTEND,MAINTAIN,MAINTAIN,False,307.6143,246.0,True,8,CST 308 vs ref 314 (-2%) <= +10% -> extend | safety: BCVA 11 letters below best -> do not extend
-0249GOS,11,GILA,EXTEND,MAINTAIN,FLAG,True,309.0251,256.0,True,14,"CST 309 vs ref 314 (-1%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.56 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
-0249GOS,12,GILA,,MAINTAIN,MAINTAIN,False,326.7154,273.0,True,16,CST 327 vs ref 314 (+4%) <= +10% -> extend | safety: BCVA 12 letters below best -> do not extend
+0249GOS,4,GILA,EXTEND,EXTEND,EXTEND,False,313.7111,258.0,True,6,T&E start: reference CST = 314 µm | CST 314 vs ref 314 (+0.0%) <= +10% -> extend
+0249GOS,5,GILA,MAINTAIN,EXTEND,EXTEND,False,311.4957,255.0,True,8,CST 311 vs ref 314 (-0.7%) <= +10% -> extend
+0249GOS,6,GILA,EXTEND,MAINTAIN,MAINTAIN,False,303.4706,248.0,True,6,CST 303 vs ref 314 (-3.3%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0249GOS,7,GILA,EXTEND,EXTEND,EXTEND,False,298.75412,248.0,True,12,CST 299 vs ref 314 (-4.8%) <= +10% -> extend
+0249GOS,8,GILA,SHORTEN,EXTEND,EXTEND,False,303.42557,252.0,True,14,CST 303 vs ref 314 (-3.3%) <= +10% -> extend
+0249GOS,9,GILA,EXTEND,MAINTAIN,MAINTAIN,False,307.22095,252.0,True,4,CST 307 vs ref 314 (-2.1%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
+0249GOS,10,GILA,EXTEND,MAINTAIN,MAINTAIN,False,307.6143,246.0,True,8,CST 308 vs ref 314 (-1.9%) <= +10% -> extend | safety: BCVA 11 letters below best -> do not extend
+0249GOS,11,GILA,EXTEND,MAINTAIN,FLAG,True,309.0251,256.0,True,14,"CST 309 vs ref 314 (-1.5%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.56 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
+0249GOS,12,GILA,,MAINTAIN,MAINTAIN,False,326.7154,273.0,True,16,CST 327 vs ref 314 (+4.1%) <= +10% -> extend | safety: BCVA 12 letters below best -> do not extend
 0251GOD,1,GILA,,LOADING,LOADING,False,610.0915,616.0,True,4,loading dose 1/4 -> q4w
 0251GOD,2,GILA,,LOADING,LOADING,False,404.73785,361.0,True,4,loading dose 2/4 -> q4w
 0251GOD,3,GILA,,LOADING,LOADING,False,345.98563,326.0,True,4,loading dose 3/4 -> q4w
@@ -579,54 +579,54 @@ study_id,visit,arm,trial,engine,shown,flagged,cst_input,cst_true,imaged,interval
 0251GOD,7,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,358.54398,322.0,True,14,CST 359 µm > 325 gate -> continue q4w
 0251GOD,8,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,337.92795,312.0,True,12,CST 338 µm > 325 gate -> continue q4w
 0251GOD,9,GILA,EXTEND,MAINTAIN,MAINTAIN,False,358.68985,290.0,True,12,CST 359 µm > 325 gate -> continue q4w
-0251GOD,10,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,300.46405,267.0,True,16,T&E start: reference CST = 300 µm | CST 300 vs ref 300 (+0%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
-0251GOD,11,GILA,,MAINTAIN,FLAG,True,328.25586,253.0,True,14,"CST 328 vs ref 300 (+9%) <= +10% -> extend | uncertain: CST ±1.5sd spans +5%..+13%, crosses a rule boundary | flagged -> proposal capped at MAINTAIN pending physician review"
+0251GOD,10,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,300.46405,267.0,True,16,T&E start: reference CST = 300 µm | CST 300 vs ref 300 (+0.0%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
+0251GOD,11,GILA,,MAINTAIN,FLAG,True,328.25586,253.0,True,14,"CST 328 vs ref 300 (+9.2%) <= +10% -> extend | uncertain: CST ±1.5sd spans +5%..+13%, crosses a rule boundary | flagged -> proposal capped at MAINTAIN pending physician review"
 0252GOD,1,GILA,,LOADING,LOADING,False,442.76828,486.0,True,4,loading dose 1/4 -> q4w
 0252GOD,2,GILA,,LOADING,LOADING,False,352.26022,371.0,True,4,loading dose 2/4 -> q4w
 0252GOD,3,GILA,,LOADING,LOADING,False,335.26263,335.0,True,4,loading dose 3/4 -> q4w
-0252GOD,4,GILA,SHORTEN,EXTEND,EXTEND,False,319.184,348.0,True,8,T&E start: reference CST = 319 µm | CST 319 vs ref 319 (+0%) <= +10% -> extend
-0252GOD,5,GILA,EXTEND,EXTEND,EXTEND,False,273.69894,288.0,True,6,CST 274 vs ref 319 (-14%) <= +10% -> extend
-0252GOD,6,GILA,MAINTAIN,EXTEND,EXTEND,False,281.1965,299.0,True,8,CST 281 vs ref 319 (-12%) <= +10% -> extend
-0252GOD,7,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,334.9481,355.0,True,8,CST 335 vs ref 319 (+5%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
-0252GOD,8,GILA,EXTEND,EXTEND,EXTEND,False,270.01193,262.0,True,6,CST 270 vs ref 319 (-15%) <= +10% -> extend
-0252GOD,9,GILA,EXTEND,EXTEND,EXTEND,False,262.53226,269.0,True,10,CST 263 vs ref 319 (-18%) <= +10% -> extend
-0252GOD,10,GILA,MAINTAIN,EXTEND,EXTEND,False,259.9642,270.0,True,12,CST 260 vs ref 319 (-19%) <= +10% -> extend | re-baseline: reference 319 -> 264 µm (3 stable visits)
-0252GOD,11,GILA,EXTEND,MAINTAIN,FLAG,True,260.78397,268.0,True,12,"CST 261 vs ref 264 (-1%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.62 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
-0252GOD,12,GILA,EXTEND,MAINTAIN,FLAG,True,269.76096,265.0,True,14,"CST 270 vs ref 264 (+2%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.55 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
-0252GOD,13,GILA,,EXTEND,EXTEND,False,264.626,271.0,True,16,CST 265 vs ref 264 (+0%) <= +10% -> extend | interval at max (16 wk) -> held
+0252GOD,4,GILA,SHORTEN,EXTEND,EXTEND,False,319.184,348.0,True,8,T&E start: reference CST = 319 µm | CST 319 vs ref 319 (+0.0%) <= +10% -> extend
+0252GOD,5,GILA,EXTEND,EXTEND,EXTEND,False,273.69894,288.0,True,6,CST 274 vs ref 319 (-14.3%) <= +10% -> extend
+0252GOD,6,GILA,MAINTAIN,EXTEND,EXTEND,False,281.1965,299.0,True,8,CST 281 vs ref 319 (-11.9%) <= +10% -> extend
+0252GOD,7,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,334.9481,355.0,True,8,CST 335 vs ref 319 (+4.9%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0252GOD,8,GILA,EXTEND,EXTEND,EXTEND,False,270.01193,262.0,True,6,CST 270 vs ref 319 (-15.4%) <= +10% -> extend
+0252GOD,9,GILA,EXTEND,EXTEND,EXTEND,False,262.53226,269.0,True,10,CST 263 vs ref 319 (-17.7%) <= +10% -> extend
+0252GOD,10,GILA,MAINTAIN,EXTEND,EXTEND,False,259.9642,270.0,True,12,CST 260 vs ref 319 (-18.6%) <= +10% -> extend | re-baseline: reference 319 -> 264 µm (3 stable visits)
+0252GOD,11,GILA,EXTEND,MAINTAIN,FLAG,True,260.78397,268.0,True,12,"CST 261 vs ref 264 (-1.3%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.62 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
+0252GOD,12,GILA,EXTEND,MAINTAIN,FLAG,True,269.76096,265.0,True,14,"CST 270 vs ref 264 (+2.1%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.55 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
+0252GOD,13,GILA,,EXTEND,EXTEND,False,264.626,271.0,True,16,CST 265 vs ref 264 (+0.2%) <= +10% -> extend | interval at max (16 wk) -> held
 0254TOD,1,TREX,,LOADING,LOADING,False,337.71732,347.0,True,4,loading dose 1/4 -> q4w
 0254TOD,2,TREX,,LOADING,LOADING,False,291.7239,276.0,True,4,loading dose 2/4 -> q4w
 0254TOD,3,TREX,,LOADING,LOADING,False,283.29816,267.0,True,4,loading dose 3/4 -> q4w
-0254TOD,4,TREX,EXTEND,MAINTAIN,FLAG,True,282.28207,266.0,True,4,"T&E start: reference CST = 282 µm | CST 282 vs ref 282 (+0%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.34 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
-0254TOD,5,TREX,EXTEND,MAINTAIN,FLAG,True,289.37137,272.0,True,6,"CST 289 vs ref 282 (+3%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.35 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
-0254TOD,6,TREX,MAINTAIN,MAINTAIN,FLAG,True,330.8013,317.0,True,8,"CST +17% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +13%..+21%, crosses a rule boundary"
-0254TOD,7,TREX,MAINTAIN,MAINTAIN,FLAG,True,318.44742,304.0,True,8,"CST +13% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +9%..+17%, crosses a rule boundary"
-0254TOD,8,TREX,MAINTAIN,MAINTAIN,FLAG,True,315.42407,308.0,True,8,"CST +12% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +7%..+16%, crosses a rule boundary"
-0254TOD,9,TREX,SHORTEN,MAINTAIN,FLAG,True,318.2182,319.0,True,8,"CST +13% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +8%..+17%, crosses a rule boundary"
-0254TOD,10,TREX,EXTEND,MAINTAIN,FLAG,True,284.60596,263.0,True,6,"CST 285 vs ref 282 (+1%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.37 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
-0254TOD,11,TREX,SHORTEN,MAINTAIN,FLAG,True,332.01666,323.0,True,8,"CST +18% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +13%..+22%, crosses a rule boundary"
-0254TOD,12,TREX,EXTEND,MAINTAIN,FLAG,True,283.2092,266.0,True,6,"CST 283 vs ref 282 (+0%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.42 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
-0254TOD,13,TREX,EXTEND,EXTEND,EXTEND,False,285.24533,267.0,True,10,CST 285 vs ref 282 (+1%) <= +10% -> extend
-0254TOD,14,TREX,SHORTEN,MAINTAIN,FLAG,True,331.18536,321.0,True,10,"CST +17% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +13%..+22%, crosses a rule boundary"
-0254TOD,15,TREX,,MAINTAIN,FLAG,True,295.15182,268.0,True,8,"CST 295 vs ref 282 (+5%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.34 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
+0254TOD,4,TREX,EXTEND,MAINTAIN,FLAG,True,282.28207,266.0,True,4,"T&E start: reference CST = 282 µm | CST 282 vs ref 282 (+0.0%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.34 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
+0254TOD,5,TREX,EXTEND,MAINTAIN,FLAG,True,289.37137,272.0,True,6,"CST 289 vs ref 282 (+2.5%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.35 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
+0254TOD,6,TREX,MAINTAIN,MAINTAIN,FLAG,True,330.8013,317.0,True,8,"CST +17.2% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +13%..+21%, crosses a rule boundary"
+0254TOD,7,TREX,MAINTAIN,MAINTAIN,FLAG,True,318.44742,304.0,True,8,"CST +12.8% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +9%..+17%, crosses a rule boundary"
+0254TOD,8,TREX,MAINTAIN,MAINTAIN,FLAG,True,315.42407,308.0,True,8,"CST +11.7% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +7%..+16%, crosses a rule boundary"
+0254TOD,9,TREX,SHORTEN,MAINTAIN,FLAG,True,318.2182,319.0,True,8,"CST +12.7% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +8%..+17%, crosses a rule boundary"
+0254TOD,10,TREX,EXTEND,MAINTAIN,FLAG,True,284.60596,263.0,True,6,"CST 285 vs ref 282 (+0.8%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.37 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
+0254TOD,11,TREX,SHORTEN,MAINTAIN,FLAG,True,332.01666,323.0,True,8,"CST +17.6% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +13%..+22%, crosses a rule boundary"
+0254TOD,12,TREX,EXTEND,MAINTAIN,FLAG,True,283.2092,266.0,True,6,"CST 283 vs ref 282 (+0.3%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.42 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
+0254TOD,13,TREX,EXTEND,EXTEND,EXTEND,False,285.24533,267.0,True,10,CST 285 vs ref 282 (+1.0%) <= +10% -> extend
+0254TOD,14,TREX,SHORTEN,MAINTAIN,FLAG,True,331.18536,321.0,True,10,"CST +17.3% vs ref within +20% -> maintain | uncertain: CST ±1.5sd spans +13%..+22%, crosses a rule boundary"
+0254TOD,15,TREX,,MAINTAIN,FLAG,True,295.15182,268.0,True,8,"CST 295 vs ref 282 (+4.6%) <= +10% -> extend | uncertain: P(foveal fluid) = 0.34 in [0.3, 0.7] | flagged -> proposal capped at MAINTAIN pending physician review"
 0255TOD,1,TREX,,LOADING,LOADING,False,475.93228,498.0,True,4,loading dose 1/4 -> q4w
 0255TOD,2,TREX,,LOADING,LOADING,False,255.97966,236.0,True,4,loading dose 2/4 -> q4w
 0255TOD,3,TREX,,LOADING,LOADING,False,319.21848,211.0,True,4,loading dose 3/4 -> q4w
-0255TOD,4,TREX,MAINTAIN,EXTEND,EXTEND,False,273.89005,246.0,True,6,T&E start: reference CST = 274 µm | CST 274 vs ref 274 (+0%) <= +10% -> extend
-0255TOD,5,TREX,MAINTAIN,SHORTEN,SHORTEN,False,360.01205,293.0,True,4,CST +31% vs ref > +20% -> shorten
-0255TOD,6,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,274.32663,265.0,True,6,CST 274 vs ref 274 (+0%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
-0255TOD,7,TREX,,MAINTAIN,MAINTAIN,False,273.46802,251.0,True,4,CST 273 vs ref 274 (-0%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
+0255TOD,4,TREX,MAINTAIN,EXTEND,EXTEND,False,273.89005,246.0,True,6,T&E start: reference CST = 274 µm | CST 274 vs ref 274 (+0.0%) <= +10% -> extend
+0255TOD,5,TREX,MAINTAIN,SHORTEN,SHORTEN,False,360.01205,293.0,True,4,CST +31.4% vs ref > +20% -> shorten
+0255TOD,6,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,274.32663,265.0,True,6,CST 274 vs ref 274 (+0.2%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
+0255TOD,7,TREX,,MAINTAIN,MAINTAIN,False,273.46802,251.0,True,4,CST 273 vs ref 274 (-0.2%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
 0256GOD,1,GILA,,LOADING,LOADING,False,459.75345,550.0,True,4,loading dose 1/4 -> q4w
 0256GOD,2,GILA,,LOADING,LOADING,False,395.0791,430.0,True,4,loading dose 2/4 -> q4w
 0256GOD,3,GILA,,LOADING,LOADING,False,422.56598,473.0,True,6,loading dose 3/4 -> q4w
 0256GOD,4,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,383.48688,431.0,True,4,CST 383 µm > 325 gate -> continue q4w
 0256GOD,5,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,370.42685,386.0,True,4,CST 370 µm > 325 gate -> continue q4w
 0256GOD,6,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,338.76678,354.0,True,4,CST 339 µm > 325 gate -> continue q4w
-0256GOD,7,GILA,EXTEND,EXTEND,EXTEND,False,317.61533,311.0,True,6,T&E start: reference CST = 318 µm | CST 318 vs ref 318 (+0%) <= +10% -> extend
-0256GOD,8,GILA,EXTEND,EXTEND,EXTEND,False,316.33212,300.0,True,8,CST 316 vs ref 318 (-0%) <= +10% -> extend
-0256GOD,9,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,366.33038,384.0,True,10,CST +15% vs ref within +20% -> maintain
-0256GOD,10,GILA,EXTEND,EXTEND,EXTEND,False,316.3304,315.0,True,8,CST 316 vs ref 318 (-0%) <= +10% -> extend
-0256GOD,11,GILA,EXTEND,EXTEND,EXTEND,False,334.4763,334.0,True,10,CST 334 vs ref 318 (+5%) <= +10% -> extend
-0256GOD,12,GILA,EXTEND,MAINTAIN,MAINTAIN,False,305.68652,307.0,True,10,CST 306 vs ref 318 (-4%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
-0256GOD,13,GILA,EXTEND,MAINTAIN,MAINTAIN,False,318.97018,326.0,True,12,CST 319 vs ref 318 (+0%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
-0256GOD,14,GILA,,EXTEND,EXTEND,False,267.01703,259.0,True,16,CST 267 vs ref 318 (-16%) <= +10% -> extend
+0256GOD,7,GILA,EXTEND,EXTEND,EXTEND,False,317.61533,311.0,True,6,T&E start: reference CST = 318 µm | CST 318 vs ref 318 (+0.0%) <= +10% -> extend
+0256GOD,8,GILA,EXTEND,EXTEND,EXTEND,False,316.33212,300.0,True,8,CST 316 vs ref 318 (-0.4%) <= +10% -> extend
+0256GOD,9,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,366.33038,384.0,True,10,CST +15.3% vs ref within +20% -> maintain
+0256GOD,10,GILA,EXTEND,EXTEND,EXTEND,False,316.3304,315.0,True,8,CST 316 vs ref 318 (-0.4%) <= +10% -> extend
+0256GOD,11,GILA,EXTEND,EXTEND,EXTEND,False,334.4763,334.0,True,10,CST 334 vs ref 318 (+5.3%) <= +10% -> extend
+0256GOD,12,GILA,EXTEND,MAINTAIN,MAINTAIN,False,305.68652,307.0,True,10,CST 306 vs ref 318 (-3.8%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0256GOD,13,GILA,EXTEND,MAINTAIN,MAINTAIN,False,318.97018,326.0,True,12,CST 319 vs ref 318 (+0.4%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
+0256GOD,14,GILA,,EXTEND,EXTEND,False,267.01703,259.0,True,16,CST 267 vs ref 318 (-15.9%) <= +10% -> extend
