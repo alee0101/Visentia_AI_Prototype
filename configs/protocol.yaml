@@ -1,0 +1,20 @@
+# Treat-and-extend protocol, modeled on TREX-DME (Payne et al.; summary in OLIVES full_labels docx).
+# CRT/CST change is measured relative to the eye's *current baseline*.
+name: trex_dme
+loading_doses: 4              # monthly injections before T&E decisions start
+loading_cst_gate_um: 325      # after loading, continue q4w until CST <= 325 µm
+interval:
+  step_wk: 2
+  min_wk: 4
+  max_wk: 16                  # TREX-DME capped extension; many practices use 12-16
+rules:                        # |ΔCST| / baseline
+  extend_if_within: 0.10      # within ±10% of baseline -> extend by step
+  maintain_if_within: 0.20    # within ±20% -> maintain
+  shorten_if_above: 0.20      # worse than +20% -> shorten by step
+rebaseline:
+  stable_visits: 3            # new baseline after 3 consecutive visits...
+  max_variability_um: 50      # ...varying by <= 50 µm
+safety:                       # copilot additions, not part of the trial protocol
+  bcva_loss_letters_shorten: 5     # >=5 ETDRS letter loss vs best -> never extend
+  fluid_uncertain_band: [0.3, 0.7] # P(fluid) in this band -> FLAG for physician
+  never_extend_when_flagged: true

@@ -1,0 +1,171 @@
+{
+  "config": {
+    "max_epochs": 70,
+    "patience": 15,
+    "bs": 8,
+    "lr": 0.0003,
+    "seed": 0,
+    "folds": null,
+    "skip_final": false,
+    "resume": true,
+    "device": "mps",
+    "imagenet_pretrained": true,
+    "loss": "BCE + batch soft Dice",
+    "thresholds": [
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7
+    ],
+    "min_sizes": [
+      0,
+      10,
+      25,
+      50,
+      100,
+      200
+    ]
+  },
+  "folds": [
+    {
+      "n_frames": 22,
+      "pooled_dice_g1": 0.7486059069689951,
+      "pooled_dice_g2": 0.743942749138259,
+      "per_frame_dice_g1": 0.5809711133816036,
+      "n_per_frame": 22,
+      "inter_grader_pooled_dice": 0.7175413790235382,
+      "det_sensitivity": 0.95,
+      "det_specificity": 0.0,
+      "n_gt_pos": 20,
+      "n_gt_neg": 2,
+      "fold": 0,
+      "test": [
+        5,
+        6
+      ],
+      "val": 1,
+      "best_epoch": 55,
+      "threshold": 0.5,
+      "min_size": 100,
+      "val_dice_tuned": 0.8371925541653952,
+      "train_sec": 4.159985780715942,
+      "epochs_run": 0
+    },
+    {
+      "n_frames": 22,
+      "pooled_dice_g1": 0.6945383642058537,
+      "pooled_dice_g2": 0.6419182847204402,
+      "per_frame_dice_g1": 0.6736603472833601,
+      "n_per_frame": 13,
+      "inter_grader_pooled_dice": 0.6929057254286177,
+      "det_sensitivity": 1.0,
+      "det_specificity": 1.0,
+      "n_gt_pos": 13,
+      "n_gt_neg": 9,
+      "fold": 1,
+      "test": [
+        7,
+        10
+      ],
+      "val": 2,
+      "best_epoch": 31,
+      "threshold": 0.5,
+      "min_size": 100,
+      "val_dice_tuned": 0.6430142566191446,
+      "train_sec": 416.256098985672,
+      "epochs_run": 46
+    },
+    {
+      "n_frames": 22,
+      "pooled_dice_g1": 0.8111103184228675,
+      "pooled_dice_g2": 0.7266233610585106,
+      "per_frame_dice_g1": 0.5383468739152757,
+      "n_per_frame": 15,
+      "inter_grader_pooled_dice": 0.7205532510071607,
+      "det_sensitivity": 0.8571428571428571,
+      "det_specificity": 0.875,
+      "n_gt_pos": 14,
+      "n_gt_neg": 8,
+      "fold": 2,
+      "test": [
+        1,
+        3
+      ],
+      "val": 5,
+      "best_epoch": 20,
+      "threshold": 0.7,
+      "min_size": 0,
+      "val_dice_tuned": 0.7746075813127732,
+      "train_sec": 514.6791110038757,
+      "epochs_run": 35
+    },
+    {
+      "n_frames": 22,
+      "pooled_dice_g1": 0.5927144374764401,
+      "pooled_dice_g2": 0.4734585046105988,
+      "per_frame_dice_g1": 0.37111192190642417,
+      "n_per_frame": 16,
+      "inter_grader_pooled_dice": 0.5165830771719786,
+      "det_sensitivity": 0.6666666666666666,
+      "det_specificity": 0.8571428571428571,
+      "n_gt_pos": 15,
+      "n_gt_neg": 7,
+      "fold": 3,
+      "test": [
+        8,
+        9
+      ],
+      "val": 4,
+      "best_epoch": 44,
+      "threshold": 0.6,
+      "min_size": 50,
+      "val_dice_tuned": 0.6947331529893656,
+      "train_sec": 1473.8235700130463,
+      "epochs_run": 59
+    },
+    {
+      "n_frames": 22,
+      "pooled_dice_g1": 0.6167430659709753,
+      "pooled_dice_g2": 0.6442003109125087,
+      "per_frame_dice_g1": 0.48204190041605055,
+      "n_per_frame": 18,
+      "inter_grader_pooled_dice": 0.6332407928029238,
+      "det_sensitivity": 1.0,
+      "det_specificity": 0.6666666666666666,
+      "n_gt_pos": 16,
+      "n_gt_neg": 6,
+      "fold": 4,
+      "test": [
+        2,
+        4
+      ],
+      "val": 7,
+      "best_epoch": 24,
+      "threshold": 0.5,
+      "min_size": 0,
+      "val_dice_tuned": 0.831858407079646,
+      "train_sec": 481.11820888519287,
+      "epochs_run": 39
+    }
+  ],
+  "overall": {
+    "n_frames": 110,
+    "pooled_dice_g1": 0.7243780772657369,
+    "pooled_dice_g2": 0.693160324946295,
+    "per_frame_dice_g1": 0.5265321080452356,
+    "n_per_frame": 84,
+    "inter_grader_pooled_dice": 0.6887187627819257,
+    "det_sensitivity": 0.8974358974358975,
+    "det_specificity": 0.8125,
+    "n_gt_pos": 78,
+    "n_gt_neg": 32
+  },
+  "cv_wall_sec": 2891.7258410453796,
+  "final": {
+    "epochs": 31,
+    "threshold": 0.5,
+    "min_size": 50,
+    "train_sec": 657.0593569278717
+  }
+}

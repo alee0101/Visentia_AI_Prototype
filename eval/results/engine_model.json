@@ -1,0 +1,113 @@
+{
+ "inputs": "model",
+ "within_eye_cst_sd_um": 24.277356240138825,
+ "model_no_uncertainty": {
+  "n": 449,
+  "accuracy": 0.5567928730512249,
+  "kappa_linear": 0.25733437799251335,
+  "unsafe_extension_rate": 0.13793103448275862,
+  "engine_extend_precision": 0.9545454545454546,
+  "confusion": {
+   "rows=trial, cols=engine": [
+    "SHORTEN",
+    "MAINTAIN",
+    "EXTEND"
+   ],
+   "matrix": [
+    [
+     10,
+     40,
+     8
+    ],
+    [
+     3,
+     146,
+     74
+    ],
+    [
+     2,
+     72,
+     94
+    ]
+   ]
+  },
+  "majority_baseline_accuracy": 0.49665924276169265
+ },
+ "abstention_sweep": [
+  {
+   "k_sd": 0.25,
+   "flag_rate": 0.1403118040089087,
+   "accuracy_unflagged": 0.5673575129533679,
+   "unsafe_extension_rate_unflagged": 0.16326530612244897,
+   "accuracy": 0.5434298440979956,
+   "unsafe_extension_rate": 0.13793103448275862
+  },
+  {
+   "k_sd": 0.5,
+   "flag_rate": 0.23162583518930957,
+   "accuracy_unflagged": 0.5855072463768116,
+   "unsafe_extension_rate_unflagged": 0.2,
+   "accuracy": 0.5478841870824054,
+   "unsafe_extension_rate": 0.13793103448275862
+  },
+  {
+   "k_sd": 0.75,
+   "flag_rate": 0.32962138084632514,
+   "accuracy_unflagged": 0.5946843853820598,
+   "unsafe_extension_rate_unflagged": 0.2222222222222222,
+   "accuracy": 0.5456570155902004,
+   "unsafe_extension_rate": 0.13793103448275862
+  },
+  {
+   "k_sd": 1.0,
+   "flag_rate": 0.39420935412026725,
+   "accuracy_unflagged": 0.6176470588235294,
+   "unsafe_extension_rate_unflagged": 0.20689655172413793,
+   "accuracy": 0.5456570155902004,
+   "unsafe_extension_rate": 0.10344827586206896
+  },
+  {
+   "k_sd": 1.5,
+   "flag_rate": 0.621380846325167,
+   "accuracy_unflagged": 0.6470588235294118,
+   "unsafe_extension_rate_unflagged": 0.19047619047619047,
+   "accuracy": 0.5167037861915368,
+   "unsafe_extension_rate": 0.06896551724137931
+  }
+ ],
+ "imaged_decisions": {
+  "n": 449,
+  "accuracy": 0.5478841870824054,
+  "kappa_linear": 0.22368154034725996,
+  "unsafe_extension_rate": 0.13793103448275862,
+  "engine_extend_precision": 0.9459459459459459,
+  "confusion": {
+   "rows=trial, cols=engine": [
+    "SHORTEN",
+    "MAINTAIN",
+    "EXTEND"
+   ],
+   "matrix": [
+    [
+     10,
+     40,
+     8
+    ],
+    [
+     3,
+     158,
+     62
+    ],
+    [
+     2,
+     88,
+     78
+    ]
+   ]
+  },
+  "majority_baseline_accuracy": 0.49665924276169265,
+  "flag_rate": 0.23162583518930957,
+  "accuracy_unflagged": 0.5855072463768116,
+  "unsafe_extension_rate_unflagged": 0.2
+ }
+}

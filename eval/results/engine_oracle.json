@@ -1,0 +1,67 @@
+{
+ "inputs": "oracle",
+ "all_te_eyes": {
+  "n": 1284,
+  "accuracy": 0.6440809968847352,
+  "kappa_linear": 0.43774765979440644,
+  "unsafe_extension_rate": 0.10555555555555556,
+  "engine_extend_precision": 0.958963282937365,
+  "confusion": {
+   "rows=trial, cols=engine": [
+    "SHORTEN",
+    "MAINTAIN",
+    "EXTEND"
+   ],
+   "matrix": [
+    [
+     85,
+     76,
+     19
+    ],
+    [
+     42,
+     456,
+     158
+    ],
+    [
+     12,
+     150,
+     286
+    ]
+   ]
+  },
+  "majority_baseline_accuracy": 0.5109034267912772
+ },
+ "imaged_eyes": {
+  "n": 449,
+  "accuracy": 0.6503340757238307,
+  "kappa_linear": 0.44642752304350375,
+  "unsafe_extension_rate": 0.1206896551724138,
+  "engine_extend_precision": 0.9631578947368421,
+  "confusion": {
+   "rows=trial, cols=engine": [
+    "SHORTEN",
+    "MAINTAIN",
+    "EXTEND"
+   ],
+   "matrix": [
+    [
+     27,
+     24,
+     7
+    ],
+    [
+     9,
+     148,
+     66
+    ],
+    [
+     4,
+     47,
+     117
+    ]
+   ]
+  },
+  "majority_baseline_accuracy": 0.49665924276169265
+ }
+}

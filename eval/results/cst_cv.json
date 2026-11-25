@@ -1,0 +1,70 @@
+{
+ "task": "cst",
+ "folds": [
+  {
+   "fold": 0,
+   "val_fold": 1,
+   "n_train": 3433,
+   "n_val": 1946,
+   "n_test": 1148,
+   "best_epoch": 7,
+   "best_val": 0.31251874566078186,
+   "mu": 332.11651611328125,
+   "sd": 94.46043395996094
+  },
+  {
+   "fold": 1,
+   "val_fold": 2,
+   "n_train": 3146,
+   "n_val": 1435,
+   "n_test": 1946,
+   "best_epoch": 8,
+   "best_val": 0.30357837677001953,
+   "mu": 325.43865966796875,
+   "sd": 91.82191467285156
+  },
+  {
+   "fold": 2,
+   "val_fold": 3,
+   "n_train": 4042,
+   "n_val": 1050,
+   "n_test": 1435,
+   "best_epoch": 4,
+   "best_val": 0.341799259185791,
+   "mu": 332.27734375,
+   "sd": 91.18238830566406
+  },
+  {
+   "fold": 3,
+   "val_fold": 4,
+   "n_train": 4529,
+   "n_val": 948,
+   "n_test": 1050,
+   "best_epoch": 7,
+   "best_val": 0.44779863953590393,
+   "mu": 338.78515625,
+   "sd": 88.48651123046875
+  },
+  {
+   "fold": 4,
+   "val_fold": 0,
+   "n_train": 4431,
+   "n_val": 1148,
+   "n_test": 948,
+   "best_epoch": 9,
+   "best_val": 0.3855961859226227,
+   "mu": 346.0205383300781,
+   "sd": 89.71109008789062
+  }
+ ],
+ "n_labeled_slices": 6527,
+ "visit_mae_um": 29.702500894266436,
+ "visit_median_ae_um": 23.597137451171875,
+ "bias_um": 2.24172877141006,
+ "pearson_r": 0.939,
+ "n_visits": 934,
+ "baseline_mae_predict_train_mean": 68.69996059685992,
+ "ratio_mae": 0.07079799702226768,
+ "protocol_band_agreement": 0.765375854214123,
+ "within_10pct_of_truth": 0.6702355460385439
+}

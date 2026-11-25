@@ -1,0 +1,24 @@
+[project]
+name = "visentia-te"
+version = "0.1.0"
+description = "OCT-driven treat-and-extend injection-interval copilot for DME (interview prototype)"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy", "pandas", "openpyxl", "pillow", "pyyaml", "scipy", "h5py", "matplotlib",
+  "torch", "torchvision", "segmentation-models-pytorch", "timm", "scikit-learn",
+]
+
+[project.optional-dependencies]
+fetch = ["remotezip", "stream-unzip"]
+app = ["streamlit", "anthropic", "fhir.resources"]
+dev = ["pytest", "python-docx"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["visentia_te*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,1816 @@
+study_id,visit,arm,trial,engine,shown,flagged,cst_input,cst_true,imaged,interval_in,trace
+0101GOD,1,GILA,,LOADING,LOADING,False,300.0,300.0,True,4,loading dose 1/4 -> q4w
+0101GOD,2,GILA,,LOADING,LOADING,False,274.0,274.0,True,6,loading dose 2/4 -> q4w
+0101GOD,3,GILA,,LOADING,LOADING,False,251.0,251.0,True,4,loading dose 3/4 -> q4w
+0101GOD,4,GILA,EXTEND,EXTEND,EXTEND,False,243.0,243.0,True,6,T&E start: reference CST = 243 µm | CST 243 vs ref 243 (+0%) <= +10% -> extend
+0101GOD,5,GILA,,EXTEND,EXTEND,False,244.0,244.0,True,10,CST 244 vs ref 243 (+0%) <= +10% -> extend
+0105GOD,1,GILA,,LOADING,LOADING,False,591.0,591.0,True,4,loading dose 1/4 -> q4w
+0105GOD,2,GILA,,LOADING,LOADING,False,563.0,563.0,True,4,loading dose 2/4 -> q4w
+0105GOD,3,GILA,,LOADING,LOADING,False,512.0,512.0,True,4,loading dose 3/4 -> q4w
+0105GOD,4,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,433.0,433.0,True,4,CST 433 µm > 325 gate -> continue q4w
+0105GOD,5,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,421.0,421.0,True,4,CST 421 µm > 325 gate -> continue q4w
+0105GOD,6,GILA,EXTEND,MAINTAIN,MAINTAIN,False,387.0,387.0,True,4,CST 387 µm > 325 gate -> continue q4w
+0105GOD,7,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,357.0,357.0,True,6,CST 357 µm > 325 gate -> continue q4w
+0105GOD,8,GILA,EXTEND,MAINTAIN,MAINTAIN,False,331.0,331.0,True,4,CST 331 µm > 325 gate -> continue q4w
+0105GOD,9,GILA,MAINTAIN,EXTEND,EXTEND,False,320.0,320.0,True,6,T&E start: reference CST = 320 µm | CST 320 vs ref 320 (+0%) <= +10% -> extend
+0105GOD,10,GILA,EXTEND,EXTEND,EXTEND,False,327.0,327.0,True,8,CST 327 vs ref 320 (+2%) <= +10% -> extend
+0105GOD,11,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,354.0,354.0,True,8,CST +11% vs ref within +20% -> maintain
+0105GOD,12,GILA,MAINTAIN,EXTEND,EXTEND,False,288.0,288.0,True,10,CST 288 vs ref 320 (-10%) <= +10% -> extend
+0105GOD,13,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,261.0,261.0,True,10,CST 261 vs ref 320 (-18%) <= +10% -> extend | safety: BCVA 10 letters below best -> do not extend
+0105GOD,14,GILA,MAINTAIN,EXTEND,EXTEND,False,252.0,252.0,True,10,CST 252 vs ref 320 (-21%) <= +10% -> extend
+0105GOD,15,GILA,MAINTAIN,EXTEND,EXTEND,False,260.0,260.0,True,10,CST 260 vs ref 320 (-19%) <= +10% -> extend | re-baseline: reference 320 -> 258 µm (3 stable visits)
+0105GOD,16,GILA,MAINTAIN,EXTEND,EXTEND,False,256.0,256.0,True,8,CST 256 vs ref 258 (-1%) <= +10% -> extend
+0105GOD,17,GILA,,EXTEND,EXTEND,False,255.0,255.0,True,10,CST 255 vs ref 258 (-1%) <= +10% -> extend
+0105TOS,1,TREX,,LOADING,LOADING,False,556.0,556.0,True,4,loading dose 1/4 -> q4w
+0105TOS,2,TREX,,LOADING,LOADING,False,533.0,533.0,True,4,loading dose 2/4 -> q4w
+0105TOS,3,TREX,,LOADING,LOADING,False,543.0,543.0,True,4,loading dose 3/4 -> q4w
+0105TOS,4,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,519.0,519.0,True,4,CST 519 µm > 325 gate -> continue q4w
+0105TOS,5,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,523.0,523.0,True,4,CST 523 µm > 325 gate -> continue q4w
+0105TOS,6,TREX,EXTEND,MAINTAIN,MAINTAIN,False,536.0,536.0,True,4,CST 536 µm > 325 gate -> continue q4w
+0105TOS,7,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,548.0,548.0,True,6,CST 548 µm > 325 gate -> continue q4w
+0105TOS,8,TREX,EXTEND,MAINTAIN,MAINTAIN,False,475.0,475.0,True,4,CST 475 µm > 325 gate -> continue q4w
+0105TOS,9,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,367.0,367.0,True,4,CST 367 µm > 325 gate -> continue q4w
+0105TOS,10,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,326.0,326.0,True,4,CST 326 µm > 325 gate -> continue q4w
+0105TOS,11,TREX,EXTEND,EXTEND,EXTEND,False,313.0,313.0,True,6,T&E start: reference CST = 313 µm | CST 313 vs ref 313 (+0%) <= +10% -> extend
+0105TOS,12,TREX,EXTEND,EXTEND,EXTEND,False,333.0,333.0,True,8,CST 333 vs ref 313 (+6%) <= +10% -> extend
+0105TOS,13,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,326.0,326.0,True,8,CST 326 vs ref 313 (+4%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0105TOS,14,TREX,EXTEND,MAINTAIN,MAINTAIN,False,291.0,291.0,True,10,CST 291 vs ref 313 (-7%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0105TOS,15,TREX,MAINTAIN,EXTEND,EXTEND,False,279.0,279.0,True,12,CST 279 vs ref 313 (-11%) <= +10% -> extend
+0105TOS,16,TREX,MAINTAIN,EXTEND,EXTEND,False,259.0,259.0,True,14,CST 259 vs ref 313 (-17%) <= +10% -> extend
+0105TOS,17,TREX,,MAINTAIN,MAINTAIN,False,265.0,265.0,True,12,CST 265 vs ref 313 (-15%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend | re-baseline: reference 313 -> 268 µm (3 stable visits)
+0108TOD,1,TREX,,LOADING,LOADING,False,446.0,446.0,True,4,loading dose 1/4 -> q4w
+0108TOD,2,TREX,,LOADING,LOADING,False,432.0,432.0,True,4,loading dose 2/4 -> q4w
+0108TOD,3,TREX,,LOADING,LOADING,False,391.0,391.0,True,6,loading dose 3/4 -> q4w
+0108TOD,4,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,358.0,358.0,True,4,CST 358 µm > 325 gate -> continue q4w
+0108TOD,5,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,355.0,355.0,True,4,CST 355 µm > 325 gate -> continue q4w
+0108TOD,6,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,370.0,370.0,True,4,CST 370 µm > 325 gate -> continue q4w
+0108TOD,7,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,447.0,447.0,True,4,CST 447 µm > 325 gate -> continue q4w
+0108TOD,8,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,398.0,398.0,True,6,CST 398 µm > 325 gate -> continue q4w
+0108TOD,9,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,425.0,425.0,True,4,CST 425 µm > 325 gate -> continue q4w
+0108TOD,10,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,460.0,460.0,True,4,CST 460 µm > 325 gate -> continue q4w
+0108TOD,11,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,447.0,447.0,True,4,CST 447 µm > 325 gate -> continue q4w
+0108TOD,12,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,496.0,496.0,True,4,CST 496 µm > 325 gate -> continue q4w
+0108TOD,13,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,539.0,539.0,True,4,CST 539 µm > 325 gate -> continue q4w
+0108TOD,14,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,487.0,487.0,True,4,CST 487 µm > 325 gate -> continue q4w
+0108TOD,15,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,474.0,474.0,True,4,CST 474 µm > 325 gate -> continue q4w
+0108TOD,16,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,425.0,425.0,True,4,CST 425 µm > 325 gate -> continue q4w
+0108TOD,17,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,411.0,411.0,True,4,CST 411 µm > 325 gate -> continue q4w
+0108TOD,18,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,392.0,392.0,True,4,CST 392 µm > 325 gate -> continue q4w
+0108TOD,19,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,431.0,431.0,True,4,CST 431 µm > 325 gate -> continue q4w
+0108TOD,20,TREX,,MAINTAIN,MAINTAIN,False,412.0,412.0,True,4,CST 412 µm > 325 gate -> continue q4w
+0108TOD,21,TREX,,MAINTAIN,MAINTAIN,False,402.0,402.0,True,4,CST 402 µm > 325 gate -> continue q4w
+0108TOD,22,TREX,,MAINTAIN,MAINTAIN,False,457.0,457.0,True,4,CST 457 µm > 325 gate -> continue q4w
+0108TOD,23,TREX,,MAINTAIN,MAINTAIN,False,394.0,394.0,True,4,CST 394 µm > 325 gate -> continue q4w
+0108TOD,24,TREX,,MAINTAIN,MAINTAIN,False,457.0,457.0,True,4,CST 457 µm > 325 gate -> continue q4w
+0108TOD,25,TREX,,MAINTAIN,MAINTAIN,False,367.0,367.0,True,4,CST 367 µm > 325 gate -> continue q4w
+0109TOD,1,TREX,,LOADING,LOADING,False,467.0,467.0,True,4,loading dose 1/4 -> q4w
+0109TOD,2,TREX,,LOADING,LOADING,False,424.0,424.0,True,4,loading dose 2/4 -> q4w
+0109TOD,3,TREX,,LOADING,LOADING,False,341.0,341.0,True,4,loading dose 3/4 -> q4w
+0111GOS,1,GILA,,LOADING,LOADING,False,699.0,699.0,True,4,loading dose 1/4 -> q4w
+0111GOS,2,GILA,,LOADING,LOADING,False,585.0,585.0,True,4,loading dose 2/4 -> q4w
+0111GOS,3,GILA,,LOADING,LOADING,False,313.0,313.0,True,4,loading dose 3/4 -> q4w
+0111GOS,4,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,435.0,435.0,True,6,CST 435 µm > 325 gate -> continue q4w
+0111GOS,5,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,502.0,502.0,True,6,CST 502 µm > 325 gate -> continue q4w
+0111GOS,6,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,341.0,341.0,True,4,CST 341 µm > 325 gate -> continue q4w
+0111GOS,7,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,368.0,368.0,True,4,CST 368 µm > 325 gate -> continue q4w
+0111GOS,8,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,533.0,533.0,True,4,CST 533 µm > 325 gate -> continue q4w
+0111GOS,9,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,334.0,334.0,True,4,CST 334 µm > 325 gate -> continue q4w
+0111GOS,10,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,458.0,458.0,True,4,CST 458 µm > 325 gate -> continue q4w
+0111GOS,11,GILA,,MAINTAIN,MAINTAIN,False,399.0,399.0,True,4,CST 399 µm > 325 gate -> continue q4w
+0112TOS,1,TREX,,LOADING,LOADING,False,578.0,578.0,True,4,loading dose 1/4 -> q4w
+0112TOS,2,TREX,,LOADING,LOADING,False,379.0,379.0,True,6,loading dose 2/4 -> q4w
+0112TOS,3,TREX,,LOADING,LOADING,False,311.0,311.0,True,4,loading dose 3/4 -> q4w
+0112TOS,4,TREX,EXTEND,EXTEND,EXTEND,False,314.0,314.0,True,6,T&E start: reference CST = 314 µm | CST 314 vs ref 314 (+0%) <= +10% -> extend
+0112TOS,5,TREX,EXTEND,EXTEND,EXTEND,False,296.0,296.0,True,8,CST 296 vs ref 314 (-6%) <= +10% -> extend
+0112TOS,6,TREX,MAINTAIN,EXTEND,EXTEND,False,279.0,279.0,True,10,CST 279 vs ref 314 (-11%) <= +10% -> extend
+0112TOS,7,TREX,MAINTAIN,EXTEND,EXTEND,False,276.0,276.0,True,10,CST 276 vs ref 314 (-12%) <= +10% -> extend
+0112TOS,8,TREX,MAINTAIN,EXTEND,EXTEND,False,272.0,272.0,True,10,CST 272 vs ref 314 (-13%) <= +10% -> extend | re-baseline: reference 314 -> 276 µm (3 stable visits)
+0112TOS,9,TREX,MAINTAIN,EXTEND,EXTEND,False,256.0,256.0,True,10,CST 256 vs ref 276 (-7%) <= +10% -> extend
+0112TOS,10,TREX,EXTEND,EXTEND,EXTEND,False,262.0,262.0,True,10,CST 262 vs ref 276 (-5%) <= +10% -> extend
+0112TOS,11,TREX,SHORTEN,EXTEND,EXTEND,False,262.0,262.0,True,12,CST 262 vs ref 276 (-5%) <= +10% -> extend
+0112TOS,12,TREX,MAINTAIN,EXTEND,EXTEND,False,253.0,253.0,True,10,CST 253 vs ref 276 (-8%) <= +10% -> extend
+0112TOS,13,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,246.0,246.0,True,8,CST 246 vs ref 276 (-11%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0112TOS,14,TREX,,MAINTAIN,MAINTAIN,False,251.0,251.0,True,8,CST 251 vs ref 276 (-9%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
+0116GOS,1,GILA,,LOADING,LOADING,False,313.0,313.0,True,4,loading dose 1/4 -> q4w
+0116GOS,2,GILA,,LOADING,LOADING,False,268.0,268.0,True,6,loading dose 2/4 -> q4w
+0116GOS,3,GILA,,LOADING,LOADING,False,262.0,262.0,True,4,loading dose 3/4 -> q4w
+0116GOS,4,GILA,EXTEND,EXTEND,EXTEND,False,255.0,255.0,True,6,T&E start: reference CST = 255 µm | CST 255 vs ref 255 (+0%) <= +10% -> extend
+0116GOS,5,GILA,EXTEND,MAINTAIN,MAINTAIN,False,257.0,257.0,True,6,CST 257 vs ref 255 (+1%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0116GOS,6,GILA,MAINTAIN,SHORTEN,SHORTEN,False,318.0,318.0,True,6,CST +25% vs ref > +20% -> shorten
+0116GOS,7,GILA,MAINTAIN,SHORTEN,SHORTEN,False,368.0,368.0,True,6,CST +44% vs ref > +20% -> shorten
+0116GOS,8,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,287.0,287.0,True,8,CST +13% vs ref within +20% -> maintain
+0116GOS,9,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,286.0,286.0,True,8,CST +12% vs ref within +20% -> maintain
+0116GOS,10,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,297.0,297.0,True,8,CST +16% vs ref within +20% -> maintain
+0116GOS,11,GILA,EXTEND,SHORTEN,SHORTEN,False,332.0,332.0,True,6,CST +30% vs ref > +20% -> shorten
+0116GOS,12,GILA,SHORTEN,SHORTEN,SHORTEN,False,422.0,422.0,True,12,CST +65% vs ref > +20% -> shorten
+0116GOS,13,GILA,EXTEND,MAINTAIN,MAINTAIN,False,248.0,248.0,True,4,CST 248 vs ref 255 (-3%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0116GOS,14,GILA,SHORTEN,SHORTEN,SHORTEN,False,341.0,341.0,True,8,CST +34% vs ref > +20% -> shorten
+0116GOS,15,GILA,,EXTEND,EXTEND,False,254.0,254.0,True,6,CST 254 vs ref 255 (-0%) <= +10% -> extend
+0117GOS,1,GILA,,LOADING,LOADING,False,746.0,746.0,True,4,loading dose 1/4 -> q4w
+0117GOS,2,GILA,,LOADING,LOADING,False,611.0,611.0,True,4,loading dose 2/4 -> q4w
+0117GOS,3,GILA,,LOADING,LOADING,False,851.0,851.0,True,4,loading dose 3/4 -> q4w
+0117GOS,4,GILA,EXTEND,MAINTAIN,MAINTAIN,False,566.0,566.0,True,4,CST 566 µm > 325 gate -> continue q4w
+0117GOS,5,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,426.0,426.0,True,6,CST 426 µm > 325 gate -> continue q4w
+0117GOS,6,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,417.0,417.0,True,4,CST 417 µm > 325 gate -> continue q4w
+0117GOS,7,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,540.0,540.0,True,4,CST 540 µm > 325 gate -> continue q4w
+0117GOS,8,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,466.0,466.0,True,4,CST 466 µm > 325 gate -> continue q4w
+0117GOS,9,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,465.0,465.0,True,4,CST 465 µm > 325 gate -> continue q4w
+0117GOS,10,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,464.0,464.0,True,4,CST 464 µm > 325 gate -> continue q4w
+0117GOS,11,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,407.0,407.0,True,4,CST 407 µm > 325 gate -> continue q4w
+0117GOS,12,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,390.0,390.0,True,4,CST 390 µm > 325 gate -> continue q4w
+0117GOS,13,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,400.0,400.0,True,4,CST 400 µm > 325 gate -> continue q4w
+0117GOS,14,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,366.0,366.0,True,4,CST 366 µm > 325 gate -> continue q4w
+0117GOS,15,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,357.0,357.0,True,4,CST 357 µm > 325 gate -> continue q4w
+0117GOS,16,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,328.0,328.0,True,4,CST 328 µm > 325 gate -> continue q4w
+0117GOS,17,GILA,,MAINTAIN,MAINTAIN,False,332.0,332.0,True,4,CST 332 µm > 325 gate -> continue q4w
+0118TOS,1,TREX,,LOADING,LOADING,False,442.0,442.0,True,4,loading dose 1/4 -> q4w
+0118TOS,2,TREX,,LOADING,LOADING,False,360.0,360.0,True,4,loading dose 2/4 -> q4w
+0118TOS,3,TREX,,LOADING,LOADING,False,349.0,349.0,True,4,loading dose 3/4 -> q4w
+0118TOS,4,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,330.0,330.0,True,4,CST 330 µm > 325 gate -> continue q4w
+0118TOS,5,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,328.0,328.0,True,4,CST 328 µm > 325 gate -> continue q4w
+0118TOS,6,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,339.0,339.0,True,4,CST 339 µm > 325 gate -> continue q4w
+0118TOS,7,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,336.0,336.0,True,4,CST 336 µm > 325 gate -> continue q4w
+0118TOS,8,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,354.0,354.0,True,4,CST 354 µm > 325 gate -> continue q4w
+0118TOS,9,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,360.0,360.0,True,4,CST 360 µm > 325 gate -> continue q4w
+0118TOS,10,TREX,EXTEND,MAINTAIN,MAINTAIN,False,351.0,351.0,True,4,CST 351 µm > 325 gate -> continue q4w
+0118TOS,11,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,362.0,362.0,True,6,CST 362 µm > 325 gate -> continue q4w
+0118TOS,12,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,348.0,348.0,True,4,CST 348 µm > 325 gate -> continue q4w
+0118TOS,13,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,359.0,359.0,True,4,CST 359 µm > 325 gate -> continue q4w
+0118TOS,14,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,343.0,343.0,True,4,CST 343 µm > 325 gate -> continue q4w
+0118TOS,15,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,341.0,341.0,True,4,CST 341 µm > 325 gate -> continue q4w
+0118TOS,16,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,346.0,346.0,True,4,CST 346 µm > 325 gate -> continue q4w
+0118TOS,17,TREX,EXTEND,MAINTAIN,MAINTAIN,False,342.0,342.0,True,4,CST 342 µm > 325 gate -> continue q4w
+0118TOS,18,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,337.0,337.0,True,4,CST 337 µm > 325 gate -> continue q4w
+0118TOS,19,TREX,,MAINTAIN,MAINTAIN,False,333.0,333.0,True,4,CST 333 µm > 325 gate -> continue q4w
+0120GOS,1,GILA,,LOADING,LOADING,False,861.0,861.0,True,4,loading dose 1/4 -> q4w
+0120GOS,2,GILA,,LOADING,LOADING,False,475.0,475.0,True,4,loading dose 2/4 -> q4w
+0120GOS,3,GILA,,LOADING,LOADING,False,420.0,420.0,True,4,loading dose 3/4 -> q4w
+0120GOS,4,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,550.0,550.0,True,4,CST 550 µm > 325 gate -> continue q4w
+0120GOS,5,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,364.0,364.0,True,4,CST 364 µm > 325 gate -> continue q4w
+0120GOS,6,GILA,MAINTAIN,EXTEND,EXTEND,False,284.0,284.0,True,6,T&E start: reference CST = 284 µm | CST 284 vs ref 284 (+0%) <= +10% -> extend
+0120GOS,7,GILA,MAINTAIN,SHORTEN,SHORTEN,False,389.0,389.0,True,4,CST +37% vs ref > +20% -> shorten
+0120GOS,8,GILA,MAINTAIN,EXTEND,EXTEND,False,297.0,297.0,True,6,CST 297 vs ref 284 (+5%) <= +10% -> extend
+0120GOS,9,GILA,MAINTAIN,SHORTEN,SHORTEN,False,384.0,384.0,True,4,CST +35% vs ref > +20% -> shorten
+0120GOS,10,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,286.0,286.0,True,6,CST 286 vs ref 284 (+1%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0120GOS,11,GILA,EXTEND,MAINTAIN,MAINTAIN,False,292.0,292.0,True,6,CST 292 vs ref 284 (+3%) <= +10% -> extend | safety: BCVA 10 letters below best -> do not extend
+0120GOS,12,GILA,SHORTEN,SHORTEN,SHORTEN,False,372.0,372.0,True,6,CST +31% vs ref > +20% -> shorten
+0120GOS,13,GILA,MAINTAIN,EXTEND,EXTEND,False,246.0,246.0,True,6,CST 246 vs ref 284 (-13%) <= +10% -> extend
+0120GOS,14,GILA,EXTEND,MAINTAIN,MAINTAIN,False,261.0,261.0,True,6,CST 261 vs ref 284 (-8%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0120GOS,15,GILA,SHORTEN,SHORTEN,SHORTEN,False,358.0,358.0,True,6,CST +26% vs ref > +20% -> shorten
+0120GOS,16,GILA,EXTEND,EXTEND,EXTEND,False,282.0,282.0,True,8,CST 282 vs ref 284 (-1%) <= +10% -> extend
+0120GOS,17,GILA,MAINTAIN,SHORTEN,SHORTEN,False,342.0,342.0,True,6,CST +20% vs ref > +20% -> shorten
+0120GOS,18,GILA,,MAINTAIN,MAINTAIN,False,308.0,308.0,True,6,CST 308 vs ref 284 (+8%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
+0120TOD,1,TREX,,LOADING,LOADING,False,770.0,770.0,True,4,loading dose 1/4 -> q4w
+0120TOD,2,TREX,,LOADING,LOADING,False,418.0,418.0,True,4,loading dose 2/4 -> q4w
+0120TOD,3,TREX,,LOADING,LOADING,False,586.0,586.0,True,4,loading dose 3/4 -> q4w
+0120TOD,4,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,691.0,691.0,True,4,CST 691 µm > 325 gate -> continue q4w
+0120TOD,5,TREX,EXTEND,EXTEND,EXTEND,False,314.0,314.0,True,6,T&E start: reference CST = 314 µm | CST 314 vs ref 314 (+0%) <= +10% -> extend
+0120TOD,6,TREX,SHORTEN,SHORTEN,SHORTEN,False,654.0,654.0,True,4,CST +108% vs ref > +20% -> shorten
+0120TOD,7,TREX,EXTEND,EXTEND,EXTEND,False,324.0,324.0,True,6,CST 324 vs ref 314 (+3%) <= +10% -> extend
+0120TOD,8,TREX,MAINTAIN,SHORTEN,SHORTEN,False,662.0,662.0,True,4,CST +111% vs ref > +20% -> shorten
+0120TOD,9,TREX,MAINTAIN,SHORTEN,SHORTEN,False,573.0,573.0,True,4,CST +82% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0120TOD,10,TREX,MAINTAIN,SHORTEN,SHORTEN,False,446.0,446.0,True,4,CST +42% vs ref > +20% -> shorten
+0120TOD,11,TREX,MAINTAIN,EXTEND,EXTEND,False,301.0,301.0,True,8,CST 301 vs ref 314 (-4%) <= +10% -> extend
+0120TOD,12,TREX,,SHORTEN,SHORTEN,False,485.0,485.0,True,4,CST +54% vs ref > +20% -> shorten
+0120TOD,13,TREX,,MAINTAIN,MAINTAIN,False,258.0,258.0,True,4,CST 258 vs ref 314 (-18%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0120TOD,14,TREX,,MAINTAIN,MAINTAIN,False,341.0,341.0,True,4,CST 341 vs ref 314 (+9%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0120TOD,15,TREX,,SHORTEN,SHORTEN,False,589.0,589.0,True,4,CST +88% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0120TOD,16,TREX,,MAINTAIN,MAINTAIN,False,341.0,341.0,True,4,CST 341 vs ref 314 (+9%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0120TOD,17,TREX,,SHORTEN,SHORTEN,False,516.0,516.0,True,4,CST +64% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0120TOD,18,TREX,,MAINTAIN,MAINTAIN,False,348.0,348.0,True,4,CST +11% vs ref within +20% -> maintain
+0120TOD,19,TREX,,MAINTAIN,MAINTAIN,False,358.0,358.0,True,4,CST +14% vs ref within +20% -> maintain
+0120TOD,20,TREX,,EXTEND,EXTEND,False,263.0,263.0,True,6,CST 263 vs ref 314 (-16%) <= +10% -> extend
+0120TOD,21,TREX,,SHORTEN,SHORTEN,False,603.0,603.0,True,4,CST +92% vs ref > +20% -> shorten
+0120TOD,22,TREX,,EXTEND,EXTEND,False,255.0,255.0,True,6,CST 255 vs ref 314 (-19%) <= +10% -> extend
+0122TOD,1,TREX,,LOADING,LOADING,False,460.0,460.0,True,4,loading dose 1/4 -> q4w
+0122TOD,2,TREX,,LOADING,LOADING,False,284.0,284.0,True,4,loading dose 2/4 -> q4w
+0122TOD,3,TREX,,LOADING,LOADING,False,287.0,287.0,True,4,loading dose 3/4 -> q4w
+0122TOD,4,TREX,EXTEND,EXTEND,EXTEND,False,297.0,297.0,True,6,T&E start: reference CST = 297 µm | CST 297 vs ref 297 (+0%) <= +10% -> extend
+0122TOD,5,TREX,EXTEND,EXTEND,EXTEND,False,265.0,265.0,True,8,CST 265 vs ref 297 (-11%) <= +10% -> extend
+0122TOD,6,TREX,MAINTAIN,EXTEND,EXTEND,False,247.0,247.0,True,10,CST 247 vs ref 297 (-17%) <= +10% -> extend
+0122TOD,7,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,337.0,337.0,True,8,CST +13% vs ref within +20% -> maintain
+0122TOD,8,TREX,EXTEND,EXTEND,EXTEND,False,323.0,323.0,True,10,CST 323 vs ref 297 (+9%) <= +10% -> extend
+0122TOD,9,TREX,EXTEND,EXTEND,EXTEND,False,287.0,287.0,True,14,CST 287 vs ref 297 (-3%) <= +10% -> extend
+0122TOD,10,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,289.0,289.0,True,16,CST 289 vs ref 297 (-3%) <= +10% -> extend | safety: BCVA 10 letters below best -> do not extend
+0122TOD,11,TREX,EXTEND,MAINTAIN,MAINTAIN,False,263.0,263.0,True,10,CST 263 vs ref 297 (-11%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0122TOD,12,TREX,,MAINTAIN,MAINTAIN,False,246.0,246.0,True,12,CST 246 vs ref 297 (-17%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0123GOS,1,GILA,,LOADING,LOADING,False,515.0,515.0,True,4,loading dose 1/4 -> q4w
+0123GOS,2,GILA,,LOADING,LOADING,False,520.0,520.0,True,4,loading dose 2/4 -> q4w
+0123GOS,3,GILA,,LOADING,LOADING,False,476.0,476.0,True,4,loading dose 3/4 -> q4w
+0123GOS,4,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,468.0,468.0,True,4,CST 468 µm > 325 gate -> continue q4w
+0123GOS,5,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,448.0,448.0,True,4,CST 448 µm > 325 gate -> continue q4w
+0123GOS,6,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,445.0,445.0,True,4,CST 445 µm > 325 gate -> continue q4w
+0123GOS,7,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,443.0,443.0,True,4,CST 443 µm > 325 gate -> continue q4w
+0123GOS,8,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,455.0,455.0,True,4,CST 455 µm > 325 gate -> continue q4w
+0123GOS,9,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,457.0,457.0,True,4,CST 457 µm > 325 gate -> continue q4w
+0123GOS,10,GILA,EXTEND,MAINTAIN,MAINTAIN,False,427.0,427.0,True,4,CST 427 µm > 325 gate -> continue q4w
+0123GOS,11,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,416.0,416.0,True,4,CST 416 µm > 325 gate -> continue q4w
+0123GOS,12,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,413.0,413.0,True,4,CST 413 µm > 325 gate -> continue q4w
+0123GOS,13,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,403.0,403.0,True,4,CST 403 µm > 325 gate -> continue q4w
+0123GOS,14,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,394.0,394.0,True,4,CST 394 µm > 325 gate -> continue q4w
+0123GOS,15,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,397.0,397.0,True,4,CST 397 µm > 325 gate -> continue q4w
+0123GOS,16,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,362.0,362.0,True,4,CST 362 µm > 325 gate -> continue q4w
+0123GOS,17,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,386.0,386.0,True,4,CST 386 µm > 325 gate -> continue q4w
+0123GOS,18,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,360.0,360.0,True,4,CST 360 µm > 325 gate -> continue q4w
+0123GOS,19,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,379.0,379.0,True,6,CST 379 µm > 325 gate -> continue q4w
+0123GOS,20,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,375.0,375.0,True,4,CST 375 µm > 325 gate -> continue q4w
+0123GOS,21,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,365.0,365.0,True,4,CST 365 µm > 325 gate -> continue q4w
+0123GOS,22,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,359.0,359.0,True,4,CST 359 µm > 325 gate -> continue q4w
+0123GOS,23,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,347.0,347.0,True,4,CST 347 µm > 325 gate -> continue q4w
+0123GOS,24,GILA,,MAINTAIN,MAINTAIN,False,342.0,342.0,True,4,CST 342 µm > 325 gate -> continue q4w
+0123GOS,25,GILA,,MAINTAIN,MAINTAIN,False,339.0,339.0,True,4,CST 339 µm > 325 gate -> continue q4w
+0123TOD,1,TREX,,LOADING,LOADING,False,383.0,383.0,True,4,loading dose 1/4 -> q4w
+0123TOD,2,TREX,,LOADING,LOADING,False,353.0,353.0,True,4,loading dose 2/4 -> q4w
+0123TOD,3,TREX,,LOADING,LOADING,False,384.0,384.0,True,4,loading dose 3/4 -> q4w
+0123TOD,4,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,351.0,351.0,True,4,CST 351 µm > 325 gate -> continue q4w
+0123TOD,5,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,338.0,338.0,True,4,CST 338 µm > 325 gate -> continue q4w
+0123TOD,6,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,345.0,345.0,True,4,CST 345 µm > 325 gate -> continue q4w
+0123TOD,7,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,334.0,334.0,True,4,CST 334 µm > 325 gate -> continue q4w
+0123TOD,8,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,341.0,341.0,True,4,CST 341 µm > 325 gate -> continue q4w
+0123TOD,9,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,351.0,351.0,True,4,CST 351 µm > 325 gate -> continue q4w
+0123TOD,10,TREX,EXTEND,MAINTAIN,MAINTAIN,False,349.0,349.0,True,4,CST 349 µm > 325 gate -> continue q4w
+0123TOD,11,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,342.0,342.0,True,4,CST 342 µm > 325 gate -> continue q4w
+0123TOD,12,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,346.0,346.0,True,4,CST 346 µm > 325 gate -> continue q4w
+0123TOD,13,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,343.0,343.0,True,4,CST 343 µm > 325 gate -> continue q4w
+0123TOD,14,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,347.0,347.0,True,4,CST 347 µm > 325 gate -> continue q4w
+0123TOD,15,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,351.0,351.0,True,4,CST 351 µm > 325 gate -> continue q4w
+0123TOD,16,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,336.0,336.0,True,4,CST 336 µm > 325 gate -> continue q4w
+0123TOD,17,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,333.0,333.0,True,4,CST 333 µm > 325 gate -> continue q4w
+0123TOD,18,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,327.0,327.0,True,4,CST 327 µm > 325 gate -> continue q4w
+0123TOD,19,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,324.0,324.0,True,6,T&E start: reference CST = 324 µm | CST 324 vs ref 324 (+0%) <= +10% -> extend | safety: BCVA 12 letters below best -> do not extend
+0123TOD,20,TREX,EXTEND,EXTEND,EXTEND,False,317.0,317.0,True,8,CST 317 vs ref 324 (-2%) <= +10% -> extend
+0123TOD,21,TREX,EXTEND,EXTEND,EXTEND,False,319.0,319.0,True,10,CST 319 vs ref 324 (-2%) <= +10% -> extend
+0123TOD,22,TREX,,MAINTAIN,MAINTAIN,False,310.0,310.0,True,10,CST 310 vs ref 324 (-4%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
+0124GOD,1,GILA,,LOADING,LOADING,False,333.0,333.0,True,4,loading dose 1/4 -> q4w
+0124GOD,2,GILA,,LOADING,LOADING,False,232.0,232.0,True,4,loading dose 2/4 -> q4w
+0124GOD,3,GILA,,LOADING,LOADING,False,228.0,228.0,True,6,loading dose 3/4 -> q4w
+0124GOD,4,GILA,EXTEND,EXTEND,EXTEND,False,227.0,227.0,True,6,T&E start: reference CST = 227 µm | CST 227 vs ref 227 (+0%) <= +10% -> extend
+0124GOD,5,GILA,MAINTAIN,EXTEND,EXTEND,False,221.0,221.0,True,8,CST 221 vs ref 227 (-3%) <= +10% -> extend
+0124GOD,6,GILA,EXTEND,EXTEND,EXTEND,False,222.0,222.0,True,8,CST 222 vs ref 227 (-2%) <= +10% -> extend
+0124GOD,7,GILA,EXTEND,EXTEND,EXTEND,False,222.0,222.0,True,10,CST 222 vs ref 227 (-2%) <= +10% -> extend
+0124GOD,8,GILA,MAINTAIN,EXTEND,EXTEND,False,228.0,228.0,True,12,CST 228 vs ref 227 (+0%) <= +10% -> extend
+0124GOD,9,GILA,EXTEND,EXTEND,EXTEND,False,231.0,231.0,True,12,CST 231 vs ref 227 (+2%) <= +10% -> extend
+0124GOD,10,GILA,EXTEND,EXTEND,EXTEND,False,224.0,224.0,True,14,CST 224 vs ref 227 (-1%) <= +10% -> extend
+0124GOD,11,GILA,MAINTAIN,EXTEND,EXTEND,False,222.0,222.0,True,16,CST 222 vs ref 227 (-2%) <= +10% -> extend | interval at max (16 wk) -> held
+0124GOD,12,GILA,,MAINTAIN,MAINTAIN,False,223.0,223.0,True,16,CST 223 vs ref 227 (-2%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0124TOS,1,TREX,,LOADING,LOADING,False,327.0,327.0,True,4,loading dose 1/4 -> q4w
+0124TOS,2,TREX,,LOADING,LOADING,False,250.0,250.0,True,4,loading dose 2/4 -> q4w
+0124TOS,3,TREX,,LOADING,LOADING,False,233.0,233.0,True,6,loading dose 3/4 -> q4w
+0124TOS,4,TREX,EXTEND,EXTEND,EXTEND,False,229.0,229.0,True,6,T&E start: reference CST = 229 µm | CST 229 vs ref 229 (+0%) <= +10% -> extend
+0124TOS,5,TREX,MAINTAIN,EXTEND,EXTEND,False,228.0,228.0,True,8,CST 228 vs ref 229 (-0%) <= +10% -> extend
+0124TOS,6,TREX,EXTEND,EXTEND,EXTEND,False,227.0,227.0,True,8,CST 227 vs ref 229 (-1%) <= +10% -> extend
+0124TOS,7,TREX,EXTEND,EXTEND,EXTEND,False,230.0,230.0,True,10,CST 230 vs ref 229 (+0%) <= +10% -> extend
+0124TOS,8,TREX,MAINTAIN,EXTEND,EXTEND,False,234.0,234.0,True,12,CST 234 vs ref 229 (+2%) <= +10% -> extend
+0124TOS,9,TREX,EXTEND,EXTEND,EXTEND,False,231.0,231.0,True,12,CST 231 vs ref 229 (+1%) <= +10% -> extend
+0124TOS,10,TREX,EXTEND,EXTEND,EXTEND,False,229.0,229.0,True,14,CST 229 vs ref 229 (+0%) <= +10% -> extend
+0124TOS,11,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,238.0,238.0,True,16,CST 238 vs ref 229 (+4%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
+0124TOS,12,TREX,,EXTEND,EXTEND,False,231.0,231.0,True,16,CST 231 vs ref 229 (+1%) <= +10% -> extend | interval at max (16 wk) -> held
+0125GOD,1,GILA,,LOADING,LOADING,False,484.0,484.0,True,4,loading dose 1/4 -> q4w
+0125GOD,2,GILA,,LOADING,LOADING,False,387.0,387.0,True,4,loading dose 2/4 -> q4w
+0125GOD,3,GILA,,LOADING,LOADING,False,377.0,377.0,True,4,loading dose 3/4 -> q4w
+0125GOD,4,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,379.0,379.0,True,4,CST 379 µm > 325 gate -> continue q4w
+0125GOD,5,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,370.0,370.0,True,4,CST 370 µm > 325 gate -> continue q4w
+0125GOD,6,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,362.0,362.0,True,4,CST 362 µm > 325 gate -> continue q4w
+0125GOD,7,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,359.0,359.0,True,4,CST 359 µm > 325 gate -> continue q4w
+0125GOD,8,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,348.0,348.0,True,4,CST 348 µm > 325 gate -> continue q4w
+0125GOD,9,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,340.0,340.0,True,4,CST 340 µm > 325 gate -> continue q4w
+0125GOD,10,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,342.0,342.0,True,4,CST 342 µm > 325 gate -> continue q4w
+0125GOD,11,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,325.0,325.0,True,4,T&E start: reference CST = 325 µm | CST 325 vs ref 325 (+0%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0125GOD,12,GILA,EXTEND,EXTEND,EXTEND,False,320.0,320.0,True,8,CST 320 vs ref 325 (-2%) <= +10% -> extend
+0125GOD,13,GILA,EXTEND,MAINTAIN,MAINTAIN,False,315.0,315.0,True,8,CST 315 vs ref 325 (-3%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0125GOD,14,GILA,EXTEND,MAINTAIN,MAINTAIN,False,320.0,320.0,True,10,CST 320 vs ref 325 (-2%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0125GOD,15,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,318.0,318.0,True,12,CST 318 vs ref 325 (-2%) <= +10% -> extend | safety: BCVA 11 letters below best -> do not extend
+0125GOD,16,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,348.0,348.0,True,14,CST 348 vs ref 325 (+7%) <= +10% -> extend | safety: BCVA 17 letters below best -> do not extend
+0125GOD,17,GILA,EXTEND,MAINTAIN,MAINTAIN,False,330.0,330.0,True,4,CST 330 vs ref 325 (+2%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0125GOD,18,GILA,,MAINTAIN,MAINTAIN,False,316.0,316.0,True,6,CST 316 vs ref 325 (-3%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
+0126TOS,1,TREX,,LOADING,LOADING,False,314.0,314.0,True,4,loading dose 1/4 -> q4w
+0126TOS,2,TREX,,LOADING,LOADING,False,299.0,299.0,True,4,loading dose 2/4 -> q4w
+0126TOS,3,TREX,,LOADING,LOADING,False,303.0,303.0,True,6,loading dose 3/4 -> q4w
+0126TOS,4,TREX,EXTEND,MAINTAIN,MAINTAIN,False,283.0,283.0,True,4,T&E start: reference CST = 283 µm | CST 283 vs ref 283 (+0%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
+0126TOS,5,TREX,MAINTAIN,EXTEND,EXTEND,False,293.0,293.0,True,10,CST 293 vs ref 283 (+4%) <= +10% -> extend
+0126TOS,6,TREX,EXTEND,MAINTAIN,MAINTAIN,False,284.0,284.0,True,8,CST 284 vs ref 283 (+0%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
+0126TOS,7,TREX,SHORTEN,SHORTEN,SHORTEN,False,618.0,618.0,True,8,CST +118% vs ref > +20% -> shorten
+0126TOS,8,TREX,MAINTAIN,SHORTEN,SHORTEN,False,577.0,577.0,True,4,CST +104% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0126TOS,9,TREX,MAINTAIN,SHORTEN,SHORTEN,False,595.0,595.0,True,4,CST +110% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0126TOS,10,TREX,,MAINTAIN,MAINTAIN,False,335.0,335.0,True,4,CST +18% vs ref within +20% -> maintain
+0128GOS,1,GILA,,LOADING,LOADING,False,426.0,426.0,True,4,loading dose 1/4 -> q4w
+0128GOS,2,GILA,,LOADING,LOADING,False,513.0,513.0,True,4,loading dose 2/4 -> q4w
+0128GOS,3,GILA,,LOADING,LOADING,False,436.0,436.0,True,4,loading dose 3/4 -> q4w
+0128GOS,4,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,421.0,421.0,True,4,CST 421 µm > 325 gate -> continue q4w
+0128GOS,5,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,386.0,386.0,True,4,CST 386 µm > 325 gate -> continue q4w
+0128GOS,6,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,420.0,420.0,True,4,CST 420 µm > 325 gate -> continue q4w
+0128GOS,7,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,368.0,368.0,True,4,CST 368 µm > 325 gate -> continue q4w
+0128GOS,8,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,370.0,370.0,True,4,CST 370 µm > 325 gate -> continue q4w
+0128GOS,9,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,361.0,361.0,True,4,CST 361 µm > 325 gate -> continue q4w
+0128GOS,10,GILA,EXTEND,MAINTAIN,MAINTAIN,False,372.0,372.0,True,4,CST 372 µm > 325 gate -> continue q4w
+0128GOS,11,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,463.0,463.0,True,16,CST 463 µm > 325 gate -> continue q4w
+0128GOS,12,GILA,EXTEND,MAINTAIN,MAINTAIN,False,325.0,325.0,True,4,T&E start: reference CST = 325 µm | CST 325 vs ref 325 (+0%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
+0128GOS,13,GILA,SHORTEN,SHORTEN,SHORTEN,False,411.0,411.0,True,4,CST +26% vs ref > +20% -> shorten
+0128GOS,14,GILA,EXTEND,EXTEND,EXTEND,False,323.0,323.0,True,6,CST 323 vs ref 325 (-1%) <= +10% -> extend
+0128GOS,15,GILA,SHORTEN,SHORTEN,SHORTEN,False,423.0,423.0,True,4,CST +30% vs ref > +20% -> shorten
+0128GOS,16,GILA,EXTEND,EXTEND,EXTEND,False,342.0,342.0,True,6,CST 342 vs ref 325 (+5%) <= +10% -> extend
+0128GOS,17,GILA,SHORTEN,SHORTEN,SHORTEN,False,472.0,472.0,True,4,CST +45% vs ref > +20% -> shorten
+0128GOS,18,GILA,,EXTEND,EXTEND,False,348.0,348.0,True,6,CST 348 vs ref 325 (+7%) <= +10% -> extend
+0128GOS,19,GILA,,SHORTEN,SHORTEN,False,471.0,471.0,True,4,CST +45% vs ref > +20% -> shorten
+0129GOD,1,GILA,,LOADING,LOADING,False,824.0,824.0,True,4,loading dose 1/4 -> q4w
+0129GOD,2,GILA,,LOADING,LOADING,False,399.0,399.0,True,4,loading dose 2/4 -> q4w
+0129GOD,3,GILA,,LOADING,LOADING,False,348.0,348.0,True,4,loading dose 3/4 -> q4w
+0129GOD,4,GILA,EXTEND,EXTEND,EXTEND,False,314.0,314.0,True,6,T&E start: reference CST = 314 µm | CST 314 vs ref 314 (+0%) <= +10% -> extend
+0129GOD,5,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,375.0,375.0,True,6,CST +19% vs ref within +20% -> maintain
+0129GOD,6,GILA,EXTEND,MAINTAIN,MAINTAIN,False,359.0,359.0,True,6,CST +14% vs ref within +20% -> maintain
+0129GOD,7,GILA,SHORTEN,SHORTEN,SHORTEN,False,456.0,456.0,True,4,CST +45% vs ref > +20% -> shorten
+0129GOD,8,GILA,EXTEND,EXTEND,EXTEND,False,307.0,307.0,True,6,CST 307 vs ref 314 (-2%) <= +10% -> extend
+0129GOD,9,GILA,EXTEND,EXTEND,EXTEND,False,295.0,295.0,True,8,CST 295 vs ref 314 (-6%) <= +10% -> extend
+0129GOD,10,GILA,MAINTAIN,EXTEND,EXTEND,False,311.0,311.0,True,10,CST 311 vs ref 314 (-1%) <= +10% -> extend
+0129GOD,11,GILA,EXTEND,EXTEND,EXTEND,False,291.0,291.0,True,10,CST 291 vs ref 314 (-7%) <= +10% -> extend
+0129GOD,12,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,275.0,275.0,True,12,CST 275 vs ref 314 (-12%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
+0129GOD,13,GILA,MAINTAIN,EXTEND,EXTEND,False,264.0,264.0,True,14,CST 264 vs ref 314 (-16%) <= +10% -> extend
+0129GOD,14,GILA,,EXTEND,EXTEND,False,257.0,257.0,True,14,CST 257 vs ref 314 (-18%) <= +10% -> extend | re-baseline: reference 314 -> 265 µm (3 stable visits)
+0129TOS,1,TREX,,LOADING,LOADING,False,884.0,884.0,True,4,loading dose 1/4 -> q4w
+0129TOS,2,TREX,,LOADING,LOADING,False,344.0,344.0,True,4,loading dose 2/4 -> q4w
+0129TOS,3,TREX,,LOADING,LOADING,False,290.0,290.0,True,4,loading dose 3/4 -> q4w
+0129TOS,4,TREX,EXTEND,EXTEND,EXTEND,False,295.0,295.0,True,6,T&E start: reference CST = 295 µm | CST 295 vs ref 295 (+0%) <= +10% -> extend
+0129TOS,5,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,339.0,339.0,True,6,CST +15% vs ref within +20% -> maintain
+0129TOS,6,TREX,EXTEND,EXTEND,EXTEND,False,309.0,309.0,True,8,CST 309 vs ref 295 (+5%) <= +10% -> extend
+0129TOS,7,TREX,SHORTEN,SHORTEN,SHORTEN,False,426.0,426.0,True,6,CST +44% vs ref > +20% -> shorten
+0129TOS,8,TREX,EXTEND,EXTEND,EXTEND,False,291.0,291.0,True,6,CST 291 vs ref 295 (-1%) <= +10% -> extend
+0129TOS,9,TREX,EXTEND,EXTEND,EXTEND,False,275.0,275.0,True,8,CST 275 vs ref 295 (-7%) <= +10% -> extend
+0129TOS,10,TREX,EXTEND,EXTEND,EXTEND,False,283.0,283.0,True,10,CST 283 vs ref 295 (-4%) <= +10% -> extend
+0129TOS,11,TREX,EXTEND,EXTEND,EXTEND,False,272.0,272.0,True,12,CST 272 vs ref 295 (-8%) <= +10% -> extend
+0129TOS,12,TREX,EXTEND,EXTEND,EXTEND,False,272.0,272.0,True,16,CST 272 vs ref 295 (-8%) <= +10% -> extend
+0129TOS,13,TREX,,EXTEND,EXTEND,False,265.0,265.0,True,16,CST 265 vs ref 295 (-10%) <= +10% -> extend | interval at max (16 wk) -> held
+0131GOS,1,GILA,,LOADING,LOADING,False,646.0,646.0,True,4,loading dose 1/4 -> q4w
+0131GOS,2,GILA,,LOADING,LOADING,False,521.0,521.0,True,6,loading dose 2/4 -> q4w
+0131GOS,3,GILA,,LOADING,LOADING,False,417.0,417.0,True,4,loading dose 3/4 -> q4w
+0131GOS,4,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,347.0,347.0,True,4,CST 347 µm > 325 gate -> continue q4w
+0131GOS,5,GILA,EXTEND,EXTEND,EXTEND,False,325.0,325.0,True,6,T&E start: reference CST = 325 µm | CST 325 vs ref 325 (+0%) <= +10% -> extend
+0131GOS,6,GILA,EXTEND,EXTEND,EXTEND,False,314.0,314.0,True,8,CST 314 vs ref 325 (-3%) <= +10% -> extend
+0131GOS,7,GILA,MAINTAIN,EXTEND,EXTEND,False,349.0,349.0,True,12,CST 349 vs ref 325 (+7%) <= +10% -> extend
+0131GOS,8,GILA,EXTEND,EXTEND,EXTEND,False,321.0,321.0,True,12,CST 321 vs ref 325 (-1%) <= +10% -> extend
+0131GOS,9,GILA,EXTEND,MAINTAIN,MAINTAIN,False,331.0,331.0,True,12,CST 331 vs ref 325 (+2%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0131GOS,10,GILA,,EXTEND,EXTEND,False,292.0,292.0,True,16,CST 292 vs ref 325 (-10%) <= +10% -> extend
+0131TOD,1,TREX,,LOADING,LOADING,False,376.0,376.0,True,4,loading dose 1/4 -> q4w
+0131TOD,2,TREX,,LOADING,LOADING,False,288.0,288.0,True,6,loading dose 2/4 -> q4w
+0131TOD,3,TREX,,LOADING,LOADING,False,200.0,200.0,True,4,loading dose 3/4 -> q4w
+0131TOD,4,TREX,EXTEND,EXTEND,EXTEND,False,193.0,193.0,True,6,T&E start: reference CST = 193 µm | CST 193 vs ref 193 (+0%) <= +10% -> extend
+0131TOD,5,TREX,EXTEND,EXTEND,EXTEND,False,195.0,195.0,True,8,CST 195 vs ref 193 (+1%) <= +10% -> extend
+0131TOD,6,TREX,EXTEND,EXTEND,EXTEND,False,199.0,199.0,True,10,CST 199 vs ref 193 (+3%) <= +10% -> extend
+0131TOD,7,TREX,SHORTEN,SHORTEN,SHORTEN,False,512.0,512.0,True,10,CST +165% vs ref > +20% -> shorten
+0131TOD,8,TREX,EXTEND,EXTEND,EXTEND,False,198.0,198.0,True,6,CST 198 vs ref 193 (+3%) <= +10% -> extend
+0131TOD,9,TREX,EXTEND,EXTEND,EXTEND,False,200.0,200.0,True,8,CST 200 vs ref 193 (+4%) <= +10% -> extend
+0131TOD,10,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,213.0,213.0,True,8,CST +10% vs ref within +20% -> maintain
+0131TOD,11,TREX,EXTEND,EXTEND,EXTEND,False,192.0,192.0,True,10,CST 192 vs ref 193 (-1%) <= +10% -> extend
+0131TOD,12,TREX,,SHORTEN,SHORTEN,False,397.0,397.0,True,8,CST +106% vs ref > +20% -> shorten
+0132GOD,1,GILA,,LOADING,LOADING,False,292.0,292.0,True,4,loading dose 1/4 -> q4w
+0132GOD,2,GILA,,LOADING,LOADING,False,291.0,291.0,True,6,loading dose 2/4 -> q4w
+0132GOD,3,GILA,,LOADING,LOADING,False,286.0,286.0,True,4,loading dose 3/4 -> q4w
+0132GOD,4,GILA,EXTEND,EXTEND,EXTEND,False,288.0,288.0,True,6,T&E start: reference CST = 288 µm | CST 288 vs ref 288 (+0%) <= +10% -> extend
+0132GOD,5,GILA,MAINTAIN,EXTEND,EXTEND,False,287.0,287.0,True,10,CST 287 vs ref 288 (-0%) <= +10% -> extend
+0132GOD,6,GILA,EXTEND,EXTEND,EXTEND,False,286.0,286.0,True,10,CST 286 vs ref 288 (-1%) <= +10% -> extend
+0132GOD,7,GILA,EXTEND,EXTEND,EXTEND,False,285.0,285.0,True,10,CST 285 vs ref 288 (-1%) <= +10% -> extend
+0132GOD,8,GILA,MAINTAIN,EXTEND,EXTEND,False,280.0,280.0,True,16,CST 280 vs ref 288 (-3%) <= +10% -> extend
+0132GOD,9,GILA,EXTEND,MAINTAIN,MAINTAIN,False,291.0,291.0,True,14,CST 291 vs ref 288 (+1%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
+0132GOD,10,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,284.0,284.0,True,16,CST 284 vs ref 288 (-1%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0132GOD,11,GILA,,EXTEND,EXTEND,False,291.0,291.0,True,16,CST 291 vs ref 288 (+1%) <= +10% -> extend | interval at max (16 wk) -> held
+0133GOS,1,GILA,,LOADING,LOADING,False,639.0,639.0,True,4,loading dose 1/4 -> q4w
+0133GOS,2,GILA,,LOADING,LOADING,False,384.0,384.0,True,4,loading dose 2/4 -> q4w
+0133GOS,3,GILA,,LOADING,LOADING,False,360.0,360.0,True,4,loading dose 3/4 -> q4w
+0133GOS,4,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,344.0,344.0,True,4,CST 344 µm > 325 gate -> continue q4w
+0133GOS,5,GILA,MAINTAIN,EXTEND,EXTEND,False,323.0,323.0,True,8,T&E start: reference CST = 323 µm | CST 323 vs ref 323 (+0%) <= +10% -> extend
+0133GOS,6,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,384.0,384.0,True,6,CST +19% vs ref within +20% -> maintain
+0133GOS,7,GILA,EXTEND,EXTEND,EXTEND,False,303.0,303.0,True,8,CST 303 vs ref 323 (-6%) <= +10% -> extend
+0133GOS,8,GILA,SHORTEN,SHORTEN,SHORTEN,False,598.0,598.0,True,10,CST +85% vs ref > +20% -> shorten
+0133GOS,9,GILA,MAINTAIN,EXTEND,EXTEND,False,302.0,302.0,True,6,CST 302 vs ref 323 (-7%) <= +10% -> extend
+0133GOS,10,GILA,EXTEND,EXTEND,EXTEND,False,295.0,295.0,True,6,CST 295 vs ref 323 (-9%) <= +10% -> extend
+0133GOS,11,GILA,SHORTEN,SHORTEN,SHORTEN,False,672.0,672.0,True,6,CST +108% vs ref > +20% -> shorten
+0133GOS,12,GILA,EXTEND,MAINTAIN,MAINTAIN,False,369.0,369.0,True,4,CST +14% vs ref within +20% -> maintain
+0133GOS,13,GILA,SHORTEN,SHORTEN,SHORTEN,False,593.0,593.0,True,4,CST +84% vs ref > +20% -> shorten
+0133GOS,14,GILA,MAINTAIN,SHORTEN,SHORTEN,False,445.0,445.0,True,4,CST +38% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0133GOS,15,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,382.0,382.0,True,4,CST +18% vs ref within +20% -> maintain
+0133GOS,16,GILA,EXTEND,MAINTAIN,MAINTAIN,False,342.0,342.0,True,4,CST 342 vs ref 323 (+6%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
+0133GOS,17,GILA,SHORTEN,SHORTEN,SHORTEN,False,789.0,789.0,True,8,CST +144% vs ref > +20% -> shorten
+0133GOS,18,GILA,,SHORTEN,SHORTEN,False,458.0,458.0,True,4,CST +42% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0133GOS,19,GILA,,SHORTEN,SHORTEN,False,394.0,394.0,True,4,CST +22% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0133TOD,1,TREX,,LOADING,LOADING,False,411.0,411.0,True,4,loading dose 1/4 -> q4w
+0133TOD,2,TREX,,LOADING,LOADING,False,339.0,339.0,True,4,loading dose 2/4 -> q4w
+0133TOD,3,TREX,,LOADING,LOADING,False,312.0,312.0,True,4,loading dose 3/4 -> q4w
+0133TOD,4,TREX,EXTEND,EXTEND,EXTEND,False,309.0,309.0,True,6,T&E start: reference CST = 309 µm | CST 309 vs ref 309 (+0%) <= +10% -> extend
+0133TOD,5,TREX,SHORTEN,EXTEND,EXTEND,False,327.0,327.0,True,8,CST 327 vs ref 309 (+6%) <= +10% -> extend
+0133TOD,6,TREX,EXTEND,EXTEND,EXTEND,False,296.0,296.0,True,6,CST 296 vs ref 309 (-4%) <= +10% -> extend
+0133TOD,7,TREX,MAINTAIN,EXTEND,EXTEND,False,317.0,317.0,True,14,CST 317 vs ref 309 (+3%) <= +10% -> extend
+0133TOD,8,TREX,SHORTEN,SHORTEN,SHORTEN,False,475.0,475.0,True,10,CST +54% vs ref > +20% -> shorten
+0133TOD,9,TREX,EXTEND,EXTEND,EXTEND,False,301.0,301.0,True,6,CST 301 vs ref 309 (-3%) <= +10% -> extend
+0133TOD,10,TREX,SHORTEN,SHORTEN,SHORTEN,False,451.0,451.0,True,6,CST +46% vs ref > +20% -> shorten
+0133TOD,11,TREX,EXTEND,EXTEND,EXTEND,False,296.0,296.0,True,6,CST 296 vs ref 309 (-4%) <= +10% -> extend
+0133TOD,12,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,368.0,368.0,True,6,CST +19% vs ref within +20% -> maintain
+0133TOD,13,TREX,EXTEND,MAINTAIN,MAINTAIN,False,290.0,290.0,True,4,CST 290 vs ref 309 (-6%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0133TOD,14,TREX,EXTEND,SHORTEN,SHORTEN,False,428.0,428.0,True,6,CST +39% vs ref > +20% -> shorten
+0133TOD,15,TREX,SHORTEN,SHORTEN,SHORTEN,False,648.0,648.0,True,8,CST +110% vs ref > +20% -> shorten
+0133TOD,16,TREX,,MAINTAIN,MAINTAIN,False,290.0,290.0,True,4,CST 290 vs ref 309 (-6%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0135GOD,1,GILA,,LOADING,LOADING,False,310.0,310.0,True,4,loading dose 1/4 -> q4w
+0135GOD,2,GILA,,LOADING,LOADING,False,300.0,300.0,True,4,loading dose 2/4 -> q4w
+0135GOD,3,GILA,,LOADING,LOADING,False,299.0,299.0,True,4,loading dose 3/4 -> q4w
+0135GOD,4,GILA,MAINTAIN,EXTEND,EXTEND,False,311.0,311.0,True,6,T&E start: reference CST = 311 µm | CST 311 vs ref 311 (+0%) <= +10% -> extend
+0135GOD,5,GILA,EXTEND,EXTEND,EXTEND,False,311.0,311.0,True,8,CST 311 vs ref 311 (+0%) <= +10% -> extend
+0135GOD,6,GILA,EXTEND,EXTEND,EXTEND,False,283.0,283.0,True,10,CST 283 vs ref 311 (-9%) <= +10% -> extend
+0135GOD,7,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,280.0,280.0,True,10,CST 280 vs ref 311 (-10%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0135GOD,8,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,287.0,287.0,True,10,CST 287 vs ref 311 (-8%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0135GOD,9,GILA,EXTEND,EXTEND,EXTEND,False,289.0,289.0,True,14,CST 289 vs ref 311 (-7%) <= +10% -> extend
+0135GOD,10,GILA,EXTEND,EXTEND,EXTEND,False,272.0,272.0,True,16,CST 272 vs ref 311 (-13%) <= +10% -> extend | interval at max (16 wk) -> held
+0135GOD,11,GILA,,EXTEND,EXTEND,False,261.0,261.0,True,16,CST 261 vs ref 311 (-16%) <= +10% -> extend | interval at max (16 wk) -> held
+0135TOS,1,TREX,,LOADING,LOADING,False,438.0,438.0,True,4,loading dose 1/4 -> q4w
+0135TOS,2,TREX,,LOADING,LOADING,False,459.0,459.0,True,4,loading dose 2/4 -> q4w
+0135TOS,3,TREX,,LOADING,LOADING,False,431.0,431.0,True,4,loading dose 3/4 -> q4w
+0135TOS,4,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,488.0,488.0,True,4,CST 488 µm > 325 gate -> continue q4w
+0135TOS,5,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,426.0,426.0,True,4,CST 426 µm > 325 gate -> continue q4w
+0135TOS,6,TREX,EXTEND,MAINTAIN,MAINTAIN,False,385.0,385.0,True,4,CST 385 µm > 325 gate -> continue q4w
+0135TOS,7,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,434.0,434.0,True,6,CST 434 µm > 325 gate -> continue q4w
+0135TOS,8,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,378.0,378.0,True,4,CST 378 µm > 325 gate -> continue q4w
+0135TOS,9,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,405.0,405.0,True,4,CST 405 µm > 325 gate -> continue q4w
+0135TOS,10,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,360.0,360.0,True,4,CST 360 µm > 325 gate -> continue q4w
+0135TOS,11,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,349.0,349.0,True,4,CST 349 µm > 325 gate -> continue q4w
+0135TOS,12,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,332.0,332.0,True,4,CST 332 µm > 325 gate -> continue q4w
+0135TOS,13,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,337.0,337.0,True,4,CST 337 µm > 325 gate -> continue q4w
+0135TOS,14,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,336.0,336.0,True,4,CST 336 µm > 325 gate -> continue q4w
+0135TOS,15,TREX,EXTEND,MAINTAIN,MAINTAIN,False,307.0,307.0,True,4,T&E start: reference CST = 307 µm | CST 307 vs ref 307 (+0%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0135TOS,16,TREX,SHORTEN,SHORTEN,SHORTEN,False,437.0,437.0,True,4,CST +42% vs ref > +20% -> shorten
+0135TOS,17,TREX,EXTEND,EXTEND,EXTEND,False,297.0,297.0,True,6,CST 297 vs ref 307 (-3%) <= +10% -> extend
+0135TOS,18,TREX,EXTEND,EXTEND,EXTEND,False,302.0,302.0,True,8,CST 302 vs ref 307 (-2%) <= +10% -> extend
+0135TOS,19,TREX,EXTEND,SHORTEN,SHORTEN,False,484.0,484.0,True,6,CST +58% vs ref > +20% -> shorten
+0135TOS,20,TREX,SHORTEN,SHORTEN,SHORTEN,False,491.0,491.0,True,8,CST +60% vs ref > +20% -> shorten
+0135TOS,21,TREX,,MAINTAIN,MAINTAIN,False,291.0,291.0,True,4,CST 291 vs ref 307 (-5%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0137GOD,1,GILA,,LOADING,LOADING,False,352.0,352.0,True,4,loading dose 1/4 -> q4w
+0137GOD,2,GILA,,LOADING,LOADING,False,352.0,352.0,True,4,loading dose 2/4 -> q4w
+0137GOD,3,GILA,,LOADING,LOADING,False,362.0,362.0,True,4,loading dose 3/4 -> q4w
+0137GOD,4,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,341.0,341.0,True,4,CST 341 µm > 325 gate -> continue q4w
+0137GOD,5,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,327.0,327.0,True,4,CST 327 µm > 325 gate -> continue q4w
+0137GOD,6,GILA,EXTEND,MAINTAIN,MAINTAIN,False,315.0,315.0,True,4,T&E start: reference CST = 315 µm | CST 315 vs ref 315 (+0%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
+0137GOD,7,GILA,EXTEND,EXTEND,EXTEND,False,342.0,342.0,True,8,CST 342 vs ref 315 (+9%) <= +10% -> extend
+0137GOD,8,GILA,EXTEND,EXTEND,EXTEND,False,331.0,331.0,True,10,CST 331 vs ref 315 (+5%) <= +10% -> extend
+0137GOD,9,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,357.0,357.0,True,10,CST +13% vs ref within +20% -> maintain
+0137GOD,10,GILA,EXTEND,MAINTAIN,MAINTAIN,False,352.0,352.0,True,8,CST +12% vs ref within +20% -> maintain
+0137GOD,11,GILA,,MAINTAIN,MAINTAIN,False,354.0,354.0,True,10,CST +12% vs ref within +20% -> maintain
+0137GOD,12,GILA,,MAINTAIN,MAINTAIN,False,367.0,367.0,True,10,CST +17% vs ref within +20% -> maintain
+0137GOD,13,GILA,,MAINTAIN,MAINTAIN,False,364.0,364.0,True,10,CST +16% vs ref within +20% -> maintain
+0137GOD,14,GILA,,SHORTEN,SHORTEN,False,379.0,379.0,True,8,CST +20% vs ref > +20% -> shorten
+0138GOD,1,GILA,,LOADING,LOADING,False,397.0,397.0,True,4,loading dose 1/4 -> q4w
+0138GOD,2,GILA,,LOADING,LOADING,False,342.0,342.0,True,4,loading dose 2/4 -> q4w
+0138GOD,3,GILA,,LOADING,LOADING,False,330.0,330.0,True,4,loading dose 3/4 -> q4w
+0138GOD,4,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,411.0,411.0,True,4,CST 411 µm > 325 gate -> continue q4w
+0138GOD,5,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,391.0,391.0,True,4,CST 391 µm > 325 gate -> continue q4w
+0138GOD,6,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,340.0,340.0,True,4,CST 340 µm > 325 gate -> continue q4w
+0138GOD,7,GILA,EXTEND,EXTEND,EXTEND,False,321.0,321.0,True,6,T&E start: reference CST = 321 µm | CST 321 vs ref 321 (+0%) <= +10% -> extend
+0138GOD,8,GILA,SHORTEN,SHORTEN,SHORTEN,False,398.0,398.0,True,4,CST +24% vs ref > +20% -> shorten
+0138GOD,9,GILA,MAINTAIN,EXTEND,EXTEND,False,326.0,326.0,True,6,CST 326 vs ref 321 (+2%) <= +10% -> extend
+0138GOD,10,GILA,MAINTAIN,EXTEND,EXTEND,False,320.0,320.0,True,6,CST 320 vs ref 321 (-0%) <= +10% -> extend
+0138GOD,11,GILA,SHORTEN,SHORTEN,SHORTEN,False,622.0,622.0,True,4,CST +94% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0138GOD,12,GILA,EXTEND,EXTEND,EXTEND,False,315.0,315.0,True,6,CST 315 vs ref 321 (-2%) <= +10% -> extend
+0138GOD,13,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,371.0,371.0,True,6,CST +16% vs ref within +20% -> maintain
+0138GOD,14,GILA,MAINTAIN,EXTEND,EXTEND,False,313.0,313.0,True,6,CST 313 vs ref 321 (-2%) <= +10% -> extend
+0138GOD,15,GILA,MAINTAIN,EXTEND,EXTEND,False,317.0,317.0,True,6,CST 317 vs ref 321 (-1%) <= +10% -> extend
+0138GOD,16,GILA,MAINTAIN,EXTEND,EXTEND,False,315.0,315.0,True,6,CST 315 vs ref 321 (-2%) <= +10% -> extend
+0138GOD,17,GILA,MAINTAIN,EXTEND,EXTEND,False,314.0,314.0,True,6,CST 314 vs ref 321 (-2%) <= +10% -> extend
+0138GOD,18,GILA,MAINTAIN,EXTEND,EXTEND,False,339.0,339.0,True,6,CST 339 vs ref 321 (+6%) <= +10% -> extend
+0138GOD,19,GILA,MAINTAIN,EXTEND,EXTEND,False,313.0,313.0,True,6,CST 313 vs ref 321 (-2%) <= +10% -> extend
+0138GOD,20,GILA,MAINTAIN,EXTEND,EXTEND,False,312.0,312.0,True,6,CST 312 vs ref 321 (-3%) <= +10% -> extend
+0138GOD,21,GILA,MAINTAIN,EXTEND,EXTEND,False,309.0,309.0,True,6,CST 309 vs ref 321 (-4%) <= +10% -> extend
+0138GOD,22,GILA,MAINTAIN,EXTEND,EXTEND,False,306.0,306.0,True,6,CST 306 vs ref 321 (-5%) <= +10% -> extend
+0138GOD,23,GILA,SHORTEN,EXTEND,EXTEND,False,331.0,331.0,True,8,CST 331 vs ref 321 (+3%) <= +10% -> extend
+0138GOD,24,GILA,,EXTEND,EXTEND,False,311.0,311.0,True,6,CST 311 vs ref 321 (-3%) <= +10% -> extend
+0138TOS,1,TREX,,LOADING,LOADING,False,337.0,337.0,True,4,loading dose 1/4 -> q4w
+0138TOS,2,TREX,,LOADING,LOADING,False,320.0,320.0,True,4,loading dose 2/4 -> q4w
+0138TOS,3,TREX,,LOADING,LOADING,False,319.0,319.0,True,4,loading dose 3/4 -> q4w
+0138TOS,4,TREX,EXTEND,EXTEND,EXTEND,False,311.0,311.0,True,6,T&E start: reference CST = 311 µm | CST 311 vs ref 311 (+0%) <= +10% -> extend
+0138TOS,5,TREX,EXTEND,EXTEND,EXTEND,False,327.0,327.0,True,8,CST 327 vs ref 311 (+5%) <= +10% -> extend
+0138TOS,6,TREX,MAINTAIN,EXTEND,EXTEND,False,317.0,317.0,True,10,CST 317 vs ref 311 (+2%) <= +10% -> extend
+0138TOS,7,TREX,EXTEND,EXTEND,EXTEND,False,331.0,331.0,True,10,CST 331 vs ref 311 (+6%) <= +10% -> extend
+0138TOS,8,TREX,SHORTEN,SHORTEN,SHORTEN,False,427.0,427.0,True,10,CST +37% vs ref > +20% -> shorten
+0138TOS,9,TREX,EXTEND,EXTEND,EXTEND,False,324.0,324.0,True,10,CST 324 vs ref 311 (+4%) <= +10% -> extend
+0138TOS,10,TREX,MAINTAIN,EXTEND,EXTEND,False,334.0,334.0,True,14,CST 334 vs ref 311 (+7%) <= +10% -> extend
+0138TOS,11,TREX,EXTEND,EXTEND,EXTEND,False,331.0,331.0,True,14,CST 331 vs ref 311 (+6%) <= +10% -> extend
+0138TOS,12,TREX,,EXTEND,EXTEND,False,318.0,318.0,True,16,CST 318 vs ref 311 (+2%) <= +10% -> extend
+0138TOS,13,TREX,,EXTEND,EXTEND,False,328.0,328.0,True,16,CST 328 vs ref 311 (+5%) <= +10% -> extend | interval at max (16 wk) -> held
+0139GOD,1,GILA,,LOADING,LOADING,False,398.0,398.0,True,4,loading dose 1/4 -> q4w
+0139GOD,2,GILA,,LOADING,LOADING,False,366.0,366.0,True,4,loading dose 2/4 -> q4w
+0139GOD,3,GILA,,LOADING,LOADING,False,634.0,634.0,True,4,loading dose 3/4 -> q4w
+0139GOD,4,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,353.0,353.0,True,4,CST 353 µm > 325 gate -> continue q4w
+0139GOD,5,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,346.0,346.0,True,4,CST 346 µm > 325 gate -> continue q4w
+0139GOD,6,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,343.0,343.0,True,4,CST 343 µm > 325 gate -> continue q4w
+0139GOD,7,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,341.0,341.0,True,4,CST 341 µm > 325 gate -> continue q4w
+0139GOD,8,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,335.0,335.0,True,4,CST 335 µm > 325 gate -> continue q4w
+0139GOD,9,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,342.0,342.0,True,4,CST 342 µm > 325 gate -> continue q4w
+0139GOD,10,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,341.0,341.0,True,4,CST 341 µm > 325 gate -> continue q4w
+0139GOD,11,GILA,EXTEND,MAINTAIN,MAINTAIN,False,341.0,341.0,True,4,CST 341 µm > 325 gate -> continue q4w
+0139GOD,12,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,339.0,339.0,True,6,CST 339 µm > 325 gate -> continue q4w
+0139GOD,13,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,332.0,332.0,True,4,CST 332 µm > 325 gate -> continue q4w
+0139GOD,14,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,332.0,332.0,True,4,CST 332 µm > 325 gate -> continue q4w
+0139GOD,15,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,331.0,331.0,True,4,CST 331 µm > 325 gate -> continue q4w
+0139GOD,16,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,330.0,330.0,True,4,CST 330 µm > 325 gate -> continue q4w
+0139GOD,17,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,330.0,330.0,True,4,CST 330 µm > 325 gate -> continue q4w
+0139GOD,18,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,328.0,328.0,True,4,CST 328 µm > 325 gate -> continue q4w
+0139GOD,19,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,329.0,329.0,True,4,CST 329 µm > 325 gate -> continue q4w
+0139GOD,20,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,326.0,326.0,True,4,CST 326 µm > 325 gate -> continue q4w
+0139GOD,21,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,327.0,327.0,True,4,CST 327 µm > 325 gate -> continue q4w
+0139GOD,22,GILA,EXTEND,MAINTAIN,MAINTAIN,False,323.0,323.0,True,4,T&E start: reference CST = 323 µm | CST 323 vs ref 323 (+0%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0139GOD,23,GILA,,EXTEND,EXTEND,False,331.0,331.0,True,8,CST 331 vs ref 323 (+2%) <= +10% -> extend
+0139GOD,24,GILA,,EXTEND,EXTEND,False,348.0,348.0,True,10,CST 348 vs ref 323 (+8%) <= +10% -> extend
+0140TOS,1,TREX,,LOADING,LOADING,False,419.0,419.0,True,4,loading dose 1/4 -> q4w
+0140TOS,2,TREX,,LOADING,LOADING,False,439.0,439.0,True,4,loading dose 2/4 -> q4w
+0140TOS,3,TREX,,LOADING,LOADING,False,420.0,420.0,True,4,loading dose 3/4 -> q4w
+0140TOS,4,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,396.0,396.0,True,4,CST 396 µm > 325 gate -> continue q4w
+0140TOS,5,TREX,,MAINTAIN,MAINTAIN,False,380.0,380.0,True,4,CST 380 µm > 325 gate -> continue q4w
+0141TOS,1,TREX,,LOADING,LOADING,False,946.0,946.0,True,4,loading dose 1/4 -> q4w
+0141TOS,2,TREX,,LOADING,LOADING,False,804.0,804.0,True,4,loading dose 2/4 -> q4w
+0141TOS,3,TREX,,LOADING,LOADING,False,735.0,735.0,True,4,loading dose 3/4 -> q4w
+0141TOS,4,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,579.0,579.0,True,4,CST 579 µm > 325 gate -> continue q4w
+0141TOS,5,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,579.0,579.0,True,4,CST 579 µm > 325 gate -> continue q4w
+0141TOS,6,TREX,EXTEND,MAINTAIN,MAINTAIN,False,584.0,584.0,True,4,CST 584 µm > 325 gate -> continue q4w
+0141TOS,7,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,779.0,779.0,True,6,CST 779 µm > 325 gate -> continue q4w
+0141TOS,8,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,710.0,710.0,True,4,CST 710 µm > 325 gate -> continue q4w
+0141TOS,9,TREX,EXTEND,MAINTAIN,MAINTAIN,False,698.0,698.0,True,4,CST 698 µm > 325 gate -> continue q4w
+0141TOS,10,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,692.0,692.0,True,4,CST 692 µm > 325 gate -> continue q4w
+0141TOS,11,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,648.0,648.0,True,4,CST 648 µm > 325 gate -> continue q4w
+0141TOS,12,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,604.0,604.0,True,4,CST 604 µm > 325 gate -> continue q4w
+0141TOS,13,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,593.0,593.0,True,4,CST 593 µm > 325 gate -> continue q4w
+0141TOS,14,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,610.0,610.0,True,4,CST 610 µm > 325 gate -> continue q4w
+0141TOS,15,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,317.0,317.0,True,4,T&E start: reference CST = 317 µm | CST 317 vs ref 317 (+0%) <= +10% -> extend | safety: BCVA 44 letters below best -> do not extend
+0141TOS,16,TREX,MAINTAIN,SHORTEN,SHORTEN,False,682.0,682.0,True,4,CST +115% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0141TOS,17,TREX,MAINTAIN,SHORTEN,SHORTEN,False,719.0,719.0,True,4,CST +127% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0141TOS,18,TREX,MAINTAIN,SHORTEN,SHORTEN,False,636.0,636.0,True,4,CST +101% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0141TOS,19,TREX,MAINTAIN,SHORTEN,SHORTEN,False,694.0,694.0,True,4,CST +119% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0141TOS,20,TREX,MAINTAIN,SHORTEN,SHORTEN,False,612.0,612.0,True,4,CST +93% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0141TOS,21,TREX,MAINTAIN,SHORTEN,SHORTEN,False,665.0,665.0,True,4,CST +110% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0141TOS,22,TREX,EXTEND,SHORTEN,SHORTEN,False,631.0,631.0,True,4,CST +99% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0141TOS,23,TREX,EXTEND,SHORTEN,SHORTEN,False,675.0,675.0,True,4,CST +113% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0141TOS,24,TREX,,SHORTEN,SHORTEN,False,653.0,653.0,True,6,CST +106% vs ref > +20% -> shorten
+0141TOS,25,TREX,,SHORTEN,SHORTEN,False,675.0,675.0,True,4,CST +113% vs ref > +20% -> shorten
+0141TOS,26,TREX,,SHORTEN,SHORTEN,False,698.0,698.0,True,4,CST +120% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0142GOS,1,GILA,,LOADING,LOADING,False,368.0,368.0,True,4,loading dose 1/4 -> q4w
+0142GOS,2,GILA,,LOADING,LOADING,False,390.0,390.0,True,4,loading dose 2/4 -> q4w
+0142GOS,3,GILA,,LOADING,LOADING,False,353.0,353.0,True,4,loading dose 3/4 -> q4w
+0142GOS,4,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,331.0,331.0,True,4,CST 331 µm > 325 gate -> continue q4w
+0142GOS,5,GILA,EXTEND,MAINTAIN,MAINTAIN,False,320.0,320.0,True,4,T&E start: reference CST = 320 µm | CST 320 vs ref 320 (+0%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0142GOS,6,GILA,EXTEND,MAINTAIN,MAINTAIN,False,318.0,318.0,True,6,CST 318 vs ref 320 (-1%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
+0142GOS,7,GILA,EXTEND,MAINTAIN,MAINTAIN,False,296.0,296.0,True,8,CST 296 vs ref 320 (-7%) <= +10% -> extend | safety: BCVA 10 letters below best -> do not extend
+0142GOS,8,GILA,MAINTAIN,EXTEND,EXTEND,False,283.0,283.0,True,12,CST 283 vs ref 320 (-12%) <= +10% -> extend
+0142GOS,9,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,299.0,299.0,True,10,CST 299 vs ref 320 (-7%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0142GOS,10,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,377.0,377.0,True,10,CST +18% vs ref within +20% -> maintain
+0142GOS,11,GILA,SHORTEN,SHORTEN,SHORTEN,False,456.0,456.0,True,10,CST +43% vs ref > +20% -> shorten
+0142GOS,12,GILA,MAINTAIN,SHORTEN,SHORTEN,False,401.0,401.0,True,6,CST +25% vs ref > +20% -> shorten
+0142GOS,13,GILA,EXTEND,MAINTAIN,MAINTAIN,False,343.0,343.0,True,8,CST 343 vs ref 320 (+7%) <= +10% -> extend | safety: BCVA 25 letters below best -> do not extend
+0142GOS,14,GILA,,MAINTAIN,MAINTAIN,False,336.0,336.0,True,10,CST 336 vs ref 320 (+5%) <= +10% -> extend | safety: BCVA 14 letters below best -> do not extend
+0145GOD,1,GILA,,LOADING,LOADING,False,295.0,295.0,True,4,loading dose 1/4 -> q4w
+0145GOD,2,GILA,,LOADING,LOADING,False,271.0,271.0,True,4,loading dose 2/4 -> q4w
+0145GOD,3,GILA,,LOADING,LOADING,False,269.0,269.0,True,6,loading dose 3/4 -> q4w
+0148TOD,1,TREX,,LOADING,LOADING,False,350.0,350.0,True,4,loading dose 1/4 -> q4w
+0148TOD,2,TREX,,LOADING,LOADING,False,278.0,278.0,True,4,loading dose 2/4 -> q4w
+0148TOD,3,TREX,,LOADING,LOADING,False,265.0,265.0,True,4,loading dose 3/4 -> q4w
+0148TOD,4,TREX,EXTEND,MAINTAIN,MAINTAIN,False,269.0,269.0,True,4,T&E start: reference CST = 269 µm | CST 269 vs ref 269 (+0%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0148TOD,5,TREX,EXTEND,MAINTAIN,MAINTAIN,False,270.0,270.0,True,6,CST 270 vs ref 269 (+0%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0148TOD,6,TREX,MAINTAIN,EXTEND,EXTEND,False,260.0,260.0,True,10,CST 260 vs ref 269 (-3%) <= +10% -> extend
+0148TOD,7,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,293.0,293.0,True,10,CST 293 vs ref 269 (+9%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0148TOD,8,TREX,EXTEND,EXTEND,EXTEND,False,252.0,252.0,True,12,CST 252 vs ref 269 (-6%) <= +10% -> extend
+0148TOD,9,TREX,EXTEND,EXTEND,EXTEND,False,253.0,253.0,True,14,CST 253 vs ref 269 (-6%) <= +10% -> extend
+0148TOD,10,TREX,EXTEND,MAINTAIN,MAINTAIN,False,252.0,252.0,True,14,CST 252 vs ref 269 (-6%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
+0148TOD,11,TREX,,EXTEND,EXTEND,False,255.0,255.0,True,16,CST 255 vs ref 269 (-5%) <= +10% -> extend | interval at max (16 wk) -> held
+0148TOD,12,TREX,,MAINTAIN,MAINTAIN,False,264.0,264.0,True,16,CST 264 vs ref 269 (-2%) <= +10% -> extend | safety: BCVA 14 letters below best -> do not extend
+0150TOS,1,TREX,,LOADING,LOADING,False,321.0,321.0,True,4,loading dose 1/4 -> q4w
+0150TOS,2,TREX,,LOADING,LOADING,False,277.0,277.0,True,4,loading dose 2/4 -> q4w
+0150TOS,3,TREX,,LOADING,LOADING,False,262.0,262.0,True,4,loading dose 3/4 -> q4w
+0150TOS,4,TREX,EXTEND,EXTEND,EXTEND,False,255.0,255.0,True,6,T&E start: reference CST = 255 µm | CST 255 vs ref 255 (+0%) <= +10% -> extend
+0150TOS,5,TREX,MAINTAIN,EXTEND,EXTEND,False,267.0,267.0,True,8,CST 267 vs ref 255 (+5%) <= +10% -> extend
+0150TOS,6,TREX,EXTEND,EXTEND,EXTEND,False,255.0,255.0,True,10,CST 255 vs ref 255 (+0%) <= +10% -> extend
+0150TOS,7,TREX,EXTEND,EXTEND,EXTEND,False,278.0,278.0,True,12,CST 278 vs ref 255 (+9%) <= +10% -> extend
+0150TOS,8,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,288.0,288.0,True,12,CST +13% vs ref within +20% -> maintain
+0150TOS,9,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,301.0,301.0,True,12,CST +18% vs ref within +20% -> maintain
+0150TOS,10,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,296.0,296.0,True,12,CST +16% vs ref within +20% -> maintain
+0150TOS,11,TREX,MAINTAIN,SHORTEN,SHORTEN,False,374.0,374.0,True,10,CST +47% vs ref > +20% -> shorten
+0150TOS,12,TREX,,SHORTEN,SHORTEN,False,543.0,543.0,True,8,CST +113% vs ref > +20% -> shorten
+0151TOD,1,TREX,,LOADING,LOADING,False,304.0,304.0,True,4,loading dose 1/4 -> q4w
+0151TOD,2,TREX,,LOADING,LOADING,False,302.0,302.0,True,4,loading dose 2/4 -> q4w
+0151TOD,3,TREX,,LOADING,LOADING,False,293.0,293.0,True,4,loading dose 3/4 -> q4w
+0151TOD,4,TREX,EXTEND,EXTEND,EXTEND,False,291.0,291.0,True,6,T&E start: reference CST = 291 µm | CST 291 vs ref 291 (+0%) <= +10% -> extend
+0151TOD,5,TREX,EXTEND,EXTEND,EXTEND,False,290.0,290.0,True,8,CST 290 vs ref 291 (-0%) <= +10% -> extend
+0151TOD,6,TREX,MAINTAIN,EXTEND,EXTEND,False,285.0,285.0,True,10,CST 285 vs ref 291 (-2%) <= +10% -> extend
+0151TOD,7,TREX,EXTEND,EXTEND,EXTEND,False,278.0,278.0,True,12,CST 278 vs ref 291 (-4%) <= +10% -> extend
+0151TOD,8,TREX,MAINTAIN,EXTEND,EXTEND,False,280.0,280.0,True,14,CST 280 vs ref 291 (-4%) <= +10% -> extend
+0151TOD,9,TREX,EXTEND,EXTEND,EXTEND,False,294.0,294.0,True,14,CST 294 vs ref 291 (+1%) <= +10% -> extend
+0151TOD,10,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,306.0,306.0,True,14,CST 306 vs ref 291 (+5%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0151TOD,11,TREX,,EXTEND,EXTEND,False,292.0,292.0,True,16,CST 292 vs ref 291 (+0%) <= +10% -> extend
+0153TOD,1,TREX,,LOADING,LOADING,False,505.0,505.0,True,4,loading dose 1/4 -> q4w
+0153TOD,2,TREX,,LOADING,LOADING,False,508.0,508.0,True,4,loading dose 2/4 -> q4w
+0153TOD,3,TREX,,LOADING,LOADING,False,388.0,388.0,True,4,loading dose 3/4 -> q4w
+0153TOD,4,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,374.0,374.0,True,4,CST 374 µm > 325 gate -> continue q4w
+0153TOD,5,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,429.0,429.0,True,4,CST 429 µm > 325 gate -> continue q4w
+0153TOD,6,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,425.0,425.0,True,4,CST 425 µm > 325 gate -> continue q4w
+0153TOD,7,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,391.0,391.0,True,4,CST 391 µm > 325 gate -> continue q4w
+0153TOD,8,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,399.0,399.0,True,4,CST 399 µm > 325 gate -> continue q4w
+0153TOD,9,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,443.0,443.0,True,4,CST 443 µm > 325 gate -> continue q4w
+0153TOD,10,TREX,EXTEND,MAINTAIN,MAINTAIN,False,427.0,427.0,True,4,CST 427 µm > 325 gate -> continue q4w
+0153TOD,11,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,513.0,513.0,True,6,CST 513 µm > 325 gate -> continue q4w
+0153TOD,12,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,451.0,451.0,True,4,CST 451 µm > 325 gate -> continue q4w
+0153TOD,13,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,497.0,497.0,True,4,CST 497 µm > 325 gate -> continue q4w
+0153TOD,14,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,524.0,524.0,True,4,CST 524 µm > 325 gate -> continue q4w
+0153TOD,15,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,514.0,514.0,True,4,CST 514 µm > 325 gate -> continue q4w
+0153TOD,16,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,504.0,504.0,True,4,CST 504 µm > 325 gate -> continue q4w
+0153TOD,17,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,485.0,485.0,True,4,CST 485 µm > 325 gate -> continue q4w
+0153TOD,18,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,574.0,574.0,True,4,CST 574 µm > 325 gate -> continue q4w
+0153TOD,19,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,495.0,495.0,True,4,CST 495 µm > 325 gate -> continue q4w
+0153TOD,20,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,526.0,526.0,True,4,CST 526 µm > 325 gate -> continue q4w
+0153TOD,21,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,498.0,498.0,True,4,CST 498 µm > 325 gate -> continue q4w
+0153TOD,22,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,526.0,526.0,True,4,CST 526 µm > 325 gate -> continue q4w
+0153TOD,23,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,561.0,561.0,True,4,CST 561 µm > 325 gate -> continue q4w
+0153TOD,24,TREX,,MAINTAIN,MAINTAIN,False,508.0,508.0,True,4,CST 508 µm > 325 gate -> continue q4w
+0153TOD,25,TREX,,MAINTAIN,MAINTAIN,False,464.0,464.0,True,4,CST 464 µm > 325 gate -> continue q4w
+0153TOD,26,TREX,,MAINTAIN,MAINTAIN,False,580.0,580.0,True,4,CST 580 µm > 325 gate -> continue q4w
+0154GOD,1,GILA,,LOADING,LOADING,False,496.0,496.0,True,4,loading dose 1/4 -> q4w
+0154GOD,2,GILA,,LOADING,LOADING,False,321.0,321.0,True,4,loading dose 2/4 -> q4w
+0154GOD,3,GILA,,LOADING,LOADING,False,325.0,325.0,True,4,loading dose 3/4 -> q4w
+0154GOD,4,GILA,EXTEND,EXTEND,EXTEND,False,300.0,300.0,True,6,T&E start: reference CST = 300 µm | CST 300 vs ref 300 (+0%) <= +10% -> extend
+0154GOD,5,GILA,SHORTEN,EXTEND,EXTEND,False,255.0,255.0,True,10,CST 255 vs ref 300 (-15%) <= +10% -> extend
+0154GOD,6,GILA,MAINTAIN,EXTEND,EXTEND,False,264.0,264.0,True,8,CST 264 vs ref 300 (-12%) <= +10% -> extend
+0154GOD,7,GILA,MAINTAIN,EXTEND,EXTEND,False,251.0,251.0,True,8,CST 251 vs ref 300 (-16%) <= +10% -> extend | re-baseline: reference 300 -> 257 µm (3 stable visits)
+0154GOD,8,GILA,MAINTAIN,EXTEND,EXTEND,False,252.0,252.0,True,8,CST 252 vs ref 257 (-2%) <= +10% -> extend
+0154GOD,9,GILA,MAINTAIN,EXTEND,EXTEND,False,235.0,235.0,True,8,CST 235 vs ref 257 (-8%) <= +10% -> extend
+0154GOD,10,GILA,EXTEND,EXTEND,EXTEND,False,237.0,237.0,True,8,CST 237 vs ref 257 (-8%) <= +10% -> extend
+0154GOD,11,GILA,EXTEND,MAINTAIN,MAINTAIN,False,238.0,238.0,True,8,CST 238 vs ref 257 (-7%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
+0154GOD,12,GILA,,EXTEND,EXTEND,False,246.0,246.0,True,12,CST 246 vs ref 257 (-4%) <= +10% -> extend
+0155GOD,1,GILA,,LOADING,LOADING,False,316.0,316.0,True,4,loading dose 1/4 -> q4w
+0155GOD,2,GILA,,LOADING,LOADING,False,279.0,279.0,True,4,loading dose 2/4 -> q4w
+0155GOD,3,GILA,,LOADING,LOADING,False,276.0,276.0,True,4,loading dose 3/4 -> q4w
+0155GOD,4,GILA,MAINTAIN,EXTEND,EXTEND,False,273.0,273.0,True,6,T&E start: reference CST = 273 µm | CST 273 vs ref 273 (+0%) <= +10% -> extend
+0155GOD,5,GILA,EXTEND,EXTEND,EXTEND,False,275.0,275.0,True,8,CST 275 vs ref 273 (+1%) <= +10% -> extend
+0155GOD,6,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,311.0,311.0,True,8,CST +14% vs ref within +20% -> maintain
+0155GOD,7,GILA,EXTEND,EXTEND,EXTEND,False,292.0,292.0,True,8,CST 292 vs ref 273 (+7%) <= +10% -> extend
+0155GOD,8,GILA,EXTEND,MAINTAIN,MAINTAIN,False,296.0,296.0,True,8,CST 296 vs ref 273 (+8%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
+0155GOD,9,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,301.0,301.0,True,10,CST +10% vs ref within +20% -> maintain
+0155GOD,10,GILA,SHORTEN,SHORTEN,SHORTEN,False,338.0,338.0,True,8,CST +24% vs ref > +20% -> shorten
+0155GOD,11,GILA,EXTEND,MAINTAIN,MAINTAIN,False,276.0,276.0,True,4,CST 276 vs ref 273 (+1%) <= +10% -> extend | safety: BCVA 11 letters below best -> do not extend
+0155GOD,12,GILA,EXTEND,EXTEND,EXTEND,False,278.0,278.0,True,8,CST 278 vs ref 273 (+2%) <= +10% -> extend
+0155GOD,13,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,319.0,319.0,True,12,CST +17% vs ref within +20% -> maintain
+0155GOD,14,GILA,EXTEND,MAINTAIN,MAINTAIN,False,273.0,273.0,True,4,CST 273 vs ref 273 (+0%) <= +10% -> extend | safety: BCVA 14 letters below best -> do not extend
+0155GOD,15,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,275.0,275.0,True,6,CST 275 vs ref 273 (+1%) <= +10% -> extend | safety: BCVA 22 letters below best -> do not extend
+0155GOD,16,GILA,,MAINTAIN,MAINTAIN,False,273.0,273.0,True,6,CST 273 vs ref 273 (+0%) <= +10% -> extend | safety: BCVA 12 letters below best -> do not extend
+0156TOD,1,TREX,,LOADING,LOADING,False,340.0,340.0,True,4,loading dose 1/4 -> q4w
+0156TOD,2,TREX,,LOADING,LOADING,False,328.0,328.0,True,4,loading dose 2/4 -> q4w
+0156TOD,3,TREX,,LOADING,LOADING,False,325.0,325.0,True,4,loading dose 3/4 -> q4w
+0156TOD,4,TREX,EXTEND,EXTEND,EXTEND,False,315.0,315.0,True,6,T&E start: reference CST = 315 µm | CST 315 vs ref 315 (+0%) <= +10% -> extend
+0156TOD,5,TREX,MAINTAIN,EXTEND,EXTEND,False,314.0,314.0,True,8,CST 314 vs ref 315 (-0%) <= +10% -> extend
+0156TOD,6,TREX,EXTEND,EXTEND,EXTEND,False,308.0,308.0,True,10,CST 308 vs ref 315 (-2%) <= +10% -> extend
+0156TOD,7,TREX,EXTEND,EXTEND,EXTEND,False,303.0,303.0,True,12,CST 303 vs ref 315 (-4%) <= +10% -> extend
+0156TOD,8,TREX,EXTEND,EXTEND,EXTEND,False,296.0,296.0,True,14,CST 296 vs ref 315 (-6%) <= +10% -> extend
+0156TOD,9,TREX,EXTEND,EXTEND,EXTEND,False,298.0,298.0,True,16,CST 298 vs ref 315 (-5%) <= +10% -> extend
+0156TOD,10,TREX,EXTEND,EXTEND,EXTEND,False,300.0,300.0,True,16,CST 300 vs ref 315 (-5%) <= +10% -> extend | interval at max (16 wk) -> held
+0156TOD,11,TREX,,MAINTAIN,MAINTAIN,False,297.0,297.0,True,16,CST 297 vs ref 315 (-6%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
+0157GOD,1,GILA,,LOADING,LOADING,False,361.0,361.0,True,4,loading dose 1/4 -> q4w
+0157GOD,2,GILA,,LOADING,LOADING,False,318.0,318.0,True,4,loading dose 2/4 -> q4w
+0157GOD,3,GILA,,LOADING,LOADING,False,314.0,314.0,True,4,loading dose 3/4 -> q4w
+0157GOD,4,GILA,EXTEND,EXTEND,EXTEND,False,322.0,322.0,True,6,T&E start: reference CST = 322 µm | CST 322 vs ref 322 (+0%) <= +10% -> extend
+0157GOD,5,GILA,EXTEND,EXTEND,EXTEND,False,309.0,309.0,True,8,CST 309 vs ref 322 (-4%) <= +10% -> extend
+0157GOD,6,GILA,EXTEND,EXTEND,EXTEND,False,300.0,300.0,True,10,CST 300 vs ref 322 (-7%) <= +10% -> extend
+0157GOD,7,GILA,EXTEND,MAINTAIN,MAINTAIN,False,302.0,302.0,True,8,CST 302 vs ref 322 (-6%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0157GOD,8,GILA,EXTEND,EXTEND,EXTEND,False,321.0,321.0,True,14,CST 321 vs ref 322 (-0%) <= +10% -> extend
+0157GOD,9,GILA,EXTEND,EXTEND,EXTEND,False,278.0,278.0,True,16,CST 278 vs ref 322 (-14%) <= +10% -> extend
+0157GOD,10,GILA,EXTEND,EXTEND,EXTEND,False,276.0,276.0,True,16,CST 276 vs ref 322 (-14%) <= +10% -> extend | interval at max (16 wk) -> held
+0157GOD,11,GILA,,MAINTAIN,MAINTAIN,False,289.0,289.0,True,16,CST 289 vs ref 322 (-10%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend | re-baseline: reference 322 -> 281 µm (3 stable visits)
+0159GOS,1,GILA,,LOADING,LOADING,False,351.0,351.0,True,4,loading dose 1/4 -> q4w
+0159GOS,2,GILA,,LOADING,LOADING,False,291.0,291.0,True,4,loading dose 2/4 -> q4w
+0159GOS,3,GILA,,LOADING,LOADING,False,302.0,302.0,True,4,loading dose 3/4 -> q4w
+0159GOS,4,GILA,EXTEND,MAINTAIN,MAINTAIN,False,285.0,285.0,True,4,T&E start: reference CST = 285 µm | CST 285 vs ref 285 (+0%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0159GOS,5,GILA,EXTEND,EXTEND,EXTEND,False,303.0,303.0,True,8,CST 303 vs ref 285 (+6%) <= +10% -> extend
+0159GOS,6,GILA,SHORTEN,SHORTEN,SHORTEN,False,346.0,346.0,True,6,CST +21% vs ref > +20% -> shorten
+0159GOS,7,GILA,EXTEND,EXTEND,EXTEND,False,307.0,307.0,True,8,CST 307 vs ref 285 (+8%) <= +10% -> extend
+0159GOS,8,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,339.0,339.0,True,8,CST +19% vs ref within +20% -> maintain
+0159GOS,9,GILA,SHORTEN,SHORTEN,SHORTEN,False,390.0,390.0,True,4,CST +37% vs ref > +20% -> shorten
+0159GOS,10,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,337.0,337.0,True,6,CST +18% vs ref within +20% -> maintain
+0159GOS,11,GILA,MAINTAIN,SHORTEN,SHORTEN,False,390.0,390.0,True,4,CST +37% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0159GOS,12,GILA,SHORTEN,SHORTEN,SHORTEN,False,450.0,450.0,True,4,CST +58% vs ref > +20% -> shorten
+0159GOS,13,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,328.0,328.0,True,4,CST +15% vs ref within +20% -> maintain
+0159GOS,14,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,340.0,340.0,True,4,CST +19% vs ref within +20% -> maintain
+0159GOS,15,GILA,EXTEND,EXTEND,EXTEND,False,310.0,310.0,True,6,CST 310 vs ref 285 (+9%) <= +10% -> extend
+0159GOS,16,GILA,SHORTEN,SHORTEN,SHORTEN,False,371.0,371.0,True,4,CST +30% vs ref > +20% -> shorten
+0159GOS,17,GILA,EXTEND,MAINTAIN,MAINTAIN,False,294.0,294.0,True,4,CST 294 vs ref 285 (+3%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0159GOS,18,GILA,EXTEND,MAINTAIN,MAINTAIN,False,313.0,313.0,True,6,CST 313 vs ref 285 (+10%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0159GOS,19,GILA,,EXTEND,EXTEND,False,287.0,287.0,True,10,CST 287 vs ref 285 (+1%) <= +10% -> extend
+0159GOS,20,GILA,,EXTEND,EXTEND,False,313.0,313.0,True,12,CST 313 vs ref 285 (+10%) <= +10% -> extend
+0201GOD,1,GILA,,LOADING,LOADING,False,575.0,575.0,True,4,loading dose 1/4 -> q4w
+0201GOD,2,GILA,,LOADING,LOADING,False,367.0,367.0,True,6,loading dose 2/4 -> q4w
+0201GOD,3,GILA,,LOADING,LOADING,False,294.0,294.0,True,4,loading dose 3/4 -> q4w
+0201GOD,4,GILA,EXTEND,EXTEND,EXTEND,False,313.0,313.0,True,6,T&E start: reference CST = 313 µm | CST 313 vs ref 313 (+0%) <= +10% -> extend
+0201GOD,5,GILA,SHORTEN,SHORTEN,SHORTEN,False,420.0,420.0,True,4,CST +34% vs ref > +20% -> shorten
+0201GOD,6,GILA,MAINTAIN,EXTEND,EXTEND,False,331.0,331.0,True,6,CST 331 vs ref 313 (+6%) <= +10% -> extend
+0201GOD,7,GILA,EXTEND,EXTEND,EXTEND,False,283.0,283.0,True,6,CST 283 vs ref 313 (-10%) <= +10% -> extend
+0201GOD,8,GILA,EXTEND,EXTEND,EXTEND,False,278.0,278.0,True,8,CST 278 vs ref 313 (-11%) <= +10% -> extend
+0201GOD,9,GILA,EXTEND,EXTEND,EXTEND,False,284.0,284.0,True,10,CST 284 vs ref 313 (-9%) <= +10% -> extend
+0201GOD,10,GILA,SHORTEN,SHORTEN,SHORTEN,False,464.0,464.0,True,8,CST +48% vs ref > +20% -> shorten
+0201GOD,11,GILA,MAINTAIN,EXTEND,EXTEND,False,244.0,244.0,True,6,CST 244 vs ref 313 (-22%) <= +10% -> extend
+0201GOD,12,GILA,MAINTAIN,EXTEND,EXTEND,False,248.0,248.0,True,6,CST 248 vs ref 313 (-21%) <= +10% -> extend
+0201GOD,13,GILA,MAINTAIN,EXTEND,EXTEND,False,237.0,237.0,True,6,CST 237 vs ref 313 (-24%) <= +10% -> extend | re-baseline: reference 313 -> 243 µm (3 stable visits)
+0201GOD,14,GILA,MAINTAIN,EXTEND,EXTEND,False,240.0,240.0,True,6,CST 240 vs ref 243 (-1%) <= +10% -> extend
+0201GOD,15,GILA,MAINTAIN,EXTEND,EXTEND,False,243.0,243.0,True,6,CST 243 vs ref 243 (+0%) <= +10% -> extend
+0201GOD,16,GILA,MAINTAIN,EXTEND,EXTEND,False,235.0,235.0,True,6,CST 235 vs ref 243 (-3%) <= +10% -> extend
+0201GOD,17,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,228.0,228.0,True,4,CST 228 vs ref 243 (-6%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0201GOD,18,GILA,MAINTAIN,EXTEND,EXTEND,False,236.0,236.0,True,6,CST 236 vs ref 243 (-3%) <= +10% -> extend
+0201GOD,19,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,271.0,271.0,True,4,CST +12% vs ref within +20% -> maintain
+0201GOD,20,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,238.0,238.0,True,4,CST 238 vs ref 243 (-2%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0201GOD,21,GILA,,MAINTAIN,MAINTAIN,False,249.0,249.0,True,4,CST 249 vs ref 243 (+2%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0201GOD,22,GILA,,MAINTAIN,MAINTAIN,False,241.0,241.0,True,4,CST 241 vs ref 243 (-1%) <= +10% -> extend | safety: BCVA 11 letters below best -> do not extend
+0201TOS,1,TREX,,LOADING,LOADING,False,476.0,476.0,True,4,loading dose 1/4 -> q4w
+0201TOS,2,TREX,,LOADING,LOADING,False,432.0,432.0,True,6,loading dose 2/4 -> q4w
+0201TOS,3,TREX,,LOADING,LOADING,False,376.0,376.0,True,4,loading dose 3/4 -> q4w
+0201TOS,4,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,359.0,359.0,True,4,CST 359 µm > 325 gate -> continue q4w
+0201TOS,5,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,351.0,351.0,True,4,CST 351 µm > 325 gate -> continue q4w
+0201TOS,6,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,355.0,355.0,True,4,CST 355 µm > 325 gate -> continue q4w
+0201TOS,7,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,334.0,334.0,True,4,CST 334 µm > 325 gate -> continue q4w
+0201TOS,8,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,331.0,331.0,True,4,CST 331 µm > 325 gate -> continue q4w
+0201TOS,9,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,349.0,349.0,True,4,CST 349 µm > 325 gate -> continue q4w
+0201TOS,10,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,335.0,335.0,True,4,CST 335 µm > 325 gate -> continue q4w
+0201TOS,11,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,336.0,336.0,True,4,CST 336 µm > 325 gate -> continue q4w
+0201TOS,12,TREX,EXTEND,EXTEND,EXTEND,False,325.0,325.0,True,6,T&E start: reference CST = 325 µm | CST 325 vs ref 325 (+0%) <= +10% -> extend
+0201TOS,13,TREX,EXTEND,EXTEND,EXTEND,False,303.0,303.0,True,8,CST 303 vs ref 325 (-7%) <= +10% -> extend
+0201TOS,14,TREX,EXTEND,MAINTAIN,MAINTAIN,False,326.0,326.0,True,8,CST 326 vs ref 325 (+0%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0201TOS,15,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,324.0,324.0,True,10,CST 324 vs ref 325 (-0%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
+0201TOS,16,TREX,SHORTEN,SHORTEN,SHORTEN,False,417.0,417.0,True,8,CST +28% vs ref > +20% -> shorten
+0201TOS,17,TREX,MAINTAIN,SHORTEN,SHORTEN,False,543.0,543.0,True,6,CST +67% vs ref > +20% -> shorten
+0201TOS,18,TREX,,SHORTEN,SHORTEN,False,427.0,427.0,True,6,CST +31% vs ref > +20% -> shorten
+0201TOS,19,TREX,,SHORTEN,SHORTEN,False,520.0,520.0,True,4,CST +60% vs ref > +20% -> shorten
+0203GOS,1,GILA,,LOADING,LOADING,False,392.0,392.0,True,4,loading dose 1/4 -> q4w
+0203GOS,2,GILA,,LOADING,LOADING,False,363.0,363.0,True,4,loading dose 2/4 -> q4w
+0203GOS,3,GILA,,LOADING,LOADING,False,340.0,340.0,True,4,loading dose 3/4 -> q4w
+0203GOS,4,GILA,EXTEND,EXTEND,EXTEND,False,316.0,316.0,True,6,T&E start: reference CST = 316 µm | CST 316 vs ref 316 (+0%) <= +10% -> extend
+0203GOS,5,GILA,EXTEND,MAINTAIN,MAINTAIN,False,298.0,298.0,True,6,CST 298 vs ref 316 (-6%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0203GOS,6,GILA,MAINTAIN,EXTEND,EXTEND,False,269.0,269.0,True,10,CST 269 vs ref 316 (-15%) <= +10% -> extend
+0203GOS,7,GILA,EXTEND,MAINTAIN,MAINTAIN,False,265.0,265.0,True,8,CST 265 vs ref 316 (-16%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
+0203GOS,8,GILA,MAINTAIN,EXTEND,EXTEND,False,265.0,265.0,True,12,CST 265 vs ref 316 (-16%) <= +10% -> extend | re-baseline: reference 316 -> 266 µm (3 stable visits)
+0203GOS,9,GILA,MAINTAIN,EXTEND,EXTEND,False,259.0,259.0,True,10,CST 259 vs ref 266 (-3%) <= +10% -> extend
+0203GOS,10,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,260.0,260.0,True,8,CST 260 vs ref 266 (-2%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
+0203GOS,11,GILA,MAINTAIN,EXTEND,EXTEND,False,261.0,261.0,True,10,CST 261 vs ref 266 (-2%) <= +10% -> extend
+0203GOS,12,GILA,MAINTAIN,EXTEND,EXTEND,False,263.0,263.0,True,10,CST 263 vs ref 266 (-1%) <= +10% -> extend
+0203GOS,13,GILA,MAINTAIN,EXTEND,EXTEND,False,269.0,269.0,True,10,CST 269 vs ref 266 (+1%) <= +10% -> extend
+0203GOS,14,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,259.0,259.0,True,8,CST 259 vs ref 266 (-3%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
+0203GOS,15,GILA,,MAINTAIN,MAINTAIN,False,270.0,270.0,True,8,CST 270 vs ref 266 (+1%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0204GOS,1,GILA,,LOADING,LOADING,False,539.0,539.0,True,4,loading dose 1/4 -> q4w
+0204GOS,2,GILA,,LOADING,LOADING,False,498.0,498.0,True,4,loading dose 2/4 -> q4w
+0204GOS,3,GILA,,LOADING,LOADING,False,503.0,503.0,True,4,loading dose 3/4 -> q4w
+0204GOS,4,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,419.0,419.0,True,4,CST 419 µm > 325 gate -> continue q4w
+0204GOS,5,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,396.0,396.0,True,4,CST 396 µm > 325 gate -> continue q4w
+0204GOS,6,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,400.0,400.0,True,4,CST 400 µm > 325 gate -> continue q4w
+0204GOS,7,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,509.0,509.0,True,4,CST 509 µm > 325 gate -> continue q4w
+0204GOS,8,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,438.0,438.0,True,4,CST 438 µm > 325 gate -> continue q4w
+0204GOS,9,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,365.0,365.0,True,4,CST 365 µm > 325 gate -> continue q4w
+0204GOS,10,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,365.0,365.0,True,4,CST 365 µm > 325 gate -> continue q4w
+0204GOS,11,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,380.0,380.0,True,4,CST 380 µm > 325 gate -> continue q4w
+0204GOS,12,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,410.0,410.0,True,4,CST 410 µm > 325 gate -> continue q4w
+0204GOS,13,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,351.0,351.0,True,4,CST 351 µm > 325 gate -> continue q4w
+0204GOS,14,GILA,MAINTAIN,EXTEND,EXTEND,False,311.0,311.0,True,6,T&E start: reference CST = 311 µm | CST 311 vs ref 311 (+0%) <= +10% -> extend
+0204GOS,15,GILA,SHORTEN,EXTEND,EXTEND,False,324.0,324.0,True,6,CST 324 vs ref 311 (+4%) <= +10% -> extend
+0204GOS,16,GILA,MAINTAIN,EXTEND,EXTEND,False,298.0,298.0,True,6,CST 298 vs ref 311 (-4%) <= +10% -> extend
+0204GOS,17,GILA,EXTEND,EXTEND,EXTEND,False,302.0,302.0,True,6,CST 302 vs ref 311 (-3%) <= +10% -> extend
+0204GOS,18,GILA,EXTEND,EXTEND,EXTEND,False,288.0,288.0,True,8,CST 288 vs ref 311 (-7%) <= +10% -> extend
+0204GOS,19,GILA,MAINTAIN,EXTEND,EXTEND,False,295.0,295.0,True,10,CST 295 vs ref 311 (-5%) <= +10% -> extend
+0204GOS,20,GILA,EXTEND,EXTEND,EXTEND,False,282.0,282.0,True,10,CST 282 vs ref 311 (-9%) <= +10% -> extend
+0204GOS,21,GILA,,EXTEND,EXTEND,False,309.0,309.0,True,12,CST 309 vs ref 311 (-1%) <= +10% -> extend
+0207TOS,1,TREX,,LOADING,LOADING,False,463.0,463.0,True,4,loading dose 1/4 -> q4w
+0207TOS,2,TREX,,LOADING,LOADING,False,384.0,384.0,True,4,loading dose 2/4 -> q4w
+0207TOS,3,TREX,,LOADING,LOADING,False,343.0,343.0,True,4,loading dose 3/4 -> q4w
+0207TOS,4,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,334.0,334.0,True,4,CST 334 µm > 325 gate -> continue q4w
+0207TOS,5,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,336.0,336.0,True,4,CST 336 µm > 325 gate -> continue q4w
+0207TOS,6,TREX,EXTEND,EXTEND,EXTEND,False,324.0,324.0,True,6,T&E start: reference CST = 324 µm | CST 324 vs ref 324 (+0%) <= +10% -> extend
+0207TOS,7,TREX,EXTEND,EXTEND,EXTEND,False,317.0,317.0,True,8,CST 317 vs ref 324 (-2%) <= +10% -> extend
+0207TOS,8,TREX,MAINTAIN,EXTEND,EXTEND,False,317.0,317.0,True,10,CST 317 vs ref 324 (-2%) <= +10% -> extend
+0207TOS,9,TREX,EXTEND,EXTEND,EXTEND,False,314.0,314.0,True,10,CST 314 vs ref 324 (-3%) <= +10% -> extend
+0207TOS,10,TREX,MAINTAIN,EXTEND,EXTEND,False,299.0,299.0,True,14,CST 299 vs ref 324 (-8%) <= +10% -> extend
+0207TOS,11,TREX,EXTEND,EXTEND,EXTEND,False,300.0,300.0,True,14,CST 300 vs ref 324 (-7%) <= +10% -> extend
+0207TOS,12,TREX,MAINTAIN,EXTEND,EXTEND,False,294.0,294.0,True,16,CST 294 vs ref 324 (-9%) <= +10% -> extend | interval at max (16 wk) -> held
+0207TOS,14,TREX,,EXTEND,EXTEND,False,303.0,303.0,True,16,CST 303 vs ref 324 (-6%) <= +10% -> extend | interval at max (16 wk) -> held
+0208TOD,1,TREX,,LOADING,LOADING,False,650.0,650.0,True,4,loading dose 1/4 -> q4w
+0208TOD,2,TREX,,LOADING,LOADING,False,253.0,253.0,True,4,loading dose 2/4 -> q4w
+0208TOD,3,TREX,,LOADING,LOADING,False,251.0,251.0,True,4,loading dose 3/4 -> q4w
+0208TOD,4,TREX,EXTEND,EXTEND,EXTEND,False,235.0,235.0,True,6,T&E start: reference CST = 235 µm | CST 235 vs ref 235 (+0%) <= +10% -> extend
+0208TOD,5,TREX,EXTEND,EXTEND,EXTEND,False,235.0,235.0,True,8,CST 235 vs ref 235 (+0%) <= +10% -> extend
+0208TOD,6,TREX,SHORTEN,SHORTEN,SHORTEN,False,314.0,314.0,True,8,CST +34% vs ref > +20% -> shorten
+0208TOD,7,TREX,EXTEND,EXTEND,EXTEND,False,238.0,238.0,True,8,CST 238 vs ref 235 (+1%) <= +10% -> extend
+0208TOD,8,TREX,EXTEND,EXTEND,EXTEND,False,256.0,256.0,True,10,CST 256 vs ref 235 (+9%) <= +10% -> extend
+0208TOD,9,TREX,,MAINTAIN,MAINTAIN,False,275.0,275.0,True,16,CST +17% vs ref within +20% -> maintain
+0208TOD,10,TREX,,MAINTAIN,MAINTAIN,False,277.0,277.0,True,16,CST +18% vs ref within +20% -> maintain
+0209TOD,1,TREX,,LOADING,LOADING,False,518.0,518.0,True,4,loading dose 1/4 -> q4w
+0209TOD,2,TREX,,LOADING,LOADING,False,256.0,256.0,True,4,loading dose 2/4 -> q4w
+0209TOD,3,TREX,,LOADING,LOADING,False,272.0,272.0,True,4,loading dose 3/4 -> q4w
+0209TOD,4,TREX,MAINTAIN,EXTEND,EXTEND,False,290.0,290.0,True,6,T&E start: reference CST = 290 µm | CST 290 vs ref 290 (+0%) <= +10% -> extend
+0209TOD,5,TREX,SHORTEN,SHORTEN,SHORTEN,False,354.0,354.0,True,4,CST +22% vs ref > +20% -> shorten
+0209TOD,6,TREX,MAINTAIN,EXTEND,EXTEND,False,292.0,292.0,True,6,CST 292 vs ref 290 (+1%) <= +10% -> extend
+0209TOD,7,TREX,MAINTAIN,SHORTEN,SHORTEN,False,356.0,356.0,True,4,CST +23% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0209TOD,8,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,320.0,320.0,True,4,CST +10% vs ref within +20% -> maintain
+0209TOD,9,TREX,EXTEND,MAINTAIN,MAINTAIN,False,319.0,319.0,True,4,CST +10% vs ref within +20% -> maintain
+0209TOD,10,TREX,,SHORTEN,SHORTEN,False,562.0,562.0,True,4,CST +94% vs ref > +20% -> shorten
+0211TOD,1,TREX,,LOADING,LOADING,False,612.0,612.0,True,4,loading dose 1/4 -> q4w
+0211TOD,2,TREX,,LOADING,LOADING,False,549.0,549.0,True,4,loading dose 2/4 -> q4w
+0211TOD,3,TREX,,LOADING,LOADING,False,443.0,443.0,True,4,loading dose 3/4 -> q4w
+0211TOD,4,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,457.0,457.0,True,4,CST 457 µm > 325 gate -> continue q4w
+0211TOD,5,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,441.0,441.0,True,4,CST 441 µm > 325 gate -> continue q4w
+0211TOD,6,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,515.0,515.0,True,4,CST 515 µm > 325 gate -> continue q4w
+0211TOD,7,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,472.0,472.0,True,4,CST 472 µm > 325 gate -> continue q4w
+0211TOD,8,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,468.0,468.0,True,4,CST 468 µm > 325 gate -> continue q4w
+0211TOD,9,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,392.0,392.0,True,4,CST 392 µm > 325 gate -> continue q4w
+0211TOD,10,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,375.0,375.0,True,4,CST 375 µm > 325 gate -> continue q4w
+0211TOD,11,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,368.0,368.0,True,4,CST 368 µm > 325 gate -> continue q4w
+0211TOD,12,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,411.0,411.0,True,4,CST 411 µm > 325 gate -> continue q4w
+0211TOD,13,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,344.0,344.0,True,4,CST 344 µm > 325 gate -> continue q4w
+0211TOD,14,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,352.0,352.0,True,4,CST 352 µm > 325 gate -> continue q4w
+0211TOD,15,TREX,EXTEND,EXTEND,EXTEND,False,322.0,322.0,True,6,T&E start: reference CST = 322 µm | CST 322 vs ref 322 (+0%) <= +10% -> extend
+0211TOD,16,TREX,EXTEND,EXTEND,EXTEND,False,329.0,329.0,True,8,CST 329 vs ref 322 (+2%) <= +10% -> extend
+0211TOD,17,TREX,,SHORTEN,SHORTEN,False,521.0,521.0,True,6,CST +62% vs ref > +20% -> shorten
+0213GOD,1,GILA,,LOADING,LOADING,False,516.0,516.0,True,4,loading dose 1/4 -> q4w
+0213GOD,2,GILA,,LOADING,LOADING,False,411.0,411.0,True,4,loading dose 2/4 -> q4w
+0213GOD,3,GILA,,LOADING,LOADING,False,327.0,327.0,True,4,loading dose 3/4 -> q4w
+0213GOD,4,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,392.0,392.0,True,4,CST 392 µm > 325 gate -> continue q4w
+0213GOD,5,GILA,EXTEND,EXTEND,EXTEND,False,257.0,257.0,True,6,T&E start: reference CST = 257 µm | CST 257 vs ref 257 (+0%) <= +10% -> extend
+0213GOD,6,GILA,EXTEND,EXTEND,EXTEND,False,245.0,245.0,True,8,CST 245 vs ref 257 (-5%) <= +10% -> extend
+0213GOD,7,GILA,EXTEND,EXTEND,EXTEND,False,238.0,238.0,True,10,CST 238 vs ref 257 (-7%) <= +10% -> extend
+0213GOD,8,GILA,EXTEND,EXTEND,EXTEND,False,244.0,244.0,True,12,CST 244 vs ref 257 (-5%) <= +10% -> extend
+0213GOD,9,GILA,MAINTAIN,EXTEND,EXTEND,False,241.0,241.0,True,14,CST 241 vs ref 257 (-6%) <= +10% -> extend
+0213GOD,10,GILA,,EXTEND,EXTEND,False,234.0,234.0,True,14,CST 234 vs ref 257 (-9%) <= +10% -> extend
+0213TOS,1,TREX,,LOADING,LOADING,False,516.0,516.0,True,4,loading dose 1/4 -> q4w
+0213TOS,2,TREX,,LOADING,LOADING,False,459.0,459.0,True,4,loading dose 2/4 -> q4w
+0213TOS,3,TREX,,LOADING,LOADING,False,406.0,406.0,True,4,loading dose 3/4 -> q4w
+0213TOS,4,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,390.0,390.0,True,4,CST 390 µm > 325 gate -> continue q4w
+0213TOS,5,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,407.0,407.0,True,4,CST 407 µm > 325 gate -> continue q4w
+0213TOS,6,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,391.0,391.0,True,4,CST 391 µm > 325 gate -> continue q4w
+0213TOS,7,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,473.0,473.0,True,4,CST 473 µm > 325 gate -> continue q4w
+0213TOS,8,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,412.0,412.0,True,4,CST 412 µm > 325 gate -> continue q4w
+0213TOS,9,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,378.0,378.0,True,4,CST 378 µm > 325 gate -> continue q4w
+0213TOS,10,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,383.0,383.0,True,4,CST 383 µm > 325 gate -> continue q4w
+0213TOS,11,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,429.0,429.0,True,4,CST 429 µm > 325 gate -> continue q4w
+0213TOS,12,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,356.0,356.0,True,4,CST 356 µm > 325 gate -> continue q4w
+0213TOS,13,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,394.0,394.0,True,4,CST 394 µm > 325 gate -> continue q4w
+0213TOS,14,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,400.0,400.0,True,4,CST 400 µm > 325 gate -> continue q4w
+0213TOS,15,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,388.0,388.0,True,4,CST 388 µm > 325 gate -> continue q4w
+0213TOS,16,TREX,EXTEND,MAINTAIN,MAINTAIN,False,399.0,399.0,True,4,CST 399 µm > 325 gate -> continue q4w
+0213TOS,17,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,412.0,412.0,True,4,CST 412 µm > 325 gate -> continue q4w
+0213TOS,18,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,454.0,454.0,True,4,CST 454 µm > 325 gate -> continue q4w
+0213TOS,19,TREX,,MAINTAIN,MAINTAIN,False,361.0,361.0,True,4,CST 361 µm > 325 gate -> continue q4w
+0215GOS,1,GILA,,LOADING,LOADING,False,335.0,335.0,True,4,loading dose 1/4 -> q4w
+0215GOS,2,GILA,,LOADING,LOADING,False,347.0,347.0,True,4,loading dose 2/4 -> q4w
+0215GOS,3,GILA,,LOADING,LOADING,False,336.0,336.0,True,4,loading dose 3/4 -> q4w
+0215GOS,4,GILA,EXTEND,EXTEND,EXTEND,False,302.0,302.0,True,6,T&E start: reference CST = 302 µm | CST 302 vs ref 302 (+0%) <= +10% -> extend
+0215GOS,5,GILA,EXTEND,EXTEND,EXTEND,False,279.0,279.0,True,8,CST 279 vs ref 302 (-8%) <= +10% -> extend
+0215GOS,6,GILA,EXTEND,EXTEND,EXTEND,False,263.0,263.0,True,10,CST 263 vs ref 302 (-13%) <= +10% -> extend
+0215GOS,7,GILA,EXTEND,EXTEND,EXTEND,False,262.0,262.0,True,12,CST 262 vs ref 302 (-13%) <= +10% -> extend
+0215GOS,8,GILA,SHORTEN,EXTEND,EXTEND,False,265.0,265.0,True,14,CST 265 vs ref 302 (-12%) <= +10% -> extend | re-baseline: reference 302 -> 263 µm (3 stable visits)
+0215GOS,9,GILA,MAINTAIN,EXTEND,EXTEND,False,248.0,248.0,True,14,CST 248 vs ref 263 (-6%) <= +10% -> extend
+0215GOS,10,GILA,EXTEND,EXTEND,EXTEND,False,247.0,247.0,True,14,CST 247 vs ref 263 (-6%) <= +10% -> extend
+0215GOS,11,GILA,SHORTEN,EXTEND,EXTEND,False,254.0,254.0,True,16,CST 254 vs ref 263 (-4%) <= +10% -> extend
+0215GOS,12,GILA,,EXTEND,EXTEND,False,249.0,249.0,True,14,CST 249 vs ref 263 (-5%) <= +10% -> extend
+0217GOS,1,GILA,,LOADING,LOADING,False,315.0,315.0,True,4,loading dose 1/4 -> q4w
+0217GOS,2,GILA,,LOADING,LOADING,False,314.0,314.0,True,4,loading dose 2/4 -> q4w
+0217GOS,3,GILA,,LOADING,LOADING,False,298.0,298.0,True,4,loading dose 3/4 -> q4w
+0217GOS,4,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,297.0,297.0,True,4,T&E start: reference CST = 297 µm | CST 297 vs ref 297 (+0%) <= +10% -> extend | safety: BCVA 22 letters below best -> do not extend
+0217GOS,5,GILA,EXTEND,EXTEND,EXTEND,False,289.0,289.0,True,6,CST 289 vs ref 297 (-3%) <= +10% -> extend
+0217GOS,6,GILA,EXTEND,EXTEND,EXTEND,False,301.0,301.0,True,8,CST 301 vs ref 297 (+1%) <= +10% -> extend
+0217GOS,7,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,299.0,299.0,True,10,CST 299 vs ref 297 (+1%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0217GOS,8,GILA,EXTEND,MAINTAIN,MAINTAIN,False,301.0,301.0,True,10,CST 301 vs ref 297 (+1%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
+0217GOS,9,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,334.0,334.0,True,12,CST +12% vs ref within +20% -> maintain
+0217GOS,10,GILA,EXTEND,MAINTAIN,MAINTAIN,False,300.0,300.0,True,12,CST 300 vs ref 297 (+1%) <= +10% -> extend | safety: BCVA 10 letters below best -> do not extend
+0217GOS,11,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,294.0,294.0,True,14,CST 294 vs ref 297 (-1%) <= +10% -> extend | safety: BCVA 22 letters below best -> do not extend
+0217GOS,12,GILA,EXTEND,MAINTAIN,MAINTAIN,False,282.0,282.0,True,4,CST 282 vs ref 297 (-5%) <= +10% -> extend | safety: BCVA 15 letters below best -> do not extend
+0217GOS,13,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,273.0,273.0,True,6,CST 273 vs ref 297 (-8%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
+0217GOS,14,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,268.0,268.0,True,6,CST 268 vs ref 297 (-10%) <= +10% -> extend | safety: BCVA 18 letters below best -> do not extend
+0217GOS,15,GILA,,MAINTAIN,MAINTAIN,False,268.0,268.0,True,4,CST 268 vs ref 297 (-10%) <= +10% -> extend | safety: BCVA 14 letters below best -> do not extend
+0220TOD,1,TREX,,LOADING,LOADING,False,581.0,581.0,True,4,loading dose 1/4 -> q4w
+0220TOD,2,TREX,,LOADING,LOADING,False,389.0,389.0,True,4,loading dose 2/4 -> q4w
+0220TOD,3,TREX,,LOADING,LOADING,False,326.0,326.0,True,4,loading dose 3/4 -> q4w
+0220TOD,4,TREX,EXTEND,EXTEND,EXTEND,False,311.0,311.0,True,6,T&E start: reference CST = 311 µm | CST 311 vs ref 311 (+0%) <= +10% -> extend
+0220TOD,5,TREX,MAINTAIN,EXTEND,EXTEND,False,271.0,271.0,True,8,CST 271 vs ref 311 (-13%) <= +10% -> extend
+0220TOD,6,TREX,MAINTAIN,EXTEND,EXTEND,False,268.0,268.0,True,8,CST 268 vs ref 311 (-14%) <= +10% -> extend
+0220TOD,7,TREX,MAINTAIN,EXTEND,EXTEND,False,268.0,268.0,True,8,CST 268 vs ref 311 (-14%) <= +10% -> extend | re-baseline: reference 311 -> 269 µm (3 stable visits)
+0220TOD,8,TREX,EXTEND,EXTEND,EXTEND,False,249.0,249.0,True,6,CST 249 vs ref 269 (-7%) <= +10% -> extend
+0220TOD,9,TREX,SHORTEN,SHORTEN,SHORTEN,False,544.0,544.0,True,12,CST +102% vs ref > +20% -> shorten
+0220TOD,10,TREX,EXTEND,SHORTEN,SHORTEN,False,457.0,457.0,True,4,CST +70% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0220TOD,11,TREX,MAINTAIN,SHORTEN,SHORTEN,False,387.0,387.0,True,4,CST +44% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0220TOD,12,TREX,EXTEND,SHORTEN,SHORTEN,False,341.0,341.0,True,4,CST +27% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0220TOD,13,TREX,EXTEND,SHORTEN,SHORTEN,False,334.0,334.0,True,4,CST +24% vs ref > +20% -> shorten
+0220TOD,14,TREX,SHORTEN,SHORTEN,SHORTEN,False,492.0,492.0,True,6,CST +83% vs ref > +20% -> shorten
+0220TOD,15,TREX,EXTEND,SHORTEN,SHORTEN,False,324.0,324.0,True,4,CST +20% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0220TOD,16,TREX,SHORTEN,SHORTEN,SHORTEN,False,352.0,352.0,True,4,CST +31% vs ref > +20% -> shorten
+0220TOD,17,TREX,EXTEND,MAINTAIN,MAINTAIN,False,314.0,314.0,True,4,CST +17% vs ref within +20% -> maintain
+0220TOD,18,TREX,,MAINTAIN,MAINTAIN,False,289.0,289.0,True,6,CST 289 vs ref 269 (+7%) <= +10% -> extend | safety: BCVA 10 letters below best -> do not extend
+0221GOD,1,GILA,,LOADING,LOADING,False,371.0,371.0,True,4,loading dose 1/4 -> q4w
+0221GOD,2,GILA,,LOADING,LOADING,False,343.0,343.0,True,4,loading dose 2/4 -> q4w
+0221GOD,3,GILA,,LOADING,LOADING,False,350.0,350.0,True,4,loading dose 3/4 -> q4w
+0221GOD,4,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,350.0,350.0,True,4,CST 350 µm > 325 gate -> continue q4w
+0221GOD,5,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,406.0,406.0,True,4,CST 406 µm > 325 gate -> continue q4w
+0221GOD,6,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,335.0,335.0,True,4,CST 335 µm > 325 gate -> continue q4w
+0221GOD,7,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,350.0,350.0,True,4,CST 350 µm > 325 gate -> continue q4w
+0221GOD,8,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,353.0,353.0,True,4,CST 353 µm > 325 gate -> continue q4w
+0221GOD,9,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,374.0,374.0,True,4,CST 374 µm > 325 gate -> continue q4w
+0221GOD,10,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,356.0,356.0,True,4,CST 356 µm > 325 gate -> continue q4w
+0221GOD,11,GILA,EXTEND,EXTEND,EXTEND,False,310.0,310.0,True,6,T&E start: reference CST = 310 µm | CST 310 vs ref 310 (+0%) <= +10% -> extend
+0221GOD,12,GILA,EXTEND,EXTEND,EXTEND,False,303.0,303.0,True,8,CST 303 vs ref 310 (-2%) <= +10% -> extend
+0221GOD,13,GILA,EXTEND,MAINTAIN,MAINTAIN,False,294.0,294.0,True,8,CST 294 vs ref 310 (-5%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0221GOD,14,GILA,EXTEND,EXTEND,EXTEND,False,304.0,304.0,True,12,CST 304 vs ref 310 (-2%) <= +10% -> extend
+0221GOD,15,GILA,MAINTAIN,EXTEND,EXTEND,False,274.0,274.0,True,14,CST 274 vs ref 310 (-12%) <= +10% -> extend
+0221GOD,16,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,263.0,263.0,True,12,CST 263 vs ref 310 (-15%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0221GOD,17,GILA,,MAINTAIN,MAINTAIN,False,261.0,261.0,True,12,CST 261 vs ref 310 (-16%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend | re-baseline: reference 310 -> 266 µm (3 stable visits)
+0222TOD,1,TREX,,LOADING,LOADING,False,364.0,364.0,True,4,loading dose 1/4 -> q4w
+0222TOD,2,TREX,,LOADING,LOADING,False,327.0,327.0,True,4,loading dose 2/4 -> q4w
+0222TOD,3,TREX,,LOADING,LOADING,False,313.0,313.0,True,4,loading dose 3/4 -> q4w
+0222TOD,4,TREX,EXTEND,EXTEND,EXTEND,False,291.0,291.0,True,6,T&E start: reference CST = 291 µm | CST 291 vs ref 291 (+0%) <= +10% -> extend
+0222TOD,5,TREX,MAINTAIN,EXTEND,EXTEND,False,249.0,249.0,True,8,CST 249 vs ref 291 (-14%) <= +10% -> extend
+0222TOD,6,TREX,MAINTAIN,EXTEND,EXTEND,False,227.0,227.0,True,8,CST 227 vs ref 291 (-22%) <= +10% -> extend
+0222TOD,7,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,222.0,222.0,True,6,CST 222 vs ref 291 (-24%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend | re-baseline: reference 291 -> 233 µm (3 stable visits)
+0222TOD,8,TREX,EXTEND,EXTEND,EXTEND,False,223.0,223.0,True,8,CST 223 vs ref 233 (-4%) <= +10% -> extend
+0222TOD,9,TREX,EXTEND,MAINTAIN,MAINTAIN,False,223.0,223.0,True,8,CST 223 vs ref 233 (-4%) <= +10% -> extend | safety: BCVA 11 letters below best -> do not extend
+0222TOD,10,TREX,EXTEND,MAINTAIN,MAINTAIN,False,228.0,228.0,True,10,CST 228 vs ref 233 (-2%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
+0222TOD,11,TREX,MAINTAIN,EXTEND,EXTEND,False,249.0,249.0,True,14,CST 249 vs ref 233 (+7%) <= +10% -> extend
+0222TOD,12,TREX,EXTEND,EXTEND,EXTEND,False,236.0,236.0,True,14,CST 236 vs ref 233 (+1%) <= +10% -> extend
+0222TOD,13,TREX,,SHORTEN,SHORTEN,False,291.0,291.0,True,12,CST +25% vs ref > +20% -> shorten
+0224TOD,1,TREX,,LOADING,LOADING,False,344.0,344.0,True,4,loading dose 1/4 -> q4w
+0224TOD,2,TREX,,LOADING,LOADING,False,258.0,258.0,True,4,loading dose 2/4 -> q4w
+0224TOD,3,TREX,,LOADING,LOADING,False,225.0,225.0,True,4,loading dose 3/4 -> q4w
+0224TOD,4,TREX,EXTEND,EXTEND,EXTEND,False,206.0,206.0,True,6,T&E start: reference CST = 206 µm | CST 206 vs ref 206 (+0%) <= +10% -> extend
+0224TOD,5,TREX,EXTEND,EXTEND,EXTEND,False,203.0,203.0,True,8,CST 203 vs ref 206 (-1%) <= +10% -> extend
+0224TOD,6,TREX,,MAINTAIN,MAINTAIN,False,199.0,199.0,True,10,CST 199 vs ref 206 (-3%) <= +10% -> extend | safety: BCVA 12 letters below best -> do not extend
+0225GOS,1,GILA,,LOADING,LOADING,False,323.0,323.0,True,4,loading dose 1/4 -> q4w
+0225GOS,2,GILA,,LOADING,LOADING,False,380.0,380.0,True,4,loading dose 2/4 -> q4w
+0225GOS,3,GILA,,LOADING,LOADING,False,320.0,320.0,True,4,loading dose 3/4 -> q4w
+0225GOS,4,GILA,EXTEND,EXTEND,EXTEND,False,321.0,321.0,True,6,T&E start: reference CST = 321 µm | CST 321 vs ref 321 (+0%) <= +10% -> extend
+0225GOS,5,GILA,EXTEND,EXTEND,EXTEND,False,325.0,325.0,True,8,CST 325 vs ref 321 (+1%) <= +10% -> extend
+0225GOS,6,GILA,MAINTAIN,EXTEND,EXTEND,False,326.0,326.0,True,12,CST 326 vs ref 321 (+2%) <= +10% -> extend
+0225GOS,7,GILA,EXTEND,EXTEND,EXTEND,False,323.0,323.0,True,12,CST 323 vs ref 321 (+1%) <= +10% -> extend
+0225GOS,8,GILA,MAINTAIN,EXTEND,EXTEND,False,316.0,316.0,True,14,CST 316 vs ref 321 (-2%) <= +10% -> extend
+0225GOS,9,GILA,EXTEND,EXTEND,EXTEND,False,310.0,310.0,True,14,CST 310 vs ref 321 (-3%) <= +10% -> extend
+0225GOS,10,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,311.0,311.0,True,14,CST 311 vs ref 321 (-3%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0225GOS,11,GILA,,EXTEND,EXTEND,False,305.0,305.0,True,16,CST 305 vs ref 321 (-5%) <= +10% -> extend
+0226GOD,1,GILA,,LOADING,LOADING,False,602.0,602.0,True,4,loading dose 1/4 -> q4w
+0226GOD,2,GILA,,LOADING,LOADING,False,358.0,358.0,True,4,loading dose 2/4 -> q4w
+0226GOD,3,GILA,,LOADING,LOADING,False,335.0,335.0,True,4,loading dose 3/4 -> q4w
+0226GOD,4,GILA,EXTEND,EXTEND,EXTEND,False,322.0,322.0,True,6,T&E start: reference CST = 322 µm | CST 322 vs ref 322 (+0%) <= +10% -> extend
+0226GOD,5,GILA,EXTEND,MAINTAIN,MAINTAIN,False,347.0,347.0,True,6,CST 347 vs ref 322 (+8%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0226GOD,6,GILA,SHORTEN,SHORTEN,SHORTEN,False,398.0,398.0,True,8,CST +24% vs ref > +20% -> shorten
+0226GOD,7,GILA,MAINTAIN,EXTEND,EXTEND,False,294.0,294.0,True,10,CST 294 vs ref 322 (-9%) <= +10% -> extend
+0226GOD,8,GILA,SHORTEN,SHORTEN,SHORTEN,False,421.0,421.0,True,6,CST +31% vs ref > +20% -> shorten
+0226GOD,9,GILA,MAINTAIN,EXTEND,EXTEND,False,311.0,311.0,True,8,CST 311 vs ref 322 (-3%) <= +10% -> extend
+0226GOD,10,GILA,MAINTAIN,SHORTEN,SHORTEN,False,535.0,535.0,True,4,CST +66% vs ref > +20% -> shorten
+0226GOD,11,GILA,MAINTAIN,EXTEND,EXTEND,False,274.0,274.0,True,8,CST 274 vs ref 322 (-15%) <= +10% -> extend
+0226GOD,12,GILA,MAINTAIN,EXTEND,EXTEND,False,238.0,238.0,True,8,CST 238 vs ref 322 (-26%) <= +10% -> extend
+0226GOD,13,GILA,MAINTAIN,EXTEND,EXTEND,False,257.0,257.0,True,8,CST 257 vs ref 322 (-20%) <= +10% -> extend | re-baseline: reference 322 -> 256 µm (3 stable visits)
+0226GOD,14,GILA,MAINTAIN,SHORTEN,SHORTEN,False,378.0,378.0,True,4,CST +47% vs ref > +20% -> shorten
+0226GOD,15,GILA,MAINTAIN,SHORTEN,SHORTEN,False,366.0,366.0,True,4,CST +43% vs ref > +20% -> shorten
+0226GOD,16,GILA,,SHORTEN,SHORTEN,False,346.0,346.0,True,4,CST +35% vs ref > +20% -> shorten
+0226TOS,1,TREX,,LOADING,LOADING,False,536.0,536.0,True,4,loading dose 1/4 -> q4w
+0226TOS,2,TREX,,LOADING,LOADING,False,370.0,370.0,True,4,loading dose 2/4 -> q4w
+0226TOS,3,TREX,,LOADING,LOADING,False,341.0,341.0,True,4,loading dose 3/4 -> q4w
+0226TOS,4,TREX,EXTEND,EXTEND,EXTEND,False,321.0,321.0,True,6,T&E start: reference CST = 321 µm | CST 321 vs ref 321 (+0%) <= +10% -> extend
+0226TOS,5,TREX,EXTEND,MAINTAIN,MAINTAIN,False,314.0,314.0,True,6,CST 314 vs ref 321 (-2%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0226TOS,6,TREX,MAINTAIN,EXTEND,EXTEND,False,337.0,337.0,True,12,CST 337 vs ref 321 (+5%) <= +10% -> extend
+0226TOS,7,TREX,SHORTEN,SHORTEN,SHORTEN,False,419.0,419.0,True,8,CST +31% vs ref > +20% -> shorten
+0226TOS,8,TREX,SHORTEN,SHORTEN,SHORTEN,False,422.0,422.0,True,6,CST +31% vs ref > +20% -> shorten
+0226TOS,9,TREX,,EXTEND,EXTEND,False,327.0,327.0,True,6,CST 327 vs ref 321 (+2%) <= +10% -> extend
+0226TOS,10,TREX,,EXTEND,EXTEND,False,313.0,313.0,True,8,CST 313 vs ref 321 (-2%) <= +10% -> extend
+0226TOS,11,TREX,SHORTEN,SHORTEN,SHORTEN,False,449.0,449.0,True,6,CST +40% vs ref > +20% -> shorten
+0226TOS,12,TREX,EXTEND,EXTEND,EXTEND,False,329.0,329.0,True,8,CST 329 vs ref 321 (+2%) <= +10% -> extend
+0226TOS,13,TREX,EXTEND,MAINTAIN,MAINTAIN,False,347.0,347.0,True,8,CST 347 vs ref 321 (+8%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
+0226TOS,14,TREX,MAINTAIN,SHORTEN,SHORTEN,False,602.0,602.0,True,8,CST +88% vs ref > +20% -> shorten
+0226TOS,15,TREX,SHORTEN,SHORTEN,SHORTEN,False,532.0,532.0,True,8,CST +66% vs ref > +20% -> shorten
+0226TOS,16,TREX,,SHORTEN,SHORTEN,False,590.0,590.0,True,4,CST +84% vs ref > +20% -> shorten
+0228TOS,1,TREX,,LOADING,LOADING,False,338.0,338.0,True,4,loading dose 1/4 -> q4w
+0228TOS,2,TREX,,LOADING,LOADING,False,248.0,248.0,True,4,loading dose 2/4 -> q4w
+0228TOS,3,TREX,,LOADING,LOADING,False,243.0,243.0,True,4,loading dose 3/4 -> q4w
+0228TOS,4,TREX,EXTEND,EXTEND,EXTEND,False,252.0,252.0,True,6,T&E start: reference CST = 252 µm | CST 252 vs ref 252 (+0%) <= +10% -> extend
+0228TOS,5,TREX,SHORTEN,SHORTEN,SHORTEN,False,435.0,435.0,True,4,CST +73% vs ref > +20% -> shorten
+0228TOS,6,TREX,EXTEND,MAINTAIN,MAINTAIN,False,253.0,253.0,True,4,CST 253 vs ref 252 (+0%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
+0228TOS,7,TREX,SHORTEN,SHORTEN,SHORTEN,False,312.0,312.0,True,4,CST +24% vs ref > +20% -> shorten
+0228TOS,8,TREX,EXTEND,MAINTAIN,MAINTAIN,False,254.0,254.0,True,4,CST 254 vs ref 252 (+1%) <= +10% -> extend | safety: BCVA 10 letters below best -> do not extend
+0228TOS,9,TREX,EXTEND,MAINTAIN,MAINTAIN,False,243.0,243.0,True,6,CST 243 vs ref 252 (-4%) <= +10% -> extend | safety: BCVA 10 letters below best -> do not extend
+0228TOS,10,TREX,SHORTEN,SHORTEN,SHORTEN,False,330.0,330.0,True,6,CST +31% vs ref > +20% -> shorten
+0228TOS,11,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,251.0,251.0,True,6,CST 251 vs ref 252 (-0%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0228TOS,12,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,243.0,243.0,True,6,CST 243 vs ref 252 (-4%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0228TOS,13,TREX,EXTEND,MAINTAIN,MAINTAIN,False,243.0,243.0,True,8,CST 243 vs ref 252 (-4%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
+0228TOS,14,TREX,EXTEND,MAINTAIN,MAINTAIN,False,250.0,250.0,True,10,CST 250 vs ref 252 (-1%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
+0228TOS,15,TREX,,MAINTAIN,MAINTAIN,False,239.0,239.0,True,12,CST 239 vs ref 252 (-5%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
+0228TOS,16,TREX,,MAINTAIN,MAINTAIN,False,241.0,241.0,True,12,CST 241 vs ref 252 (-4%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
+0229GOD,1,GILA,,LOADING,LOADING,False,428.0,428.0,True,4,loading dose 1/4 -> q4w
+0229GOD,2,GILA,,LOADING,LOADING,False,376.0,376.0,True,4,loading dose 2/4 -> q4w
+0229GOD,3,GILA,,LOADING,LOADING,False,353.0,353.0,True,4,loading dose 3/4 -> q4w
+0229GOD,4,GILA,EXTEND,EXTEND,EXTEND,False,321.0,321.0,True,6,T&E start: reference CST = 321 µm | CST 321 vs ref 321 (+0%) <= +10% -> extend
+0229GOD,5,GILA,EXTEND,EXTEND,EXTEND,False,305.0,305.0,True,8,CST 305 vs ref 321 (-5%) <= +10% -> extend
+0229GOD,6,GILA,EXTEND,EXTEND,EXTEND,False,292.0,292.0,True,10,CST 292 vs ref 321 (-9%) <= +10% -> extend
+0229GOD,7,GILA,MAINTAIN,EXTEND,EXTEND,False,277.0,277.0,True,12,CST 277 vs ref 321 (-14%) <= +10% -> extend
+0229GOD,8,GILA,MAINTAIN,EXTEND,EXTEND,False,263.0,263.0,True,12,CST 263 vs ref 321 (-18%) <= +10% -> extend
+0229GOD,9,GILA,MAINTAIN,EXTEND,EXTEND,False,260.0,260.0,True,12,CST 260 vs ref 321 (-19%) <= +10% -> extend | re-baseline: reference 321 -> 267 µm (3 stable visits)
+0229GOD,10,GILA,MAINTAIN,EXTEND,EXTEND,False,261.0,261.0,True,12,CST 261 vs ref 267 (-2%) <= +10% -> extend
+0229GOD,11,GILA,MAINTAIN,EXTEND,EXTEND,False,253.0,253.0,True,12,CST 253 vs ref 267 (-5%) <= +10% -> extend
+0229GOD,12,GILA,SHORTEN,EXTEND,EXTEND,False,259.0,259.0,True,14,CST 259 vs ref 267 (-3%) <= +10% -> extend
+0229GOD,13,GILA,,EXTEND,EXTEND,False,280.0,280.0,True,12,CST 280 vs ref 267 (+5%) <= +10% -> extend
+0230TOS,1,TREX,,LOADING,LOADING,False,392.0,392.0,True,4,loading dose 1/4 -> q4w
+0230TOS,2,TREX,,LOADING,LOADING,False,356.0,356.0,True,4,loading dose 2/4 -> q4w
+0230TOS,3,TREX,,LOADING,LOADING,False,350.0,350.0,True,4,loading dose 3/4 -> q4w
+0230TOS,4,TREX,,MAINTAIN,MAINTAIN,False,344.0,344.0,True,4,CST 344 µm > 325 gate -> continue q4w
+0231TOD,1,TREX,,LOADING,LOADING,False,412.0,412.0,True,4,loading dose 1/4 -> q4w
+0231TOD,2,TREX,,LOADING,LOADING,False,400.0,400.0,True,4,loading dose 2/4 -> q4w
+0231TOD,3,TREX,,LOADING,LOADING,False,369.0,369.0,True,4,loading dose 3/4 -> q4w
+0231TOD,4,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,371.0,371.0,True,4,CST 371 µm > 325 gate -> continue q4w
+0231TOD,5,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,357.0,357.0,True,4,CST 357 µm > 325 gate -> continue q4w
+0231TOD,6,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,382.0,382.0,True,4,CST 382 µm > 325 gate -> continue q4w
+0231TOD,7,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,349.0,349.0,True,6,CST 349 µm > 325 gate -> continue q4w
+0231TOD,8,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,337.0,337.0,True,4,CST 337 µm > 325 gate -> continue q4w
+0231TOD,9,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,348.0,348.0,True,4,CST 348 µm > 325 gate -> continue q4w
+0231TOD,10,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,369.0,369.0,True,4,CST 369 µm > 325 gate -> continue q4w
+0231TOD,11,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,345.0,345.0,True,4,CST 345 µm > 325 gate -> continue q4w
+0231TOD,12,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,347.0,347.0,True,4,CST 347 µm > 325 gate -> continue q4w
+0231TOD,13,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,376.0,376.0,True,4,CST 376 µm > 325 gate -> continue q4w
+0231TOD,14,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,343.0,343.0,True,4,CST 343 µm > 325 gate -> continue q4w
+0231TOD,15,TREX,EXTEND,MAINTAIN,MAINTAIN,False,327.0,327.0,True,4,CST 327 µm > 325 gate -> continue q4w
+0231TOD,16,TREX,EXTEND,MAINTAIN,MAINTAIN,False,364.0,364.0,True,6,CST 364 µm > 325 gate -> continue q4w
+0231TOD,17,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,307.0,307.0,True,8,T&E start: reference CST = 307 µm | CST 307 vs ref 307 (+0%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
+0231TOD,18,TREX,EXTEND,MAINTAIN,MAINTAIN,False,329.0,329.0,True,6,CST 329 vs ref 307 (+7%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
+0231TOD,19,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,296.0,296.0,True,8,CST 296 vs ref 307 (-4%) <= +10% -> extend | safety: BCVA 12 letters below best -> do not extend
+0231TOD,20,TREX,,MAINTAIN,MAINTAIN,False,274.0,274.0,True,10,CST 274 vs ref 307 (-11%) <= +10% -> extend | safety: BCVA 13 letters below best -> do not extend
+0232GOD,1,GILA,,LOADING,LOADING,False,607.0,607.0,True,4,loading dose 1/4 -> q4w
+0232GOD,2,GILA,,LOADING,LOADING,False,412.0,412.0,True,4,loading dose 2/4 -> q4w
+0232GOD,3,GILA,,LOADING,LOADING,False,503.0,503.0,True,4,loading dose 3/4 -> q4w
+0232GOD,4,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,580.0,580.0,True,4,CST 580 µm > 325 gate -> continue q4w
+0232GOD,5,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,518.0,518.0,True,4,CST 518 µm > 325 gate -> continue q4w
+0232GOD,6,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,545.0,545.0,True,4,CST 545 µm > 325 gate -> continue q4w
+0232GOD,7,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,485.0,485.0,True,4,CST 485 µm > 325 gate -> continue q4w
+0232GOD,8,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,492.0,492.0,True,4,CST 492 µm > 325 gate -> continue q4w
+0232GOD,9,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,550.0,550.0,True,4,CST 550 µm > 325 gate -> continue q4w
+0232GOD,10,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,510.0,510.0,True,4,CST 510 µm > 325 gate -> continue q4w
+0232GOD,11,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,448.0,448.0,True,4,CST 448 µm > 325 gate -> continue q4w
+0232GOD,12,GILA,EXTEND,MAINTAIN,MAINTAIN,False,362.0,362.0,True,4,CST 362 µm > 325 gate -> continue q4w
+0232GOD,13,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,500.0,500.0,True,4,CST 500 µm > 325 gate -> continue q4w
+0232GOD,14,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,373.0,373.0,True,4,CST 373 µm > 325 gate -> continue q4w
+0232GOD,15,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,338.0,338.0,True,4,CST 338 µm > 325 gate -> continue q4w
+0232GOD,16,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,432.0,432.0,True,4,CST 432 µm > 325 gate -> continue q4w
+0232GOD,17,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,355.0,355.0,True,4,CST 355 µm > 325 gate -> continue q4w
+0232GOD,18,GILA,EXTEND,EXTEND,EXTEND,False,295.0,295.0,True,6,T&E start: reference CST = 295 µm | CST 295 vs ref 295 (+0%) <= +10% -> extend
+0232GOD,19,GILA,SHORTEN,SHORTEN,SHORTEN,False,627.0,627.0,True,4,CST +113% vs ref > +20% -> shorten
+0232GOD,20,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,342.0,342.0,True,4,CST +16% vs ref within +20% -> maintain
+0232GOD,21,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,348.0,348.0,True,4,CST +18% vs ref within +20% -> maintain
+0232GOD,22,GILA,EXTEND,MAINTAIN,MAINTAIN,False,334.0,334.0,True,4,CST +13% vs ref within +20% -> maintain
+0232GOD,23,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,334.0,334.0,True,6,CST +13% vs ref within +20% -> maintain
+0232GOD,24,GILA,,MAINTAIN,MAINTAIN,False,292.0,292.0,True,4,CST 292 vs ref 295 (-1%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
+0232GOD,25,GILA,,SHORTEN,SHORTEN,False,413.0,413.0,True,4,CST +40% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0232TOS,1,TREX,,LOADING,LOADING,False,443.0,443.0,True,4,loading dose 1/4 -> q4w
+0232TOS,2,TREX,,LOADING,LOADING,False,328.0,328.0,True,4,loading dose 2/4 -> q4w
+0232TOS,3,TREX,,LOADING,LOADING,False,292.0,292.0,True,4,loading dose 3/4 -> q4w
+0232TOS,4,TREX,EXTEND,EXTEND,EXTEND,False,310.0,310.0,True,6,T&E start: reference CST = 310 µm | CST 310 vs ref 310 (+0%) <= +10% -> extend
+0232TOS,5,TREX,SHORTEN,SHORTEN,SHORTEN,False,420.0,420.0,True,4,CST +35% vs ref > +20% -> shorten
+0232TOS,6,TREX,EXTEND,EXTEND,EXTEND,False,295.0,295.0,True,6,CST 295 vs ref 310 (-5%) <= +10% -> extend
+0232TOS,7,TREX,SHORTEN,SHORTEN,SHORTEN,False,413.0,413.0,True,4,CST +33% vs ref > +20% -> shorten
+0232TOS,8,TREX,MAINTAIN,SHORTEN,SHORTEN,False,382.0,382.0,True,4,CST +23% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0232TOS,9,TREX,MAINTAIN,SHORTEN,SHORTEN,False,396.0,396.0,True,4,CST +28% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0232TOS,10,TREX,EXTEND,EXTEND,EXTEND,False,328.0,328.0,True,6,CST 328 vs ref 310 (+6%) <= +10% -> extend
+0232TOS,11,TREX,EXTEND,EXTEND,EXTEND,False,311.0,311.0,True,6,CST 311 vs ref 310 (+0%) <= +10% -> extend
+0232TOS,12,TREX,SHORTEN,SHORTEN,SHORTEN,False,398.0,398.0,True,6,CST +28% vs ref > +20% -> shorten
+0232TOS,13,TREX,MAINTAIN,EXTEND,EXTEND,False,303.0,303.0,True,6,CST 303 vs ref 310 (-2%) <= +10% -> extend
+0232TOS,14,TREX,MAINTAIN,EXTEND,EXTEND,False,305.0,305.0,True,6,CST 305 vs ref 310 (-2%) <= +10% -> extend
+0232TOS,15,TREX,MAINTAIN,EXTEND,EXTEND,False,281.0,281.0,True,6,CST 281 vs ref 310 (-9%) <= +10% -> extend
+0232TOS,16,TREX,EXTEND,EXTEND,EXTEND,False,281.0,281.0,True,6,CST 281 vs ref 310 (-9%) <= +10% -> extend
+0232TOS,17,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,372.0,372.0,True,6,CST +20% vs ref within +20% -> maintain
+0232TOS,18,TREX,EXTEND,EXTEND,EXTEND,False,278.0,278.0,True,6,CST 278 vs ref 310 (-10%) <= +10% -> extend
+0232TOS,19,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,368.0,368.0,True,8,CST +19% vs ref within +20% -> maintain
+0232TOS,20,TREX,MAINTAIN,EXTEND,EXTEND,False,280.0,280.0,True,8,CST 280 vs ref 310 (-10%) <= +10% -> extend
+0232TOS,21,TREX,,EXTEND,EXTEND,False,256.0,256.0,True,8,CST 256 vs ref 310 (-17%) <= +10% -> extend
+0234GOD,1,GILA,,LOADING,LOADING,False,517.0,517.0,True,4,loading dose 1/4 -> q4w
+0234GOD,2,GILA,,LOADING,LOADING,False,320.0,320.0,True,4,loading dose 2/4 -> q4w
+0234GOD,3,GILA,,LOADING,LOADING,False,267.0,267.0,True,6,loading dose 3/4 -> q4w
+0234GOD,4,GILA,EXTEND,EXTEND,EXTEND,False,267.0,267.0,True,6,T&E start: reference CST = 267 µm | CST 267 vs ref 267 (+0%) <= +10% -> extend
+0234GOD,5,GILA,EXTEND,EXTEND,EXTEND,False,267.0,267.0,True,8,CST 267 vs ref 267 (+0%) <= +10% -> extend
+0234GOD,6,GILA,MAINTAIN,EXTEND,EXTEND,False,271.0,271.0,True,10,CST 271 vs ref 267 (+1%) <= +10% -> extend
+0234GOD,7,GILA,EXTEND,EXTEND,EXTEND,False,274.0,274.0,True,10,CST 274 vs ref 267 (+3%) <= +10% -> extend
+0234GOD,8,GILA,EXTEND,MAINTAIN,MAINTAIN,False,269.0,269.0,True,12,CST 269 vs ref 267 (+1%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
+0234GOD,9,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,278.0,278.0,True,12,CST 278 vs ref 267 (+4%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
+0234GOD,10,GILA,EXTEND,MAINTAIN,MAINTAIN,False,268.0,268.0,True,14,CST 268 vs ref 267 (+0%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0234GOD,11,GILA,,MAINTAIN,MAINTAIN,False,263.0,263.0,True,16,CST 263 vs ref 267 (-1%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0234TOS,1,TREX,,LOADING,LOADING,False,415.0,415.0,True,4,loading dose 1/4 -> q4w
+0234TOS,2,TREX,,LOADING,LOADING,False,326.0,326.0,True,4,loading dose 2/4 -> q4w
+0234TOS,3,TREX,,LOADING,LOADING,False,296.0,296.0,True,4,loading dose 3/4 -> q4w
+0234TOS,4,TREX,EXTEND,EXTEND,EXTEND,False,290.0,290.0,True,6,T&E start: reference CST = 290 µm | CST 290 vs ref 290 (+0%) <= +10% -> extend
+0234TOS,5,TREX,EXTEND,MAINTAIN,MAINTAIN,False,287.0,287.0,True,6,CST 287 vs ref 290 (-1%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0234TOS,6,TREX,EXTEND,EXTEND,EXTEND,False,283.0,283.0,True,10,CST 283 vs ref 290 (-2%) <= +10% -> extend
+0234TOS,7,TREX,EXTEND,EXTEND,EXTEND,False,292.0,292.0,True,12,CST 292 vs ref 290 (+1%) <= +10% -> extend
+0234TOS,8,TREX,EXTEND,MAINTAIN,MAINTAIN,False,285.0,285.0,True,12,CST 285 vs ref 290 (-2%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
+0234TOS,9,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,289.0,289.0,True,12,CST 289 vs ref 290 (-0%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
+0234TOS,10,TREX,EXTEND,MAINTAIN,MAINTAIN,False,284.0,284.0,True,14,CST 284 vs ref 290 (-2%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
+0234TOS,11,TREX,,MAINTAIN,MAINTAIN,False,276.0,276.0,True,16,CST 276 vs ref 290 (-5%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0235TOS,1,TREX,,LOADING,LOADING,False,489.0,489.0,True,4,loading dose 1/4 -> q4w
+0235TOS,2,TREX,,LOADING,LOADING,False,518.0,518.0,True,4,loading dose 2/4 -> q4w
+0235TOS,3,TREX,,LOADING,LOADING,False,480.0,480.0,True,4,loading dose 3/4 -> q4w
+0235TOS,4,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,501.0,501.0,True,4,CST 501 µm > 325 gate -> continue q4w
+0235TOS,5,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,459.0,459.0,True,4,CST 459 µm > 325 gate -> continue q4w
+0235TOS,6,TREX,EXTEND,MAINTAIN,MAINTAIN,False,445.0,445.0,True,4,CST 445 µm > 325 gate -> continue q4w
+0235TOS,7,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,424.0,424.0,True,4,CST 424 µm > 325 gate -> continue q4w
+0235TOS,8,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,405.0,405.0,True,4,CST 405 µm > 325 gate -> continue q4w
+0235TOS,9,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,399.0,399.0,True,4,CST 399 µm > 325 gate -> continue q4w
+0235TOS,10,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,375.0,375.0,True,4,CST 375 µm > 325 gate -> continue q4w
+0235TOS,11,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,372.0,372.0,True,4,CST 372 µm > 325 gate -> continue q4w
+0235TOS,12,TREX,EXTEND,MAINTAIN,MAINTAIN,False,371.0,371.0,True,4,CST 371 µm > 325 gate -> continue q4w
+0235TOS,13,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,347.0,347.0,True,10,CST 347 µm > 325 gate -> continue q4w
+0235TOS,14,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,335.0,335.0,True,4,CST 335 µm > 325 gate -> continue q4w
+0235TOS,15,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,329.0,329.0,True,6,CST 329 µm > 325 gate -> continue q4w
+0235TOS,16,TREX,EXTEND,EXTEND,EXTEND,False,321.0,321.0,True,6,T&E start: reference CST = 321 µm | CST 321 vs ref 321 (+0%) <= +10% -> extend
+0235TOS,17,TREX,EXTEND,EXTEND,EXTEND,False,314.0,314.0,True,8,CST 314 vs ref 321 (-2%) <= +10% -> extend
+0235TOS,18,TREX,EXTEND,EXTEND,EXTEND,False,322.0,322.0,True,10,CST 322 vs ref 321 (+0%) <= +10% -> extend
+0235TOS,19,TREX,,MAINTAIN,MAINTAIN,False,313.0,313.0,True,10,CST 313 vs ref 321 (-2%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0236GOS,1,GILA,,LOADING,LOADING,False,300.0,300.0,True,4,loading dose 1/4 -> q4w
+0236GOS,2,GILA,,LOADING,LOADING,False,280.0,280.0,True,4,loading dose 2/4 -> q4w
+0236GOS,3,GILA,,LOADING,LOADING,False,268.0,268.0,True,4,loading dose 3/4 -> q4w
+0236GOS,4,GILA,EXTEND,EXTEND,EXTEND,False,261.0,261.0,True,6,T&E start: reference CST = 261 µm | CST 261 vs ref 261 (+0%) <= +10% -> extend
+0236GOS,5,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,263.0,263.0,True,6,CST 263 vs ref 261 (+1%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0236GOS,6,GILA,EXTEND,MAINTAIN,MAINTAIN,False,268.0,268.0,True,6,CST 268 vs ref 261 (+3%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0236GOS,7,GILA,EXTEND,MAINTAIN,MAINTAIN,False,263.0,263.0,True,10,CST 263 vs ref 261 (+1%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
+0236GOS,8,GILA,MAINTAIN,EXTEND,EXTEND,False,260.0,260.0,True,14,CST 260 vs ref 261 (-0%) <= +10% -> extend
+0236GOS,9,GILA,MAINTAIN,EXTEND,EXTEND,False,258.0,258.0,True,16,CST 258 vs ref 261 (-1%) <= +10% -> extend
+0236GOS,10,GILA,EXTEND,EXTEND,EXTEND,False,258.0,258.0,True,16,CST 258 vs ref 261 (-1%) <= +10% -> extend
+0236GOS,11,GILA,,EXTEND,EXTEND,False,269.0,269.0,True,16,CST 269 vs ref 261 (+3%) <= +10% -> extend | interval at max (16 wk) -> held
+0237TOS,1,TREX,,LOADING,LOADING,False,630.0,630.0,True,4,loading dose 1/4 -> q4w
+0237TOS,2,TREX,,LOADING,LOADING,False,306.0,306.0,True,4,loading dose 2/4 -> q4w
+0237TOS,3,TREX,,LOADING,LOADING,False,297.0,297.0,True,4,loading dose 3/4 -> q4w
+0237TOS,4,TREX,EXTEND,EXTEND,EXTEND,False,296.0,296.0,True,6,T&E start: reference CST = 296 µm | CST 296 vs ref 296 (+0%) <= +10% -> extend
+0237TOS,5,TREX,EXTEND,EXTEND,EXTEND,False,298.0,298.0,True,8,CST 298 vs ref 296 (+1%) <= +10% -> extend
+0237TOS,6,TREX,EXTEND,EXTEND,EXTEND,False,299.0,299.0,True,10,CST 299 vs ref 296 (+1%) <= +10% -> extend
+0237TOS,7,TREX,MAINTAIN,EXTEND,EXTEND,False,303.0,303.0,True,14,CST 303 vs ref 296 (+2%) <= +10% -> extend
+0237TOS,8,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,352.0,352.0,True,12,CST +19% vs ref within +20% -> maintain
+0237TOS,9,TREX,EXTEND,EXTEND,EXTEND,False,312.0,312.0,True,12,CST 312 vs ref 296 (+5%) <= +10% -> extend
+0237TOS,10,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,328.0,328.0,True,14,CST +11% vs ref within +20% -> maintain
+0237TOS,11,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,332.0,332.0,True,12,CST +12% vs ref within +20% -> maintain
+0237TOS,12,TREX,,MAINTAIN,MAINTAIN,False,334.0,334.0,True,14,CST +13% vs ref within +20% -> maintain
+0238GOD,1,GILA,,LOADING,LOADING,False,349.0,349.0,True,4,loading dose 1/4 -> q4w
+0238GOD,2,GILA,,LOADING,LOADING,False,393.0,393.0,True,4,loading dose 2/4 -> q4w
+0238GOD,3,GILA,,LOADING,LOADING,False,362.0,362.0,True,4,loading dose 3/4 -> q4w
+0238GOD,4,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,328.0,328.0,True,4,CST 328 µm > 325 gate -> continue q4w
+0238GOD,5,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,334.0,334.0,True,4,CST 334 µm > 325 gate -> continue q4w
+0238GOD,6,GILA,EXTEND,EXTEND,EXTEND,False,318.0,318.0,True,6,T&E start: reference CST = 318 µm | CST 318 vs ref 318 (+0%) <= +10% -> extend
+0238GOD,7,GILA,EXTEND,EXTEND,EXTEND,False,340.0,340.0,True,8,CST 340 vs ref 318 (+7%) <= +10% -> extend
+0238GOD,8,GILA,SHORTEN,SHORTEN,SHORTEN,False,391.0,391.0,True,6,CST +23% vs ref > +20% -> shorten
+0238GOD,9,GILA,EXTEND,EXTEND,EXTEND,False,341.0,341.0,True,8,CST 341 vs ref 318 (+7%) <= +10% -> extend
+0238GOD,10,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,370.0,370.0,True,8,CST +16% vs ref within +20% -> maintain
+0238GOD,11,GILA,EXTEND,EXTEND,EXTEND,False,329.0,329.0,True,10,CST 329 vs ref 318 (+3%) <= +10% -> extend
+0238GOD,12,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,359.0,359.0,True,10,CST +13% vs ref within +20% -> maintain
+0238GOD,13,GILA,EXTEND,MAINTAIN,MAINTAIN,False,317.0,317.0,True,8,CST 317 vs ref 318 (-0%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0238GOD,14,GILA,SHORTEN,SHORTEN,SHORTEN,False,383.0,383.0,True,8,CST +20% vs ref > +20% -> shorten
+0238GOD,15,GILA,MAINTAIN,EXTEND,EXTEND,False,320.0,320.0,True,10,CST 320 vs ref 318 (+1%) <= +10% -> extend
+0238GOD,16,GILA,,EXTEND,EXTEND,False,333.0,333.0,True,10,CST 333 vs ref 318 (+5%) <= +10% -> extend
+0239GOD,1,GILA,,LOADING,LOADING,False,387.0,387.0,True,4,loading dose 1/4 -> q4w
+0239GOD,2,GILA,,LOADING,LOADING,False,335.0,335.0,True,4,loading dose 2/4 -> q4w
+0239GOD,3,GILA,,LOADING,LOADING,False,327.0,327.0,True,4,loading dose 3/4 -> q4w
+0239GOD,4,GILA,EXTEND,EXTEND,EXTEND,False,317.0,317.0,True,6,T&E start: reference CST = 317 µm | CST 317 vs ref 317 (+0%) <= +10% -> extend
+0239GOD,5,GILA,EXTEND,EXTEND,EXTEND,False,318.0,318.0,True,8,CST 318 vs ref 317 (+0%) <= +10% -> extend
+0239GOD,6,GILA,EXTEND,EXTEND,EXTEND,False,307.0,307.0,True,10,CST 307 vs ref 317 (-3%) <= +10% -> extend
+0239GOD,7,GILA,EXTEND,EXTEND,EXTEND,False,301.0,301.0,True,12,CST 301 vs ref 317 (-5%) <= +10% -> extend
+0239GOD,8,GILA,MAINTAIN,EXTEND,EXTEND,False,291.0,291.0,True,14,CST 291 vs ref 317 (-8%) <= +10% -> extend
+0239GOD,9,GILA,MAINTAIN,EXTEND,EXTEND,False,285.0,285.0,True,14,CST 285 vs ref 317 (-10%) <= +10% -> extend
+0239GOD,10,GILA,MAINTAIN,EXTEND,EXTEND,False,291.0,291.0,True,14,CST 291 vs ref 317 (-8%) <= +10% -> extend
+0239GOD,11,GILA,EXTEND,EXTEND,EXTEND,False,307.0,307.0,True,14,CST 307 vs ref 317 (-3%) <= +10% -> extend
+0239GOD,12,GILA,,MAINTAIN,MAINTAIN,False,360.0,360.0,True,16,CST +14% vs ref within +20% -> maintain
+0240TOS,1,TREX,,LOADING,LOADING,False,611.0,611.0,True,4,loading dose 1/4 -> q4w
+0240TOS,2,TREX,,LOADING,LOADING,False,342.0,342.0,True,4,loading dose 2/4 -> q4w
+0240TOS,3,TREX,,LOADING,LOADING,False,338.0,338.0,True,4,loading dose 3/4 -> q4w
+0241GOD,1,GILA,,LOADING,LOADING,False,549.0,549.0,True,4,loading dose 1/4 -> q4w
+0241GOD,2,GILA,,LOADING,LOADING,False,444.0,444.0,True,4,loading dose 2/4 -> q4w
+0241GOD,3,GILA,,LOADING,LOADING,False,350.0,350.0,True,4,loading dose 3/4 -> q4w
+0241GOD,4,GILA,EXTEND,EXTEND,EXTEND,False,302.0,302.0,True,6,T&E start: reference CST = 302 µm | CST 302 vs ref 302 (+0%) <= +10% -> extend
+0241GOD,5,GILA,EXTEND,EXTEND,EXTEND,False,299.0,299.0,True,8,CST 299 vs ref 302 (-1%) <= +10% -> extend
+0241GOD,6,GILA,EXTEND,EXTEND,EXTEND,False,296.0,296.0,True,10,CST 296 vs ref 302 (-2%) <= +10% -> extend
+0241GOD,7,GILA,EXTEND,EXTEND,EXTEND,False,299.0,299.0,True,12,CST 299 vs ref 302 (-1%) <= +10% -> extend
+0241GOD,8,GILA,MAINTAIN,EXTEND,EXTEND,False,307.0,307.0,True,14,CST 307 vs ref 302 (+2%) <= +10% -> extend
+0241GOD,9,GILA,EXTEND,EXTEND,EXTEND,False,297.0,297.0,True,14,CST 297 vs ref 302 (-2%) <= +10% -> extend
+0241GOD,10,GILA,EXTEND,EXTEND,EXTEND,False,317.0,317.0,True,16,CST 317 vs ref 302 (+5%) <= +10% -> extend
+0241GOD,11,GILA,,EXTEND,EXTEND,False,289.0,289.0,True,16,CST 289 vs ref 302 (-4%) <= +10% -> extend | interval at max (16 wk) -> held
+0242TOS,1,TREX,,LOADING,LOADING,False,392.0,392.0,True,4,loading dose 1/4 -> q4w
+0242TOS,2,TREX,,LOADING,LOADING,False,397.0,397.0,True,4,loading dose 2/4 -> q4w
+0242TOS,3,TREX,,LOADING,LOADING,False,279.0,279.0,True,4,loading dose 3/4 -> q4w
+0242TOS,4,TREX,EXTEND,EXTEND,EXTEND,False,301.0,301.0,True,6,T&E start: reference CST = 301 µm | CST 301 vs ref 301 (+0%) <= +10% -> extend
+0242TOS,5,TREX,EXTEND,EXTEND,EXTEND,False,298.0,298.0,True,8,CST 298 vs ref 301 (-1%) <= +10% -> extend
+0242TOS,6,TREX,EXTEND,EXTEND,EXTEND,False,284.0,284.0,True,10,CST 284 vs ref 301 (-6%) <= +10% -> extend
+0242TOS,7,TREX,MAINTAIN,EXTEND,EXTEND,False,271.0,271.0,True,12,CST 271 vs ref 301 (-10%) <= +10% -> extend
+0242TOS,8,TREX,MAINTAIN,EXTEND,EXTEND,False,259.0,259.0,True,12,CST 259 vs ref 301 (-14%) <= +10% -> extend
+0242TOS,9,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,251.0,251.0,True,12,CST 251 vs ref 301 (-17%) <= +10% -> extend | safety: BCVA 21 letters below best -> do not extend
+0242TOS,10,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,246.0,246.0,True,12,CST 246 vs ref 301 (-18%) <= +10% -> extend | safety: BCVA 17 letters below best -> do not extend | re-baseline: reference 301 -> 252 µm (3 stable visits)
+0242TOS,11,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,236.0,236.0,True,12,CST 236 vs ref 252 (-6%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
+0242TOS,12,TREX,,EXTEND,EXTEND,False,234.0,234.0,True,14,CST 234 vs ref 252 (-7%) <= +10% -> extend
+0243GOD,1,GILA,,LOADING,LOADING,False,667.0,667.0,True,4,loading dose 1/4 -> q4w
+0243GOD,2,GILA,,LOADING,LOADING,False,544.0,544.0,True,4,loading dose 2/4 -> q4w
+0243GOD,3,GILA,,LOADING,LOADING,False,600.0,600.0,True,4,loading dose 3/4 -> q4w
+0243GOD,4,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,551.0,551.0,True,4,CST 551 µm > 325 gate -> continue q4w
+0243GOD,5,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,460.0,460.0,True,4,CST 460 µm > 325 gate -> continue q4w
+0243GOD,6,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,571.0,571.0,True,4,CST 571 µm > 325 gate -> continue q4w
+0243GOD,7,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,463.0,463.0,True,4,CST 463 µm > 325 gate -> continue q4w
+0243GOD,8,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,447.0,447.0,True,4,CST 447 µm > 325 gate -> continue q4w
+0243GOD,9,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,410.0,410.0,True,4,CST 410 µm > 325 gate -> continue q4w
+0243GOD,10,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,351.0,351.0,True,4,CST 351 µm > 325 gate -> continue q4w
+0243GOD,11,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,338.0,338.0,True,4,CST 338 µm > 325 gate -> continue q4w
+0243GOD,12,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,338.0,338.0,True,4,CST 338 µm > 325 gate -> continue q4w
+0243GOD,13,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,388.0,388.0,True,4,CST 388 µm > 325 gate -> continue q4w
+0243GOD,14,GILA,EXTEND,MAINTAIN,MAINTAIN,False,339.0,339.0,True,4,CST 339 µm > 325 gate -> continue q4w
+0243GOD,15,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,371.0,371.0,True,6,CST 371 µm > 325 gate -> continue q4w
+0243GOD,16,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,402.0,402.0,True,4,CST 402 µm > 325 gate -> continue q4w
+0243GOD,17,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,350.0,350.0,True,4,CST 350 µm > 325 gate -> continue q4w
+0243GOD,18,GILA,EXTEND,EXTEND,EXTEND,False,316.0,316.0,True,6,T&E start: reference CST = 316 µm | CST 316 vs ref 316 (+0%) <= +10% -> extend
+0243GOD,19,GILA,EXTEND,EXTEND,EXTEND,False,313.0,313.0,True,8,CST 313 vs ref 316 (-1%) <= +10% -> extend
+0243GOD,20,GILA,EXTEND,EXTEND,EXTEND,False,283.0,283.0,True,10,CST 283 vs ref 316 (-10%) <= +10% -> extend
+0243GOD,21,GILA,,EXTEND,EXTEND,False,275.0,275.0,True,12,CST 275 vs ref 316 (-13%) <= +10% -> extend
+0243TOS,1,TREX,,LOADING,LOADING,False,441.0,441.0,True,4,loading dose 1/4 -> q4w
+0243TOS,2,TREX,,LOADING,LOADING,False,473.0,473.0,True,4,loading dose 2/4 -> q4w
+0243TOS,3,TREX,,LOADING,LOADING,False,448.0,448.0,True,4,loading dose 3/4 -> q4w
+0243TOS,4,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,473.0,473.0,True,4,CST 473 µm > 325 gate -> continue q4w
+0243TOS,5,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,422.0,422.0,True,4,CST 422 µm > 325 gate -> continue q4w
+0243TOS,6,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,512.0,512.0,True,4,CST 512 µm > 325 gate -> continue q4w
+0243TOS,7,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,468.0,468.0,True,4,CST 468 µm > 325 gate -> continue q4w
+0243TOS,8,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,420.0,420.0,True,4,CST 420 µm > 325 gate -> continue q4w
+0243TOS,9,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,457.0,457.0,True,4,CST 457 µm > 325 gate -> continue q4w
+0243TOS,10,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,429.0,429.0,True,4,CST 429 µm > 325 gate -> continue q4w
+0243TOS,11,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,447.0,447.0,True,4,CST 447 µm > 325 gate -> continue q4w
+0243TOS,12,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,459.0,459.0,True,4,CST 459 µm > 325 gate -> continue q4w
+0243TOS,13,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,421.0,421.0,True,4,CST 421 µm > 325 gate -> continue q4w
+0243TOS,14,TREX,EXTEND,MAINTAIN,MAINTAIN,False,385.0,385.0,True,4,CST 385 µm > 325 gate -> continue q4w
+0243TOS,15,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,359.0,359.0,True,6,CST 359 µm > 325 gate -> continue q4w
+0243TOS,16,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,412.0,412.0,True,4,CST 412 µm > 325 gate -> continue q4w
+0243TOS,17,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,386.0,386.0,True,4,CST 386 µm > 325 gate -> continue q4w
+0243TOS,18,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,339.0,339.0,True,4,CST 339 µm > 325 gate -> continue q4w
+0243TOS,19,TREX,EXTEND,MAINTAIN,MAINTAIN,False,362.0,362.0,True,4,CST 362 µm > 325 gate -> continue q4w
+0243TOS,20,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,396.0,396.0,True,6,CST 396 µm > 325 gate -> continue q4w
+0243TOS,21,TREX,EXTEND,MAINTAIN,MAINTAIN,False,422.0,422.0,True,4,CST 422 µm > 325 gate -> continue q4w
+0243TOS,22,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,384.0,384.0,True,6,CST 384 µm > 325 gate -> continue q4w
+0243TOS,23,TREX,,MAINTAIN,MAINTAIN,False,352.0,352.0,True,4,CST 352 µm > 325 gate -> continue q4w
+0243TOS,24,TREX,,MAINTAIN,MAINTAIN,False,374.0,374.0,True,4,CST 374 µm > 325 gate -> continue q4w
+0247GOD,1,GILA,,LOADING,LOADING,False,533.0,533.0,True,4,loading dose 1/4 -> q4w
+0247GOD,2,GILA,,LOADING,LOADING,False,382.0,382.0,True,4,loading dose 2/4 -> q4w
+0247GOD,4,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,363.0,363.0,True,8,CST 363 µm > 325 gate -> continue q4w
+0247GOD,5,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,353.0,353.0,True,4,CST 353 µm > 325 gate -> continue q4w
+0247GOD,6,GILA,EXTEND,MAINTAIN,MAINTAIN,False,347.0,347.0,True,4,CST 347 µm > 325 gate -> continue q4w
+0247GOD,7,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,357.0,357.0,True,16,CST 357 µm > 325 gate -> continue q4w
+0247GOD,8,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,329.0,329.0,True,4,CST 329 µm > 325 gate -> continue q4w
+0247GOD,9,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,328.0,328.0,True,4,CST 328 µm > 325 gate -> continue q4w
+0247GOD,10,GILA,EXTEND,EXTEND,EXTEND,False,318.0,318.0,True,6,T&E start: reference CST = 318 µm | CST 318 vs ref 318 (+0%) <= +10% -> extend
+0247GOD,11,GILA,SHORTEN,EXTEND,EXTEND,False,310.0,310.0,True,8,CST 310 vs ref 318 (-3%) <= +10% -> extend
+0247GOD,12,GILA,MAINTAIN,EXTEND,EXTEND,False,309.0,309.0,True,6,CST 309 vs ref 318 (-3%) <= +10% -> extend
+0247GOD,13,GILA,MAINTAIN,EXTEND,EXTEND,False,313.0,313.0,True,6,CST 313 vs ref 318 (-2%) <= +10% -> extend
+0247GOD,14,GILA,EXTEND,EXTEND,EXTEND,False,310.0,310.0,True,6,CST 310 vs ref 318 (-3%) <= +10% -> extend
+0247GOD,15,GILA,EXTEND,EXTEND,EXTEND,False,319.0,319.0,True,8,CST 319 vs ref 318 (+0%) <= +10% -> extend
+0247GOD,16,GILA,EXTEND,MAINTAIN,MAINTAIN,False,326.0,326.0,True,8,CST 326 vs ref 318 (+3%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0247GOD,17,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,367.0,367.0,True,10,CST +15% vs ref within +20% -> maintain
+0247GOD,18,GILA,,SHORTEN,SHORTEN,False,385.0,385.0,True,8,CST +21% vs ref > +20% -> shorten
+0249GOS,1,GILA,,LOADING,LOADING,False,281.0,281.0,True,4,loading dose 1/4 -> q4w
+0249GOS,2,GILA,,LOADING,LOADING,False,267.0,267.0,True,4,loading dose 2/4 -> q4w
+0249GOS,3,GILA,,LOADING,LOADING,False,260.0,260.0,True,4,loading dose 3/4 -> q4w
+0249GOS,4,GILA,EXTEND,EXTEND,EXTEND,False,258.0,258.0,True,6,T&E start: reference CST = 258 µm | CST 258 vs ref 258 (+0%) <= +10% -> extend
+0249GOS,5,GILA,MAINTAIN,EXTEND,EXTEND,False,255.0,255.0,True,8,CST 255 vs ref 258 (-1%) <= +10% -> extend
+0249GOS,6,GILA,EXTEND,MAINTAIN,MAINTAIN,False,248.0,248.0,True,6,CST 248 vs ref 258 (-4%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0249GOS,7,GILA,EXTEND,EXTEND,EXTEND,False,248.0,248.0,True,12,CST 248 vs ref 258 (-4%) <= +10% -> extend
+0249GOS,8,GILA,SHORTEN,EXTEND,EXTEND,False,252.0,252.0,True,14,CST 252 vs ref 258 (-2%) <= +10% -> extend
+0249GOS,9,GILA,EXTEND,MAINTAIN,MAINTAIN,False,252.0,252.0,True,4,CST 252 vs ref 258 (-2%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
+0249GOS,10,GILA,EXTEND,MAINTAIN,MAINTAIN,False,246.0,246.0,True,8,CST 246 vs ref 258 (-5%) <= +10% -> extend | safety: BCVA 11 letters below best -> do not extend
+0249GOS,11,GILA,EXTEND,EXTEND,EXTEND,False,256.0,256.0,True,16,CST 256 vs ref 258 (-1%) <= +10% -> extend
+0249GOS,12,GILA,,MAINTAIN,MAINTAIN,False,273.0,273.0,True,16,CST 273 vs ref 258 (+6%) <= +10% -> extend | safety: BCVA 12 letters below best -> do not extend
+0251GOD,1,GILA,,LOADING,LOADING,False,616.0,616.0,True,4,loading dose 1/4 -> q4w
+0251GOD,2,GILA,,LOADING,LOADING,False,361.0,361.0,True,4,loading dose 2/4 -> q4w
+0251GOD,3,GILA,,LOADING,LOADING,False,326.0,326.0,True,4,loading dose 3/4 -> q4w
+0251GOD,4,GILA,EXTEND,EXTEND,EXTEND,False,305.0,305.0,True,6,T&E start: reference CST = 305 µm | CST 305 vs ref 305 (+0%) <= +10% -> extend
+0251GOD,5,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,334.0,334.0,True,6,CST 334 vs ref 305 (+10%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
+0251GOD,6,GILA,EXTEND,EXTEND,EXTEND,False,293.0,293.0,True,10,CST 293 vs ref 305 (-4%) <= +10% -> extend
+0251GOD,7,GILA,SHORTEN,EXTEND,EXTEND,False,322.0,322.0,True,16,CST 322 vs ref 305 (+6%) <= +10% -> extend
+0251GOD,8,GILA,MAINTAIN,EXTEND,EXTEND,False,312.0,312.0,True,14,CST 312 vs ref 305 (+2%) <= +10% -> extend
+0251GOD,9,GILA,EXTEND,MAINTAIN,MAINTAIN,False,290.0,290.0,True,12,CST 290 vs ref 305 (-5%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0251GOD,10,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,267.0,267.0,True,16,CST 267 vs ref 305 (-12%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
+0251GOD,11,GILA,,EXTEND,EXTEND,False,253.0,253.0,True,16,CST 253 vs ref 305 (-17%) <= +10% -> extend
+0252GOD,1,GILA,,LOADING,LOADING,False,486.0,486.0,True,4,loading dose 1/4 -> q4w
+0252GOD,2,GILA,,LOADING,LOADING,False,371.0,371.0,True,4,loading dose 2/4 -> q4w
+0252GOD,3,GILA,,LOADING,LOADING,False,335.0,335.0,True,4,loading dose 3/4 -> q4w
+0252GOD,4,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,348.0,348.0,True,6,CST 348 µm > 325 gate -> continue q4w
+0252GOD,5,GILA,EXTEND,EXTEND,EXTEND,False,288.0,288.0,True,6,T&E start: reference CST = 288 µm | CST 288 vs ref 288 (+0%) <= +10% -> extend
+0252GOD,6,GILA,MAINTAIN,EXTEND,EXTEND,False,299.0,299.0,True,8,CST 299 vs ref 288 (+4%) <= +10% -> extend
+0252GOD,7,GILA,SHORTEN,SHORTEN,SHORTEN,False,355.0,355.0,True,6,CST +23% vs ref > +20% -> shorten
+0252GOD,8,GILA,EXTEND,EXTEND,EXTEND,False,262.0,262.0,True,6,CST 262 vs ref 288 (-9%) <= +10% -> extend
+0252GOD,9,GILA,EXTEND,EXTEND,EXTEND,False,269.0,269.0,True,10,CST 269 vs ref 288 (-7%) <= +10% -> extend
+0252GOD,10,GILA,MAINTAIN,EXTEND,EXTEND,False,270.0,270.0,True,12,CST 270 vs ref 288 (-6%) <= +10% -> extend
+0252GOD,11,GILA,EXTEND,EXTEND,EXTEND,False,268.0,268.0,True,14,CST 268 vs ref 288 (-7%) <= +10% -> extend
+0252GOD,12,GILA,EXTEND,EXTEND,EXTEND,False,265.0,265.0,True,16,CST 265 vs ref 288 (-8%) <= +10% -> extend
+0252GOD,13,GILA,,EXTEND,EXTEND,False,271.0,271.0,True,16,CST 271 vs ref 288 (-6%) <= +10% -> extend | interval at max (16 wk) -> held
+0254TOD,1,TREX,,LOADING,LOADING,False,347.0,347.0,True,4,loading dose 1/4 -> q4w
+0254TOD,2,TREX,,LOADING,LOADING,False,276.0,276.0,True,4,loading dose 2/4 -> q4w
+0254TOD,3,TREX,,LOADING,LOADING,False,267.0,267.0,True,4,loading dose 3/4 -> q4w
+0254TOD,4,TREX,EXTEND,EXTEND,EXTEND,False,266.0,266.0,True,6,T&E start: reference CST = 266 µm | CST 266 vs ref 266 (+0%) <= +10% -> extend
+0254TOD,5,TREX,EXTEND,EXTEND,EXTEND,False,272.0,272.0,True,8,CST 272 vs ref 266 (+2%) <= +10% -> extend
+0254TOD,6,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,317.0,317.0,True,8,CST +19% vs ref within +20% -> maintain
+0254TOD,7,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,304.0,304.0,True,8,CST +14% vs ref within +20% -> maintain
+0254TOD,8,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,308.0,308.0,True,8,CST +16% vs ref within +20% -> maintain
+0254TOD,9,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,319.0,319.0,True,8,CST +20% vs ref within +20% -> maintain
+0254TOD,10,TREX,EXTEND,EXTEND,EXTEND,False,263.0,263.0,True,8,CST 263 vs ref 266 (-1%) <= +10% -> extend
+0254TOD,11,TREX,SHORTEN,SHORTEN,SHORTEN,False,323.0,323.0,True,6,CST +21% vs ref > +20% -> shorten
+0254TOD,12,TREX,EXTEND,EXTEND,EXTEND,False,266.0,266.0,True,8,CST 266 vs ref 266 (+0%) <= +10% -> extend
+0254TOD,13,TREX,EXTEND,EXTEND,EXTEND,False,267.0,267.0,True,10,CST 267 vs ref 266 (+0%) <= +10% -> extend
+0254TOD,14,TREX,SHORTEN,SHORTEN,SHORTEN,False,321.0,321.0,True,8,CST +21% vs ref > +20% -> shorten
+0254TOD,15,TREX,,EXTEND,EXTEND,False,268.0,268.0,True,10,CST 268 vs ref 266 (+1%) <= +10% -> extend
+0255TOD,1,TREX,,LOADING,LOADING,False,498.0,498.0,True,4,loading dose 1/4 -> q4w
+0255TOD,2,TREX,,LOADING,LOADING,False,236.0,236.0,True,4,loading dose 2/4 -> q4w
+0255TOD,3,TREX,,LOADING,LOADING,False,211.0,211.0,True,4,loading dose 3/4 -> q4w
+0255TOD,4,TREX,MAINTAIN,EXTEND,EXTEND,False,246.0,246.0,True,6,T&E start: reference CST = 246 µm | CST 246 vs ref 246 (+0%) <= +10% -> extend
+0255TOD,5,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,293.0,293.0,True,6,CST +19% vs ref within +20% -> maintain
+0255TOD,6,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,265.0,265.0,True,6,CST 265 vs ref 246 (+8%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
+0255TOD,7,TREX,,MAINTAIN,MAINTAIN,False,251.0,251.0,True,4,CST 251 vs ref 246 (+2%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
+0256GOD,1,GILA,,LOADING,LOADING,False,550.0,550.0,True,4,loading dose 1/4 -> q4w
+0256GOD,2,GILA,,LOADING,LOADING,False,430.0,430.0,True,4,loading dose 2/4 -> q4w
+0256GOD,3,GILA,,LOADING,LOADING,False,473.0,473.0,True,6,loading dose 3/4 -> q4w
+0256GOD,4,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,431.0,431.0,True,4,CST 431 µm > 325 gate -> continue q4w
+0256GOD,5,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,386.0,386.0,True,4,CST 386 µm > 325 gate -> continue q4w
+0256GOD,6,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,354.0,354.0,True,4,CST 354 µm > 325 gate -> continue q4w
+0256GOD,7,GILA,EXTEND,EXTEND,EXTEND,False,311.0,311.0,True,6,T&E start: reference CST = 311 µm | CST 311 vs ref 311 (+0%) <= +10% -> extend
+0256GOD,8,GILA,EXTEND,EXTEND,EXTEND,False,300.0,300.0,True,8,CST 300 vs ref 311 (-4%) <= +10% -> extend
+0256GOD,9,GILA,SHORTEN,SHORTEN,SHORTEN,False,384.0,384.0,True,8,CST +23% vs ref > +20% -> shorten
+0256GOD,10,GILA,EXTEND,EXTEND,EXTEND,False,315.0,315.0,True,8,CST 315 vs ref 311 (+1%) <= +10% -> extend
+0256GOD,11,GILA,EXTEND,EXTEND,EXTEND,False,334.0,334.0,True,10,CST 334 vs ref 311 (+7%) <= +10% -> extend
+0256GOD,12,GILA,EXTEND,MAINTAIN,MAINTAIN,False,307.0,307.0,True,10,CST 307 vs ref 311 (-1%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0256GOD,13,GILA,EXTEND,MAINTAIN,MAINTAIN,False,326.0,326.0,True,12,CST 326 vs ref 311 (+5%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
+0256GOD,14,GILA,,EXTEND,EXTEND,False,259.0,259.0,True,16,CST 259 vs ref 311 (-17%) <= +10% -> extend
+0301GOD,1,GILA,,LOADING,LOADING,False,698.0,698.0,True,4,loading dose 1/4 -> q4w
+0301GOD,2,GILA,,LOADING,LOADING,False,531.0,531.0,True,4,loading dose 2/4 -> q4w
+0301GOD,3,GILA,,LOADING,LOADING,False,679.0,679.0,True,4,loading dose 3/4 -> q4w
+0301GOD,4,GILA,EXTEND,MAINTAIN,MAINTAIN,False,443.0,443.0,True,4,CST 443 µm > 325 gate -> continue q4w
+0301GOD,5,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,678.0,678.0,True,6,CST 678 µm > 325 gate -> continue q4w
+0301GOD,6,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,488.0,488.0,True,4,CST 488 µm > 325 gate -> continue q4w
+0301GOD,7,GILA,EXTEND,MAINTAIN,MAINTAIN,False,401.0,401.0,True,4,CST 401 µm > 325 gate -> continue q4w
+0301GOD,8,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,648.0,648.0,True,6,CST 648 µm > 325 gate -> continue q4w
+0301GOD,9,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,452.0,452.0,True,4,CST 452 µm > 325 gate -> continue q4w
+0301GOD,10,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,516.0,516.0,True,4,CST 516 µm > 325 gate -> continue q4w
+0301GOD,11,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,391.0,391.0,True,4,CST 391 µm > 325 gate -> continue q4w
+0301GOD,12,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,374.0,374.0,True,4,CST 374 µm > 325 gate -> continue q4w
+0301GOD,13,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,648.0,648.0,True,4,CST 648 µm > 325 gate -> continue q4w
+0301GOD,14,GILA,EXTEND,MAINTAIN,MAINTAIN,False,358.0,358.0,True,4,CST 358 µm > 325 gate -> continue q4w
+0301GOD,15,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,580.0,580.0,True,6,CST 580 µm > 325 gate -> continue q4w
+0301GOD,16,GILA,EXTEND,EXTEND,EXTEND,False,284.0,284.0,True,6,T&E start: reference CST = 284 µm | CST 284 vs ref 284 (+0%) <= +10% -> extend
+0301GOD,17,GILA,SHORTEN,SHORTEN,SHORTEN,False,354.0,354.0,True,4,CST +25% vs ref > +20% -> shorten
+0301GOD,18,GILA,MAINTAIN,EXTEND,EXTEND,False,245.0,245.0,True,6,CST 245 vs ref 284 (-14%) <= +10% -> extend
+0301GOD,19,GILA,EXTEND,EXTEND,EXTEND,False,290.0,290.0,True,6,CST 290 vs ref 284 (+2%) <= +10% -> extend
+0301GOD,20,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,337.0,337.0,True,8,CST +19% vs ref within +20% -> maintain
+0301GOD,21,GILA,,EXTEND,EXTEND,False,274.0,274.0,True,10,CST 274 vs ref 284 (-4%) <= +10% -> extend
+0302GOS,1,GILA,,LOADING,LOADING,False,587.0,587.0,True,4,loading dose 1/4 -> q4w
+0302GOS,2,GILA,,LOADING,LOADING,False,363.0,363.0,True,4,loading dose 2/4 -> q4w
+0302GOS,3,GILA,,LOADING,LOADING,False,331.0,331.0,True,4,loading dose 3/4 -> q4w
+0302GOS,4,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,326.0,326.0,True,4,CST 326 µm > 325 gate -> continue q4w
+0302GOS,5,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,359.0,359.0,True,4,CST 359 µm > 325 gate -> continue q4w
+0302GOS,6,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,361.0,361.0,True,4,CST 361 µm > 325 gate -> continue q4w
+0302GOS,7,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,384.0,384.0,True,4,CST 384 µm > 325 gate -> continue q4w
+0302GOS,8,GILA,EXTEND,EXTEND,EXTEND,False,312.0,312.0,True,6,T&E start: reference CST = 312 µm | CST 312 vs ref 312 (+0%) <= +10% -> extend
+0302GOS,9,GILA,SHORTEN,SHORTEN,SHORTEN,False,511.0,511.0,True,4,CST +64% vs ref > +20% -> shorten
+0302GOS,10,GILA,MAINTAIN,EXTEND,EXTEND,False,310.0,310.0,True,6,CST 310 vs ref 312 (-1%) <= +10% -> extend
+0302GOS,11,GILA,MAINTAIN,SHORTEN,SHORTEN,False,429.0,429.0,True,4,CST +38% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0302GOS,12,GILA,MAINTAIN,SHORTEN,SHORTEN,False,401.0,401.0,True,4,CST +29% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0302GOS,13,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,358.0,358.0,True,4,CST +15% vs ref within +20% -> maintain
+0302GOS,14,GILA,MAINTAIN,EXTEND,EXTEND,False,306.0,306.0,True,6,CST 306 vs ref 312 (-2%) <= +10% -> extend
+0302GOS,15,GILA,EXTEND,EXTEND,EXTEND,False,294.0,294.0,True,6,CST 294 vs ref 312 (-6%) <= +10% -> extend
+0302GOS,16,GILA,SHORTEN,SHORTEN,SHORTEN,False,625.0,625.0,True,4,CST +100% vs ref > +20% -> shorten
+0302GOS,17,GILA,MAINTAIN,SHORTEN,SHORTEN,False,381.0,381.0,True,4,CST +22% vs ref > +20% -> shorten
+0302GOS,18,GILA,SHORTEN,SHORTEN,SHORTEN,False,554.0,554.0,True,4,CST +78% vs ref > +20% -> shorten
+0302GOS,19,GILA,EXTEND,EXTEND,EXTEND,False,294.0,294.0,True,6,CST 294 vs ref 312 (-6%) <= +10% -> extend
+0302GOS,20,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,365.0,365.0,True,4,CST +17% vs ref within +20% -> maintain
+0302GOS,21,GILA,SHORTEN,SHORTEN,SHORTEN,False,379.0,379.0,True,4,CST +21% vs ref > +20% -> shorten
+0302GOS,22,GILA,,EXTEND,EXTEND,False,309.0,309.0,True,6,CST 309 vs ref 312 (-1%) <= +10% -> extend
+0302GOS,23,GILA,,SHORTEN,SHORTEN,False,431.0,431.0,True,4,CST +38% vs ref > +20% -> shorten
+0302TOD,1,TREX,,LOADING,LOADING,False,630.0,630.0,True,4,loading dose 1/4 -> q4w
+0302TOD,2,TREX,,LOADING,LOADING,False,319.0,319.0,True,4,loading dose 2/4 -> q4w
+0302TOD,3,TREX,,LOADING,LOADING,False,303.0,303.0,True,4,loading dose 3/4 -> q4w
+0302TOD,4,TREX,EXTEND,EXTEND,EXTEND,False,292.0,292.0,True,6,T&E start: reference CST = 292 µm | CST 292 vs ref 292 (+0%) <= +10% -> extend
+0302TOD,5,TREX,MAINTAIN,SHORTEN,SHORTEN,False,568.0,568.0,True,4,CST +95% vs ref > +20% -> shorten
+0302TOD,6,TREX,SHORTEN,SHORTEN,SHORTEN,False,633.0,633.0,True,4,CST +117% vs ref > +20% -> shorten
+0302TOD,7,TREX,EXTEND,EXTEND,EXTEND,False,306.0,306.0,True,6,CST 306 vs ref 292 (+5%) <= +10% -> extend
+0302TOD,8,TREX,MAINTAIN,SHORTEN,SHORTEN,False,354.0,354.0,True,4,CST +21% vs ref > +20% -> shorten
+0302TOD,9,TREX,SHORTEN,SHORTEN,SHORTEN,False,466.0,466.0,True,4,CST +60% vs ref > +20% -> shorten
+0302TOD,10,TREX,EXTEND,EXTEND,EXTEND,False,301.0,301.0,True,6,CST 301 vs ref 292 (+3%) <= +10% -> extend
+0302TOD,11,TREX,SHORTEN,SHORTEN,SHORTEN,False,503.0,503.0,True,4,CST +72% vs ref > +20% -> shorten
+0302TOD,12,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,249.0,249.0,True,4,CST 249 vs ref 292 (-15%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
+0302TOD,13,TREX,MAINTAIN,EXTEND,EXTEND,False,273.0,273.0,True,6,CST 273 vs ref 292 (-7%) <= +10% -> extend
+0302TOD,14,TREX,EXTEND,EXTEND,EXTEND,False,268.0,268.0,True,6,CST 268 vs ref 292 (-8%) <= +10% -> extend
+0302TOD,15,TREX,,SHORTEN,SHORTEN,False,610.0,610.0,True,4,CST +109% vs ref > +20% -> shorten
+0302TOD,16,TREX,,SHORTEN,SHORTEN,False,662.0,662.0,True,4,CST +127% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0302TOD,17,TREX,,EXTEND,EXTEND,False,274.0,274.0,True,6,CST 274 vs ref 292 (-6%) <= +10% -> extend
+0302TOD,18,TREX,SHORTEN,SHORTEN,SHORTEN,False,679.0,679.0,True,4,CST +133% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0302TOD,19,TREX,MAINTAIN,EXTEND,EXTEND,False,219.0,219.0,True,6,CST 219 vs ref 292 (-25%) <= +10% -> extend
+0302TOD,20,TREX,,EXTEND,EXTEND,False,275.0,275.0,True,6,CST 275 vs ref 292 (-6%) <= +10% -> extend
+0302TOD,21,TREX,,SHORTEN,SHORTEN,False,415.0,415.0,True,4,CST +42% vs ref > +20% -> shorten
+0306TOS,1,TREX,,LOADING,LOADING,False,367.0,367.0,True,4,loading dose 1/4 -> q4w
+0306TOS,2,TREX,,LOADING,LOADING,False,300.0,300.0,True,4,loading dose 2/4 -> q4w
+0306TOS,3,TREX,,LOADING,LOADING,False,293.0,293.0,True,4,loading dose 3/4 -> q4w
+0306TOS,4,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,279.0,279.0,True,4,T&E start: reference CST = 279 µm | CST 279 vs ref 279 (+0%) <= +10% -> extend | safety: BCVA 29 letters below best -> do not extend
+0306TOS,5,TREX,EXTEND,MAINTAIN,MAINTAIN,False,279.0,279.0,True,4,CST 279 vs ref 279 (+0%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
+0306TOS,6,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,297.0,297.0,True,6,CST 297 vs ref 279 (+6%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0306TOS,7,TREX,EXTEND,EXTEND,EXTEND,False,301.0,301.0,True,8,CST 301 vs ref 279 (+8%) <= +10% -> extend
+0306TOS,8,TREX,EXTEND,MAINTAIN,MAINTAIN,False,299.0,299.0,True,8,CST 299 vs ref 279 (+7%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0306TOS,9,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,289.0,289.0,True,10,CST 289 vs ref 279 (+4%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0306TOS,10,TREX,SHORTEN,EXTEND,EXTEND,False,283.0,283.0,True,14,CST 283 vs ref 279 (+1%) <= +10% -> extend
+0306TOS,11,TREX,EXTEND,MAINTAIN,MAINTAIN,False,271.0,271.0,True,4,CST 271 vs ref 279 (-3%) <= +10% -> extend | safety: BCVA 10 letters below best -> do not extend
+0306TOS,12,TREX,SHORTEN,EXTEND,EXTEND,False,292.0,292.0,True,16,CST 292 vs ref 279 (+5%) <= +10% -> extend
+0306TOS,13,TREX,,EXTEND,EXTEND,False,270.0,270.0,True,16,CST 270 vs ref 279 (-3%) <= +10% -> extend
+0308TOD,1,TREX,,LOADING,LOADING,False,477.0,477.0,True,4,loading dose 1/4 -> q4w
+0308TOD,2,TREX,,LOADING,LOADING,False,294.0,294.0,True,4,loading dose 2/4 -> q4w
+0308TOD,3,TREX,,LOADING,LOADING,False,272.0,272.0,True,4,loading dose 3/4 -> q4w
+0309GOS,1,GILA,,LOADING,LOADING,False,483.0,483.0,True,4,loading dose 1/4 -> q4w
+0309GOS,2,GILA,,LOADING,LOADING,False,542.0,542.0,True,4,loading dose 2/4 -> q4w
+0309GOS,3,GILA,,LOADING,LOADING,False,525.0,525.0,True,4,loading dose 3/4 -> q4w
+0309GOS,4,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,559.0,559.0,True,4,CST 559 µm > 325 gate -> continue q4w
+0309GOS,5,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,487.0,487.0,True,4,CST 487 µm > 325 gate -> continue q4w
+0309GOS,6,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,506.0,506.0,True,4,CST 506 µm > 325 gate -> continue q4w
+0309GOS,7,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,445.0,445.0,True,4,CST 445 µm > 325 gate -> continue q4w
+0309GOS,8,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,595.0,595.0,True,6,CST 595 µm > 325 gate -> continue q4w
+0309GOS,9,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,511.0,511.0,True,4,CST 511 µm > 325 gate -> continue q4w
+0309GOS,10,GILA,EXTEND,EXTEND,EXTEND,False,314.0,314.0,True,6,T&E start: reference CST = 314 µm | CST 314 vs ref 314 (+0%) <= +10% -> extend
+0309GOS,11,GILA,MAINTAIN,SHORTEN,SHORTEN,False,563.0,563.0,True,4,CST +79% vs ref > +20% -> shorten
+0309GOS,12,GILA,MAINTAIN,SHORTEN,SHORTEN,False,418.0,418.0,True,4,CST +33% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0309GOS,13,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,346.0,346.0,True,4,CST +10% vs ref within +20% -> maintain
+0309GOS,14,GILA,EXTEND,MAINTAIN,MAINTAIN,False,355.0,355.0,True,4,CST +13% vs ref within +20% -> maintain
+0309GOS,15,GILA,MAINTAIN,SHORTEN,SHORTEN,False,459.0,459.0,True,4,CST +46% vs ref > +20% -> shorten
+0309GOS,16,GILA,SHORTEN,SHORTEN,SHORTEN,False,518.0,518.0,True,4,CST +65% vs ref > +20% -> shorten
+0309GOS,17,GILA,EXTEND,EXTEND,EXTEND,False,319.0,319.0,True,6,CST 319 vs ref 314 (+2%) <= +10% -> extend
+0309GOS,18,GILA,MAINTAIN,EXTEND,EXTEND,False,315.0,315.0,True,8,CST 315 vs ref 314 (+0%) <= +10% -> extend
+0309GOS,19,GILA,EXTEND,EXTEND,EXTEND,False,322.0,322.0,True,8,CST 322 vs ref 314 (+3%) <= +10% -> extend
+0309GOS,20,GILA,,EXTEND,EXTEND,False,311.0,311.0,True,12,CST 311 vs ref 314 (-1%) <= +10% -> extend
+0309GOS,21,GILA,,SHORTEN,SHORTEN,False,468.0,468.0,True,10,CST +49% vs ref > +20% -> shorten
+0309TOD,1,TREX,,LOADING,LOADING,False,367.0,367.0,True,4,loading dose 1/4 -> q4w
+0309TOD,2,TREX,,LOADING,LOADING,False,311.0,311.0,True,4,loading dose 2/4 -> q4w
+0309TOD,3,TREX,,LOADING,LOADING,False,412.0,412.0,True,4,loading dose 3/4 -> q4w
+0309TOD,4,TREX,EXTEND,EXTEND,EXTEND,False,287.0,287.0,True,6,T&E start: reference CST = 287 µm | CST 287 vs ref 287 (+0%) <= +10% -> extend
+0309TOD,5,TREX,MAINTAIN,SHORTEN,SHORTEN,False,350.0,350.0,True,4,CST +22% vs ref > +20% -> shorten
+0309TOD,6,TREX,EXTEND,MAINTAIN,MAINTAIN,False,275.0,275.0,True,4,CST 275 vs ref 287 (-4%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0309TOD,7,TREX,EXTEND,EXTEND,EXTEND,False,308.0,308.0,True,8,CST 308 vs ref 287 (+7%) <= +10% -> extend
+0309TOD,8,TREX,EXTEND,EXTEND,EXTEND,False,270.0,270.0,True,10,CST 270 vs ref 287 (-6%) <= +10% -> extend
+0309TOD,9,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,321.0,321.0,True,10,CST +12% vs ref within +20% -> maintain
+0309TOD,10,TREX,EXTEND,EXTEND,EXTEND,False,275.0,275.0,True,8,CST 275 vs ref 287 (-4%) <= +10% -> extend
+0309TOD,11,TREX,SHORTEN,EXTEND,EXTEND,False,291.0,291.0,True,10,CST 291 vs ref 287 (+1%) <= +10% -> extend
+0309TOD,12,TREX,EXTEND,EXTEND,EXTEND,False,262.0,262.0,True,6,CST 262 vs ref 287 (-9%) <= +10% -> extend
+0309TOD,13,TREX,MAINTAIN,EXTEND,EXTEND,False,298.0,298.0,True,14,CST 298 vs ref 287 (+4%) <= +10% -> extend
+0309TOD,14,TREX,,EXTEND,EXTEND,False,289.0,289.0,True,12,CST 289 vs ref 287 (+1%) <= +10% -> extend
+0311TOS,1,TREX,,LOADING,LOADING,False,496.0,496.0,True,4,loading dose 1/4 -> q4w
+0311TOS,2,TREX,,LOADING,LOADING,False,318.0,318.0,True,4,loading dose 2/4 -> q4w
+0311TOS,3,TREX,,LOADING,LOADING,False,259.0,259.0,True,4,loading dose 3/4 -> q4w
+0311TOS,4,TREX,EXTEND,EXTEND,EXTEND,False,259.0,259.0,True,6,T&E start: reference CST = 259 µm | CST 259 vs ref 259 (+0%) <= +10% -> extend
+0311TOS,5,TREX,SHORTEN,SHORTEN,SHORTEN,False,336.0,336.0,True,4,CST +30% vs ref > +20% -> shorten
+0311TOS,6,TREX,EXTEND,EXTEND,EXTEND,False,237.0,237.0,True,6,CST 237 vs ref 259 (-8%) <= +10% -> extend
+0311TOS,7,TREX,SHORTEN,SHORTEN,SHORTEN,False,381.0,381.0,True,6,CST +47% vs ref > +20% -> shorten
+0311TOS,8,TREX,EXTEND,EXTEND,EXTEND,False,244.0,244.0,True,6,CST 244 vs ref 259 (-6%) <= +10% -> extend
+0311TOS,9,TREX,SHORTEN,SHORTEN,SHORTEN,False,358.0,358.0,True,4,CST +38% vs ref > +20% -> shorten
+0311TOS,10,TREX,EXTEND,EXTEND,EXTEND,False,239.0,239.0,True,6,CST 239 vs ref 259 (-8%) <= +10% -> extend
+0311TOS,11,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,289.0,289.0,True,6,CST +12% vs ref within +20% -> maintain
+0311TOS,12,TREX,EXTEND,MAINTAIN,MAINTAIN,False,294.0,294.0,True,6,CST +14% vs ref within +20% -> maintain
+0311TOS,13,TREX,SHORTEN,SHORTEN,SHORTEN,False,515.0,515.0,True,8,CST +99% vs ref > +20% -> shorten
+0311TOS,14,TREX,SHORTEN,SHORTEN,SHORTEN,False,521.0,521.0,True,6,CST +101% vs ref > +20% -> shorten
+0311TOS,15,TREX,SHORTEN,SHORTEN,SHORTEN,False,585.0,585.0,True,4,CST +126% vs ref > +20% -> shorten
+0311TOS,16,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,310.0,310.0,True,6,CST +20% vs ref within +20% -> maintain
+0311TOS,17,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,264.0,264.0,True,4,CST 264 vs ref 259 (+2%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0311TOS,18,TREX,,MAINTAIN,MAINTAIN,False,250.0,250.0,True,6,CST 250 vs ref 259 (-3%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0311TOS,19,TREX,,SHORTEN,SHORTEN,False,727.0,727.0,True,4,CST +181% vs ref > +20% -> shorten
+0312GOS,1,GILA,,LOADING,LOADING,False,375.0,375.0,True,4,loading dose 1/4 -> q4w
+0312GOS,2,GILA,,LOADING,LOADING,False,363.0,363.0,True,4,loading dose 2/4 -> q4w
+0312GOS,3,GILA,,LOADING,LOADING,False,356.0,356.0,True,4,loading dose 3/4 -> q4w
+0312GOS,4,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,351.0,351.0,True,4,CST 351 µm > 325 gate -> continue q4w
+0312GOS,5,GILA,EXTEND,MAINTAIN,MAINTAIN,False,349.0,349.0,True,4,CST 349 µm > 325 gate -> continue q4w
+0312GOS,6,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,344.0,344.0,True,6,CST 344 µm > 325 gate -> continue q4w
+0312GOS,7,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,340.0,340.0,True,6,CST 340 µm > 325 gate -> continue q4w
+0312GOS,8,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,338.0,338.0,True,4,CST 338 µm > 325 gate -> continue q4w
+0312GOS,9,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,334.0,334.0,True,4,CST 334 µm > 325 gate -> continue q4w
+0312GOS,10,GILA,EXTEND,MAINTAIN,MAINTAIN,False,339.0,339.0,True,4,CST 339 µm > 325 gate -> continue q4w
+0312GOS,11,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,332.0,332.0,True,6,CST 332 µm > 325 gate -> continue q4w
+0312GOS,12,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,332.0,332.0,True,4,CST 332 µm > 325 gate -> continue q4w
+0312GOS,13,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,341.0,341.0,True,4,CST 341 µm > 325 gate -> continue q4w
+0312GOS,14,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,338.0,338.0,True,4,CST 338 µm > 325 gate -> continue q4w
+0312GOS,15,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,342.0,342.0,True,4,CST 342 µm > 325 gate -> continue q4w
+0312GOS,16,GILA,EXTEND,MAINTAIN,MAINTAIN,False,333.0,333.0,True,4,CST 333 µm > 325 gate -> continue q4w
+0312GOS,17,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,339.0,339.0,True,6,CST 339 µm > 325 gate -> continue q4w
+0312GOS,18,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,341.0,341.0,True,4,CST 341 µm > 325 gate -> continue q4w
+0312GOS,19,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,338.0,338.0,True,4,CST 338 µm > 325 gate -> continue q4w
+0312GOS,20,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,339.0,339.0,True,4,CST 339 µm > 325 gate -> continue q4w
+0312GOS,21,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,333.0,333.0,True,4,CST 333 µm > 325 gate -> continue q4w
+0312GOS,22,GILA,EXTEND,MAINTAIN,MAINTAIN,False,334.0,334.0,True,4,CST 334 µm > 325 gate -> continue q4w
+0312GOS,23,GILA,,MAINTAIN,MAINTAIN,False,338.0,338.0,True,8,CST 338 µm > 325 gate -> continue q4w
+0312GOS,24,GILA,,MAINTAIN,MAINTAIN,False,337.0,337.0,True,8,CST 337 µm > 325 gate -> continue q4w
+0312GOS,25,GILA,,MAINTAIN,MAINTAIN,False,339.0,339.0,True,8,CST 339 µm > 325 gate -> continue q4w
+0317GOD,1,GILA,,LOADING,LOADING,False,558.0,558.0,True,4,loading dose 1/4 -> q4w
+0317GOD,2,GILA,,LOADING,LOADING,False,313.0,313.0,True,4,loading dose 2/4 -> q4w
+0317GOD,3,GILA,,LOADING,LOADING,False,263.0,263.0,True,4,loading dose 3/4 -> q4w
+0317GOD,4,GILA,MAINTAIN,EXTEND,EXTEND,False,245.0,245.0,True,8,T&E start: reference CST = 245 µm | CST 245 vs ref 245 (+0%) <= +10% -> extend
+0317GOD,5,GILA,MAINTAIN,EXTEND,EXTEND,False,233.0,233.0,True,8,CST 233 vs ref 245 (-5%) <= +10% -> extend
+0317GOD,6,GILA,,EXTEND,EXTEND,False,235.0,235.0,True,8,CST 235 vs ref 245 (-4%) <= +10% -> extend
+0318GOS,1,GILA,,LOADING,LOADING,False,404.0,404.0,True,4,loading dose 1/4 -> q4w
+0318GOS,2,GILA,,LOADING,LOADING,False,334.0,334.0,True,6,loading dose 2/4 -> q4w
+0318GOS,3,GILA,,LOADING,LOADING,False,311.0,311.0,True,4,loading dose 3/4 -> q4w
+0318GOS,4,GILA,EXTEND,EXTEND,EXTEND,False,295.0,295.0,True,6,T&E start: reference CST = 295 µm | CST 295 vs ref 295 (+0%) <= +10% -> extend
+0318GOS,5,GILA,EXTEND,EXTEND,EXTEND,False,290.0,290.0,True,8,CST 290 vs ref 295 (-2%) <= +10% -> extend
+0318GOS,6,GILA,EXTEND,EXTEND,EXTEND,False,289.0,289.0,True,10,CST 289 vs ref 295 (-2%) <= +10% -> extend
+0318GOS,7,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,290.0,290.0,True,14,CST 290 vs ref 295 (-2%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0318GOS,8,GILA,EXTEND,MAINTAIN,MAINTAIN,False,280.0,280.0,True,8,CST 280 vs ref 295 (-5%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0318GOS,9,GILA,EXTEND,MAINTAIN,MAINTAIN,False,279.0,279.0,True,10,CST 279 vs ref 295 (-5%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0318GOS,10,GILA,MAINTAIN,EXTEND,EXTEND,False,289.0,289.0,True,16,CST 289 vs ref 295 (-2%) <= +10% -> extend
+0318GOS,11,GILA,,MAINTAIN,MAINTAIN,False,291.0,291.0,True,14,CST 291 vs ref 295 (-1%) <= +10% -> extend | safety: BCVA 12 letters below best -> do not extend
+0319GOD,1,GILA,,LOADING,LOADING,False,230.0,230.0,True,4,loading dose 1/4 -> q4w
+0319GOD,2,GILA,,LOADING,LOADING,False,333.0,333.0,True,4,loading dose 2/4 -> q4w
+0319GOD,3,GILA,,LOADING,LOADING,False,286.0,286.0,True,4,loading dose 3/4 -> q4w
+0319GOD,4,GILA,EXTEND,EXTEND,EXTEND,False,283.0,283.0,True,6,T&E start: reference CST = 283 µm | CST 283 vs ref 283 (+0%) <= +10% -> extend
+0319GOD,5,GILA,EXTEND,EXTEND,EXTEND,False,287.0,287.0,True,8,CST 287 vs ref 283 (+1%) <= +10% -> extend
+0319GOD,6,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,285.0,285.0,True,8,CST 285 vs ref 283 (+1%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0319GOD,7,GILA,EXTEND,MAINTAIN,MAINTAIN,False,290.0,290.0,True,8,CST 290 vs ref 283 (+2%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
+0319GOD,8,GILA,SHORTEN,SHORTEN,SHORTEN,False,486.0,486.0,True,10,CST +72% vs ref > +20% -> shorten
+0319GOD,9,GILA,EXTEND,MAINTAIN,MAINTAIN,False,294.0,294.0,True,10,CST 294 vs ref 283 (+4%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0319GOD,10,GILA,EXTEND,MAINTAIN,MAINTAIN,False,295.0,295.0,True,12,CST 295 vs ref 283 (+4%) <= +10% -> extend | safety: BCVA 10 letters below best -> do not extend
+0319GOD,11,GILA,,MAINTAIN,MAINTAIN,False,294.0,294.0,True,16,CST 294 vs ref 283 (+4%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0319GOD,12,GILA,,MAINTAIN,MAINTAIN,False,300.0,300.0,True,16,CST 300 vs ref 283 (+6%) <= +10% -> extend | safety: BCVA 12 letters below best -> do not extend
+0320GOS,1,GILA,,LOADING,LOADING,False,414.0,414.0,True,4,loading dose 1/4 -> q4w
+0320GOS,2,GILA,,LOADING,LOADING,False,382.0,382.0,True,4,loading dose 2/4 -> q4w
+0320GOS,3,GILA,,LOADING,LOADING,False,360.0,360.0,True,4,loading dose 3/4 -> q4w
+0320GOS,4,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,352.0,352.0,True,4,CST 352 µm > 325 gate -> continue q4w
+0320GOS,5,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,350.0,350.0,True,4,CST 350 µm > 325 gate -> continue q4w
+0320GOS,6,GILA,EXTEND,MAINTAIN,MAINTAIN,False,349.0,349.0,True,4,CST 349 µm > 325 gate -> continue q4w
+0320GOS,7,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,347.0,347.0,True,6,CST 347 µm > 325 gate -> continue q4w
+0320GOS,8,GILA,EXTEND,MAINTAIN,MAINTAIN,False,340.0,340.0,True,4,CST 340 µm > 325 gate -> continue q4w
+0320GOS,9,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,333.0,333.0,True,6,CST 333 µm > 325 gate -> continue q4w
+0320GOS,10,GILA,EXTEND,MAINTAIN,MAINTAIN,False,333.0,333.0,True,4,CST 333 µm > 325 gate -> continue q4w
+0320GOS,11,GILA,EXTEND,MAINTAIN,MAINTAIN,False,356.0,356.0,True,8,CST 356 µm > 325 gate -> continue q4w
+0320GOS,12,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,389.0,389.0,True,10,CST 389 µm > 325 gate -> continue q4w
+0320GOS,13,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,336.0,336.0,True,6,CST 336 µm > 325 gate -> continue q4w
+0320GOS,14,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,337.0,337.0,True,4,CST 337 µm > 325 gate -> continue q4w
+0320GOS,15,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,604.0,604.0,True,4,CST 604 µm > 325 gate -> continue q4w
+0320GOS,16,GILA,EXTEND,MAINTAIN,MAINTAIN,False,332.0,332.0,True,4,CST 332 µm > 325 gate -> continue q4w
+0320GOS,17,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,338.0,338.0,True,6,CST 338 µm > 325 gate -> continue q4w
+0320GOS,18,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,338.0,338.0,True,6,CST 338 µm > 325 gate -> continue q4w
+0320GOS,19,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,334.0,334.0,True,4,CST 334 µm > 325 gate -> continue q4w
+0320GOS,20,GILA,,MAINTAIN,MAINTAIN,False,335.0,335.0,True,4,CST 335 µm > 325 gate -> continue q4w
+0320GOS,21,GILA,,MAINTAIN,MAINTAIN,False,331.0,331.0,True,4,CST 331 µm > 325 gate -> continue q4w
+0320TOD,1,TREX,,LOADING,LOADING,False,532.0,532.0,True,4,loading dose 1/4 -> q4w
+0320TOD,2,TREX,,LOADING,LOADING,False,522.0,522.0,True,4,loading dose 2/4 -> q4w
+0320TOD,3,TREX,,LOADING,LOADING,False,493.0,493.0,True,4,loading dose 3/4 -> q4w
+0320TOD,4,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,510.0,510.0,True,4,CST 510 µm > 325 gate -> continue q4w
+0320TOD,5,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,508.0,508.0,True,4,CST 508 µm > 325 gate -> continue q4w
+0320TOD,6,TREX,EXTEND,MAINTAIN,MAINTAIN,False,490.0,490.0,True,4,CST 490 µm > 325 gate -> continue q4w
+0320TOD,7,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,501.0,501.0,True,6,CST 501 µm > 325 gate -> continue q4w
+0320TOD,8,TREX,EXTEND,MAINTAIN,MAINTAIN,False,473.0,473.0,True,4,CST 473 µm > 325 gate -> continue q4w
+0320TOD,9,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,486.0,486.0,True,6,CST 486 µm > 325 gate -> continue q4w
+0320TOD,10,TREX,EXTEND,MAINTAIN,MAINTAIN,False,480.0,480.0,True,4,CST 480 µm > 325 gate -> continue q4w
+0320TOD,11,TREX,EXTEND,MAINTAIN,MAINTAIN,False,549.0,549.0,True,8,CST 549 µm > 325 gate -> continue q4w
+0320TOD,12,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,470.0,470.0,True,10,CST 470 µm > 325 gate -> continue q4w
+0320TOD,13,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,442.0,442.0,True,6,CST 442 µm > 325 gate -> continue q4w
+0320TOD,14,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,488.0,488.0,True,4,CST 488 µm > 325 gate -> continue q4w
+0320TOD,15,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,393.0,393.0,True,4,CST 393 µm > 325 gate -> continue q4w
+0320TOD,16,TREX,EXTEND,MAINTAIN,MAINTAIN,False,401.0,401.0,True,4,CST 401 µm > 325 gate -> continue q4w
+0320TOD,17,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,383.0,383.0,True,6,CST 383 µm > 325 gate -> continue q4w
+0320TOD,18,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,402.0,402.0,True,6,CST 402 µm > 325 gate -> continue q4w
+0320TOD,19,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,373.0,373.0,True,4,CST 373 µm > 325 gate -> continue q4w
+0320TOD,20,TREX,,MAINTAIN,MAINTAIN,False,378.0,378.0,True,4,CST 378 µm > 325 gate -> continue q4w
+0320TOD,21,TREX,,MAINTAIN,MAINTAIN,False,352.0,352.0,True,4,CST 352 µm > 325 gate -> continue q4w
+0322TOS,1,TREX,,LOADING,LOADING,False,410.0,410.0,True,4,loading dose 1/4 -> q4w
+0322TOS,2,TREX,,LOADING,LOADING,False,394.0,394.0,True,4,loading dose 2/4 -> q4w
+0322TOS,3,TREX,,LOADING,LOADING,False,449.0,449.0,True,4,loading dose 3/4 -> q4w
+0322TOS,4,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,363.0,363.0,True,4,CST 363 µm > 325 gate -> continue q4w
+0322TOS,5,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,387.0,387.0,True,4,CST 387 µm > 325 gate -> continue q4w
+0322TOS,6,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,407.0,407.0,True,4,CST 407 µm > 325 gate -> continue q4w
+0322TOS,7,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,374.0,374.0,True,4,CST 374 µm > 325 gate -> continue q4w
+0322TOS,8,TREX,EXTEND,MAINTAIN,MAINTAIN,False,374.0,374.0,True,4,CST 374 µm > 325 gate -> continue q4w
+0322TOS,9,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,374.0,374.0,True,6,CST 374 µm > 325 gate -> continue q4w
+0322TOS,10,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,383.0,383.0,True,6,CST 383 µm > 325 gate -> continue q4w
+0322TOS,11,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,362.0,362.0,True,4,CST 362 µm > 325 gate -> continue q4w
+0322TOS,12,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,352.0,352.0,True,4,CST 352 µm > 325 gate -> continue q4w
+0322TOS,13,TREX,EXTEND,MAINTAIN,MAINTAIN,False,369.0,369.0,True,4,CST 369 µm > 325 gate -> continue q4w
+0322TOS,14,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,337.0,337.0,True,4,CST 337 µm > 325 gate -> continue q4w
+0322TOS,15,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,343.0,343.0,True,4,CST 343 µm > 325 gate -> continue q4w
+0322TOS,16,TREX,EXTEND,MAINTAIN,MAINTAIN,False,329.0,329.0,True,4,CST 329 µm > 325 gate -> continue q4w
+0322TOS,17,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,330.0,330.0,True,4,CST 330 µm > 325 gate -> continue q4w
+0322TOS,18,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,329.0,329.0,True,4,CST 329 µm > 325 gate -> continue q4w
+0322TOS,19,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,330.0,330.0,True,4,CST 330 µm > 325 gate -> continue q4w
+0322TOS,20,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,344.0,344.0,True,4,CST 344 µm > 325 gate -> continue q4w
+0322TOS,21,TREX,MAINTAIN,EXTEND,EXTEND,False,317.0,317.0,True,6,T&E start: reference CST = 317 µm | CST 317 vs ref 317 (+0%) <= +10% -> extend
+0322TOS,22,TREX,EXTEND,EXTEND,EXTEND,False,268.0,268.0,True,6,CST 268 vs ref 317 (-15%) <= +10% -> extend
+0322TOS,23,TREX,SHORTEN,EXTEND,EXTEND,False,301.0,301.0,True,8,CST 301 vs ref 317 (-5%) <= +10% -> extend
+0322TOS,24,TREX,,MAINTAIN,MAINTAIN,False,281.0,281.0,True,4,CST 281 vs ref 317 (-11%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0323GOS,1,GILA,,LOADING,LOADING,False,532.0,532.0,True,4,loading dose 1/4 -> q4w
+0323GOS,2,GILA,,LOADING,LOADING,False,318.0,318.0,True,4,loading dose 2/4 -> q4w
+0323GOS,3,GILA,,LOADING,LOADING,False,288.0,288.0,True,4,loading dose 3/4 -> q4w
+0323GOS,4,GILA,EXTEND,EXTEND,EXTEND,False,287.0,287.0,True,6,T&E start: reference CST = 287 µm | CST 287 vs ref 287 (+0%) <= +10% -> extend
+0323GOS,5,GILA,EXTEND,EXTEND,EXTEND,False,274.0,274.0,True,8,CST 274 vs ref 287 (-5%) <= +10% -> extend
+0323GOS,6,GILA,MAINTAIN,EXTEND,EXTEND,False,312.0,312.0,True,10,CST 312 vs ref 287 (+9%) <= +10% -> extend
+0323GOS,7,GILA,EXTEND,EXTEND,EXTEND,False,282.0,282.0,True,10,CST 282 vs ref 287 (-2%) <= +10% -> extend
+0323GOS,8,GILA,EXTEND,EXTEND,EXTEND,False,286.0,286.0,True,14,CST 286 vs ref 287 (-0%) <= +10% -> extend
+0323GOS,9,GILA,MAINTAIN,EXTEND,EXTEND,False,284.0,284.0,True,16,CST 284 vs ref 287 (-1%) <= +10% -> extend
+0323GOS,10,GILA,EXTEND,EXTEND,EXTEND,False,283.0,283.0,True,16,CST 283 vs ref 287 (-1%) <= +10% -> extend
+0323GOS,11,GILA,,EXTEND,EXTEND,False,294.0,294.0,True,16,CST 294 vs ref 287 (+2%) <= +10% -> extend | interval at max (16 wk) -> held
+0323GOS,12,GILA,,SHORTEN,SHORTEN,False,360.0,360.0,True,14,CST +25% vs ref > +20% -> shorten
+0323TOD,1,TREX,,LOADING,LOADING,False,483.0,483.0,True,4,loading dose 1/4 -> q4w
+0323TOD,2,TREX,,LOADING,LOADING,False,328.0,328.0,True,4,loading dose 2/4 -> q4w
+0323TOD,3,TREX,,LOADING,LOADING,False,313.0,313.0,True,4,loading dose 3/4 -> q4w
+0323TOD,4,TREX,EXTEND,EXTEND,EXTEND,False,309.0,309.0,True,6,T&E start: reference CST = 309 µm | CST 309 vs ref 309 (+0%) <= +10% -> extend
+0323TOD,5,TREX,EXTEND,EXTEND,EXTEND,False,291.0,291.0,True,8,CST 291 vs ref 309 (-6%) <= +10% -> extend
+0323TOD,6,TREX,MAINTAIN,EXTEND,EXTEND,False,294.0,294.0,True,10,CST 294 vs ref 309 (-5%) <= +10% -> extend
+0323TOD,7,TREX,EXTEND,EXTEND,EXTEND,False,284.0,284.0,True,10,CST 284 vs ref 309 (-8%) <= +10% -> extend
+0323TOD,8,TREX,EXTEND,EXTEND,EXTEND,False,296.0,296.0,True,14,CST 296 vs ref 309 (-4%) <= +10% -> extend
+0323TOD,9,TREX,MAINTAIN,EXTEND,EXTEND,False,304.0,304.0,True,16,CST 304 vs ref 309 (-2%) <= +10% -> extend
+0323TOD,10,TREX,EXTEND,EXTEND,EXTEND,False,312.0,312.0,True,16,CST 312 vs ref 309 (+1%) <= +10% -> extend
+0323TOD,11,TREX,,SHORTEN,SHORTEN,False,436.0,436.0,True,14,CST +41% vs ref > +20% -> shorten
+0323TOD,12,TREX,,MAINTAIN,MAINTAIN,False,334.0,334.0,True,14,CST 334 vs ref 309 (+8%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0325TOD,1,TREX,,LOADING,LOADING,False,552.0,552.0,True,4,loading dose 1/4 -> q4w
+0325TOD,2,TREX,,LOADING,LOADING,False,506.0,506.0,True,4,loading dose 2/4 -> q4w
+0325TOD,3,TREX,,LOADING,LOADING,False,491.0,491.0,True,4,loading dose 3/4 -> q4w
+0325TOD,4,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,342.0,342.0,True,4,CST 342 µm > 325 gate -> continue q4w
+0325TOD,5,TREX,EXTEND,EXTEND,EXTEND,False,313.0,313.0,True,6,T&E start: reference CST = 313 µm | CST 313 vs ref 313 (+0%) <= +10% -> extend
+0325TOD,6,TREX,EXTEND,EXTEND,EXTEND,False,308.0,308.0,True,8,CST 308 vs ref 313 (-2%) <= +10% -> extend
+0325TOD,7,TREX,EXTEND,EXTEND,EXTEND,False,318.0,318.0,True,10,CST 318 vs ref 313 (+2%) <= +10% -> extend
+0325TOD,8,TREX,EXTEND,MAINTAIN,MAINTAIN,False,324.0,324.0,True,10,CST 324 vs ref 313 (+4%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0325TOD,9,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,286.0,286.0,True,12,CST 286 vs ref 313 (-9%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0325TOD,10,TREX,,EXTEND,EXTEND,False,265.0,265.0,True,6,CST 265 vs ref 313 (-15%) <= +10% -> extend
+0326TOS,1,TREX,,LOADING,LOADING,False,374.0,374.0,True,4,loading dose 1/4 -> q4w
+0326TOS,2,TREX,,LOADING,LOADING,False,347.0,347.0,True,4,loading dose 2/4 -> q4w
+0326TOS,3,TREX,,LOADING,LOADING,False,338.0,338.0,True,4,loading dose 3/4 -> q4w
+0326TOS,4,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,347.0,347.0,True,4,CST 347 µm > 325 gate -> continue q4w
+0326TOS,5,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,344.0,344.0,True,4,CST 344 µm > 325 gate -> continue q4w
+0326TOS,6,TREX,EXTEND,EXTEND,EXTEND,False,317.0,317.0,True,6,T&E start: reference CST = 317 µm | CST 317 vs ref 317 (+0%) <= +10% -> extend
+0326TOS,7,TREX,SHORTEN,EXTEND,EXTEND,False,331.0,331.0,True,8,CST 331 vs ref 317 (+4%) <= +10% -> extend
+0326TOS,8,TREX,EXTEND,EXTEND,EXTEND,False,306.0,306.0,True,6,CST 306 vs ref 317 (-3%) <= +10% -> extend
+0326TOS,9,TREX,MAINTAIN,EXTEND,EXTEND,False,317.0,317.0,True,8,CST 317 vs ref 317 (+0%) <= +10% -> extend
+0326TOS,10,TREX,EXTEND,EXTEND,EXTEND,False,328.0,328.0,True,8,CST 328 vs ref 317 (+3%) <= +10% -> extend
+0326TOS,11,TREX,MAINTAIN,EXTEND,EXTEND,False,330.0,330.0,True,12,CST 330 vs ref 317 (+4%) <= +10% -> extend
+0326TOS,12,TREX,EXTEND,MAINTAIN,MAINTAIN,False,315.0,315.0,True,12,CST 315 vs ref 317 (-1%) <= +10% -> extend | safety: BCVA 9 letters below best -> do not extend
+0326TOS,13,TREX,EXTEND,MAINTAIN,MAINTAIN,False,333.0,333.0,True,14,CST 333 vs ref 317 (+5%) <= +10% -> extend | safety: BCVA 11 letters below best -> do not extend
+0326TOS,14,TREX,,MAINTAIN,MAINTAIN,False,322.0,322.0,True,16,CST 322 vs ref 317 (+2%) <= +10% -> extend | safety: BCVA 10 letters below best -> do not extend
+0326TOS,15,TREX,,MAINTAIN,MAINTAIN,False,329.0,329.0,True,16,CST 329 vs ref 317 (+4%) <= +10% -> extend | safety: BCVA 10 letters below best -> do not extend
+0329TOS,1,TREX,,LOADING,LOADING,False,458.0,458.0,True,4,loading dose 1/4 -> q4w
+0329TOS,2,TREX,,LOADING,LOADING,False,440.0,440.0,True,4,loading dose 2/4 -> q4w
+0329TOS,3,TREX,,LOADING,LOADING,False,428.0,428.0,True,4,loading dose 3/4 -> q4w
+0329TOS,4,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,418.0,418.0,True,4,CST 418 µm > 325 gate -> continue q4w
+0329TOS,5,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,409.0,409.0,True,4,CST 409 µm > 325 gate -> continue q4w
+0329TOS,6,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,399.0,399.0,True,4,CST 399 µm > 325 gate -> continue q4w
+0329TOS,7,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,389.0,389.0,True,4,CST 389 µm > 325 gate -> continue q4w
+0329TOS,8,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,366.0,366.0,True,4,CST 366 µm > 325 gate -> continue q4w
+0329TOS,9,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,367.0,367.0,True,4,CST 367 µm > 325 gate -> continue q4w
+0329TOS,10,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,366.0,366.0,True,4,CST 366 µm > 325 gate -> continue q4w
+0329TOS,11,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,360.0,360.0,True,4,CST 360 µm > 325 gate -> continue q4w
+0329TOS,12,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,339.0,339.0,True,4,CST 339 µm > 325 gate -> continue q4w
+0329TOS,13,TREX,MAINTAIN,EXTEND,EXTEND,False,320.0,320.0,True,6,T&E start: reference CST = 320 µm | CST 320 vs ref 320 (+0%) <= +10% -> extend
+0329TOS,14,TREX,MAINTAIN,EXTEND,EXTEND,False,296.0,296.0,True,6,CST 296 vs ref 320 (-7%) <= +10% -> extend
+0329TOS,15,TREX,EXTEND,EXTEND,EXTEND,False,313.0,313.0,True,6,CST 313 vs ref 320 (-2%) <= +10% -> extend
+0329TOS,16,TREX,MAINTAIN,EXTEND,EXTEND,False,286.0,286.0,True,10,CST 286 vs ref 320 (-11%) <= +10% -> extend
+0329TOS,17,TREX,MAINTAIN,EXTEND,EXTEND,False,278.0,278.0,True,10,CST 278 vs ref 320 (-13%) <= +10% -> extend
+0329TOS,18,TREX,MAINTAIN,EXTEND,EXTEND,False,277.0,277.0,True,10,CST 277 vs ref 320 (-13%) <= +10% -> extend | re-baseline: reference 320 -> 280 µm (3 stable visits)
+0329TOS,19,TREX,MAINTAIN,EXTEND,EXTEND,False,268.0,268.0,True,10,CST 268 vs ref 280 (-4%) <= +10% -> extend
+0329TOS,20,TREX,,EXTEND,EXTEND,False,268.0,268.0,True,10,CST 268 vs ref 280 (-4%) <= +10% -> extend
+0331GOS,1,GILA,,LOADING,LOADING,False,376.0,376.0,True,4,loading dose 1/4 -> q4w
+0331GOS,2,GILA,,LOADING,LOADING,False,333.0,333.0,True,4,loading dose 2/4 -> q4w
+0331GOS,3,GILA,,LOADING,LOADING,False,311.0,311.0,True,4,loading dose 3/4 -> q4w
+0331GOS,4,GILA,EXTEND,EXTEND,EXTEND,False,291.0,291.0,True,6,T&E start: reference CST = 291 µm | CST 291 vs ref 291 (+0%) <= +10% -> extend
+0331GOS,5,GILA,EXTEND,EXTEND,EXTEND,False,276.0,276.0,True,8,CST 276 vs ref 291 (-5%) <= +10% -> extend
+0331GOS,6,GILA,MAINTAIN,EXTEND,EXTEND,False,267.0,267.0,True,10,CST 267 vs ref 291 (-8%) <= +10% -> extend
+0331GOS,7,GILA,EXTEND,EXTEND,EXTEND,False,268.0,268.0,True,10,CST 268 vs ref 291 (-8%) <= +10% -> extend
+0331GOS,8,GILA,SHORTEN,EXTEND,EXTEND,False,300.0,300.0,True,14,CST 300 vs ref 291 (+3%) <= +10% -> extend
+0331GOS,9,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,275.0,275.0,True,10,CST 275 vs ref 291 (-5%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0331GOS,10,GILA,EXTEND,EXTEND,EXTEND,False,268.0,268.0,True,12,CST 268 vs ref 291 (-8%) <= +10% -> extend
+0331GOS,11,GILA,MAINTAIN,EXTEND,EXTEND,False,317.0,317.0,True,16,CST 317 vs ref 291 (+9%) <= +10% -> extend
+0331GOS,12,GILA,,EXTEND,EXTEND,False,279.0,279.0,True,16,CST 279 vs ref 291 (-4%) <= +10% -> extend
+0332TOD,1,TREX,,LOADING,LOADING,False,673.0,673.0,True,4,loading dose 1/4 -> q4w
+0332TOD,2,TREX,,LOADING,LOADING,False,356.0,356.0,True,4,loading dose 2/4 -> q4w
+0332TOD,3,TREX,,LOADING,LOADING,False,290.0,290.0,True,6,loading dose 3/4 -> q4w
+0332TOD,4,TREX,MAINTAIN,EXTEND,EXTEND,False,269.0,269.0,True,6,T&E start: reference CST = 269 µm | CST 269 vs ref 269 (+0%) <= +10% -> extend
+0332TOD,5,TREX,EXTEND,EXTEND,EXTEND,False,265.0,265.0,True,6,CST 265 vs ref 269 (-1%) <= +10% -> extend
+0332TOD,6,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,275.0,275.0,True,6,CST 275 vs ref 269 (+2%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0332TOD,7,TREX,EXTEND,SHORTEN,SHORTEN,False,344.0,344.0,True,4,CST +28% vs ref > +20% -> shorten
+0332TOD,8,TREX,SHORTEN,SHORTEN,SHORTEN,False,326.0,326.0,True,6,CST +21% vs ref > +20% -> shorten
+0332TOD,9,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,297.0,297.0,True,4,CST +10% vs ref within +20% -> maintain
+0332TOD,10,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,311.0,311.0,True,4,CST +16% vs ref within +20% -> maintain
+0332TOD,11,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,309.0,309.0,True,4,CST +15% vs ref within +20% -> maintain
+0332TOD,12,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,321.0,321.0,True,4,CST +19% vs ref within +20% -> maintain
+0332TOD,13,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,320.0,320.0,True,4,CST +19% vs ref within +20% -> maintain
+0332TOD,14,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,304.0,304.0,True,4,CST +13% vs ref within +20% -> maintain
+0332TOD,15,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,302.0,302.0,True,4,CST +12% vs ref within +20% -> maintain
+0332TOD,16,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,298.0,298.0,True,4,CST +11% vs ref within +20% -> maintain
+0332TOD,17,TREX,EXTEND,EXTEND,EXTEND,False,289.0,289.0,True,6,CST 289 vs ref 269 (+7%) <= +10% -> extend
+0332TOD,18,TREX,SHORTEN,SHORTEN,SHORTEN,False,335.0,335.0,True,4,CST +25% vs ref > +20% -> shorten
+0332TOD,19,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,300.0,300.0,True,4,CST +12% vs ref within +20% -> maintain
+0332TOD,20,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,299.0,299.0,True,4,CST +11% vs ref within +20% -> maintain
+0332TOD,21,TREX,EXTEND,EXTEND,EXTEND,False,295.0,295.0,True,6,CST 295 vs ref 269 (+10%) <= +10% -> extend
+0332TOD,22,TREX,,SHORTEN,SHORTEN,False,411.0,411.0,True,4,CST +53% vs ref > +20% -> shorten
+0334GOS,1,GILA,,LOADING,LOADING,False,622.0,622.0,True,4,loading dose 1/4 -> q4w
+0334GOS,2,GILA,,LOADING,LOADING,False,353.0,353.0,True,6,loading dose 2/4 -> q4w
+0334GOS,3,GILA,,LOADING,LOADING,False,579.0,579.0,True,4,loading dose 3/4 -> q4w
+0334GOS,4,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,397.0,397.0,True,4,CST 397 µm > 325 gate -> continue q4w
+0334GOS,5,GILA,EXTEND,EXTEND,EXTEND,False,304.0,304.0,True,6,T&E start: reference CST = 304 µm | CST 304 vs ref 304 (+0%) <= +10% -> extend
+0334GOS,6,GILA,SHORTEN,SHORTEN,SHORTEN,False,410.0,410.0,True,4,CST +35% vs ref > +20% -> shorten
+0334GOS,7,GILA,EXTEND,EXTEND,EXTEND,False,298.0,298.0,True,6,CST 298 vs ref 304 (-2%) <= +10% -> extend
+0334GOS,8,GILA,MAINTAIN,SHORTEN,SHORTEN,False,511.0,511.0,True,4,CST +68% vs ref > +20% -> shorten
+0334GOS,9,GILA,MAINTAIN,SHORTEN,SHORTEN,False,404.0,404.0,True,4,CST +33% vs ref > +20% -> shorten
+0334GOS,10,GILA,SHORTEN,SHORTEN,SHORTEN,False,406.0,406.0,True,4,CST +34% vs ref > +20% -> shorten
+0334GOS,11,GILA,MAINTAIN,EXTEND,EXTEND,False,284.0,284.0,True,6,CST 284 vs ref 304 (-7%) <= +10% -> extend
+0334GOS,12,GILA,EXTEND,MAINTAIN,MAINTAIN,False,333.0,333.0,True,4,CST 333 vs ref 304 (+10%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0334GOS,13,GILA,SHORTEN,SHORTEN,SHORTEN,False,451.0,451.0,True,8,CST +48% vs ref > +20% -> shorten
+0334GOS,14,GILA,EXTEND,MAINTAIN,MAINTAIN,False,333.0,333.0,True,4,CST 333 vs ref 304 (+10%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0334GOS,15,GILA,SHORTEN,SHORTEN,SHORTEN,False,428.0,428.0,True,8,CST +41% vs ref > +20% -> shorten
+0334GOS,16,GILA,,SHORTEN,SHORTEN,False,515.0,515.0,True,4,CST +69% vs ref > +20% -> shorten
+0335TOD,1,TREX,,LOADING,LOADING,False,309.0,309.0,True,4,loading dose 1/4 -> q4w
+0335TOD,2,TREX,,LOADING,LOADING,False,310.0,310.0,True,4,loading dose 2/4 -> q4w
+0335TOD,3,TREX,,LOADING,LOADING,False,289.0,289.0,True,4,loading dose 3/4 -> q4w
+0335TOD,4,TREX,EXTEND,EXTEND,EXTEND,False,255.0,255.0,True,6,T&E start: reference CST = 255 µm | CST 255 vs ref 255 (+0%) <= +10% -> extend
+0335TOD,5,TREX,SHORTEN,SHORTEN,SHORTEN,False,490.0,490.0,True,4,CST +92% vs ref > +20% -> shorten
+0335TOD,6,TREX,EXTEND,EXTEND,EXTEND,False,244.0,244.0,True,6,CST 244 vs ref 255 (-4%) <= +10% -> extend
+0335TOD,7,TREX,,MAINTAIN,MAINTAIN,False,255.0,255.0,True,8,CST 255 vs ref 255 (+0%) <= +10% -> extend | safety: BCVA 10 letters below best -> do not extend
+0335TOD,8,TREX,,SHORTEN,SHORTEN,False,379.0,379.0,True,6,CST +49% vs ref > +20% -> shorten
+0335TOD,9,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,300.0,300.0,True,6,CST +18% vs ref within +20% -> maintain
+0335TOD,10,TREX,MAINTAIN,SHORTEN,SHORTEN,False,375.0,375.0,True,4,CST +47% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0335TOD,11,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,289.0,289.0,True,4,CST +13% vs ref within +20% -> maintain
+0335TOD,12,TREX,EXTEND,SHORTEN,SHORTEN,False,367.0,367.0,True,4,CST +44% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0335TOD,13,TREX,SHORTEN,SHORTEN,SHORTEN,False,342.0,342.0,True,6,CST +34% vs ref > +20% -> shorten
+0335TOD,14,TREX,EXTEND,SHORTEN,SHORTEN,False,326.0,326.0,True,4,CST +28% vs ref > +20% -> shorten | interval at min (4 wk) -> held
+0335TOD,15,TREX,,MAINTAIN,MAINTAIN,False,303.0,303.0,True,8,CST +19% vs ref within +20% -> maintain
+0337GOD,1,GILA,,LOADING,LOADING,False,605.0,605.0,True,4,loading dose 1/4 -> q4w
+0337GOD,2,GILA,,LOADING,LOADING,False,527.0,527.0,True,6,loading dose 2/4 -> q4w
+0337GOD,3,GILA,,LOADING,LOADING,False,394.0,394.0,True,4,loading dose 3/4 -> q4w
+0337GOD,4,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,462.0,462.0,True,4,CST 462 µm > 325 gate -> continue q4w
+0337GOD,5,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,328.0,328.0,True,4,CST 328 µm > 325 gate -> continue q4w
+0337GOD,6,GILA,EXTEND,MAINTAIN,MAINTAIN,False,331.0,331.0,True,4,CST 331 µm > 325 gate -> continue q4w
+0337GOD,7,GILA,SHORTEN,MAINTAIN,MAINTAIN,False,443.0,443.0,True,6,CST 443 µm > 325 gate -> continue q4w
+0337GOD,8,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,339.0,339.0,True,4,CST 339 µm > 325 gate -> continue q4w
+0337GOD,9,GILA,MAINTAIN,EXTEND,EXTEND,False,301.0,301.0,True,6,T&E start: reference CST = 301 µm | CST 301 vs ref 301 (+0%) <= +10% -> extend
+0337GOD,10,GILA,MAINTAIN,SHORTEN,SHORTEN,False,370.0,370.0,True,4,CST +23% vs ref > +20% -> shorten
+0337GOD,11,GILA,EXTEND,EXTEND,EXTEND,False,286.0,286.0,True,6,CST 286 vs ref 301 (-5%) <= +10% -> extend
+0337GOD,12,GILA,EXTEND,MAINTAIN,MAINTAIN,False,327.0,327.0,True,6,CST 327 vs ref 301 (+9%) <= +10% -> extend | safety: BCVA 15 letters below best -> do not extend
+0337GOD,13,GILA,EXTEND,MAINTAIN,MAINTAIN,False,323.0,323.0,True,8,CST 323 vs ref 301 (+7%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0337GOD,14,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,269.0,269.0,True,10,CST 269 vs ref 301 (-11%) <= +10% -> extend | safety: BCVA 10 letters below best -> do not extend
+0337GOD,15,GILA,EXTEND,MAINTAIN,MAINTAIN,False,273.0,273.0,True,10,CST 273 vs ref 301 (-9%) <= +10% -> extend | safety: BCVA 10 letters below best -> do not extend
+0337GOD,16,GILA,,MAINTAIN,MAINTAIN,False,321.0,321.0,True,12,CST 321 vs ref 301 (+7%) <= +10% -> extend | safety: BCVA 15 letters below best -> do not extend
+0337TOS,1,TREX,,LOADING,LOADING,False,614.0,614.0,True,4,loading dose 1/4 -> q4w
+0337TOS,2,TREX,,LOADING,LOADING,False,318.0,318.0,True,4,loading dose 2/4 -> q4w
+0337TOS,3,TREX,,LOADING,LOADING,False,314.0,314.0,True,4,loading dose 3/4 -> q4w
+0337TOS,4,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,359.0,359.0,True,4,CST 359 µm > 325 gate -> continue q4w
+0337TOS,5,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,332.0,332.0,True,4,CST 332 µm > 325 gate -> continue q4w
+0337TOS,6,TREX,EXTEND,EXTEND,EXTEND,False,285.0,285.0,True,6,T&E start: reference CST = 285 µm | CST 285 vs ref 285 (+0%) <= +10% -> extend
+0337TOS,7,TREX,SHORTEN,SHORTEN,SHORTEN,False,416.0,416.0,True,4,CST +46% vs ref > +20% -> shorten
+0337TOS,8,TREX,MAINTAIN,EXTEND,EXTEND,False,284.0,284.0,True,6,CST 284 vs ref 285 (-0%) <= +10% -> extend
+0337TOS,9,TREX,MAINTAIN,EXTEND,EXTEND,False,275.0,275.0,True,6,CST 275 vs ref 285 (-4%) <= +10% -> extend
+0337TOS,10,TREX,EXTEND,MAINTAIN,MAINTAIN,False,328.0,328.0,True,6,CST +15% vs ref within +20% -> maintain
+0337TOS,11,TREX,SHORTEN,SHORTEN,SHORTEN,False,400.0,400.0,True,8,CST +40% vs ref > +20% -> shorten
+0337TOS,12,TREX,EXTEND,MAINTAIN,MAINTAIN,False,336.0,336.0,True,8,CST +18% vs ref within +20% -> maintain
+0337TOS,13,TREX,EXTEND,EXTEND,EXTEND,False,247.0,247.0,True,12,CST 247 vs ref 285 (-13%) <= +10% -> extend
+0337TOS,14,TREX,SHORTEN,EXTEND,EXTEND,False,234.0,234.0,True,16,CST 234 vs ref 285 (-18%) <= +10% -> extend | interval at max (16 wk) -> held
+0337TOS,15,TREX,,EXTEND,EXTEND,False,225.0,225.0,True,12,CST 225 vs ref 285 (-21%) <= +10% -> extend | re-baseline: reference 285 -> 235 µm (3 stable visits)
+0338GOS,1,GILA,,LOADING,LOADING,False,761.0,761.0,True,4,loading dose 1/4 -> q4w
+0338GOS,2,GILA,,LOADING,LOADING,False,397.0,397.0,True,4,loading dose 2/4 -> q4w
+0338GOS,3,GILA,,LOADING,LOADING,False,297.0,297.0,True,4,loading dose 3/4 -> q4w
+0338GOS,4,GILA,EXTEND,EXTEND,EXTEND,False,272.0,272.0,True,6,T&E start: reference CST = 272 µm | CST 272 vs ref 272 (+0%) <= +10% -> extend
+0338GOS,5,GILA,MAINTAIN,EXTEND,EXTEND,False,272.0,272.0,True,10,CST 272 vs ref 272 (+0%) <= +10% -> extend
+0338GOS,6,GILA,EXTEND,EXTEND,EXTEND,False,276.0,276.0,True,8,CST 276 vs ref 272 (+1%) <= +10% -> extend
+0338GOS,7,GILA,EXTEND,EXTEND,EXTEND,False,276.0,276.0,True,12,CST 276 vs ref 272 (+1%) <= +10% -> extend
+0338GOS,8,GILA,SHORTEN,SHORTEN,SHORTEN,False,418.0,418.0,True,12,CST +54% vs ref > +20% -> shorten
+0338GOS,9,GILA,MAINTAIN,EXTEND,EXTEND,False,294.0,294.0,True,12,CST 294 vs ref 272 (+8%) <= +10% -> extend
+0338GOS,10,GILA,EXTEND,MAINTAIN,MAINTAIN,False,285.0,285.0,True,10,CST 285 vs ref 272 (+5%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
+0338GOS,11,GILA,EXTEND,MAINTAIN,MAINTAIN,False,283.0,283.0,True,14,CST 283 vs ref 272 (+4%) <= +10% -> extend | safety: BCVA 7 letters below best -> do not extend
+0338GOS,12,GILA,,EXTEND,EXTEND,False,286.0,286.0,True,16,CST 286 vs ref 272 (+5%) <= +10% -> extend | interval at max (16 wk) -> held
+0341TOS,1,TREX,,LOADING,LOADING,False,520.0,520.0,True,4,loading dose 1/4 -> q4w
+0341TOS,2,TREX,,LOADING,LOADING,False,502.0,502.0,True,4,loading dose 2/4 -> q4w
+0341TOS,3,TREX,,LOADING,LOADING,False,481.0,481.0,True,4,loading dose 3/4 -> q4w
+0341TOS,4,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,473.0,473.0,True,6,CST 473 µm > 325 gate -> continue q4w
+0341TOS,5,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,461.0,461.0,True,4,CST 461 µm > 325 gate -> continue q4w
+0341TOS,6,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,412.0,412.0,True,4,CST 412 µm > 325 gate -> continue q4w
+0341TOS,7,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,419.0,419.0,True,4,CST 419 µm > 325 gate -> continue q4w
+0341TOS,8,TREX,EXTEND,MAINTAIN,MAINTAIN,False,413.0,413.0,True,4,CST 413 µm > 325 gate -> continue q4w
+0341TOS,9,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,438.0,438.0,True,6,CST 438 µm > 325 gate -> continue q4w
+0341TOS,10,TREX,EXTEND,MAINTAIN,MAINTAIN,False,417.0,417.0,True,4,CST 417 µm > 325 gate -> continue q4w
+0341TOS,11,TREX,SHORTEN,MAINTAIN,MAINTAIN,False,422.0,422.0,True,6,CST 422 µm > 325 gate -> continue q4w
+0341TOS,12,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,396.0,396.0,True,4,CST 396 µm > 325 gate -> continue q4w
+0341TOS,13,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,356.0,356.0,True,4,CST 356 µm > 325 gate -> continue q4w
+0341TOS,14,TREX,EXTEND,EXTEND,EXTEND,False,323.0,323.0,True,6,T&E start: reference CST = 323 µm | CST 323 vs ref 323 (+0%) <= +10% -> extend
+0341TOS,15,TREX,MAINTAIN,EXTEND,EXTEND,False,320.0,320.0,True,10,CST 320 vs ref 323 (-1%) <= +10% -> extend
+0341TOS,16,TREX,EXTEND,MAINTAIN,MAINTAIN,False,322.0,322.0,True,8,CST 322 vs ref 323 (-0%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0341TOS,17,TREX,EXTEND,EXTEND,EXTEND,False,318.0,318.0,True,12,CST 318 vs ref 323 (-2%) <= +10% -> extend
+0341TOS,18,TREX,,EXTEND,EXTEND,False,323.0,323.0,True,14,CST 323 vs ref 323 (+0%) <= +10% -> extend
+0343GOS,1,GILA,,LOADING,LOADING,False,546.0,546.0,True,4,loading dose 1/4 -> q4w
+0343GOS,2,GILA,,LOADING,LOADING,False,503.0,503.0,True,4,loading dose 2/4 -> q4w
+0343GOS,3,GILA,,LOADING,LOADING,False,469.0,469.0,True,4,loading dose 3/4 -> q4w
+0343GOS,4,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,494.0,494.0,True,4,CST 494 µm > 325 gate -> continue q4w
+0343GOS,5,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,528.0,528.0,True,4,CST 528 µm > 325 gate -> continue q4w
+0343GOS,6,GILA,EXTEND,MAINTAIN,MAINTAIN,False,522.0,522.0,True,4,CST 522 µm > 325 gate -> continue q4w
+0343GOS,7,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,541.0,541.0,True,4,CST 541 µm > 325 gate -> continue q4w
+0343GOS,8,GILA,EXTEND,MAINTAIN,MAINTAIN,False,512.0,512.0,True,4,CST 512 µm > 325 gate -> continue q4w
+0343GOS,9,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,568.0,568.0,True,6,CST 568 µm > 325 gate -> continue q4w
+0343GOS,10,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,523.0,523.0,True,4,CST 523 µm > 325 gate -> continue q4w
+0343GOS,11,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,505.0,505.0,True,4,CST 505 µm > 325 gate -> continue q4w
+0343GOS,12,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,524.0,524.0,True,4,CST 524 µm > 325 gate -> continue q4w
+0343GOS,13,GILA,EXTEND,MAINTAIN,MAINTAIN,False,518.0,518.0,True,4,CST 518 µm > 325 gate -> continue q4w
+0343GOS,14,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,489.0,489.0,True,4,CST 489 µm > 325 gate -> continue q4w
+0343GOS,15,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,495.0,495.0,True,4,CST 495 µm > 325 gate -> continue q4w
+0343GOS,16,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,480.0,480.0,True,4,CST 480 µm > 325 gate -> continue q4w
+0343GOS,17,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,469.0,469.0,True,4,CST 469 µm > 325 gate -> continue q4w
+0343GOS,18,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,450.0,450.0,True,4,CST 450 µm > 325 gate -> continue q4w
+0343GOS,19,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,453.0,453.0,True,4,CST 453 µm > 325 gate -> continue q4w
+0343GOS,20,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,425.0,425.0,True,4,CST 425 µm > 325 gate -> continue q4w
+0343GOS,21,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,457.0,457.0,True,4,CST 457 µm > 325 gate -> continue q4w
+0343GOS,22,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,411.0,411.0,True,4,CST 411 µm > 325 gate -> continue q4w
+0343GOS,23,GILA,MAINTAIN,MAINTAIN,MAINTAIN,False,408.0,408.0,True,4,CST 408 µm > 325 gate -> continue q4w
+0343GOS,24,GILA,,MAINTAIN,MAINTAIN,False,392.0,392.0,True,4,CST 392 µm > 325 gate -> continue q4w
+0343GOS,25,GILA,,MAINTAIN,MAINTAIN,False,400.0,400.0,True,4,CST 400 µm > 325 gate -> continue q4w
+0343GOS,26,GILA,,MAINTAIN,MAINTAIN,False,376.0,376.0,True,4,CST 376 µm > 325 gate -> continue q4w
+0343TOD,1,TREX,,LOADING,LOADING,False,381.0,381.0,True,4,loading dose 1/4 -> q4w
+0343TOD,2,TREX,,LOADING,LOADING,False,370.0,370.0,True,4,loading dose 2/4 -> q4w
+0343TOD,3,TREX,,LOADING,LOADING,False,345.0,345.0,True,4,loading dose 3/4 -> q4w
+0343TOD,4,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,332.0,332.0,True,4,CST 332 µm > 325 gate -> continue q4w
+0343TOD,5,TREX,EXTEND,MAINTAIN,MAINTAIN,False,321.0,321.0,True,4,T&E start: reference CST = 321 µm | CST 321 vs ref 321 (+0%) <= +10% -> extend | safety: BCVA 8 letters below best -> do not extend
+0343TOD,6,TREX,EXTEND,EXTEND,EXTEND,False,298.0,298.0,True,8,CST 298 vs ref 321 (-7%) <= +10% -> extend
+0343TOD,7,TREX,MAINTAIN,EXTEND,EXTEND,False,281.0,281.0,True,10,CST 281 vs ref 321 (-12%) <= +10% -> extend
+0343TOD,8,TREX,MAINTAIN,EXTEND,EXTEND,False,262.0,262.0,True,12,CST 262 vs ref 321 (-18%) <= +10% -> extend
+0343TOD,9,TREX,EXTEND,EXTEND,EXTEND,False,250.0,250.0,True,12,CST 250 vs ref 321 (-22%) <= +10% -> extend | re-baseline: reference 321 -> 264 µm (3 stable visits)
+0343TOD,10,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,244.0,244.0,True,10,CST 244 vs ref 264 (-8%) <= +10% -> extend | safety: BCVA 6 letters below best -> do not extend
+0343TOD,11,TREX,MAINTAIN,EXTEND,EXTEND,False,249.0,249.0,True,12,CST 249 vs ref 264 (-6%) <= +10% -> extend
+0343TOD,12,TREX,MAINTAIN,MAINTAIN,MAINTAIN,False,236.0,236.0,True,10,CST 236 vs ref 264 (-11%) <= +10% -> extend | safety: BCVA 5 letters below best -> do not extend
+0343TOD,13,TREX,SHORTEN,EXTEND,EXTEND,False,245.0,245.0,True,12,CST 245 vs ref 264 (-7%) <= +10% -> extend
+0343TOD,14,TREX,,EXTEND,EXTEND,False,245.0,245.0,True,10,CST 245 vs ref 264 (-7%) <= +10% -> extend

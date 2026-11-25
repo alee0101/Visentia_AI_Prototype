@@ -1,0 +1,9 @@
+data/raw/
+data/processed/*.csv
+__pycache__/
+*.egg-info/
+.pytest_cache/
+checkpoints/
+*.pt
+.env
+feedback.jsonl

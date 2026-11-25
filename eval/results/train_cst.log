@@ -1,0 +1,69 @@
+[cst] labeled 6527 slices / 933 visits; inference 15869 slices; preload 20s
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/Users/anthonylee/Desktop/Visentia_AI/visentia_te/imaging/oct_models.py:118: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:821.)
+  tot += float(loss) * len(j)
+[cst f0] ep00 train 0.4960 val 0.6634 (40s)
+[cst f0] ep01 train 0.1850 val 0.5133 (35s)
+[cst f0] ep02 train 0.0951 val 0.3677 (35s)
+[cst f0] ep03 train 0.0772 val 0.3526 (35s)
+[cst f0] ep04 train 0.0683 val 0.3312 (35s)
+[cst f0] ep05 train 0.0604 val 0.3159 (35s)
+[cst f0] ep06 train 0.0556 val 0.3160 (35s)
+[cst f0] ep07 train 0.0486 val 0.3125 (36s)
+[cst f0] ep08 train 0.0522 val 0.3150 (35s)
+[cst f0] ep09 train 0.0461 val 0.3212 (40s)
+[cst f1] ep00 train 0.4792 val 0.6826 (42s)
+[cst f1] ep01 train 0.1802 val 0.4214 (39s)
+[cst f1] ep02 train 0.0901 val 0.3703 (38s)
+[cst f1] ep03 train 0.0801 val 0.3254 (39s)
+[cst f1] ep04 train 0.0672 val 0.3191 (39s)
+[cst f1] ep05 train 0.0570 val 0.3145 (39s)
+[cst f1] ep06 train 0.0523 val 0.3074 (41s)
+[cst f1] ep07 train 0.0496 val 0.3086 (42s)
+[cst f1] ep08 train 0.0499 val 0.3036 (42s)
+[cst f1] ep09 train 0.0457 val 0.3127 (40s)
+[cst f2] ep00 train 0.4924 val 0.7023 (49s)
+[cst f2] ep01 train 0.1789 val 0.6133 (48s)
+[cst f2] ep02 train 0.1098 val 0.4275 (49s)
+[cst f2] ep03 train 0.0785 val 0.3741 (51s)
+[cst f2] ep04 train 0.0676 val 0.3418 (54s)
+[cst f2] ep05 train 0.0641 val 0.3719 (53s)
+[cst f2] ep06 train 0.0576 val 0.3645 (56s)
+[cst f2] ep07 train 0.0577 val 0.3513 (51s)
+[cst f2] ep08 train 0.0502 val 0.3571 (51s)
+[cst f2] ep09 train 0.0522 val 0.3615 (53s)
+[cst f3] ep00 train 0.4846 val 1.0350 (60s)
+[cst f3] ep01 train 0.1519 val 0.6283 (59s)
+[cst f3] ep02 train 0.0967 val 0.5319 (60s)
+[cst f3] ep03 train 0.0825 val 0.5282 (58s)
+[cst f3] ep04 train 0.0702 val 0.5012 (58s)
+[cst f3] ep05 train 0.0657 val 0.4798 (54s)
+[cst f3] ep06 train 0.0571 val 0.4772 (58s)
+[cst f3] ep07 train 0.0523 val 0.4478 (64s)
+[cst f3] ep08 train 0.0541 val 0.4634 (62s)
+[cst f3] ep09 train 0.0497 val 0.4570 (59s)
+[cst f4] ep00 train 0.4856 val 0.7416 (59s)
+[cst f4] ep01 train 0.1553 val 0.5944 (58s)
+[cst f4] ep02 train 0.1029 val 0.5027 (55s)
+[cst f4] ep03 train 0.0834 val 0.5348 (51s)
+[cst f4] ep04 train 0.0752 val 0.4814 (51s)
+[cst f4] ep05 train 0.0642 val 0.4180 (51s)
+[cst f4] ep06 train 0.0637 val 0.4756 (51s)
+[cst f4] ep07 train 0.0565 val 0.4196 (51s)
+[cst f4] ep08 train 0.0550 val 0.4078 (51s)
+[cst f4] ep09 train 0.0519 val 0.3856 (51s)
+{
+ "task": "cst",
+ "n_labeled_slices": 6527,
+ "visit_mae_um": 29.702500894266436,
+ "visit_median_ae_um": 23.597137451171875,
+ "bias_um": 2.24172877141006,
+ "pearson_r": NaN,
+ "n_visits": 934,
+ "baseline_mae_predict_train_mean": 68.69996059685992,
+ "ratio_mae": 0.07079799702226768,
+ "protocol_band_agreement": 0.765375854214123,
+ "within_10pct_of_truth": 0.6702355460385439
+}
+[cst] total 2581s

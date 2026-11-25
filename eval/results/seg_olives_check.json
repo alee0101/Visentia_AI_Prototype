@@ -1,0 +1,30 @@
+{
+  "ckpt": "seg_final.pt",
+  "threshold": 0.5,
+  "min_size_olives_px": 13,
+  "split": "train",
+  "random200_slices12-36": {
+    "n": 200,
+    "n_irf_pos": 136,
+    "n_studies": 29,
+    "auroc_irf_area": 0.9194623161764706,
+    "auroc_irf_probsum": 0.9270450367647058,
+    "auroc_irf_or_srf_area": 0.9194623161764706,
+    "median_area_irf1": 1075.5,
+    "median_area_irf0": 0.0,
+    "frac_any_pred_irf1": 0.8897058823529411,
+    "frac_any_pred_irf0": 0.1875
+  },
+  "central_slice24_all_train": {
+    "n": 58,
+    "n_irf_pos": 46,
+    "n_studies": 29,
+    "auroc_irf_area": 0.9719202898550725,
+    "auroc_irf_probsum": 0.967391304347826,
+    "auroc_irf_or_srf_area": 0.9719202898550725,
+    "median_area_irf1": 1205.0,
+    "median_area_irf0": 0.0,
+    "frac_any_pred_irf1": 0.9782608695652174,
+    "frac_any_pred_irf0": 0.25
+  }
+}

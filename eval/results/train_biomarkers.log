@@ -1,0 +1,118 @@
+[biomarkers] labeled 5488 slices / 112 visits; inference 15869 slices; preload 534s
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/Users/anthonylee/Desktop/Visentia_AI/visentia_te/imaging/oct_models.py:118: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:821.)
+  tot += float(loss) * len(j)
+[biomarkers f0] ep00 train 0.7132 val 0.6589 (50s)
+[biomarkers f0] ep01 train 0.4658 val 0.3070 (37s)
+[biomarkers f0] ep02 train 0.2488 val 0.2239 (44s)
+[biomarkers f0] ep03 train 0.1892 val 0.1912 (45s)
+[biomarkers f0] ep04 train 0.1735 val 0.1960 (45s)
+[biomarkers f0] ep05 train 0.1446 val 0.1761 (46s)
+[biomarkers f0] ep06 train 0.1307 val 0.1615 (120s)
+[biomarkers f0] ep07 train 0.1227 val 0.1580 (140s)
+[biomarkers f0] ep08 train 0.1154 val 0.1573 (150s)
+[biomarkers f0] ep09 train 0.1097 val 0.1589 (85s)
+[biomarkers f0] ep10 train 0.1142 val 0.1580 (149s)
+[biomarkers f0] ep11 train 0.1082 val 0.1610 (86s)
+[biomarkers f1] ep00 train 0.7487 val 0.7032 (146s)
+[biomarkers f1] ep01 train 0.4861 val 0.3514 (127s)
+[biomarkers f1] ep02 train 0.2519 val 0.2875 (47s)
+[biomarkers f1] ep03 train 0.1999 val 0.2606 (56s)
+[biomarkers f1] ep04 train 0.1691 val 0.2658 (58s)
+[biomarkers f1] ep05 train 0.1504 val 0.4034 (358s)
+[biomarkers f1] ep06 train 0.1397 val 0.3181 (616s)
+[biomarkers f1] ep07 train 0.1209 val 0.2915 (291s)
+[biomarkers f1] ep08 train 0.1245 val 0.2977 (47s)
+[biomarkers f1] ep09 train 0.1167 val 0.2860 (45s)
+[biomarkers f1] ep10 train 0.1068 val 0.2871 (45s)
+[biomarkers f1] ep11 train 0.1100 val 0.2899 (44s)
+[biomarkers f2] ep00 train 0.7402 val 0.6637 (341s)
+[biomarkers f2] ep01 train 0.4477 val 0.3334 (50s)
+[biomarkers f2] ep02 train 0.2297 val 0.2585 (50s)
+[biomarkers f2] ep03 train 0.1833 val 0.3264 (42s)
+[biomarkers f2] ep04 train 0.1489 val 0.2103 (35s)
+[biomarkers f2] ep05 train 0.1404 val 0.2483 (33s)
+[biomarkers f2] ep06 train 0.1223 val 0.2177 (33s)
+[biomarkers f2] ep07 train 0.1166 val 0.2468 (33s)
+[biomarkers f2] ep08 train 0.1050 val 0.2000 (33s)
+[biomarkers f2] ep09 train 0.1039 val 0.2029 (33s)
+[biomarkers f2] ep10 train 0.1004 val 0.2114 (32s)
+[biomarkers f2] ep11 train 0.1009 val 0.1988 (32s)
+[biomarkers f3] ep00 train 0.7377 val 0.6573 (34s)
+[biomarkers f3] ep01 train 0.4367 val 0.3599 (35s)
+[biomarkers f3] ep02 train 0.2332 val 0.3017 (39s)
+[biomarkers f3] ep03 train 0.1831 val 0.3184 (38s)
+[biomarkers f3] ep04 train 0.1566 val 0.2901 (32s)
+[biomarkers f3] ep05 train 0.1343 val 0.2054 (32s)
+[biomarkers f3] ep06 train 0.1290 val 0.2108 (32s)
+[biomarkers f3] ep07 train 0.1150 val 0.2081 (32s)
+[biomarkers f3] ep08 train 0.1067 val 0.2331 (32s)
+[biomarkers f3] ep09 train 0.1025 val 0.1964 (32s)
+[biomarkers f3] ep10 train 0.1036 val 0.2081 (32s)
+[biomarkers f3] ep11 train 0.1016 val 0.2008 (32s)
+[biomarkers f4] ep00 train 0.7275 val 0.6252 (31s)
+[biomarkers f4] ep01 train 0.4452 val 0.3218 (30s)
+[biomarkers f4] ep02 train 0.2245 val 0.2305 (30s)
+[biomarkers f4] ep03 train 0.1734 val 0.2084 (30s)
+[biomarkers f4] ep04 train 0.1520 val 0.3264 (30s)
+[biomarkers f4] ep05 train 0.1397 val 0.1826 (30s)
+[biomarkers f4] ep06 train 0.1257 val 0.1875 (30s)
+[biomarkers f4] ep07 train 0.1177 val 0.1838 (30s)
+[biomarkers f4] ep08 train 0.1073 val 0.1878 (30s)
+[biomarkers f4] ep09 train 0.1030 val 0.1810 (31s)
+[biomarkers f4] ep10 train 0.1030 val 0.1870 (31s)
+[biomarkers f4] ep11 train 0.1004 val 0.1836 (30s)
+{
+ "task": "biomarkers",
+ "n_labeled_slices": 5488,
+ "slice_irf": {
+  "auroc": 0.9562631001639896,
+  "auprc": 0.9725849672129979,
+  "prevalence": 0.5736151337623596,
+  "ece": 0.03165804133671589
+ },
+ "slice_srf": {
+  "auroc": 0.9414643379521196,
+  "auprc": 0.7310490854660495,
+  "prevalence": 0.039540816098451614,
+  "ece": 0.026674094657607342
+ },
+ "slice_drt": {
+  "auroc": 0.9683975379884447,
+  "auprc": 0.9582995438546617,
+  "prevalence": 0.4602769613265991,
+  "ece": 0.06062753780997145
+ },
+ "visit_irf": {
+  "auroc": 0.9266826923076923,
+  "n": 112,
+  "prevalence": 0.9285714285714286,
+  "ece": 0.053475695130016154
+ },
+ "visit_srf": {
+  "auroc": 0.9445438282647585,
+  "n": 112,
+  "prevalence": 0.23214285714285715,
+  "ece": 0.17077119461568407
+ },
+ "visit_drt": {
+  "auroc": 0.9439024390243902,
+  "n": 112,
+  "prevalence": 0.7321428571428571,
+  "ece": 0.11046716587484953
+ },
+ "visit_fluid_burden_auroc_vs_any": 0.8966346153846154,
+ "visit_p_fluid_fovea_auroc_vs_any": 0.9254807692307693,
+ "visit_fovea_fluid": {
+  "auroc": 0.9673659673659674,
+  "prevalence": 0.8839285714285714
+ },
+ "visit_fluid_any": {
+  "auroc": 0.9266826923076923,
+  "ece": 0.05350754210459333,
+  "n": 112,
+  "prevalence": 0.9285714285714286
+ }
+}
+[biomarkers] total 5273s
