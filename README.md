@@ -1,5 +1,7 @@
 # Treat-and-Extend Copilot (Visentia prototype)
 
+**Read first:** [evaluation report](eval/REPORT.md) · [demo script](DEMO.md) · run `scripts/reproduce.sh` to rebuild every number.
+
 An OCT-driven decision-support prototype for **anti-VEGF treat-and-extend (T&E) dosing in diabetic macular edema**.
 It measures retinal fluid and thickness from OCT, tracks each eye over time, recommends
 **EXTEND / MAINTAIN / SHORTEN / FLAG** with an auditable rule trace, then drafts the note, proposes the next
@@ -54,6 +56,11 @@ move the T&E reference. Per-visit CST uncertainty is fitted out-of-fold from the
 | **Geometric CST** | **0.60** | **0.35** | **0.91 (κ 0.87)** |
 | Geometric CST + uncertainty flag (12% flagged) | 0.60 unflagged | — | 0.93 unflagged / 0.40 flagged |
 
+**Learned investigator policy** (all 1,284 T&E decisions, device CST): gradient boosting reaches
+accuracy 0.69 / κ 0.52 vs the written protocol's 0.64 / 0.44 (Δκ 95% CI +0.035..+0.129, eye-level
+bootstrap). Investigators respond to absolute CST and interval length beyond the protocol rules
+(`scripts/learned_policy.py`, `eval/REPORT.md` §4).
+
 Reading: geometric thickness removes most of the measurement-attributable error, and the flag
 concentrates what remains (flagged decisions are the ones that disagree). The remaining gap to
 investigators is protocol vs investigator judgment, which exists even with perfect CST.
@@ -93,7 +100,7 @@ eval/                 metrics + figures
 ```bash
 # Apple Silicon: use a native arm64 Python (an x86/Rosetta Python has no torch wheels and no MPS)
 /opt/homebrew/bin/python3 -m venv .venv && source .venv/bin/activate
-pip install -e ".[fetch,dev]"
+pip install -e ".[fetch,app,dev]"   # or: pip install -r requirements-lock.txt && pip install -e . --no-deps
 # labels (10 MB)
 curl -L -o data/raw/olives_labels.zip "https://zenodo.org/api/records/7105232/files/OLIVES_Dataset_Labels.zip/content"
 unzip data/raw/olives_labels.zip -d data/raw/olives_labels
