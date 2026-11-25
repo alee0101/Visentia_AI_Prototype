@@ -1,0 +1,128 @@
+{
+ "inputs": "model",
+ "cst_file": "data/processed/oof_cst_geo_visits.csv",
+ "within_eye_cst_sd_um": 18.297987034711674,
+ "model_no_uncertainty": {
+  "n": 449,
+  "accuracy": 0.5946547884187082,
+  "kappa_linear": 0.34970375246872953,
+  "unsafe_extension_rate": 0.1724137931034483,
+  "engine_extend_precision": 0.9476439790575916,
+  "confusion": {
+   "rows=trial, cols=engine": [
+    "SHORTEN",
+    "MAINTAIN",
+    "EXTEND"
+   ],
+   "matrix": [
+    [
+     23,
+     25,
+     10
+    ],
+    [
+     12,
+     137,
+     74
+    ],
+    [
+     6,
+     55,
+     107
+    ]
+   ]
+  },
+  "majority_baseline_accuracy": 0.49665924276169265
+ },
+ "vs_oracle_engine_no_uncertainty": {
+  "n": 500,
+  "agreement": 0.914,
+  "kappa_linear": 0.8649119225735179
+ },
+ "abstention_sweep": [
+  {
+   "k_sd": 0.25,
+   "flag_rate": 0.09799554565701558,
+   "accuracy_unflagged": 0.6024691358024692,
+   "unsafe_extension_rate_unflagged": 0.19230769230769232,
+   "accuracy": 0.5835189309576837,
+   "unsafe_extension_rate": 0.1724137931034483
+  },
+  {
+   "k_sd": 0.5,
+   "flag_rate": 0.11804008908685969,
+   "accuracy_unflagged": 0.601010101010101,
+   "unsafe_extension_rate_unflagged": 0.19607843137254902,
+   "accuracy": 0.579064587973274,
+   "unsafe_extension_rate": 0.1724137931034483
+  },
+  {
+   "k_sd": 0.75,
+   "flag_rate": 0.14253897550111358,
+   "accuracy_unflagged": 0.6051948051948052,
+   "unsafe_extension_rate_unflagged": 0.1875,
+   "accuracy": 0.5835189309576837,
+   "unsafe_extension_rate": 0.15517241379310345
+  },
+  {
+   "k_sd": 1.0,
+   "flag_rate": 0.1714922048997773,
+   "accuracy_unflagged": 0.6155913978494624,
+   "unsafe_extension_rate_unflagged": 0.2,
+   "accuracy": 0.5902004454342984,
+   "unsafe_extension_rate": 0.15517241379310345
+  },
+  {
+   "k_sd": 1.5,
+   "flag_rate": 0.20489977728285078,
+   "accuracy_unflagged": 0.6218487394957983,
+   "unsafe_extension_rate_unflagged": 0.2,
+   "accuracy": 0.5946547884187082,
+   "unsafe_extension_rate": 0.13793103448275862
+  }
+ ],
+ "uncertainty": "per-visit SD from segmentation spread + image QC",
+ "imaged_decisions": {
+  "n": 449,
+  "accuracy": 0.579064587973274,
+  "kappa_linear": 0.3125070022780745,
+  "unsafe_extension_rate": 0.1724137931034483,
+  "engine_extend_precision": 0.9397590361445783,
+  "confusion": {
+   "rows=trial, cols=engine": [
+    "SHORTEN",
+    "MAINTAIN",
+    "EXTEND"
+   ],
+   "matrix": [
+    [
+     23,
+     25,
+     10
+    ],
+    [
+     12,
+     146,
+     65
+    ],
+    [
+     6,
+     71,
+     91
+    ]
+   ]
+  },
+  "majority_baseline_accuracy": 0.49665924276169265,
+  "flag_rate": 0.11804008908685969,
+  "accuracy_unflagged": 0.601010101010101,
+  "unsafe_extension_rate_unflagged": 0.19607843137254902
+ },
+ "vs_oracle_engine": {
+  "n": 500,
+  "agreement": 0.864,
+  "kappa_linear": 0.7869620792501065,
+  "agreement_unflagged": 0.9272727272727272,
+  "agreement_flagged": 0.4,
+  "flag_rate": 0.12
+ }
+}

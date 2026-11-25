@@ -22,3 +22,4 @@ include = ["visentia_te*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+pythonpath = ["."]

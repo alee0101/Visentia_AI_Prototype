@@ -1,0 +1,128 @@
+{
+ "inputs": "model",
+ "cst_file": "data/processed/oof_cst_stack_visits.csv",
+ "within_eye_cst_sd_um": 16.612786997060297,
+ "model_no_uncertainty": {
+  "n": 449,
+  "accuracy": 0.5924276169265034,
+  "kappa_linear": 0.34646259703599147,
+  "unsafe_extension_rate": 0.15517241379310345,
+  "engine_extend_precision": 0.9513513513513514,
+  "confusion": {
+   "rows=trial, cols=engine": [
+    "SHORTEN",
+    "MAINTAIN",
+    "EXTEND"
+   ],
+   "matrix": [
+    [
+     22,
+     27,
+     9
+    ],
+    [
+     13,
+     139,
+     71
+    ],
+    [
+     6,
+     57,
+     105
+    ]
+   ]
+  },
+  "majority_baseline_accuracy": 0.49665924276169265
+ },
+ "vs_oracle_engine_no_uncertainty": {
+  "n": 500,
+  "agreement": 0.904,
+  "kappa_linear": 0.8487909322946279
+ },
+ "abstention_sweep": [
+  {
+   "k_sd": 0.25,
+   "flag_rate": 0.09131403118040089,
+   "accuracy_unflagged": 0.5955882352941176,
+   "unsafe_extension_rate_unflagged": 0.16666666666666666,
+   "accuracy": 0.579064587973274,
+   "unsafe_extension_rate": 0.15517241379310345
+  },
+  {
+   "k_sd": 0.5,
+   "flag_rate": 0.11581291759465479,
+   "accuracy_unflagged": 0.6020151133501259,
+   "unsafe_extension_rate_unflagged": 0.17307692307692307,
+   "accuracy": 0.5746102449888641,
+   "unsafe_extension_rate": 0.15517241379310345
+  },
+  {
+   "k_sd": 0.75,
+   "flag_rate": 0.15812917594654788,
+   "accuracy_unflagged": 0.6058201058201058,
+   "unsafe_extension_rate_unflagged": 0.17391304347826086,
+   "accuracy": 0.576837416481069,
+   "unsafe_extension_rate": 0.13793103448275862
+  },
+  {
+   "k_sd": 1.0,
+   "flag_rate": 0.18485523385300667,
+   "accuracy_unflagged": 0.6092896174863388,
+   "unsafe_extension_rate_unflagged": 0.16666666666666666,
+   "accuracy": 0.579064587973274,
+   "unsafe_extension_rate": 0.1206896551724138
+  },
+  {
+   "k_sd": 1.5,
+   "flag_rate": 0.22939866369710468,
+   "accuracy_unflagged": 0.6098265895953757,
+   "unsafe_extension_rate_unflagged": 0.1794871794871795,
+   "accuracy": 0.5857461024498887,
+   "unsafe_extension_rate": 0.1206896551724138
+  }
+ ],
+ "uncertainty": "per-visit SD from segmentation spread + image QC",
+ "imaged_decisions": {
+  "n": 449,
+  "accuracy": 0.5746102449888641,
+  "kappa_linear": 0.3073685787030104,
+  "unsafe_extension_rate": 0.15517241379310345,
+  "engine_extend_precision": 0.94375,
+  "confusion": {
+   "rows=trial, cols=engine": [
+    "SHORTEN",
+    "MAINTAIN",
+    "EXTEND"
+   ],
+   "matrix": [
+    [
+     23,
+     26,
+     9
+    ],
+    [
+     13,
+     147,
+     63
+    ],
+    [
+     6,
+     74,
+     88
+    ]
+   ]
+  },
+  "majority_baseline_accuracy": 0.49665924276169265,
+  "flag_rate": 0.11581291759465479,
+  "accuracy_unflagged": 0.6020151133501259,
+  "unsafe_extension_rate_unflagged": 0.17307692307692307
+ },
+ "vs_oracle_engine": {
+  "n": 500,
+  "agreement": 0.852,
+  "kappa_linear": 0.7704793615041865,
+  "agreement_unflagged": 0.9204545454545454,
+  "agreement_flagged": 0.35,
+  "flag_rate": 0.12
+ }
+}

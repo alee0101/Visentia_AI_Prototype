@@ -53,3 +53,21 @@ def test_rebaseline_after_three_stable_low_visits():
     for v, c in zip((5, 6, 7), (330, 340, 335)):
         d = st.step(Observation(v, c, bcva=70))
     assert abs(st.ref_cst - 335) < 1 and any("re-baseline" in t for t in d.trace)
+
+
+def test_qc_failure_flags_and_never_sets_reference():
+    st = EyeState(P)
+    for v in (1, 2, 3):
+        st.step(Observation(v, 450))
+    d = st.step(Observation(4, 250, bcva=70, image_quality_ok=False))
+    assert d.flagged and d.recommended == FLAG and not st.te_started and st.ref_cst is None
+    d = st.step(Observation(5, 300, bcva=70))
+    assert st.ref_cst == 300 and d.action == EXTEND
+
+
+def test_qc_failure_skips_rebaseline():
+    st = eye_after_loading(300)
+    st.ref_cst = 400
+    for v, c in zip((5, 6, 7), (330, 340, 335)):
+        d = st.step(Observation(v, c, bcva=70, image_quality_ok=(v != 7)))
+    assert st.ref_cst == 400 and d.flagged

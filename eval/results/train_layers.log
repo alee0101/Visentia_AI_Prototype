@@ -1,0 +1,63 @@
+[layers] fold 0 test subjects [5, 6]
+  ep   0 loss 1.5636
+  ep  10 loss 0.1063
+  ep  20 loss 0.0556
+  ep  30 loss 0.0461
+  ep  34 loss 0.0415
+  {'fold': 0, 'col_thickness_mae_um_vs_g1': 6.406676769256592, 'col_thickness_mae_um_vs_g2': 7.028816223144531, 'col_thickness_mae_um_g1_vs_g2': 8.1337890625, 'ilm_mae_um': 4.1561576704545455, 'bm_mae_um': 3.9519338474025973, 'frame_mean_thickness_ae_um_vs_g1': 3.6043474674224854, 'frame_mean_thickness_ae_um_g1_vs_g2': 3.8410308361053467, 'n_frames': 22}
+[layers] fold 1 test subjects [7, 10]
+  ep   0 loss 1.3276
+  ep  10 loss 0.0788
+  ep  20 loss 0.0465
+  ep  30 loss 0.0416
+  ep  34 loss 0.0414
+  {'fold': 1, 'col_thickness_mae_um_vs_g1': 5.265468597412109, 'col_thickness_mae_um_vs_g2': 5.902266979217529, 'col_thickness_mae_um_g1_vs_g2': 6.5431389808654785, 'ilm_mae_um': 3.8941115355233005, 'bm_mae_um': 2.80517239623122, 'frame_mean_thickness_ae_um_vs_g1': 2.4985837936401367, 'frame_mean_thickness_ae_um_g1_vs_g2': 3.7274413108825684, 'n_frames': 22}
+[layers] fold 2 test subjects [1, 3]
+  ep   0 loss 1.3117
+  ep  10 loss 0.0625
+  ep  20 loss 0.0390
+  ep  30 loss 0.0356
+  ep  34 loss 0.0352
+  {'fold': 2, 'col_thickness_mae_um_vs_g1': 7.049102783203125, 'col_thickness_mae_um_vs_g2': 6.934142589569092, 'col_thickness_mae_um_g1_vs_g2': 6.81512451171875, 'ilm_mae_um': 4.599769683441559, 'bm_mae_um': 4.069599228896104, 'frame_mean_thickness_ae_um_vs_g1': 4.533498287200928, 'frame_mean_thickness_ae_um_g1_vs_g2': 2.9849138259887695, 'n_frames': 22}
+[layers] fold 3 test subjects [8, 9]
+  ep   0 loss 1.2558
+  ep  10 loss 0.0686
+  ep  20 loss 0.0446
+  ep  30 loss 0.0372
+  ep  34 loss 0.0389
+  {'fold': 3, 'col_thickness_mae_um_vs_g1': 5.258425235748291, 'col_thickness_mae_um_vs_g2': 5.830522537231445, 'col_thickness_mae_um_g1_vs_g2': 6.241674900054932, 'ilm_mae_um': 3.588117897727273, 'bm_mae_um': 3.3419673295454544, 'frame_mean_thickness_ae_um_vs_g1': 2.126091718673706, 'frame_mean_thickness_ae_um_g1_vs_g2': 2.1003947257995605, 'n_frames': 22}
+[layers] fold 4 test subjects [2, 4]
+  ep   0 loss 1.3494
+  ep  10 loss 0.0885
+  ep  20 loss 0.0468
+  ep  30 loss 0.0392
+  ep  34 loss 0.0417
+  {'fold': 4, 'col_thickness_mae_um_vs_g1': 6.254715919494629, 'col_thickness_mae_um_vs_g2': 6.875722885131836, 'col_thickness_mae_um_g1_vs_g2': 7.899910926818848, 'ilm_mae_um': 4.2117523471200204, 'bm_mae_um': 4.62710987059122, 'frame_mean_thickness_ae_um_vs_g1': 2.434563159942627, 'frame_mean_thickness_ae_um_g1_vs_g2': 3.709084987640381, 'n_frames': 22}
+{
+ "col_thickness_mae_um_vs_g1": 6.046877861022949,
+ "col_thickness_mae_um_vs_g2": 6.514294242858886,
+ "col_thickness_mae_um_g1_vs_g2": 7.126727676391601,
+ "ilm_mae_um": 4.089981826853339,
+ "bm_mae_um": 3.7591565345333193,
+ "frame_mean_thickness_ae_um_vs_g1": 3.0394168853759767,
+ "frame_mean_thickness_ae_um_g1_vs_g2": 3.272573137283325
+}
+[layers] final model on all Duke subjects
+  ep   0 loss 1.2359
+  ep  10 loss 0.0658
+  ep  20 loss 0.0414
+  ep  30 loss 0.0378
+  ep  34 loss 0.0357
+  olives 100 visits
+  olives 200 visits
+  olives 300 visits
+  olives 400 visits
+/Users/anthonylee/Desktop/Visentia_AI/scripts/train_layers.py:107: RuntimeWarning: Mean of empty slice
+  geo_center_rows=float(np.nanmean(ths[CSF_HALF, 118:139])),  # foveal B-scan, central ~0.5 mm
+  olives 500 visits
+  olives 600 visits
+  olives 700 visits
+  olives 800 visits
+  olives 900 visits
+OLIVES: 934 visits; raw geo vs CST r=0.971, bias=8.5 µm
+[layers] total 1216s

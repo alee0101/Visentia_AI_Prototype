@@ -1,5 +1,6 @@
 {
  "inputs": "model",
+ "cst_file": "data/processed/oof_cst_visits.csv",
  "within_eye_cst_sd_um": 24.277356240138825,
  "model_no_uncertainty": {
   "n": 449,
@@ -32,6 +33,11 @@
    ]
   },
   "majority_baseline_accuracy": 0.49665924276169265
+ },
+ "vs_oracle_engine_no_uncertainty": {
+  "n": 500,
+  "agreement": 0.81,
+  "kappa_linear": 0.6826663875003272
  },
  "abstention_sweep": [
   {
@@ -75,6 +81,7 @@
    "unsafe_extension_rate": 0.06896551724137931
   }
  ],
+ "uncertainty": "global within-eye SD",
  "imaged_decisions": {
   "n": 449,
   "accuracy": 0.5478841870824054,
@@ -109,5 +116,13 @@
   "flag_rate": 0.23162583518930957,
   "accuracy_unflagged": 0.5855072463768116,
   "unsafe_extension_rate_unflagged": 0.2
+ },
+ "vs_oracle_engine": {
+  "n": 500,
+  "agreement": 0.77,
+  "kappa_linear": 0.6139304542307897,
+  "agreement_unflagged": 0.8549222797927462,
+  "agreement_flagged": 0.4824561403508772,
+  "flag_rate": 0.228
  }
 }

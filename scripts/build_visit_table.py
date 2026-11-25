@@ -13,6 +13,8 @@ import os
 from pathlib import Path
 
 os.chdir(Path(__file__).resolve().parents[1])
+import sys  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # .pth files can get the macOS hidden flag (iCloud), which Python 3.13 skips
 
 import numpy as np  # noqa: E402
 

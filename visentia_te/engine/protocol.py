@@ -69,6 +69,9 @@ class EyeState:
             trace.append(f"loading dose {obs.visit}/{p['loading_doses']} -> q4w")
             return Decision(LOADING, 4, False, trace, LOADING)
         if not self.te_started:
+            if not obs.image_quality_ok:  # never anchor the reference on an unreliable measurement
+                trace.append("image quality insufficient: cannot set T&E reference -> continue q4w")
+                return Decision(MAINTAIN, 4, True, trace, FLAG)
             if obs.cst > p["loading_cst_gate_um"]:
                 trace.append(f"CST {obs.cst:.0f} µm > {p['loading_cst_gate_um']} gate -> continue q4w")
                 return Decision(MAINTAIN, 4, self._uncertain_gate(obs, trace), trace, MAINTAIN)
@@ -121,7 +124,8 @@ class EyeState:
         if nxt == self.interval_wk and action != MAINTAIN:
             trace.append(f"interval at {'max' if action == EXTEND else 'min'} ({nxt} wk) -> held")
         self.interval_wk = nxt
-        self._rebaseline(obs.cst, trace)
+        if obs.image_quality_ok:  # QC-failed measurements never move the reference
+            self._rebaseline(obs.cst, trace)
         return Decision(action, nxt, flagged, trace, FLAG if flagged else action, ratio)
 
     def _band(self, change: float) -> str:

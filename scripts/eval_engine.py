@@ -18,6 +18,8 @@ import os
 from pathlib import Path
 
 os.chdir(Path(__file__).resolve().parents[1])
+import sys  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # .pth files can get the macOS hidden flag (iCloud), which Python 3.13 skips
 
 import numpy as np  # noqa: E402
 import pandas as pd  # noqa: E402
@@ -28,7 +30,8 @@ from visentia_te.engine.protocol import EyeState, Observation, load_protocol  # 
 ORDER = ["SHORTEN", "MAINTAIN", "EXTEND"]
 
 
-def replay(visits: pd.DataFrame, protocol: dict, cst_col: str, sd_col: str | None, fluid_col: str | None) -> pd.DataFrame:
+def replay(visits: pd.DataFrame, protocol: dict, cst_col: str, sd_col: str | None, fluid_col: str | None,
+           qc_col: str | None = None) -> pd.DataFrame:
     rows = []
     for sid, g in visits.groupby("study_id"):
         st = EyeState(protocol)
@@ -40,6 +43,7 @@ def replay(visits: pd.DataFrame, protocol: dict, cst_col: str, sd_col: str | Non
                 visit=int(r.visit), cst=float(cst), bcva=None if np.isnan(r.etdrs) else float(r.etdrs),
                 cst_sd=float(r[sd_col]) if sd_col and np.isfinite(r[cst_col]) else 0.0,
                 p_fluid=float(r[fluid_col]) if fluid_col and np.isfinite(r.get(fluid_col, np.nan)) else None,
+                image_quality_ok=bool(r[qc_col]) if qc_col and np.isfinite(r[cst_col]) and pd.notna(r[qc_col]) else True,
             )
             if not np.isfinite(obs.cst):
                 continue
@@ -70,14 +74,35 @@ def score(df: pd.DataFrame) -> dict:
     return out
 
 
+def agreement_with_oracle(df: pd.DataFrame) -> dict | None:
+    """Measurement-attributable error: does the engine on model CST make the same call as the
+    engine on trial-measured CST? (Intervals are teacher-forced, so decisions align 1:1.)"""
+    p = Path("eval/results/engine_replay_oracle.csv")
+    if not p.exists():
+        return None
+    o = pd.read_csv(p)[["study_id", "visit", "engine"]].rename(columns={"engine": "oracle"})
+    m = df[df.imaged].merge(o, on=["study_id", "visit"])
+    m = m[m.oracle.isin(ORDER) & m.engine.isin(ORDER)]
+    agree = m.engine == m.oracle
+    out = dict(n=len(m), agreement=float(agree.mean()),
+               kappa_linear=float(cohen_kappa_score(m.oracle.map(ORDER.index), m.engine.map(ORDER.index), weights="linear")))
+    if m.flagged.any():
+        out.update(agreement_unflagged=float(agree[~m.flagged].mean()), agreement_flagged=float(agree[m.flagged].mean()),
+                   flag_rate=float(m.flagged.mean()))
+    return out
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--inputs", choices=["oracle", "model"], default="oracle")
+    ap.add_argument("--cst-file", default="data/processed/oof_cst_visits.csv", help="OOF CST source (study_id, visit, cst_pred, CST)")
+    ap.add_argument("--tag", default="", help="suffix for output files, e.g. _geo")
     args = ap.parse_args()
     protocol = load_protocol()
     v = pd.read_csv("data/processed/trex_visits.csv")
     v = v[v.arm.isin(["TREX", "GILA"])].copy()
-    res: dict = {"inputs": args.inputs}
+    res: dict = {"inputs": args.inputs, "cst_file": args.cst_file if args.inputs == "model" else None}
+    tag = args.inputs + args.tag
     if args.inputs == "oracle":
         v["cst_in"] = v.cst
         out = replay(v, protocol, "cst_in", None, None)
@@ -85,7 +110,9 @@ def main() -> None:
         imaged = set(pd.read_csv("data/processed/trex_images.csv", usecols=["study_id"]).study_id)
         res["imaged_eyes"] = score(out[out.study_id.isin(imaged)])
     else:
-        cst = pd.read_csv("data/processed/oof_cst_visits.csv")[["study_id", "visit", "cst_pred"]]
+        cst = pd.read_csv(args.cst_file)
+        extra = [c for c in ("qc_ok", "cst_sd_visit") if c in cst]
+        cst = cst[["study_id", "visit", "cst_pred", *extra]].dropna(subset=["cst_pred"])
         cv = json.loads(Path("eval/results/cst_cv.json").read_text())
         v = v.merge(cst, on=["study_id", "visit"], how="left")
         fl = Path("data/processed/oof_biomarkers_visits.csv")
@@ -95,7 +122,7 @@ def main() -> None:
         v = v[v.study_id.isin(cst.study_id)]
         # Decisions compare CST to the eye's own (model-measured) reference, so per-eye bias cancels;
         # the relevant noise is the WITHIN-eye residual SD of the OOF predictions (a single scalar).
-        s = pd.read_csv("data/processed/oof_cst_visits.csv").dropna(subset=["CST", "cst_pred"])
+        s = pd.read_csv(args.cst_file).dropna(subset=["CST", "cst_pred"])
         res_ = s.cst_pred - s.CST
         within_sd = float((res_ - res_.groupby(s.study_id).transform("mean")).std())
         res["within_eye_cst_sd_um"] = within_sd
@@ -104,21 +131,27 @@ def main() -> None:
         v["cst_sd"] = 0.0
         out = replay(v, protocol, "cst_pred", "cst_sd", None)
         res["model_no_uncertainty"] = score(out[out.imaged])
-        out.to_csv("eval/results/engine_replay_model_noflag.csv", index=False)
+        res["vs_oracle_engine_no_uncertainty"] = agreement_with_oracle(out)
+        out.to_csv(f"eval/results/engine_replay_{tag}_noflag.csv", index=False)
         # abstention sweep: flag when ±k·sd crosses a rule boundary (and fluid gate)
         res["abstention_sweep"] = []
+        per_visit = "cst_sd_visit" in v
+        res["uncertainty"] = "per-visit SD from segmentation spread + image QC" if per_visit else "global within-eye SD"
+        qc = "qc_ok" if "qc_ok" in v else None
         for k in (0.25, 0.5, 0.75, 1.0, 1.5):
-            v["cst_sd"] = within_sd * k / 1.5  # engine uses ±1.5·cst_sd internally
-            o = replay(v, protocol, "cst_pred", "cst_sd", fluid)
+            # engine uses ±1.5·cst_sd internally, so k is the half-width of the band in SDs
+            v["cst_sd"] = (v.cst_sd_visit if per_visit else within_sd) * k / 1.5
+            o = replay(v, protocol, "cst_pred", "cst_sd", fluid, qc)
             sc = score(o[o.imaged])
             res["abstention_sweep"].append(dict(k_sd=k, **{x: sc.get(x) for x in (
                 "flag_rate", "accuracy_unflagged", "unsafe_extension_rate_unflagged", "accuracy", "unsafe_extension_rate")}))
             if k == 0.5:
                 out = o  # default operating point saved for the UI / error analysis
         res["imaged_decisions"] = score(out[out.imaged])
+        res["vs_oracle_engine"] = agreement_with_oracle(out)
     Path("eval/results").mkdir(parents=True, exist_ok=True)
-    out.to_csv(f"eval/results/engine_replay_{args.inputs}.csv", index=False)
-    Path(f"eval/results/engine_{args.inputs}.json").write_text(json.dumps(res, indent=1))
+    out.to_csv(f"eval/results/engine_replay_{tag}.csv", index=False)
+    Path(f"eval/results/engine_{tag}.json").write_text(json.dumps(res, indent=1))
     print(json.dumps(res, indent=1))
 
 
